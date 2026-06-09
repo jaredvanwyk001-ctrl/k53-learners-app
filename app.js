@@ -483,16 +483,15 @@ function buildSignImage(sign) {
 function generateSignQuestions(signsData) {
   const allSubcats = [...new Set(signsData.map(s => s.subCategory))];
 
-  // Extract the first sentence of a description for shorter option text
   const firstLine = (desc) => {
     const dot = desc.indexOf('.');
     return dot > -1 ? desc.slice(0, dot + 1) : desc;
   };
 
-  // Safely build shuffled options and track the answer index
+  // Shuffle and track answer position safely
   function makeOptions(correctVal, wrongVals) {
-    const items   = [{ v: correctVal, correct: true },
-                     ...wrongVals.map(v => ({ v, correct: false }))];
+    const items    = [{ v: correctVal, correct: true },
+                      ...wrongVals.map(v => ({ v, correct: false }))];
     const shuffled = shuffle(items);
     return {
       options: shuffled.map(i => i.v),
@@ -500,13 +499,22 @@ function generateSignQuestions(signsData) {
     };
   }
 
+  // Distractor priority: same sub-category → same category → all signs.
+  // Same sub-category distractors are the hardest and most educational:
+  // speed limits get other speed limits, curve signs get other curve signs, etc.
+  function bestPool(sign) {
+    const others  = signsData.filter(s => s.id !== sign.id);
+    const sameSub = others.filter(s => s.subCategory === sign.subCategory);
+    const sameCat = others.filter(s => s.category    === sign.category);
+    return sameSub.length >= 3 ? sameSub
+         : sameCat.length >= 3 ? sameCat
+         : others;
+  }
+
   const all = [];
 
   signsData.forEach(sign => {
-    const others  = signsData.filter(s => s.id !== sign.id);
-    // Prefer same-category signs as distractors so questions are harder/more realistic
-    const sameCat = others.filter(s => s.category === sign.category);
-    const pool    = sameCat.length >= 3 ? sameCat : others;
+    const pool = bestPool(sign);
 
     const base = {
       category:     'signs',
@@ -517,50 +525,45 @@ function generateSignQuestions(signsData) {
       signRender:   sign.render,
     };
 
-    // ── Q1: Name identification ──────────────────────────────────────
+    // ── Q1: Name — distractors from the same sub-category ────────────
+    // e.g. "Speed Limit 60" vs "Speed Limit 80 / 100 / 120"
+    // e.g. "Sharp Curve Right" vs "Sharp Curve Left / Winding / Descent"
     {
       const { options, answer } = makeOptions(
         sign.name,
         pickRandom(pool, 3).map(s => s.name)
       );
-      all.push({
-        ...base,
-        question:    'What is this road sign called?',
-        options,
-        answer,
-        explanation: sign.description,
-      });
+      all.push({ ...base, question: 'What is this road sign called?', options, answer,
+                 explanation: sign.description });
     }
 
-    // ── Q2: Meaning / required action ────────────────────────────────
+    // ── Q2: Meaning — first sentences from same sub-category ─────────
+    // Forces careful reading: "max speed is 60" vs "max speed is 80 / 100 / 120"
     {
       const correct = firstLine(sign.description);
       const { options, answer } = makeOptions(
         correct,
         pickRandom(pool, 3).map(s => firstLine(s.description))
       );
-      all.push({
-        ...base,
-        question:    'What does this road sign mean?',
-        options,
-        answer,
-        explanation: `${sign.name} (${sign.code}): ${sign.description}`,
-      });
+      all.push({ ...base, question: 'What does this road sign mean?', options, answer,
+                 explanation: `${sign.name} (${sign.code}): ${sign.description}` });
     }
 
-    // ── Q3: Sign classification ───────────────────────────────────────
+    // ── Q3: Classification — wrong sub-cats from the same main category
+    // e.g. Regulatory sign → "Prohibitory / Speed Limits / Control / Mandatory Direction"
     {
-      const { options, answer } = makeOptions(
-        sign.subCategory,
-        pickRandom(allSubcats.filter(s => s !== sign.subCategory), 3)
-      );
-      all.push({
-        ...base,
-        question:    'Under which sub-category of road sign does this fall?',
-        options,
-        answer,
-        explanation: `This is a "${sign.subCategory}" sign, which falls under the ${sign.category} signs group.`,
-      });
+      const sameCatSubs = [...new Set(
+        signsData
+          .filter(s => s.category === sign.category && s.subCategory !== sign.subCategory)
+          .map(s => s.subCategory)
+      )];
+      const subPool = sameCatSubs.length >= 3 ? sameCatSubs
+                    : allSubcats.filter(s => s !== sign.subCategory);
+
+      const { options, answer } = makeOptions(sign.subCategory, pickRandom(subPool, 3));
+      all.push({ ...base, question: 'Under which sub-category of road sign does this fall?',
+                 options, answer,
+                 explanation: `This is a "${sign.subCategory}" sign — part of the ${sign.category} signs group.` });
     }
   });
 
