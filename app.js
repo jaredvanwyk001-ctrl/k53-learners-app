@@ -794,6 +794,23 @@ function showScore() {
     ? `You passed with ${pct}% — above the 75% pass mark. You're on track for the real K53 test.`
     : `You scored ${pct}%. The pass mark is 75%. Review your mistakes below and try again.`;
 
+  // Track progress
+  const categoryScores = { signVisual: { correct: 0, total: 0, percentage: 0 }, rules: { correct: 0, total: 0, percentage: 0 }, controls: { correct: 0, total: 0, percentage: 0 } };
+  quizQuestions.forEach((q, idx) => {
+    const isCorrect = !mistakes.some(m => m.q === q && m.chosen !== q.answer);
+    const cat = q.category;
+    if (categoryScores[cat]) {
+      categoryScores[cat].total++;
+      if (isCorrect) categoryScores[cat].correct++;
+    }
+  });
+  Object.keys(categoryScores).forEach(cat => {
+    if (categoryScores[cat].total > 0) {
+      categoryScores[cat].percentage = Math.round((categoryScores[cat].correct / categoryScores[cat].total) * 100);
+    }
+  });
+  tracker.recordAttempt(score, quizQuestions.length, activeTab, categoryScores);
+
   buildMistakesList();
 }
 
@@ -1060,6 +1077,329 @@ function buildVehicleControlsReference() {
 }
 
 // ============================================
+//  ROAD MARKINGS GUIDE
+// ============================================
+
+const roadMarkings = [
+  {
+    title: "Solid White Center Line",
+    meaning: "No Overtaking",
+    description: "You are NOT permitted to cross this line to overtake. The road ahead is considered dangerous for passing.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="70" x2="400" y2="70" stroke="white" stroke-width="6" stroke-dasharray="0"/><text x="10" y="30" font-size="14" font-weight="bold">CENTER LINE</text><text x="10" y="105" font-size="12" fill="#555">Solid = NO overtaking</text></svg>`,
+    examples: [
+      "Curves or bends in the road",
+      "Hills with restricted visibility",
+      "Urban residential roads",
+      "Roads with history of accidents"
+    ]
+  },
+  {
+    title: "Dashed White Center Line",
+    meaning: "Overtaking Allowed (if Safe)",
+    description: "You MAY overtake if the road ahead is clear and it is safe to do so. Always check for oncoming traffic.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="70" x2="400" y2="70" stroke="white" stroke-width="6" stroke-dasharray="20,20"/><text x="10" y="30" font-size="14" font-weight="bold">CENTER LINE</text><text x="10" y="105" font-size="12" fill="#555">Dashed = Overtake if safe</text></svg>`,
+    examples: [
+      "Open country roads",
+      "Long straight sections",
+      "Roads with good visibility",
+      "Rural highways"
+    ]
+  },
+  {
+    title: "Double Solid Yellow Center Lines",
+    meaning: "No Overtaking Either Direction",
+    description: "Neither direction may cross this line. The most restrictive marking used in very dangerous areas.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="60" x2="400" y2="60" stroke="#FFD700" stroke-width="5"/><line x1="0" y1="80" x2="400" y2="80" stroke="#FFD700" stroke-width="5"/><text x="10" y="30" font-size="14" font-weight="bold">CENTER LINES</text><text x="10" y="105" font-size="12" fill="#555">Double solid = NO passing either way</text></svg>`,
+    examples: [
+      "Blind curves",
+      "Road work zones",
+      "Intersections",
+      "School zones"
+    ]
+  },
+  {
+    title: "Solid Yellow Edge Line",
+    meaning: "No Stopping or Parking",
+    description: "You cannot stop or park in this zone. The area must be kept clear for traffic flow or emergency access.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="5" y1="70" x2="5" y2="85" stroke="#FFD700" stroke-width="6"/><text x="20" y="30" font-size="14" font-weight="bold">EDGE LINE</text><text x="20" y="105" font-size="12" fill="#555">Solid Yellow = NO stopping or parking</text></svg>`,
+    examples: [
+      "Fire hydrant zones",
+      "Hospital entrances",
+      "Bus stops",
+      "Fire station exits"
+    ]
+  },
+  {
+    title: "Dashed Yellow Edge Line",
+    meaning: "Limited Parking (30 min)",
+    description: "You may park temporarily but not for extended periods. Typically allows 30 minutes maximum.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="5" y1="70" x2="5" y2="100" stroke="#FFD700" stroke-width="5" stroke-dasharray="15,10"/><text x="20" y="30" font-size="14" font-weight="bold">EDGE LINE</text><text x="20" y="105" font-size="12" fill="#555">Dashed Yellow = Limited parking (30 min)</text></svg>`,
+    examples: [
+      "Shopping district zones",
+      "Metered parking areas",
+      "Loading zones (short-term)",
+      "Customer parking"
+    ]
+  },
+  {
+    title: "White Lane Markings (Solid)",
+    meaning: "Cannot Change Lanes",
+    description: "Solid white lines between lanes indicate you must stay in your lane. Lane changes are prohibited.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="30" x2="400" y2="30" stroke="white" stroke-width="4"/><line x1="0" y1="90" x2="400" y2="90" stroke="white" stroke-width="4"/><line x1="0" y1="60" x2="400" y2="60" stroke="white" stroke-width="6"/><text x="10" y="50" font-size="14" font-weight="bold">LANE MARKINGS</text><text x="10" y="115" font-size="12" fill="#555">Solid = Stay in lane, no changes</text></svg>`,
+    examples: [
+      "Before highway exits",
+      "Turn lanes",
+      "Bus lanes",
+      "Restricted zones"
+    ]
+  },
+  {
+    title: "White Lane Markings (Dashed)",
+    meaning: "May Change Lanes (if Safe)",
+    description: "Dashed white lines between lanes allow you to change lanes. Always check mirrors and signal.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="30" x2="400" y2="30" stroke="white" stroke-width="4"/><line x1="0" y1="90" x2="400" y2="90" stroke="white" stroke-width="4"/><line x1="0" y1="60" x2="400" y2="60" stroke="white" stroke-width="3" stroke-dasharray="15,10"/><text x="10" y="50" font-size="14" font-weight="bold">LANE MARKINGS</text><text x="10" y="115" font-size="12" fill="#555">Dashed = May change lanes if safe</text></svg>`,
+    examples: [
+      "Normal highway driving",
+      "Multi-lane roads",
+      "Regular traffic zones",
+      "Between traffic lanes"
+    ]
+  },
+  {
+    title: "Diagonal Hatched Lines",
+    meaning: "Do NOT Enter",
+    description: "Buffer zones that you must not drive in. These separate traffic or protect hazard areas.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="0" y1="35" x2="400" y2="35" stroke="white" stroke-width="3"/><line x1="0" y1="85" x2="400" y2="85" stroke="white" stroke-width="3"/><line x1="0" y1="40" x2="400" y2="80" stroke="white" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/><line x1="0" y1="50" x2="400" y2="90" stroke="white" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/><text x="10" y="25" font-size="14" font-weight="bold">HATCHING</text><text x="10" y="115" font-size="12" fill="#555">Diagonal lines = NO ENTRY buffer zone</text></svg>`,
+    examples: [
+      "Toll plaza separation",
+      "Median dividers",
+      "Lane divergence zones",
+      "Road work areas"
+    ]
+  },
+  {
+    title: "White Arrow on Lane",
+    meaning: "Mandatory Direction",
+    description: "You must follow the arrow's direction in that lane. Turning or changing lanes differently is illegal.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><polygon points="150,30 200,70 150,110 180,70" fill="white" opacity="0.8"/><text x="220" y="50" font-size="14" font-weight="bold">LANE ARROW</text><text x="220" y="75" font-size="12" fill="#555">Follow the direction</text><text x="10" y="115" font-size="12" fill="#555">Arrow = Mandatory direction for lane</text></svg>`,
+    examples: [
+      "Approach intersections",
+      "Highway exits",
+      "Turn lanes",
+      "Traffic control zones"
+    ]
+  },
+  {
+    title: "Ladder/Dash Pattern Across Lane",
+    meaning: "Prepare to Stop/Give Way",
+    description: "Warns of a hazard ahead (intersection, pedestrian crossing). Reduce speed and be ready to stop.",
+    svg: `<svg viewBox="0 0 400 120" style="border: 1px solid #ddd; border-radius: 8px;"><rect width="400" height="120" fill="#f9f9f9"/><rect y="55" width="400" height="10" fill="#333"/><line x1="50" y1="40" x2="50" y2="100" stroke="white" stroke-width="8"/><line x1="100" y1="40" x2="100" y2="100" stroke="white" stroke-width="8"/><line x1="150" y1="40" x2="150" y2="100" stroke="white" stroke-width="8"/><line x1="200" y1="40" x2="200" y2="100" stroke="white" stroke-width="8"/><line x1="250" y1="40" x2="250" y2="100" stroke="white" stroke-width="8"/><line x1="300" y1="40" x2="300" y2="100" stroke="white" stroke-width="8"/><line x1="350" y1="40" x2="350" y2="100" stroke="white" stroke-width="8"/><text x="10" y="25" font-size="14" font-weight="bold">LADDER MARKINGS</text><text x="10" y="115" font-size="12" fill="#555">Dashes across = Hazard ahead, reduce speed</text></svg>`,
+    examples: [
+      "Pedestrian crossings",
+      "Intersections",
+      "Traffic lights",
+      "Yield signs"
+    ]
+  }
+];
+
+function buildRoadMarkingsGuide() {
+  const grid = document.getElementById('markingsGrid');
+  grid.innerHTML = '';
+  roadMarkings.forEach(marking => {
+    const card = document.createElement('div');
+    card.className = 'study-card';
+
+    const header = document.createElement('div');
+    header.className = 'study-card-header';
+    header.innerHTML = `<span><strong>${marking.title}</strong><br><small style="opacity:0.7">${marking.meaning}</small></span><span class="chevron">▼</span>`;
+
+    const body = document.createElement('div');
+    body.className = 'study-card-body';
+    body.innerHTML = `
+      ${marking.svg}
+      <p><strong>Meaning:</strong> ${marking.description}</p>
+      <p><strong>Common Locations:</strong></p>
+      <ul style="margin: 0.5rem 0 0 1.5rem; padding: 0;">
+        ${marking.examples.map(e => `<li style="margin-bottom: 0.3rem;">${e}</li>`).join('')}
+      </ul>
+    `;
+
+    header.addEventListener('click', () => {
+      const open = body.classList.toggle('open');
+      header.classList.toggle('open', open);
+    });
+
+    card.appendChild(header);
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+}
+
+// ============================================
+//  PROGRESS TRACKING
+// ============================================
+
+class ProgressTracker {
+  constructor() {
+    this.loadProgress();
+  }
+
+  loadProgress() {
+    const saved = localStorage.getItem('k53_progress');
+    this.attempts = saved ? JSON.parse(saved) : [];
+  }
+
+  recordAttempt(score, total, category, categoryScores) {
+    const attempt = {
+      date: new Date().toISOString(),
+      score: score,
+      total: total,
+      percentage: Math.round((score / total) * 100),
+      category: category,
+      categoryScores: categoryScores
+    };
+    this.attempts.push(attempt);
+    localStorage.setItem('k53_progress', JSON.stringify(this.attempts));
+  }
+
+  getStats() {
+    if (this.attempts.length === 0) return null;
+
+    const totalAttempts = this.attempts.length;
+    const overallPercentages = this.attempts.map(a => a.percentage);
+    const averageScore = Math.round(overallPercentages.reduce((a, b) => a + b, 0) / totalAttempts);
+    const lastScore = this.attempts[this.attempts.length - 1].percentage;
+    const bestScore = Math.max(...overallPercentages);
+    const passCount = this.attempts.filter(a => a.percentage >= 75).length;
+    const passRate = Math.round((passCount / totalAttempts) * 100);
+
+    // Category breakdown
+    const categoryStats = {};
+    const categories = ['signVisual', 'rules', 'controls'];
+    categories.forEach(cat => {
+      const scores = this.attempts
+        .filter(a => a.categoryScores && a.categoryScores[cat])
+        .map(a => a.categoryScores[cat].percentage || 0);
+      if (scores.length > 0) {
+        categoryStats[cat] = {
+          name: CATEGORY_DISPLAY[cat],
+          average: Math.round(scores.reduce((a, b) => a + b, 0) / scores.length),
+          attempts: scores.length,
+          weak: Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) < 70
+        };
+      }
+    });
+
+    return {
+      totalAttempts,
+      averageScore,
+      lastScore,
+      bestScore,
+      passCount,
+      passRate,
+      categoryStats,
+      allScores: overallPercentages
+    };
+  }
+}
+
+const tracker = new ProgressTracker();
+
+function buildProgressDashboard() {
+  const stats = tracker.getStats();
+  const dashboard = document.getElementById('progressDashboard');
+
+  if (!stats) {
+    dashboard.innerHTML = `
+      <div style="text-align: center; padding: 3rem 1rem;">
+        <p style="font-size: 1.2rem; color: #7f8c9a;">No quiz attempts yet. Take some quizzes to see your progress!</p>
+        <button class="btn btn-primary" onclick="document.querySelector('[data-page=quizPage]').click()" style="margin-top: 1rem;">
+          Start a Quiz
+        </button>
+      </div>
+    `;
+    return;
+  }
+
+  dashboard.innerHTML = `
+    <div style="max-width: 600px; margin: 0 auto;">
+      <!-- Overall Stats -->
+      <div class="quiz-card" style="text-align: center; margin-bottom: 1.5rem;">
+        <h2 style="margin-bottom: 0.5rem;">Your K53 Progress</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0;">
+          <div style="padding: 1rem; background: #f0f4f8; border-radius: 8px;">
+            <div style="font-size: 2rem; font-weight: bold; color: #3498db;">${stats.totalAttempts}</div>
+            <div style="font-size: 0.9rem; color: #7f8c9a;">Quiz Attempts</div>
+          </div>
+          <div style="padding: 1rem; background: #f0f4f8; border-radius: 8px;">
+            <div style="font-size: 2rem; font-weight: bold; color: #2ecc71;">${stats.passCount}</div>
+            <div style="font-size: 0.9rem; color: #7f8c9a;">Passed (${stats.passRate}%)</div>
+          </div>
+          <div style="padding: 1rem; background: #f0f4f8; border-radius: 8px;">
+            <div style="font-size: 2rem; font-weight: bold; color: #3498db;">${stats.averageScore}%</div>
+            <div style="font-size: 0.9rem; color: #7f8c9a;">Average Score</div>
+          </div>
+          <div style="padding: 1rem; background: #f0f4f8; border-radius: 8px;">
+            <div style="font-size: 2rem; font-weight: bold; color: #f39c12;">${stats.bestScore}%</div>
+            <div style="font-size: 0.9rem; color: #7f8c9a;">Best Score</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last 5 Attempts -->
+      <div class="quiz-card" style="margin-bottom: 1.5rem;">
+        <h3 style="margin-bottom: 1rem;">Recent Attempts</h3>
+        <div style="max-height: 250px; overflow-y: auto;">
+          ${stats.allScores.slice(-5).reverse().map((score, idx) => {
+            const attemptNum = stats.totalAttempts - idx;
+            const pass = score >= 75;
+            return `
+              <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; border-bottom: 1px solid #ecf0f1;">
+                <div>
+                  <strong>Quiz ${attemptNum}</strong>
+                  <div style="font-size: 0.85rem; color: #7f8c9a;">
+                    ${new Date(tracker.attempts[tracker.attempts.length - idx - 1].date).toLocaleDateString()}
+                  </div>
+                </div>
+                <div style="font-size: 1.3rem; font-weight: bold; color: ${pass ? '#2ecc71' : '#e74c3c'};">
+                  ${score}% ${pass ? '✓' : '✗'}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+      <!-- Category Performance -->
+      <div class="quiz-card">
+        <h3 style="margin-bottom: 1rem;">Performance by Category</h3>
+        ${Object.entries(stats.categoryStats).map(([key, cat]) => {
+          const weak = cat.weak;
+          return `
+            <div style="margin-bottom: 1rem;">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <div>
+                  <strong>${cat.name}</strong>
+                  <div style="font-size: 0.85rem; color: #7f8c9a;">${cat.attempts} attempts</div>
+                </div>
+                <div style="font-size: 1.2rem; font-weight: bold; color: ${weak ? '#e74c3c' : '#2ecc71'};">
+                  ${cat.average}% ${weak ? '⚠️' : '✓'}
+                </div>
+              </div>
+              <div style="background: #ecf0f1; height: 8px; border-radius: 4px; overflow: hidden;">
+                <div style="background: ${weak ? '#e74c3c' : '#2ecc71'}; height: 100%; width: ${cat.average}%;"></div>
+              </div>
+              ${weak ? '<div style="font-size: 0.85rem; color: #e74c3c; margin-top: 0.3rem;">⚠️ Weak area - focus study here</div>' : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// ============================================
 //  INIT
 // ============================================
 
@@ -1080,6 +1420,8 @@ Promise.all([
     buildFilterBar();
     startQuiz();
     buildVehicleControlsReference();
+    buildRoadMarkingsGuide();
+    buildProgressDashboard();
   })
   .catch(err => {
     console.error('Failed to load data:', err);

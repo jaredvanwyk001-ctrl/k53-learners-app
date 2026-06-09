@@ -11078,5 +11078,269 @@
     ],
     "answer": 1,
     "explanation": "Rough window operation can break glass (R2,000-4,000) or damage seals (R1,000+). Gentle, smooth operation prevents costly repairs."
+  },
+  {
+    "category": "rules",
+    "question": "What does a solid white center line on a road mean?",
+    "options": [
+      "You may overtake if it is safe",
+      "You may not cross the line to overtake",
+      "You must drive on the white line"
+    ],
+    "answer": 1,
+    "explanation": "A solid white center line indicates you must NOT cross it to overtake. Crossing is illegal and dangerous. Only dashed white lines permit overtaking."
+  },
+  {
+    "category": "rules",
+    "question": "What does a dashed white center line indicate?",
+    "options": [
+      "No overtaking is allowed",
+      "You may overtake if the road ahead is clear and safe",
+      "You must drive slowly"
+    ],
+    "answer": 1,
+    "explanation": "A dashed white center line means you MAY overtake if it's safe to do so. Always check for oncoming traffic and ensure clear visibility."
+  },
+  {
+    "category": "rules",
+    "question": "When you see a solid white line on your side of a dashed center line, what does this mean?",
+    "options": [
+      "You may overtake if safe",
+      "You are NOT permitted to overtake; the other side may",
+      "Both sides can overtake"
+    ],
+    "answer": 1,
+    "explanation": "A solid white line on your side means NO OVERTAKING for you, even if the center is dashed. The line configuration indicates traffic direction control."
+  },
+  {
+    "category": "rules",
+    "question": "What do white edge lines (along the road shoulder) indicate?",
+    "options": [
+      "The edge of the driving surface and road boundaries",
+      "Where to park",
+      "Speed limit changes"
+    ],
+    "answer": 0,
+    "explanation": "White edge lines mark the boundary between the driving surface and the shoulder/verge. They help drivers stay on the road, especially in poor visibility."
+  },
+  {
+    "category": "rules",
+    "question": "What does a broken/dashed white line along the edge of the road mean?",
+    "options": [
+      "You cannot cross it",
+      "The road edge; you may cross if safe (e.g., to avoid an obstacle)",
+      "The road is closing"
+    ],
+    "answer": 1,
+    "explanation": "A dashed white edge line indicates the road boundary. You may cross it if necessary (avoiding obstacles), but the road ends here."
+  },
+  {
+    "category": "rules",
+    "question": "What does a solid yellow line along the road edge indicate?",
+    "options": [
+      "No stopping or parking in that zone",
+      "Slow down",
+      "Road construction ahead"
+    ],
+    "answer": 0,
+    "explanation": "A solid yellow edge line means NO STOPPING and NO PARKING. This zone must be kept clear for traffic flow or emergency access."
+  },
+  {
+    "category": "rules",
+    "question": "What does a dashed yellow line along the edge mean?",
+    "options": [
+      "Parking is prohibited",
+      "You may park for a limited time if safe",
+      "No stopping at any time"
+    ],
+    "answer": 1,
+    "explanation": "A dashed yellow line indicates LIMITED parking (typically 30 minutes). You may stop briefly but cannot park for extended periods."
+  },
+  {
+    "category": "rules",
+    "question": "If you see a double solid yellow line on both sides of the center, what does this mean?",
+    "options": [
+      "Both directions may overtake",
+      "Neither direction may overtake or cross",
+      "Emergency vehicles only"
+    ],
+    "answer": 1,
+    "explanation": "Double solid yellow center lines mean NO OVERTAKING in either direction. This is the most restrictive marking, used in dangerous areas like curves."
+  },
+  {
+    "category": "rules",
+    "question": "What does a solid yellow line on the center combined with a dashed yellow line mean?",
+    "options": [
+      "Both sides can overtake",
+      "The side with dashed line may overtake; the side with solid cannot",
+      "Nobody may overtake"
+    ],
+    "answer": 1,
+    "explanation": "This configuration means only the side with the dashed line may overtake. The solid line side cannot. This allows one-way passing in specific conditions."
+  },
+  {
+    "category": "rules",
+    "question": "A yellow line on the curb/shoulder near a shop means?",
+    "options": [
+      "Free parking available",
+      "Loading/unloading only; no general parking",
+      "Emergency parking only"
+    ],
+    "answer": 1,
+    "explanation": "Yellow curb lines indicate LOADING ZONES only. You may stop briefly to load/unload but cannot park. Vehicles must not be left unattended."
+  },
+  {
+    "category": "rules",
+    "question": "What do white arrow markings on a lane indicate?",
+    "options": [
+      "The mandatory direction you must travel in that lane",
+      "Optional suggestions for direction",
+      "Where buses go"
+    ],
+    "answer": 0,
+    "explanation": "White directional arrows indicate the lane's direction. You must follow the arrow direction. Changing lanes or turning differently is illegal in a marked lane."
+  },
+  {
+    "category": "rules",
+    "question": "If a lane is marked with a solid white line on both sides, what does this indicate?",
+    "options": [
+      "You may change lanes freely",
+      "You must stay in this lane; lane changes are not permitted",
+      "This lane is for emergency vehicles"
+    ],
+    "answer": 1,
+    "explanation": "Solid white lines on both sides mean you cannot change lanes. This is used before exits or in restricted areas. Stay in your lane."
+  },
+  {
+    "category": "rules",
+    "question": "What does a dashed white line between lanes mean?",
+    "options": [
+      "You cannot change lanes",
+      "You may change lanes if safe",
+      "The lane is closing"
+    ],
+    "answer": 1,
+    "explanation": "Dashed white lines between lanes indicate you MAY change lanes if it's safe to do so. Always check mirrors and use indicators."
+  },
+  {
+    "category": "rules",
+    "question": "What do thick white lines and symbols on road lanes indicate (e.g., 'BUS', 'TAXI')?",
+    "options": [
+      "Suggestions for vehicle type",
+      "Mandatory lanes for that vehicle type; others are prohibited",
+      "Optional use"
+    ],
+    "answer": 1,
+    "explanation": "Marked lanes (BUS, TAXI) are MANDATORY for those vehicles only. Other vehicles cannot use them. Violation results in fines."
+  },
+  {
+    "category": "rules",
+    "question": "What does a white chevron/arrow pattern (>>) on the road mean?",
+    "options": [
+      "Slow down ahead",
+      "Diverging traffic ahead; stay in marked lanes or merge safely",
+      "Speed limit increase"
+    ],
+    "answer": 1,
+    "explanation": "White chevron patterns warn of traffic divergence (lane splits). Stay in your lane or merge carefully when indicated."
+  },
+  {
+    "category": "rules",
+    "question": "What do white diagonal lines (hatching) on the road indicate?",
+    "options": [
+      "Free parking area",
+      "Do NOT enter or drive in this area; it's a buffer zone",
+      "School zone"
+    ],
+    "answer": 1,
+    "explanation": "Diagonal hatched white lines indicate NO ENTRY zones. These are buffer areas, usually between traffic directions or before hazards. Do not drive in them."
+  },
+  {
+    "category": "rules",
+    "question": "What does a white rectangular box outline on the road mean?",
+    "options": [
+      "Parking space",
+      "Bus stop zone where buses wait",
+      "Loading zone"
+    ],
+    "answer": 1,
+    "explanation": "White box outlines mark BUS STOP ZONES. Buses wait here for passengers. Other vehicles must not block this area; they will be towed."
+  },
+  {
+    "category": "rules",
+    "question": "What do white lines forming a box around a parking space indicate?",
+    "options": [
+      "Reserved parking for anyone",
+      "Reserved parking (often for disabled, loading, or specific use)",
+      "No parking allowed"
+    ],
+    "answer": 1,
+    "explanation": "Marked parking boxes indicate RESERVED spaces (disabled, loading, VIP, etc.). Using reserved spaces without authorization results in fines."
+  },
+  {
+    "category": "rules",
+    "question": "What do repetitive white dashes across your lane (ladder pattern) mean?",
+    "options": [
+      "Slow down",
+      "Prepare to stop or give way; danger/intersection ahead",
+      "Speed up"
+    ],
+    "answer": 1,
+    "explanation": "White ladder/dash patterns across lanes warn of hazards ahead (intersections, pedestrian crossings). Slow down and be prepared to stop."
+  },
+  {
+    "category": "rules",
+    "question": "What do white lines forming a triangle shape (yield/give way symbol) indicate?",
+    "options": [
+      "Speed limit zone",
+      "You must give way; the main road has priority",
+      "Parking area"
+    ],
+    "answer": 1,
+    "explanation": "A white triangle outline on the road is a YIELD/GIVE WAY marking. Slow down, look both ways, and proceed only if it's safe."
+  },
+  {
+    "category": "rules",
+    "question": "What does a white curved line across your lane indicate?",
+    "options": [
+      "Speed limit",
+      "A curve is ahead; reduce speed",
+      "Parking available"
+    ],
+    "answer": 1,
+    "explanation": "White curved lines warn of upcoming curves or bends. Reduce speed, look ahead, and position your vehicle in the center of the curve."
+  },
+  {
+    "category": "rules",
+    "question": "You approach a road with a solid yellow center line and solid white edge lines. What is ONLY allowed?",
+    "options": [
+      "Overtaking if safe",
+      "Driving straight ahead in your lane; no lane changes or overtaking",
+      "Parking on the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "Solid yellow center + solid white edges mean NO OVERTAKING, NO LANE CHANGES, NO PARKING. Stay in your lane and drive straight."
+  },
+  {
+    "category": "rules",
+    "question": "You see dashed white center line and dashed yellow edge line. What is permitted?",
+    "options": [
+      "Overtaking and parking",
+      "Overtaking if safe; limited parking allowed",
+      "Nothing; this is restricted"
+    ],
+    "answer": 1,
+    "explanation": "Dashed white center allows overtaking; dashed yellow edge allows limited parking. Both are permitted within safe conditions."
+  },
+  {
+    "category": "rules",
+    "question": "At what point on a solid white center line can you cross it?",
+    "options": [
+      "Anywhere it's safe",
+      "Only at intersections",
+      "Never; you must not cross a solid white line"
+    ],
+    "answer": 1,
+    "explanation": "Never cross a solid white center line. It marks a no-passing zone. Crossing is illegal and dangerous, even at intersections."
   }
 ]
