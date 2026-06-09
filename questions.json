@@ -10341,5 +10341,742 @@
     "explanation": "If number 1 shows overheating, stop safely immediately. Turn off number 11 (wipers) and the engine to stop draining power. Let the engine cool before investigating.",
     "image": "/assets/controls/vehicle_controls_diagram.png",
     "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "How often should you check your brake fluid level under normal driving conditions?",
+    "options": [
+      "Once a year or before long trips",
+      "Every week",
+      "Only when the warning light comes on"
+    ],
+    "answer": 0,
+    "explanation": "Brake fluid should be checked at least once a year or before long trips. Check it more frequently if you notice soft braking or warning lights. Low fluid is dangerous."
+  },
+  {
+    "category": "controls",
+    "question": "What is the typical lifespan of windscreen wiper blades before replacement?",
+    "options": [
+      "1-2 years or 30,000-50,000 km depending on weather",
+      "10 years or 500,000 km",
+      "3-5 years regardless of condition"
+    ],
+    "answer": 0,
+    "explanation": "Wiper blades typically last 1-2 years or 30,000-50,000 km, depending on climate and usage. In harsh weather (sand, salt) they wear faster. Replace when they leave streaks."
+  },
+  {
+    "category": "controls",
+    "question": "How frequently should brake pads be inspected for wear?",
+    "options": [
+      "Every 10,000-15,000 km or annually",
+      "Only when you hear grinding sounds",
+      "Every 100,000 km"
+    ],
+    "answer": 0,
+    "explanation": "Brake pads should be inspected every 10,000-15,000 km or during annual services. Waiting until they grind means you're damaging the brake rotor, which is more expensive."
+  },
+  {
+    "category": "controls",
+    "question": "What does it mean if your steering wheel feels stiff or hard to turn?",
+    "options": [
+      "It's normal and requires no action",
+      "Power steering fluid may be low or the system needs service",
+      "You need to replace the entire steering system"
+    ],
+    "answer": 1,
+    "explanation": "A stiff steering wheel usually indicates low power steering fluid or a power steering system problem. Have it checked immediately, as it affects vehicle control and safety."
+  },
+  {
+    "category": "controls",
+    "question": "When should you have your entire brake system professionally inspected?",
+    "options": [
+      "Only when it fails",
+      "Every 12 months or as part of annual vehicle inspection",
+      "Every 5 years"
+    ],
+    "answer": 1,
+    "explanation": "Professional brake inspections should be done annually or during your vehicle's scheduled service. Early detection of problems prevents dangerous brake failures."
+  },
+  {
+    "category": "controls",
+    "question": "What is the recommended interval for replacing your car's air filter (affects engine performance)?",
+    "options": [
+      "Every 15,000-30,000 km depending on driving conditions",
+      "Never needs replacing",
+      "Every 200,000 km"
+    ],
+    "answer": 0,
+    "explanation": "Air filters should be replaced every 15,000-30,000 km (more frequently in dusty conditions). A clogged air filter reduces engine efficiency and accelerator responsiveness."
+  },
+  {
+    "category": "controls",
+    "question": "Why is it important to regularly check your clutch pedal play (manual cars)?",
+    "options": [
+      "To ensure smooth gear changes and detect clutch wear",
+      "It has no impact on driving",
+      "Only when the car won't start"
+    ],
+    "answer": 0,
+    "explanation": "Regular clutch checks help detect wear early. Excessive play or a too-high bite point indicates clutch wear and should be serviced to prevent clutch failure."
+  },
+  {
+    "category": "controls",
+    "question": "What service is required if your handbrake/parking brake starts to slip on slopes?",
+    "options": [
+      "The brake shoes or cables need adjustment or replacement",
+      "You should use it less often",
+      "This is not a problem"
+    ],
+    "answer": 0,
+    "explanation": "A slipping handbrake indicates worn brake shoes or stretched cables. This is a safety issue and requires professional service immediately."
+  },
+  {
+    "category": "controls",
+    "question": "Your brake pedal feels spongy or soft. What could be the cause?",
+    "options": [
+      "Low brake fluid or air in the brake lines",
+      "The accelerator is worn out",
+      "The steering wheel needs alignment"
+    ],
+    "answer": 0,
+    "explanation": "A soft/spongy brake pedal indicates low brake fluid or air in the brake system. This is dangerous and requires immediate professional inspection and repair."
+  },
+  {
+    "category": "controls",
+    "question": "If your steering wheel vibrates when you brake, what might be wrong?",
+    "options": [
+      "Warped brake discs or worn brake pads",
+      "The accelerator needs cleaning",
+      "The windows are not closed properly"
+    ],
+    "answer": 0,
+    "explanation": "Steering wheel vibration during braking usually indicates warped brake discs or uneven brake pad wear. Have the brakes inspected and serviced immediately."
+  },
+  {
+    "category": "controls",
+    "question": "What does a grinding sound when you press the brake pedal indicate?",
+    "options": [
+      "Brake pads are worn completely; metal-to-metal contact is occurring",
+      "The car needs fuel",
+      "The air conditioning compressor needs service"
+    ],
+    "answer": 0,
+    "explanation": "Grinding sounds mean brake pads are completely worn and metal is grinding on the rotor. Stop driving and get repairs immediately \u2014 this damages the braking system."
+  },
+  {
+    "category": "controls",
+    "question": "If the accelerator pedal feels stuck or difficult to press, what should you do?",
+    "options": [
+      "Continue driving and have it checked later",
+      "Stop the vehicle safely and do not drive until it's inspected",
+      "Press harder to free it up"
+    ],
+    "answer": 1,
+    "explanation": "A stuck accelerator is dangerous and can cause uncontrolled acceleration. Stop safely immediately and have it professionally inspected before driving again."
+  },
+  {
+    "category": "controls",
+    "question": "Your windscreen wipers leave streaks across the glass. What's the likely cause?",
+    "options": [
+      "Worn wiper blades or dirty windscreen",
+      "The engine is overheating",
+      "The battery is failing"
+    ],
+    "answer": 0,
+    "explanation": "Streaking wipers indicate worn blades (replace them) or a dirty windscreen (clean it). Both reduce visibility and should be addressed for safety."
+  },
+  {
+    "category": "controls",
+    "question": "If the door won't lock using the electronic lock controls, what could be the issue?",
+    "options": [
+      "Dead battery, broken lock actuator, or electrical fault",
+      "The door handle is broken",
+      "You're using the lock wrong"
+    ],
+    "answer": 0,
+    "explanation": "Electronic door lock failures can be caused by battery drain, broken actuators, or wiring faults. Have it checked by a professional for security and safety."
+  },
+  {
+    "category": "controls",
+    "question": "Your horn doesn't work. What are possible causes?",
+    "options": [
+      "Faulty horn relay, broken wiring, or dead battery",
+      "The steering wheel is misaligned",
+      "The windows are stuck"
+    ],
+    "answer": 0,
+    "explanation": "A non-functioning horn can result from a faulty horn relay, broken wiring, corroded connections, or a dead battery. Have it diagnosed and repaired for safety."
+  },
+  {
+    "category": "controls",
+    "question": "If your turn indicators blink rapidly or don't work, what's likely wrong?",
+    "options": [
+      "A burned-out indicator bulb or faulty relay",
+      "The parking brake is engaged",
+      "The fuel is low"
+    ],
+    "answer": 0,
+    "explanation": "Rapid blinking indicates a burned-out bulb. No blinking suggests a faulty relay or bad wiring. Replace bulbs or have electrical faults repaired immediately."
+  },
+  {
+    "category": "controls",
+    "question": "What is the legal penalty in South Africa for not using your turn indicators when required?",
+    "options": [
+      "A fine and possible demerit points",
+      "No penalty; it's optional",
+      "Only a warning"
+    ],
+    "answer": 0,
+    "explanation": "Failing to indicate is illegal in South Africa. You can receive a fine and demerit points. It's a safety requirement, not optional."
+  },
+  {
+    "category": "controls",
+    "question": "Is it legal to use your horn excessively in residential areas?",
+    "options": [
+      "Yes, anytime for any reason",
+      "No, excessive honking in residential areas is illegal, especially at night",
+      "Only if you're angry"
+    ],
+    "answer": 1,
+    "explanation": "Excessive horn use, especially in residential areas at night, is illegal. The horn should only be used to warn of danger. Violations can result in fines."
+  },
+  {
+    "category": "controls",
+    "question": "Under South African law, are you allowed to drive with headlights off during daytime?",
+    "options": [
+      "Yes, always optional",
+      "No, daytime running lights or headlights are required in certain conditions",
+      "Only on highways"
+    ],
+    "answer": 1,
+    "explanation": "South African law requires daytime running lights or headlights in certain visibility conditions. Driving without them can result in fines and is a safety violation."
+  },
+  {
+    "category": "controls",
+    "question": "What is the legal requirement for checking your vehicle's brakes?",
+    "options": [
+      "No legal requirement",
+      "Annual vehicle inspection (roadworthiness test) must include brake testing",
+      "Only if you notice problems"
+    ],
+    "answer": 1,
+    "explanation": "South African law requires annual vehicle inspections (roadworthiness tests) that include comprehensive brake system testing. Failing inspection makes driving illegal."
+  },
+  {
+    "category": "controls",
+    "question": "Is it legal to have tinted windows in South Africa that obstruct your view?",
+    "options": [
+      "Yes, as long as they look good",
+      "No, window tinting cannot obstruct driver visibility; illegal tinting results in fines",
+      "Only on the rear windows"
+    ],
+    "answer": 1,
+    "explanation": "South African law prohibits window tinting that obstructs the driver's vision. Excessive tinting results in fines and vehicle failure during roadworthiness testing."
+  },
+  {
+    "category": "controls",
+    "question": "What is the legal requirement regarding vehicle lights at night?",
+    "options": [
+      "Optional; you can drive without lights if careful",
+      "Headlights must be on at night; tail lights must be visible",
+      "Only needed in heavy rain"
+    ],
+    "answer": 1,
+    "explanation": "South African law mandates headlights at night and visible tail lights. Driving without them is illegal and extremely dangerous."
+  },
+  {
+    "category": "controls",
+    "question": "In heavy rain, how should you adjust your brake pedal use compared to dry conditions?",
+    "options": [
+      "Brake harder for faster stopping",
+      "Apply brakes earlier and more gently to prevent skidding",
+      "Don't brake at all, let the car slow naturally"
+    ],
+    "answer": 1,
+    "explanation": "In rain, apply brakes earlier and more gently. Harsh braking on wet roads causes skidding. Increased following distance and gentle pedal control are essential."
+  },
+  {
+    "category": "controls",
+    "question": "When driving in fog, which control should you adjust?",
+    "options": [
+      "Use high-beam headlights only",
+      "Use low-beam headlights and turn on wipers; reduce speed",
+      "Turn off all lights to reduce glare"
+    ],
+    "answer": 1,
+    "explanation": "In fog, use low-beam headlights (high-beam reflects off fog), turn on wipers, reduce speed, and increase following distance. Low-beam is more effective for fog visibility."
+  },
+  {
+    "category": "controls",
+    "question": "How should you use the accelerator on an icy or snow-covered road?",
+    "options": [
+      "Press it firmly for traction",
+      "Use smooth, gentle pressure to maintain traction and prevent wheel spinning",
+      "Keep it pressed halfway down"
+    ],
+    "answer": 1,
+    "explanation": "On ice/snow, use extremely gentle accelerator pressure to avoid wheel spin. Sudden acceleration causes loss of traction and skidding. Smooth inputs are critical."
+  },
+  {
+    "category": "controls",
+    "question": "In strong crosswind conditions, which control requires extra attention?",
+    "options": [
+      "The accelerator pedal",
+      "The steering wheel (maintain firm grip and anticipate drift)",
+      "The wiper controls"
+    ],
+    "answer": 1,
+    "explanation": "Crosswinds require firm steering wheel grip and anticipatory steering adjustments. Reduce speed, maintain wider lane position, and avoid sudden steering movements."
+  },
+  {
+    "category": "controls",
+    "question": "When driving through deep water (flood), what should you do with the brake pedal?",
+    "options": [
+      "Press it firmly and keep it held",
+      "Apply brakes gently and intermittently; avoid stopping in water",
+      "Don't brake at all"
+    ],
+    "answer": 1,
+    "explanation": "In water, use gentle, intermittent braking to keep brakes dry. Don't stop in floodwater \u2014 it can sweep you away. If water enters the engine, it's irreparable."
+  },
+  {
+    "category": "controls",
+    "question": "How does rain affect your use of the accelerator pedal?",
+    "options": [
+      "No effect; use it normally",
+      "Reduce power by using gentler acceleration to maintain traction",
+      "Increase power for better traction"
+    ],
+    "answer": 1,
+    "explanation": "Wet roads have less traction, so gentle acceleration prevents wheel spin and loss of control. Smooth pedal inputs are essential in rain."
+  },
+  {
+    "category": "controls",
+    "question": "In heavy snow, what adjustment should you make to the handbrake?",
+    "options": [
+      "Use it more aggressively for quicker stopping",
+      "Avoid using it; use low gear and gentle braking instead",
+      "Don't adjust anything"
+    ],
+    "answer": 1,
+    "explanation": "In snow, avoid the handbrake as it can cause the rear wheels to lock and slide. Use low gear (for engine braking) and gentle foot brake pressure instead."
+  },
+  {
+    "category": "controls",
+    "question": "In an automatic transmission vehicle, what is the main difference in clutch usage compared to manual cars?",
+    "options": [
+      "There is no clutch pedal; the transmission shifts automatically",
+      "You press it while braking",
+      "You hold it down while driving"
+    ],
+    "answer": 0,
+    "explanation": "Automatic vehicles have no clutch pedal. The transmission shifts gears automatically. This simplifies driving but removes manual control over gear selection."
+  },
+  {
+    "category": "controls",
+    "question": "In a manual car with a hill start assist system, what does it do?",
+    "options": [
+      "It holds the brakes for 2-3 seconds after you release the brake pedal",
+      "It eliminates the need for the clutch",
+      "It speeds up the engine"
+    ],
+    "answer": 0,
+    "explanation": "Hill start assist holds the brake briefly after you lift your foot, giving you time to move from brake to accelerator without rolling backward. Very helpful on slopes."
+  },
+  {
+    "category": "controls",
+    "question": "What is the main advantage of electronic handbrakes over mechanical ones?",
+    "options": [
+      "They're less reliable",
+      "They take up less space and can be integrated with safety systems",
+      "They require more maintenance"
+    ],
+    "answer": 1,
+    "explanation": "Electronic handbrakes save cabin space and can integrate with stability control systems. They're more convenient but require electrical systems to function properly."
+  },
+  {
+    "category": "controls",
+    "question": "How does the brake system differ between front-wheel-drive and rear-wheel-drive vehicles?",
+    "options": [
+      "They're identical; no difference",
+      "FWD typically has more front brake capacity; RWD has more balanced front/rear",
+      "RWD has better brakes"
+    ],
+    "answer": 1,
+    "explanation": "Front-wheel-drive vehicles typically allocate more braking force to the front (where weight transfers during braking). Brake balance varies by design and vehicle weight."
+  },
+  {
+    "category": "controls",
+    "question": "What is the purpose of paddle shifters found on some automatic/CVT vehicles?",
+    "options": [
+      "To replace the regular brake pedal",
+      "To allow manual gear selection while maintaining automatic convenience",
+      "To control the horn"
+    ],
+    "answer": 1,
+    "explanation": "Paddle shifters let drivers manually select gears in automatic cars, providing more control when desired while keeping the convenience of automatic transmission otherwise."
+  },
+  {
+    "category": "controls",
+    "question": "In vehicles with regenerative braking (hybrids/EVs), how does brake pedal use differ?",
+    "options": [
+      "No difference at all",
+      "Light braking uses regenerative energy; harder braking uses traditional friction brakes",
+      "You should never use the brake pedal"
+    ],
+    "answer": 1,
+    "explanation": "Hybrid/EV vehicles recover energy through regenerative braking when braking gently. Hard braking uses traditional friction brakes. Both work together for efficiency."
+  },
+  {
+    "category": "controls",
+    "question": "How does aggressive accelerator use affect fuel consumption?",
+    "options": [
+      "No effect",
+      "Increases fuel consumption significantly (can use 20-30% more fuel)",
+      "Decreases fuel consumption"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive acceleration dramatically increases fuel consumption. Smooth, gradual acceleration and maintaining steady speeds can improve fuel economy by 20-30%."
+  },
+  {
+    "category": "controls",
+    "question": "What is engine idling and how does it affect fuel economy?",
+    "options": [
+      "It's when the engine runs without driving; it wastes fuel unnecessarily",
+      "It uses no fuel at all",
+      "It improves fuel efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Idling burns fuel while producing no movement. Avoiding unnecessary idling (e.g., turning off at red lights, not warming up the car) saves fuel and reduces emissions."
+  },
+  {
+    "category": "controls",
+    "question": "How does excessive braking affect fuel consumption?",
+    "options": [
+      "No effect",
+      "It wastes the fuel already burned; smooth driving maintains efficiency",
+      "It improves efficiency"
+    ],
+    "answer": 1,
+    "explanation": "Excessive braking wastes energy. Anticipating stops, coasting, and smooth speed management reduce unnecessary braking and improve fuel economy."
+  },
+  {
+    "category": "controls",
+    "question": "Using cruise control on the highway helps with fuel economy. Why?",
+    "options": [
+      "It doesn't help",
+      "It maintains a consistent speed, avoiding the acceleration spikes that use extra fuel",
+      "It uses the brakes constantly"
+    ],
+    "answer": 1,
+    "explanation": "Cruise control maintains steady speed without the accelerator fluctuations of manual speed control. This consistency improves fuel economy on highways."
+  },
+  {
+    "category": "controls",
+    "question": "How does keeping the windows open while driving affect fuel economy?",
+    "options": [
+      "No effect",
+      "Increases aerodynamic drag, reducing fuel efficiency at higher speeds",
+      "Improves fuel economy"
+    ],
+    "answer": 1,
+    "explanation": "Open windows increase air resistance (drag) at highway speeds, reducing fuel economy. At low speeds it has minimal effect. At highway speeds, use air conditioning instead."
+  },
+  {
+    "category": "controls",
+    "question": "Why should you avoid revving the engine (high RPM on the accelerator) when not moving?",
+    "options": [
+      "It's required to warm up the engine",
+      "It wastes fuel and increases emissions without providing any forward motion",
+      "It improves the engine"
+    ],
+    "answer": 1,
+    "explanation": "Revving uses fuel and accelerates engine wear without moving the car. Modern engines don't need revving to warm up. Gentle driving after starting is sufficient."
+  },
+  {
+    "category": "controls",
+    "question": "If your brakes completely fail while driving, what should you do in order?",
+    "options": [
+      "Use the handbrake gently, downshift to low gear, steer to safety, honk horn",
+      "Shift to neutral immediately",
+      "Jump out of the car"
+    ],
+    "answer": 0,
+    "explanation": "Brake failure: (1) Gradually apply handbrake, (2) Downshift to low gear for engine braking, (3) Steer safely away from traffic, (4) Warn others with horn. Do NOT shift to neutral."
+  },
+  {
+    "category": "controls",
+    "question": "If your accelerator gets stuck wide open, what is the safest action?",
+    "options": [
+      "Press the brake pedal and shift to Neutral; maintain control while stopping",
+      "Turn off the engine immediately",
+      "Jump out of the car"
+    ],
+    "answer": 0,
+    "explanation": "Stuck accelerator: (1) Press brake pedal firmly, (2) Shift to Neutral, (3) Keep steering, (4) Coast to a safe stop. Turning off the engine kills power steering."
+  },
+  {
+    "category": "controls",
+    "question": "If you experience sudden power steering failure, what happens to the steering wheel?",
+    "options": [
+      "No change; it works normally",
+      "It becomes very stiff and hard to turn; you must apply more force",
+      "It spins freely"
+    ],
+    "answer": 1,
+    "explanation": "Power steering failure makes the steering wheel very stiff. You must apply significant force to turn. Reduce speed immediately and seek professional help."
+  },
+  {
+    "category": "controls",
+    "question": "If your door locks jam electronically while driving, what should you do?",
+    "options": [
+      "Keep driving; fix it later",
+      "Pull over safely and try unlocking; if stuck, continue to a mechanic",
+      "Force the door open while driving"
+    ],
+    "answer": 1,
+    "explanation": "Jammed electronic locks: stop safely, try unlocking, and if unsuccessful, drive carefully to a mechanic. Don't force doors while driving as it causes accidents."
+  },
+  {
+    "category": "controls",
+    "question": "What should you do if your windscreen wipers stop working during rain?",
+    "options": [
+      "Continue driving slowly",
+      "Stop safely and wait for the rain to stop",
+      "Use your horn to warn people"
+    ],
+    "answer": 1,
+    "explanation": "Non-functioning wipers in rain are dangerous. Stop safely and either fix them or wait. Continuing to drive without visibility is illegal and endangers lives."
+  },
+  {
+    "category": "controls",
+    "question": "If your horn fails in an emergency situation, what alternative warning can you use?",
+    "options": [
+      "Hazard lights and brake lights (flashing)",
+      "Accelerate loudly",
+      "Flash your headlights"
+    ],
+    "answer": 0,
+    "explanation": "If the horn fails, use hazard lights and repeatedly tap the brake pedal to flash brake lights. Some vehicles allow high-beam flashing as an additional signal."
+  },
+  {
+    "category": "controls",
+    "question": "How do child safety locks on door controls protect children?",
+    "options": [
+      "They prevent doors from opening from inside while the car is moving",
+      "They add cushioning to doors",
+      "They prevent children from getting in the car"
+    ],
+    "answer": 0,
+    "explanation": "Child locks prevent rear doors from being opened from inside. The driver controls them from the front. This prevents children from accidentally exiting while driving."
+  },
+  {
+    "category": "controls",
+    "question": "If you have a young child in the car, when should you lock the doors?",
+    "options": [
+      "Only in traffic",
+      "Immediately after they enter and before driving",
+      "After 5 minutes of driving"
+    ],
+    "answer": 1,
+    "explanation": "Lock all doors immediately after passengers enter and before driving. This prevents accidental exits and is a legal safety requirement in many countries."
+  },
+  {
+    "category": "controls",
+    "question": "Why is proper steering wheel position important for passenger safety?",
+    "options": [
+      "It's just for comfort",
+      "It affects airbag deployment distance and driver control during emergency maneuvers",
+      "It has no safety impact"
+    ],
+    "answer": 1,
+    "explanation": "Proper steering wheel height/distance affects airbag safety and emergency control. Too close is dangerous; too far reduces control. Adjust before driving."
+  },
+  {
+    "category": "controls",
+    "question": "How does proper use of the brake pedal protect passengers during sudden stops?",
+    "options": [
+      "It has no effect",
+      "Smooth, progressive braking prevents passengers from being thrown forward",
+      "It only protects the driver"
+    ],
+    "answer": 1,
+    "explanation": "Smooth, progressive braking distributes deceleration forces, preventing injury. Sudden hard braking can cause passengers to hit the windscreen or be injured."
+  },
+  {
+    "category": "controls",
+    "question": "What danger is created by resting your foot on the brake pedal while driving?",
+    "options": [
+      "No danger",
+      "Reduced stopping power and overheating brakes when needed",
+      "Improved safety"
+    ],
+    "answer": 1,
+    "explanation": "Riding the brakes (keeping foot on pedal) causes overheating and brake fade. In emergencies, full stopping power isn't available, endangering all passengers."
+  },
+  {
+    "category": "controls",
+    "question": "You need to perform a parallel park on a busy street. What is the correct control sequence?",
+    "options": [
+      "Brake to stop, indicator for direction, reverse into space with careful steering, straighten, apply handbrake",
+      "Just put it in reverse and turn the wheel",
+      "Accelerate while turning"
+    ],
+    "answer": 0,
+    "explanation": "Parallel parking: (1) Signal intentions, (2) Position vehicle, (3) Brake to stop, (4) Shift to reverse, (5) Use steering to angle in, (6) Apply handbrake when done."
+  },
+  {
+    "category": "controls",
+    "question": "You're doing a hill start in a manual car on a steep slope. What's the correct sequence?",
+    "options": [
+      "Release clutch while holding brake; ease off brake as you apply accelerator",
+      "Just release the handbrake and let gravity help",
+      "Rev the engine heavily"
+    ],
+    "answer": 0,
+    "explanation": "Hill start: (1) Handbrake engaged, (2) Clutch in, first gear, (3) Accelerator ready, (4) Release handbrake, (5) Gradually release clutch while easing on accelerator."
+  },
+  {
+    "category": "controls",
+    "question": "You need to reverse safely into a driveway. What controls should you use in order?",
+    "options": [
+      "Check mirrors, reverse without looking, apply brake at end",
+      "Check mirrors/blind spots, use brake to creep slowly, steer carefully, stop with handbrake",
+      "Just reverse quickly"
+    ],
+    "answer": 1,
+    "explanation": "Safe reversing: (1) Check mirrors/mirrors, (2) Check blind spots, (3) Shift to reverse, (4) Use brake to control speed, (5) Steer smoothly, (6) Apply handbrake when parked."
+  },
+  {
+    "category": "controls",
+    "question": "You're navigating a steep downhill mountain road. What control strategy should you use?",
+    "options": [
+      "Coast in neutral and brake frequently",
+      "Use low gear for engine braking, light brake pressure to control speed",
+      "Use high gear and heavy braking"
+    ],
+    "answer": 1,
+    "explanation": "Downhill: (1) Select low gear, (2) Use engine braking, (3) Apply light, steady brake pressure, (4) Avoid heavy continuous braking which causes overheating."
+  },
+  {
+    "category": "controls",
+    "question": "You approach a busy intersection and the light turns yellow. What's the safest control response?",
+    "options": [
+      "Accelerate to beat the red light",
+      "Brake smoothly and progressively; never accelerate through a changing light",
+      "Shift to neutral"
+    ],
+    "answer": 1,
+    "explanation": "Approaching yellow lights: brake smoothly. Never accelerate through changing lights. Yellow means prepare to stop, not speed up. Red means stop."
+  },
+  {
+    "category": "controls",
+    "question": "You're merging onto a highway. What control sequence should you follow?",
+    "options": [
+      "Signal, check mirrors/blind spots, accelerate smoothly to match traffic speed, merge",
+      "Just merge quickly",
+      "Decelerate before merging"
+    ],
+    "answer": 0,
+    "explanation": "Highway merge: (1) Signal intention, (2) Check mirrors/blind spots, (3) Accelerate smoothly, (4) Match traffic speed, (5) Merge safely when space available."
+  },
+  {
+    "category": "controls",
+    "question": "You notice brake fade (mushy pedal) while descending a mountain. What should you do?",
+    "options": [
+      "Continue downhill and brake harder",
+      "Find a safe place to stop, let brakes cool, use low gear, apply light steady pressure",
+      "Accelerate to increase air cooling"
+    ],
+    "answer": 1,
+    "explanation": "Brake fade: (1) Find a safe area to stop, (2) Let brakes cool (DON'T pour water on them), (3) Resume in low gear, (4) Use light steady pressure, never heavy braking."
+  },
+  {
+    "category": "controls",
+    "question": "How does aggressive braking increase vehicle maintenance costs?",
+    "options": [
+      "It doesn't affect costs",
+      "It accelerates brake pad/rotor wear, requiring more frequent replacement",
+      "It saves money"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive braking causes rapid brake wear, requiring expensive repairs. Smooth, progressive braking extends brake life and saves thousands in repairs."
+  },
+  {
+    "category": "controls",
+    "question": "What is the cost implication of resting your foot on the clutch pedal (manual cars)?",
+    "options": [
+      "No cost impact",
+      "Premature clutch wear requiring expensive replacement (typically R3,000-8,000+)",
+      "It extends clutch life"
+    ],
+    "answer": 1,
+    "explanation": "Riding the clutch causes premature wear. Clutch replacement is expensive (R3,000-8,000+ depending on vehicle). Proper technique saves money long-term."
+  },
+  {
+    "category": "controls",
+    "question": "How can smooth, predictable steering wheel use reduce maintenance costs?",
+    "options": [
+      "It can't affect costs",
+      "Reduces wear on power steering, transmission, and suspension components",
+      "It increases costs"
+    ],
+    "answer": 1,
+    "explanation": "Jerky, harsh steering causes premature wear to power steering, transmission, and suspension. Smooth steering technique extends component life and reduces repair costs."
+  },
+  {
+    "category": "controls",
+    "question": "What is the typical cost of replacing worn brake pads if ignored until grinding occurs?",
+    "options": [
+      "Same as regular replacement",
+      "Significantly higher due to additional rotor damage requiring replacement too",
+      "Lower cost"
+    ],
+    "answer": 1,
+    "explanation": "Ignoring grinding brakes adds rotor replacement costs. Regular pads: R1,500-3,000. With rotor damage: R3,500-8,000+. Early maintenance is always cheaper."
+  },
+  {
+    "category": "controls",
+    "question": "How does improper accelerator use affect engine and transmission lifespan?",
+    "options": [
+      "No effect",
+      "Aggressive acceleration increases engine/transmission wear and reduces lifespan",
+      "It extends lifespan"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive acceleration accelerates wear on engine internals, transmission fluid, and components. Smooth acceleration significantly extends vehicle lifespan."
+  },
+  {
+    "category": "controls",
+    "question": "What is the cost of ignoring a faulty handbrake that continues to slip?",
+    "options": [
+      "No cost",
+      "Risk of the vehicle rolling away (accident costs) plus expensive brake rebuild",
+      "Only a minor repair"
+    ],
+    "answer": 1,
+    "explanation": "Ignoring a slipping handbrake risks accidents and requires expensive brake system repairs. Early service (R500-1,500) prevents costly repairs and accidents."
+  },
+  {
+    "category": "controls",
+    "question": "Why is regular wiper blade replacement a cost-saving measure?",
+    "options": [
+      "It isn't; wipers never need replacing",
+      "Replacing worn blades (R200-500) prevents windscreen damage from scratching (R3,000+)",
+      "It's just an unnecessary expense"
+    ],
+    "answer": 1,
+    "explanation": "Worn wipers scratch the windscreen. Windscreen replacement costs R3,000-8,000. Preventative wiper replacement (R200-500) is far cheaper than damage."
+  },
+  {
+    "category": "controls",
+    "question": "How can proper window control use prevent costly damage?",
+    "options": [
+      "Windows are unrelated to costs",
+      "Sudden opening in high winds can break glass or damage seals; smooth use prevents damage",
+      "They don't affect repairs"
+    ],
+    "answer": 1,
+    "explanation": "Rough window operation can break glass (R2,000-4,000) or damage seals (R1,000+). Gentle, smooth operation prevents costly repairs."
   }
 ]
