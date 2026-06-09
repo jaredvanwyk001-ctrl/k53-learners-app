@@ -39,6 +39,19 @@ let activeTab = 'All';
 //  HELPERS
 // ============================================
 
+// Strip the explanatory clause that follows a dash in option text.
+// "Check oil pressure immediately — risk of engine damage" → "Check oil pressure immediately"
+// "Driving in neutral or with clutch depressed — reduces engine braking" → "Driving in neutral or with clutch depressed"
+// Also normalises capitalisation and trailing punctuation so all options look identical in style.
+function normalizeOption(text) {
+  return text
+    .replace(/\s+[—–]\s+.+$/s, '')   // strip " — reason" (em-dash / en-dash)
+    .replace(/\s+-\s+.+$/s, '')       // strip " - reason" (spaced hyphen)
+    .replace(/\.$/, '')               // remove trailing period
+    .trim()
+    .replace(/^[a-z]/, c => c.toUpperCase()); // sentence case
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -698,7 +711,7 @@ function renderQuestion() {
   q.options.forEach((opt, i) => {
     const btn = document.createElement('button');
     btn.className   = 'option-btn';
-    btn.textContent = opt;
+    btn.textContent = normalizeOption(opt);
     btn.addEventListener('click', () => selectAnswer(i, q));
     optionsEl.appendChild(btn);
   });
@@ -802,11 +815,11 @@ function buildMistakesList() {
 
     const wrongLine = document.createElement('p');
     wrongLine.style.cssText = 'color:#a93226;font-size:0.85rem;margin-bottom:0.2rem;';
-    wrongLine.textContent = '✗ Your answer: ' + q.options[chosen];
+    wrongLine.textContent = '✗ Your answer: ' + normalizeOption(q.options[chosen]);
 
     const correctLine = document.createElement('p');
     correctLine.style.cssText = 'color:#1a7a47;font-size:0.85rem;';
-    correctLine.textContent = '✓ Correct: ' + q.options[q.answer];
+    correctLine.textContent = '✓ Correct: ' + normalizeOption(q.options[q.answer]);
 
     item.appendChild(qText);
     item.appendChild(wrongLine);
