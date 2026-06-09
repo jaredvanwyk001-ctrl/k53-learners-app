@@ -1306,6 +1306,57 @@ class ProgressTracker {
 
 const tracker = new ProgressTracker();
 
+function practiceWeakAreas() {
+  const stats = tracker.getStats();
+  if (!stats || !stats.categoryStats) return;
+
+  // Find weak categories (< 75%)
+  const weakCategories = Object.keys(stats.categoryStats).filter(
+    cat => stats.categoryStats[cat].weak
+  );
+
+  if (weakCategories.length === 0) {
+    alert('Great job! No weak areas detected. You\'re ready for the test! 🎉');
+    return;
+  }
+
+  // Set weak area mode and start quiz
+  activeTab = 'Weak Areas Practice';
+  const profile = { signVisual: 0, rules: 0, controls: 0 };
+  weakCategories.forEach(cat => {
+    profile[cat] = 30; // Get 30 questions from each weak category
+  });
+
+  let pool = [];
+  for (const [cat, count] of Object.entries(profile)) {
+    if (count > 0) {
+      pool = pool.concat(pickRandom(allQuestions[cat] || [], count));
+    }
+  }
+
+  if (pool.length === 0) {
+    alert('No questions found for weak areas.');
+    return;
+  }
+
+  quizQuestions = shuffle(pool);
+  current = 0;
+  score = 0;
+  mistakes = [];
+  answered = false;
+  document.getElementById('quizArea').style.display = 'block';
+  document.getElementById('scoreScreen').style.display = 'none';
+
+  // Show which areas are being practiced
+  const weakAreasText = weakCategories.map(c => CATEGORY_DISPLAY[c]).join(', ');
+  const notice = document.createElement('div');
+  notice.style.cssText = 'background: #eaf3fc; border: 2px solid #3498db; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; color: #1565C0; font-weight: 600;';
+  notice.innerHTML = `📌 Focused Practice Mode: ${weakAreasText}`;
+  document.getElementById('quizArea').parentNode.insertBefore(notice, document.getElementById('quizArea'));
+
+  renderQuestion();
+}
+
 function buildProgressDashboard() {
   const stats = tracker.getStats();
   const dashboard = document.getElementById('progressDashboard');
@@ -1322,8 +1373,32 @@ function buildProgressDashboard() {
     return;
   }
 
+  // Check if there are weak areas
+  const weakAreas = Object.keys(stats.categoryStats).filter(cat => stats.categoryStats[cat].weak);
+
   dashboard.innerHTML = `
     <div style="max-width: 600px; margin: 0 auto;">
+      ${weakAreas.length > 0 ? `
+        <div style="background: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <span style="font-size: 1.5rem;">⚠️</span>
+            <div>
+              <strong style="color: #856404;">Weak Areas Detected</strong>
+              <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #856404;">
+                ${weakAreas.map(c => stats.categoryStats[c].name).join(', ')} needs improvement
+              </p>
+            </div>
+          </div>
+          <button class="btn btn-primary" onclick="practiceWeakAreas()" style="width: 100%; margin-top: 0.5rem;">
+            📚 Practice Weak Areas
+          </button>
+        </div>
+      ` : `
+        <div style="background: #d4edda; border: 2px solid #28a745; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; text-align: center;">
+          <p style="margin: 0; color: #155724; font-weight: 600;">✓ No weak areas! All categories above 75%</p>
+        </div>
+      `}
+
       <!-- Overall Stats -->
       <div class="quiz-card" style="text-align: center; margin-bottom: 1.5rem;">
         <h2 style="margin-bottom: 0.5rem;">Your K53 Progress</h2>
