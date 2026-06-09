@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Blue circle (mandatory sign) -->
+  <circle cx="100" cy="100" r="92" fill="#1565C0"/>
+  <!-- White upward arrow: head then shaft -->
+  <polygon points="100,30 144,88 56,88" fill="white"/>
+  <rect x="88" y="86" width="24" height="78" fill="white" rx="3"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Red outer warning triangle -->
+  <polygon points="100,12 192,180 8,180" fill="#CC0000"/>
+  <!-- White inner fill -->
+  <polygon points="100,30 175,166 25,166" fill="white"/>
+  <!-- Traffic light housing -->
+  <rect x="83" y="63" width="34" height="90" rx="8" fill="#222"/>
+  <!-- Red lamp -->
+  <circle cx="100" cy="78" r="9" fill="#EE1111"/>
+  <!-- Amber lamp -->
+  <circle cx="100" cy="100" r="9" fill="#FFB300"/>
+  <!-- Green lamp -->
+  <circle cx="100" cy="122" r="9" fill="#22BB22"/>
+  <!-- Post -->
+  <rect x="96" y="153" width="8" height="13" fill="#333"/>
+</svg>

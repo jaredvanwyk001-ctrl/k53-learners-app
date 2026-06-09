@@ -6,7 +6,7 @@
     "subCategory": "Control Signs",
     "code": "R1",
     "description": "Indicates that the driver must bring the vehicle to a complete stop behind the stop line and only proceed when it is safe to do so.",
-    "imagePath": "/assets/signs/regulatory/r1-stop.png"
+    "imagePath": "/assets/signs/regulatory/r1-stop.svg"
   },
   {
     "id": "R2",
@@ -15,7 +15,7 @@
     "subCategory": "Control Signs",
     "code": "R2",
     "description": "Indicates that the driver must give right-of-way to traffic approaching the intersection from other directions.",
-    "imagePath": "/assets/signs/regulatory/r2-yield.png"
+    "imagePath": "/assets/signs/regulatory/r2-yield.svg"
   },
   {
     "id": "R101",
@@ -24,7 +24,7 @@
     "subCategory": "Prohibitory Signs",
     "code": "R101",
     "description": "Indicates that no vehicles are allowed to enter the roadway beyond this sign.",
-    "imagePath": "/assets/signs/regulatory/r101-no-entry.png"
+    "imagePath": "/assets/signs/regulatory/r101-no-entry.svg"
   },
   {
     "id": "R201-60",
@@ -33,7 +33,7 @@
     "subCategory": "Limit Signs",
     "code": "R201-60",
     "description": "Indicates the maximum permissible speed permitted on this road section is 60 kilometers per hour.",
-    "imagePath": "/assets/signs/regulatory/r201-60.png"
+    "imagePath": "/assets/signs/regulatory/r201-60.svg"
   },
   {
     "id": "R301",
@@ -42,7 +42,7 @@
     "subCategory": "Reservation Signs",
     "code": "R301",
     "description": "Mandatory sign indicating that drivers are only permitted to travel straight ahead.",
-    "imagePath": "/assets/signs/regulatory/r301-straight-only.png"
+    "imagePath": "/assets/signs/regulatory/r301-straight-only.svg"
   },
   {
     "id": "W102",
@@ -51,7 +51,7 @@
     "subCategory": "Road Layout",
     "code": "W102",
     "description": "Warns drivers of a sharp bend in the road ahead towards the right direction.",
-    "imagePath": "/assets/signs/warning/w102-sharp-curve-right.png"
+    "imagePath": "/assets/signs/warning/w102-sharp-curve-right.svg"
   },
   {
     "id": "W202",
@@ -60,7 +60,7 @@
     "subCategory": "Intersections",
     "code": "W202",
     "description": "Warns drivers that a major, uncontrolled intersecting road is immediately ahead.",
-    "imagePath": "/assets/signs/warning/w202-crossroad.png"
+    "imagePath": "/assets/signs/warning/w202-crossroad.svg"
   },
   {
     "id": "W302",
@@ -69,7 +69,7 @@
     "subCategory": "Control Hazards",
     "code": "W302",
     "description": "Warns drivers to prepare for a robot (traffic light) intersection ahead.",
-    "imagePath": "/assets/signs/warning/w302-traffic-light.png"
+    "imagePath": "/assets/signs/warning/w302-traffic-light.svg"
   },
   {
     "id": "W306",
@@ -78,7 +78,7 @@
     "subCategory": "People Hazards",
     "code": "W306",
     "description": "Warns that a designated pedestrian crossing is coming up; be ready to stop.",
-    "imagePath": "/assets/signs/warning/w306-pedestrian-crossing.png"
+    "imagePath": "/assets/signs/warning/w306-pedestrian-crossing.svg"
   },
   {
     "id": "IN1",
@@ -87,6 +87,6 @@
     "subCategory": "Information",
     "code": "IN1",
     "description": "Informs drivers of the proximity of a hospital facility where medical services are available.",
-    "imagePath": "/assets/signs/guidance/in1-hospital.png"
+    "imagePath": "/assets/signs/guidance/in1-hospital.svg"
   }
 ]

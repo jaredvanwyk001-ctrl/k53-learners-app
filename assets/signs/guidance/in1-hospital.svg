@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Blue guidance sign background -->
+  <rect x="8" y="8" width="184" height="184" rx="12" fill="#1565C0"/>
+  <!-- White H: left vertical bar -->
+  <rect x="52" y="50" width="22" height="100" fill="white" rx="3"/>
+  <!-- White H: right vertical bar -->
+  <rect x="126" y="50" width="22" height="100" fill="white" rx="3"/>
+  <!-- White H: horizontal crossbar -->
+  <rect x="52" y="91" width="96" height="22" fill="white" rx="3"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Red octagon -->
+  <polygon points="62,8 138,8 192,62 192,138 138,192 62,192 8,138 8,62" fill="#CC0000"/>
+  <!-- White inner border ring -->
+  <polygon points="68,16 132,16 184,68 184,132 132,184 68,184 16,132 16,68" fill="none" stroke="white" stroke-width="4"/>
+  <!-- STOP text -->
+  <text x="100" y="120" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="white" text-anchor="middle">STOP</text>
+</svg>
