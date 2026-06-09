@@ -694,14 +694,32 @@ function renderQuestion() {
   document.getElementById('qCategory').textContent   = q.signCategory || CATEGORY_DISPLAY[q.category] || q.category;
 
   // Sign image (inline SVG, no spinner needed)
-  const existing = document.getElementById('signImageContainer');
-  if (existing) existing.remove();
+  const existingSign = document.getElementById('signImageContainer');
+  if (existingSign) existingSign.remove();
+  const existingControl = document.getElementById('controlImageContainer');
+  if (existingControl) existingControl.remove();
 
   if (q.signRender) {
     const wrap = buildSignImage({ render: q.signRender, code: q.signCode, name: q.signName });
     wrap.id = 'signImageContainer';
     const qTextEl = document.getElementById('qText');
     qTextEl.parentNode.insertBefore(wrap, qTextEl);
+  }
+
+  // Control diagram image (vehicle controls identification)
+  if (q.image && q.imageLabel) {
+    const imgWrap = document.createElement('div');
+    imgWrap.id = 'controlImageContainer';
+    imgWrap.style.cssText = 'margin-bottom:1.25rem;text-align:center;';
+
+    const img = document.createElement('img');
+    img.src = q.image;
+    img.alt = q.imageLabel;
+    img.style.cssText = 'max-width:100%;max-height:280px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);';
+
+    imgWrap.appendChild(img);
+    const qTextEl = document.getElementById('qText');
+    qTextEl.parentNode.insertBefore(imgWrap, qTextEl);
   }
 
   document.getElementById('qText').textContent = q.question;

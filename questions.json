@@ -133,8 +133,8 @@
     "category": "rules",
     "question": "What is the total stopping distance composed of?",
     "options": [
-      "Braking distance alone — thinking time is not included in the stopping distance",
-      "Thinking distance only — the braking distance is calculated separately",
+      "Braking distance alone \u2014 thinking time is not included in the stopping distance",
+      "Thinking distance only \u2014 the braking distance is calculated separately",
       "Thinking distance plus braking distance combined into a single total"
     ],
     "answer": 2
@@ -194,8 +194,8 @@
     "question": "When must you yield to an emergency vehicle with sirens and lights activated?",
     "options": [
       "Only when it is directly behind you and about to make contact",
-      "Always — move to the left and stop or slow down if necessary",
-      "Only on a freeway — on urban roads emergency vehicles use alternate routes"
+      "Always \u2014 move to the left and stop or slow down if necessary",
+      "Only on a freeway \u2014 on urban roads emergency vehicles use alternate routes"
     ],
     "answer": 1
   },
@@ -205,7 +205,7 @@
     "options": [
       "You have the right of way as you have already entered the intersection",
       "Oncoming traffic travelling straight through the intersection",
-      "Pedestrians on the pavement waiting to cross — not those in the road"
+      "Pedestrians on the pavement waiting to cross \u2014 not those in the road"
     ],
     "answer": 1
   },
@@ -253,7 +253,7 @@
     "category": "rules",
     "question": "A traffic light shows a solid green signal. What does this mean?",
     "options": [
-      "Stop — green signals are sometimes used as stop signals in South Africa",
+      "Stop \u2014 green signals are sometimes used as stop signals in South Africa",
       "Proceed with caution and be prepared to yield to crossing traffic",
       "Proceed through the intersection if it is safe and clear to do so"
     ],
@@ -293,9 +293,9 @@
     "category": "rules",
     "question": "A traffic light shows a flashing amber/yellow signal. Treat it as?",
     "options": [
-      "A red light — stop completely and wait for it to change to solid green",
-      "A yield sign — slow down and proceed only when the intersection is clear",
-      "A green light — proceed at normal speed as you have full right of way"
+      "A red light \u2014 stop completely and wait for it to change to solid green",
+      "A yield sign \u2014 slow down and proceed only when the intersection is clear",
+      "A green light \u2014 proceed at normal speed as you have full right of way"
     ],
     "answer": 1
   },
@@ -314,7 +314,7 @@
     "question": "Traffic lights are not working at an intersection. How should you treat it?",
     "options": [
       "As a four-way stop",
-      "As a yield — give way to the right",
+      "As a yield \u2014 give way to the right",
       "Continue without stopping"
     ],
     "answer": 0
@@ -515,7 +515,7 @@
     "options": [
       "Yes, parking on the right is always permitted if no sign prohibits it",
       "Only on a one-way street where traffic flows in a single direction",
-      "Never — parking on the right is completely prohibited under all circumstances"
+      "Never \u2014 parking on the right is completely prohibited under all circumstances"
     ],
     "answer": 1
   },
@@ -625,7 +625,7 @@
     "options": [
       "Only at the intersection itself once you have come to a stop or slowed down",
       "At least 30 metres before the turn to give other road users adequate warning",
-      "Only on a freeway or national road — signals are optional in urban areas"
+      "Only on a freeway or national road \u2014 signals are optional in urban areas"
     ],
     "answer": 1
   },
@@ -655,7 +655,7 @@
     "options": [
       "Sound the horn to alert the driver in the target lane of your intention",
       "Signal, check both mirrors, and check the blind spot before moving",
-      "Check only the rear-view mirror — side mirrors are optional on freeways"
+      "Check only the rear-view mirror \u2014 side mirrors are optional on freeways"
     ],
     "answer": 1
   },
@@ -753,7 +753,7 @@
     "category": "rules",
     "question": "What happens if you are involved in an accident resulting in injury or death?",
     "options": [
-      "You may leave if you were not at fault — only the guilty party must remain",
+      "You may leave if you were not at fault \u2014 only the guilty party must remain",
       "You must stop, render assistance to the injured, and report to the police",
       "You only need to report if the total damages exceed a minimum threshold"
     ],
@@ -783,7 +783,7 @@
     "category": "rules",
     "question": "Seat belts must be worn by?",
     "options": [
-      "The driver only — passengers are responsible for their own safety choices",
+      "The driver only \u2014 passengers are responsible for their own safety choices",
       "The driver and all front seat passengers as a minimum requirement",
       "All occupants of the vehicle where seat belts are fitted"
     ],
@@ -815,7 +815,7 @@
     "options": [
       "A verbal warning from a traffic officer for a first-time offence only",
       "A fine and possible imprisonment depending on the circumstances",
-      "A warning letter only — imprisonment is not applicable for this offence"
+      "A warning letter only \u2014 imprisonment is not applicable for this offence"
     ],
     "answer": 1
   },
@@ -943,9 +943,9 @@
     "category": "rules",
     "question": "How must you approach a pedestrian crossing where pedestrians are present?",
     "options": [
-      "Sound the horn and proceed — pedestrians should wait on the pavement",
+      "Sound the horn and proceed \u2014 pedestrians should wait on the pavement",
       "Slow down, be prepared to stop, and yield to pedestrians crossing the road",
-      "Maintain your speed — pedestrians have a duty to wait for a gap in traffic"
+      "Maintain your speed \u2014 pedestrians have a duty to wait for a gap in traffic"
     ],
     "answer": 1
   },
@@ -1005,7 +1005,7 @@
     "options": [
       "Only at night between 10 pm and 4 am on all South African public roads",
       "Between sunset and sunrise, and in conditions of reduced visibility",
-      "Only in tunnels — daytime running lights are sufficient at all other times"
+      "Only in tunnels \u2014 daytime running lights are sufficient at all other times"
     ],
     "answer": 1
   },
@@ -1043,7 +1043,7 @@
     "category": "rules",
     "question": "When may you cross a solid white centre line?",
     "options": [
-      "Never under any circumstances — a solid white line may not be crossed",
+      "Never under any circumstances \u2014 a solid white line may not be crossed",
       "When overtaking a very slow-moving vehicle that is impeding the flow of traffic",
       "Only to avoid an obstacle in your path or to turn into a side road or property"
     ],
@@ -1135,7 +1135,7 @@
     "options": [
       "Parking is permitted here for a maximum of 30 minutes at any time",
       "No parking is allowed but stopping briefly to load or unload passengers is permitted",
-      "No stopping at any time — this kerb colour prohibits all vehicle stopping"
+      "No stopping at any time \u2014 this kerb colour prohibits all vehicle stopping"
     ],
     "answer": 1
   },
@@ -1205,7 +1205,7 @@
     "options": [
       "Petrol/fuel level, Oil, Water/coolant, Damage, Electrics, Rubber/tyres, and Safety items",
       "Only check the fuel gauge to confirm there is sufficient fuel for the planned journey",
-      "Check only the tyre pressures — other items are covered at the annual service"
+      "Check only the tyre pressures \u2014 other items are covered at the annual service"
     ],
     "answer": 0
   },
@@ -1263,9 +1263,9 @@
     "category": "rules",
     "question": "It is illegal to drive a vehicle without?",
     "options": [
-      "A working radio — all vehicles must have a functioning audio device fitted",
+      "A working radio \u2014 all vehicles must have a functioning audio device fitted",
       "A current licence disc displayed on the windscreen in a visible position",
-      "A dashboard camera — all vehicles must have a recording device installed"
+      "A dashboard camera \u2014 all vehicles must have a recording device installed"
     ],
     "answer": 1
   },
@@ -1353,7 +1353,7 @@
     "category": "rules",
     "question": "What is the recommended following distance in adverse weather conditions?",
     "options": [
-      "Maintain the same 2-second gap as in dry conditions — your tyres adapt automatically",
+      "Maintain the same 2-second gap as in dry conditions \u2014 your tyres adapt automatically",
       "A minimum of 4 seconds or more depending on visibility and road surface conditions",
       "Reduce to a 1-second gap to stay visible in the other driver's rear-view mirror"
     ],
@@ -1374,7 +1374,7 @@
     "question": "A Keep Clear marking on a road means?",
     "options": [
       "No parking is permitted within the marked zone on weekdays",
-      "Do not enter or block this zone — you must keep it clear even if traffic is moving slowly",
+      "Do not enter or block this zone \u2014 you must keep it clear even if traffic is moving slowly",
       "Increase speed when passing through to clear the area as quickly as possible"
     ],
     "answer": 1
@@ -1475,7 +1475,7 @@
     "options": [
       "Sound the horn once to warn anyone behind, then begin reversing immediately",
       "Check all around the vehicle including blind spots and reverse slowly and carefully",
-      "Check only the rear-view mirror before reversing — side mirrors are not necessary"
+      "Check only the rear-view mirror before reversing \u2014 side mirrors are not necessary"
     ],
     "answer": 1
   },
@@ -1484,7 +1484,7 @@
     "question": "Under what circumstances may you stop on a freeway?",
     "options": [
       "When you are tired or need a break during a long motorway journey",
-      "Only in a genuine breakdown or emergency — stopping otherwise is illegal",
+      "Only in a genuine breakdown or emergency \u2014 stopping otherwise is illegal",
       "Whenever you need to make or receive an important telephone call"
     ],
     "answer": 1
@@ -1504,7 +1504,7 @@
     "question": "When two lanes merge into one, what is the correct merging etiquette?",
     "options": [
       "Force your way into the merging lane early to avoid being held back at the end",
-      "Take turns alternating — one vehicle from each lane in a zip-merge sequence",
+      "Take turns alternating \u2014 one vehicle from each lane in a zip-merge sequence",
       "The larger or heavier vehicle always has priority and merges ahead of smaller vehicles"
     ],
     "answer": 1
@@ -1563,8 +1563,8 @@
     "category": "rules",
     "question": "What is the maximum number of passengers allowed in the front seat of a motor vehicle?",
     "options": [
-      "1 — the driver only; no passenger may sit in the front passenger seat",
-      "2 — one driver and one front seat passenger as the maximum",
+      "1 \u2014 the driver only; no passenger may sit in the front passenger seat",
+      "2 \u2014 one driver and one front seat passenger as the maximum",
       "As many as will fit across the front bench seat of the vehicle"
     ],
     "answer": 1
@@ -1624,7 +1624,7 @@
     "question": "What is the recommended hand position on a steering wheel?",
     "options": [
       "10 and 2 o'clock or 9 and 3 o'clock for balanced control and stability",
-      "12 o'clock — one hand at the top provides maximum leverage for turning",
+      "12 o'clock \u2014 one hand at the top provides maximum leverage for turning",
       "8 and 4 o'clock for a relaxed position on long motorway journeys"
     ],
     "answer": 0
@@ -1635,7 +1635,7 @@
     "options": [
       "Driving beside another vehicle for too long is simply impolite and causes frustration",
       "You may be in the other vehicle's blind spot making it difficult for them to change lanes safely",
-      "There is no danger — driving alongside another vehicle is acceptable at all speeds"
+      "There is no danger \u2014 driving alongside another vehicle is acceptable at all speeds"
     ],
     "answer": 0
   },
@@ -1675,7 +1675,7 @@
     "options": [
       "Sound the horn to warn any vehicle that may be in the blind spot area",
       "Physically turn your head and look over the appropriate shoulder before manoeuvring",
-      "Check only the relevant side mirror — it covers the entire blind spot area"
+      "Check only the relevant side mirror \u2014 it covers the entire blind spot area"
     ],
     "answer": 1
   },
@@ -1833,9 +1833,9 @@
     "category": "rules",
     "question": "When must you switch off your high-beam headlights?",
     "options": [
-      "High beams may be used at all times — there is no requirement to dip them",
+      "High beams may be used at all times \u2014 there is no requirement to dip them",
       "When following or approaching another vehicle within approximately 150 metres",
-      "Only when approaching oncoming traffic — following vehicles do not require dipping"
+      "Only when approaching oncoming traffic \u2014 following vehicles do not require dipping"
     ],
     "answer": 1
   },
@@ -1845,7 +1845,7 @@
     "options": [
       "The passengers themselves",
       "The driver",
-      "No one — it is optional"
+      "No one \u2014 it is optional"
     ],
     "answer": 1
   },
@@ -1883,9 +1883,9 @@
     "category": "rules",
     "question": "Travelling in the right lane on a multi-lane road when not overtaking is?",
     "options": [
-      "Perfectly acceptable — you may use any lane that suits your planned journey",
-      "Illegal — you must keep to the left lane unless you are actively overtaking",
-      "Only illegal on a national freeway — it is acceptable on other roads"
+      "Perfectly acceptable \u2014 you may use any lane that suits your planned journey",
+      "Illegal \u2014 you must keep to the left lane unless you are actively overtaking",
+      "Only illegal on a national freeway \u2014 it is acceptable on other roads"
     ],
     "answer": 1
   },
@@ -1903,9 +1903,9 @@
     "category": "rules",
     "question": "What is the legal blood breath alcohol limit for a learner driver?",
     "options": [
-      "0.24 mg per 1 000 ml of breath — the same limit as for professional drivers",
-      "0.00 mg per 1 000 ml — zero tolerance applies to all learner driver permit holders",
-      "0.10 mg per 1 000 ml of breath — a lower limit than that for full licence holders"
+      "0.24 mg per 1 000 ml of breath \u2014 the same limit as for professional drivers",
+      "0.00 mg per 1 000 ml \u2014 zero tolerance applies to all learner driver permit holders",
+      "0.10 mg per 1 000 ml of breath \u2014 a lower limit than that for full licence holders"
     ],
     "answer": 1
   },
@@ -1984,7 +1984,7 @@
     "question": "What is the difference between negligent and reckless driving?",
     "options": [
       "They are the same legal offence carrying identical penalties in South Africa",
-      "Reckless driving is the more serious offence — it involves a conscious disregard for safety",
+      "Reckless driving is the more serious offence \u2014 it involves a conscious disregard for safety",
       "Negligent driving is the more serious offence as it is more common and easier to prosecute"
     ],
     "answer": 1
@@ -2013,9 +2013,9 @@
     "category": "rules",
     "question": "You should NOT reverse for longer than?",
     "options": [
-      "10 metres on any public road — reversing beyond this distance is always prohibited",
+      "10 metres on any public road \u2014 reversing beyond this distance is always prohibited",
       "A distance that is reasonably necessary for the purpose and safe to execute",
-      "There is no legal limit — you may reverse any distance on a public road"
+      "There is no legal limit \u2014 you may reverse any distance on a public road"
     ],
     "answer": 1
   },
@@ -2053,8 +2053,8 @@
     "category": "rules",
     "question": "A flashing green traffic light means?",
     "options": [
-      "Proceed normally as you have full right of way — green always means go",
-      "The green phase is about to end — the light will soon change to amber then red",
+      "Proceed normally as you have full right of way \u2014 green always means go",
+      "The green phase is about to end \u2014 the light will soon change to amber then red",
       "Speed up to clear the intersection before the green phase ends"
     ],
     "answer": 1
@@ -2153,7 +2153,7 @@
     "category": "rules",
     "question": "Why is it dangerous to drive with under-inflated tyres?",
     "options": [
-      "Increased grip on wet roads — softer tyres provide a larger contact patch",
+      "Increased grip on wet roads \u2014 softer tyres provide a larger contact patch",
       "Increased tyre wear, overheating risk, higher fuel consumption, and risk of blowout",
       "Improved fuel economy as the tyres generate less rolling resistance when soft"
     ],
@@ -2183,7 +2183,7 @@
     "category": "rules",
     "question": "What is the legal obligation if you hit an animal on the road?",
     "options": [
-      "Drive on and continue your journey — there is no legal obligation to stop",
+      "Drive on and continue your journey \u2014 there is no legal obligation to stop",
       "Attempt to find the owner or report it to police; render first aid if it is safe to do so",
       "You are only required to report the incident if it was a domestic pet or livestock"
     ],
@@ -2203,15 +2203,15 @@
     "category": "rules",
     "question": "What is the safe driving technique called where you look as far ahead as possible?",
     "options": [
-      "Mirror checking — using all available mirrors to monitor the rear and sides",
-      "Scanning or forward observation — looking as far ahead as possible to anticipate hazards",
-      "Blind spot checking — looking over your shoulder before every lane change"
+      "Mirror checking \u2014 using all available mirrors to monitor the rear and sides",
+      "Scanning or forward observation \u2014 looking as far ahead as possible to anticipate hazards",
+      "Blind spot checking \u2014 looking over your shoulder before every lane change"
     ],
     "answer": 1
   },
   {
     "category": "rules",
-    "question": "An emergency vehicle with lights and siren approaching from ahead — you must?",
+    "question": "An emergency vehicle with lights and siren approaching from ahead \u2014 you must?",
     "options": [
       "Maintain your current lane and speed to keep predictable for the emergency driver",
       "Move to the left side of the road as far as safely possible to allow it to pass",
@@ -2234,7 +2234,7 @@
     "question": "What is the rule for flashing headlights in a tunnel?",
     "options": [
       "Switch on hazard warning lights instead of headlights when driving in a tunnel",
-      "Do not use any headlights in a tunnel — the tunnel lighting is sufficient",
+      "Do not use any headlights in a tunnel \u2014 the tunnel lighting is sufficient",
       "Use headlights at all times when driving through a tunnel regardless of length"
     ],
     "answer": 2
@@ -2303,8 +2303,8 @@
     "category": "rules",
     "question": "When must you yield to a pedestrian who is NOT on a marked crossing?",
     "options": [
-      "Never — pedestrians who cross outside a marked crossing take full responsibility",
-      "Always — pedestrians always have unconditional right of way over all vehicles",
+      "Never \u2014 pedestrians who cross outside a marked crossing take full responsibility",
+      "Always \u2014 pedestrians always have unconditional right of way over all vehicles",
       "When the pedestrian has already begun crossing and it is safe for you to yield"
     ],
     "answer": 2
@@ -2353,8 +2353,8 @@
     "category": "rules",
     "question": "What does a circular sign with a blue background and white bicycle indicate?",
     "options": [
-      "Bicycles are prohibited from this road — a no-cycling restriction is in force",
-      "A mandatory bicycle-only route — cyclists must use this road and motor vehicles may not",
+      "Bicycles are prohibited from this road \u2014 a no-cycling restriction is in force",
+      "A mandatory bicycle-only route \u2014 cyclists must use this road and motor vehicles may not",
       "A bicycle parking area is available at this location for cyclists to leave their bikes"
     ],
     "answer": 1
@@ -2364,7 +2364,7 @@
     "question": "Under what circumstances is it legal to drive through a red light?",
     "options": [
       "When no other vehicles or pedestrians are visible at the intersection",
-      "Never — driving through a red traffic light is always illegal unless directed by an officer",
+      "Never \u2014 driving through a red traffic light is always illegal unless directed by an officer",
       "Only in a genuine emergency such as a medical situation or fleeing a threat"
     ],
     "answer": 1
@@ -2395,7 +2395,7 @@
     "options": [
       "Accelerate temporarily to maintain distance until you can find a safe place to stop",
       "Pull over to the left and stop as safely and quickly as possible",
-      "Ignore it if you are not speeding — the police vehicle will eventually pass you"
+      "Ignore it if you are not speeding \u2014 the police vehicle will eventually pass you"
     ],
     "answer": 1
   },
@@ -2423,7 +2423,7 @@
     "category": "rules",
     "question": "What should you do if your windscreen fogs up while driving?",
     "options": [
-      "Ignore it and continue driving — windscreen condensation clears itself quickly",
+      "Ignore it and continue driving \u2014 windscreen condensation clears itself quickly",
       "Use the demister, air conditioning, or open a window to clear the condensation",
       "Stop the vehicle immediately and exit until the windscreen has cleared fully"
     ],
@@ -2464,7 +2464,7 @@
     "question": "When must you check your vehicle's oil level?",
     "options": [
       "Only when the oil warning light illuminates on the dashboard display",
-      "Regularly — such as weekly or before long trips as part of the POWDERS check",
+      "Regularly \u2014 such as weekly or before long trips as part of the POWDERS check",
       "Oil level checks are only required at an authorised service station or workshop"
     ],
     "answer": 1
@@ -2483,7 +2483,7 @@
     "category": "rules",
     "question": "What must you do if you notice a traffic sign that is damaged or obscured?",
     "options": [
-      "Ignore the sign completely — only clearly readable signs are legally enforceable",
+      "Ignore the sign completely \u2014 only clearly readable signs are legally enforceable",
       "Obey it to the best of your ability and report the damage to the relevant authority",
       "Only obey the sign if you can clearly read and understand its full message"
     ],
@@ -2505,7 +2505,7 @@
     "options": [
       "Fuel savings from slipstreaming are reduced and this adds to your fuel costs",
       "You enter the truck's blind spot and lose forward visibility with no time to react",
-      "There is no particular danger — trucks are large and clearly visible ahead of you"
+      "There is no particular danger \u2014 trucks are large and clearly visible ahead of you"
     ],
     "answer": 1
   },
@@ -2513,9 +2513,9 @@
     "category": "rules",
     "question": "What is the legal requirement for windscreen wipers in South Africa?",
     "options": [
-      "Windscreen wipers are optional — visibility aids are the driver's own choice",
+      "Windscreen wipers are optional \u2014 visibility aids are the driver's own choice",
       "The vehicle must have functioning windscreen wipers in working order",
-      "Only the driver's side wiper must function — the passenger side is optional"
+      "Only the driver's side wiper must function \u2014 the passenger side is optional"
     ],
     "answer": 1
   },
@@ -2565,7 +2565,7 @@
     "options": [
       "60 km/h",
       "30 km/h",
-      "No specific limit — use common sense"
+      "No specific limit \u2014 use common sense"
     ],
     "answer": 1
   },
@@ -2634,8 +2634,8 @@
     "question": "What is the legal maximum projection of a load beyond the rear of a vehicle?",
     "options": [
       "A load may project up to 1 metre beyond the rear without any marking required",
-      "1.5 metres — a red flag or reflector must be attached to the projecting load",
-      "3 metres — loads of this length are routinely transported on public roads"
+      "1.5 metres \u2014 a red flag or reflector must be attached to the projecting load",
+      "3 metres \u2014 loads of this length are routinely transported on public roads"
     ],
     "answer": 1
   },
@@ -2944,7 +2944,7 @@
     "question": "A sign showing a white arrow in a blue circle pointing straight ahead means?",
     "options": [
       "One-way street",
-      "You must go straight ahead — mandatory",
+      "You must go straight ahead \u2014 mandatory",
       "Turn recommendation"
     ],
     "answer": 1
@@ -2953,7 +2953,7 @@
     "category": "signs",
     "question": "A sign showing a blue circle with a left and right arrow means?",
     "options": [
-      "Turn left or right — mandatory",
+      "Turn left or right \u2014 mandatory",
       "Warning: road splits",
       "No straight ahead"
     ],
@@ -3004,7 +3004,7 @@
     "question": "An X shaped sign St Andrew's cross at a railway crossing means?",
     "options": [
       "Slow down",
-      "You are at the crossing — look both ways",
+      "You are at the crossing \u2014 look both ways",
       "Stop sign"
     ],
     "answer": 1
@@ -3073,7 +3073,7 @@
     "category": "signs",
     "question": "A triangular sign with a T-junction symbol means?",
     "options": [
-      "Road ends — T-junction ahead",
+      "Road ends \u2014 T-junction ahead",
       "Four-way stop",
       "Intersection warning"
     ],
@@ -3143,7 +3143,7 @@
     "category": "signs",
     "question": "A triangular sign with a steep downhill symbol means?",
     "options": [
-      "Steep incline ahead — reduce speed and use low gear",
+      "Steep incline ahead \u2014 reduce speed and use low gear",
       "Sharp left bend",
       "Slippery when wet"
     ],
@@ -3184,7 +3184,7 @@
     "question": "A large painted SLOW on the road surface means?",
     "options": [
       "A suggested speed",
-      "Reduce speed — hazard ahead",
+      "Reduce speed \u2014 hazard ahead",
       "Speed limit is 30 km/h"
     ],
     "answer": 1
@@ -3443,7 +3443,7 @@
     "category": "signs",
     "question": "What is the meaning of a green circle with a white tick?",
     "options": [
-      "End of prohibition — restriction lifted",
+      "End of prohibition \u2014 restriction lifted",
       "Go signal",
       "Free parking"
     ],
@@ -3454,7 +3454,7 @@
     "question": "A sign with a red circle with a truck on a weighing scale means?",
     "options": [
       "No trucks over a weight limit",
-      "Weighbridge ahead — trucks must stop",
+      "Weighbridge ahead \u2014 trucks must stop",
       "Truck parking only"
     ],
     "answer": 1
@@ -3464,7 +3464,7 @@
     "question": "A Road Closed sign with an arrow pointing to a detour route indicates?",
     "options": [
       "The road is open for emergency vehicles only",
-      "Use the detour route — road ahead is closed",
+      "Use the detour route \u2014 road ahead is closed",
       "Slow down ahead"
     ],
     "answer": 1
@@ -3514,7 +3514,7 @@
     "question": "A sign showing a bicycle lane with a solid white line next to a road lane means?",
     "options": [
       "Bicycles must use the road",
-      "A dedicated cycle lane — cyclists are separated from motor traffic",
+      "A dedicated cycle lane \u2014 cyclists are separated from motor traffic",
       "Bicycles prohibited on this road"
     ],
     "answer": 1
@@ -3533,7 +3533,7 @@
     "category": "signs",
     "question": "What does the End of Dual Carriageway sign warn you about?",
     "options": [
-      "Lane merging ahead on a divided road — oncoming traffic on same road",
+      "Lane merging ahead on a divided road \u2014 oncoming traffic on same road",
       "End of the freeway",
       "End of overtaking zone"
     ],
@@ -3554,7 +3554,7 @@
     "question": "A sign showing a car with skid marks in a triangle means?",
     "options": [
       "Speed bump ahead",
-      "Slippery road — risk of skidding",
+      "Slippery road \u2014 risk of skidding",
       "Road works"
     ],
     "answer": 1
@@ -3573,7 +3573,7 @@
     "category": "signs",
     "question": "A sign reading END 40 km/h ZONE means?",
     "options": [
-      "The 40 km/h zone ends — normal speed limits resume",
+      "The 40 km/h zone ends \u2014 normal speed limits resume",
       "Speed limit increases to 40 km/h",
       "Slow down to 40 km/h"
     ],
@@ -3621,17 +3621,17 @@
   },
   {
     "category": "signs",
-    "question": "A sign on a truck reading ABNORMAL LOAD — DO NOT PASS means?",
+    "question": "A sign on a truck reading ABNORMAL LOAD \u2014 DO NOT PASS means?",
     "options": [
       "Do not overtake this vehicle on the wrong side",
-      "Abnormal load is dangerous — stay well back",
+      "Abnormal load is dangerous \u2014 stay well back",
       "Slow down only"
     ],
     "answer": 0
   },
   {
     "category": "signs",
-    "question": "A green highway exit sign with a distance reads 3 km — what does this mean?",
+    "question": "A green highway exit sign with a distance reads 3 km \u2014 what does this mean?",
     "options": [
       "Speed limit is 3 km/h",
       "Exit is 3 km ahead",
@@ -3663,7 +3663,7 @@
     "category": "signs",
     "question": "A sign with a white circle with a black diagonal bar and no number means?",
     "options": [
-      "Speed limit ends — national limit applies",
+      "Speed limit ends \u2014 national limit applies",
       "No vehicles",
       "No entry"
     ],
@@ -3694,7 +3694,7 @@
     "question": "A sign showing END below a speed restriction circle means?",
     "options": [
       "A new speed limit begins",
-      "The speed restriction ends — national limit applies",
+      "The speed restriction ends \u2014 national limit applies",
       "End of the road"
     ],
     "answer": 1
@@ -3744,7 +3744,7 @@
     "question": "A triangular sign with an arrow looping back indicates?",
     "options": [
       "Dead end",
-      "U-turn warning — road loops back",
+      "U-turn warning \u2014 road loops back",
       "Traffic circle ahead"
     ],
     "answer": 1
@@ -3784,7 +3784,7 @@
     "question": "A triangular sign with a road going steeply up means?",
     "options": [
       "Slow lane ahead",
-      "Steep hill ahead — be prepared",
+      "Steep hill ahead \u2014 be prepared",
       "Road works"
     ],
     "answer": 1
@@ -3794,7 +3794,7 @@
     "question": "What is the meaning of a black and white diagonal-striped dead end board at the end of a road?",
     "options": [
       "Slow down",
-      "Road ends — no through traffic",
+      "Road ends \u2014 no through traffic",
       "Parking area"
     ],
     "answer": 1
@@ -3804,7 +3804,7 @@
     "question": "A sign showing a blue circle with two people walking means?",
     "options": [
       "No pedestrians",
-      "Pedestrian route — use this path",
+      "Pedestrian route \u2014 use this path",
       "Pedestrian crossing ahead"
     ],
     "answer": 1
@@ -3903,7 +3903,7 @@
     "category": "signs",
     "question": "A flashing amber light at a pedestrian crossing indicates?",
     "options": [
-      "The crossing is uncontrolled — yield to pedestrians",
+      "The crossing is uncontrolled \u2014 yield to pedestrians",
       "Drive through quickly",
       "Pedestrian crossing is closed"
     ],
@@ -3914,7 +3914,7 @@
     "question": "A green flashing pedestrian signal means?",
     "options": [
       "Pedestrians have right of way",
-      "The pedestrian phase is ending — pedestrians should not start crossing",
+      "The pedestrian phase is ending \u2014 pedestrians should not start crossing",
       "Stop walking"
     ],
     "answer": 1
@@ -3923,7 +3923,7 @@
     "category": "signs",
     "question": "A steady red pedestrian signal means?",
     "options": [
-      "Wait — do not cross",
+      "Wait \u2014 do not cross",
       "You may cross with caution",
       "For vehicles only"
     ],
@@ -3984,7 +3984,7 @@
     "question": "A circular sign with a truck on a weighing scale means?",
     "options": [
       "No trucks over a weight limit",
-      "Weighbridge ahead — trucks must stop",
+      "Weighbridge ahead \u2014 trucks must stop",
       "Truck parking only"
     ],
     "answer": 1
@@ -4044,7 +4044,7 @@
     "question": "A sign with a green tick in a circle without a number means?",
     "options": [
       "Proceed freely",
-      "End of all restrictions — you are now in an unrestricted area",
+      "End of all restrictions \u2014 you are now in an unrestricted area",
       "Right of way"
     ],
     "answer": 1
@@ -4064,7 +4064,7 @@
     "question": "A sign showing a blue circle with a right-turn arrow means?",
     "options": [
       "Warning: right bend ahead",
-      "You must turn right — mandatory",
+      "You must turn right \u2014 mandatory",
       "Right turns are prohibited"
     ],
     "answer": 1
@@ -4074,7 +4074,7 @@
     "question": "A sign reading SLOW DOWN SURVEY AHEAD means?",
     "options": [
       "Roadworks ahead",
-      "Traffic survey is being conducted — reduce speed",
+      "Traffic survey is being conducted \u2014 reduce speed",
       "Speed trap ahead"
     ],
     "answer": 1
@@ -4134,7 +4134,7 @@
     "question": "A sign showing two cars driving in opposite directions in a triangle means?",
     "options": [
       "No overtaking",
-      "Two-way traffic warning — end of one-way section",
+      "Two-way traffic warning \u2014 end of one-way section",
       "Lane merging"
     ],
     "answer": 1
@@ -4144,7 +4144,7 @@
     "question": "A triangular sign with an unguarded railway crossing symbol X and no gates means?",
     "options": [
       "Guarded railway crossing ahead",
-      "Unprotected level crossing — look both ways",
+      "Unprotected level crossing \u2014 look both ways",
       "Speed restriction near railway"
     ],
     "answer": 1
@@ -4174,7 +4174,7 @@
     "question": "A sign showing a white bicycle in a blue circle means?",
     "options": [
       "No cyclists",
-      "Cyclists only — this route is for cyclists",
+      "Cyclists only \u2014 this route is for cyclists",
       "Cycling is optional here"
     ],
     "answer": 1
@@ -4224,7 +4224,7 @@
     "question": "A sign showing a school building in a triangle warns of?",
     "options": [
       "School bus stop",
-      "School zone ahead — children may be crossing",
+      "School zone ahead \u2014 children may be crossing",
       "No school buses"
     ],
     "answer": 1
@@ -4254,7 +4254,7 @@
     "question": "A sign showing a skull and crossbones in a triangle means?",
     "options": [
       "Pirate area",
-      "Danger — toxic explosive or extremely hazardous material nearby",
+      "Danger \u2014 toxic explosive or extremely hazardous material nearby",
       "No dangerous goods"
     ],
     "answer": 0
@@ -4264,7 +4264,7 @@
     "question": "A sign reading CAUTION: CONVOY in a rectangle means?",
     "options": [
       "Convoy prohibited",
-      "Military or slow convoy vehicles ahead — be patient",
+      "Military or slow convoy vehicles ahead \u2014 be patient",
       "Fast convoy ahead"
     ],
     "answer": 1
@@ -4284,7 +4284,7 @@
     "question": "A sign showing FREEWAY AHEAD on a blue or green rectangle means?",
     "options": [
       "Freeway ends",
-      "Freeway starts — motorway regulations apply ahead",
+      "Freeway starts \u2014 motorway regulations apply ahead",
       "Freeway exit"
     ],
     "answer": 1
@@ -4363,7 +4363,7 @@
     "category": "signs",
     "question": "A Lane Ends sign with an arrow merging left means?",
     "options": [
-      "Your lane is ending — merge left",
+      "Your lane is ending \u2014 merge left",
       "The left lane ends",
       "Road is closing"
     ],
@@ -4413,7 +4413,7 @@
     "category": "signs",
     "question": "A sign showing a bridge with a weight of 5t means?",
     "options": [
-      "Weight limit on the bridge is 5 tonnes — heavier vehicles must not cross",
+      "Weight limit on the bridge is 5 tonnes \u2014 heavier vehicles must not cross",
       "Minimum weight to cross is 5 tonnes",
       "Toll is R5"
     ],
@@ -4453,7 +4453,7 @@
     "category": "signs",
     "question": "A sign showing a white circle with a black diagonal bar no number means?",
     "options": [
-      "Speed limit ends — national limit applies",
+      "Speed limit ends \u2014 national limit applies",
       "No vehicles",
       "No entry"
     ],
@@ -4484,7 +4484,7 @@
     "question": "A sign showing a white forward arrow in a blue circle at a junction means?",
     "options": [
       "Do not proceed",
-      "You must continue straight ahead — no turning",
+      "You must continue straight ahead \u2014 no turning",
       "Suggestion to go straight"
     ],
     "answer": 1
@@ -4524,7 +4524,7 @@
     "question": "A sign showing a detour arrow indicates?",
     "options": [
       "Road is clear ahead",
-      "Take the alternate route — the main route is closed or under construction",
+      "Take the alternate route \u2014 the main route is closed or under construction",
       "Speed restriction ahead"
     ],
     "answer": 1
@@ -4544,7 +4544,7 @@
     "question": "A sign depicting a truck going downhill with wavy lines means?",
     "options": [
       "Caution: slippery when wet",
-      "Steep descent — trucks check brakes",
+      "Steep descent \u2014 trucks check brakes",
       "No trucks on this road"
     ],
     "answer": 1
@@ -4564,7 +4564,7 @@
     "question": "A sign showing a white motorbike in a blue circle means?",
     "options": [
       "No motorcycles",
-      "Motorcycles only — mandatory motorcycle route",
+      "Motorcycles only \u2014 mandatory motorcycle route",
       "Motorcycle parking"
     ],
     "answer": 1
@@ -4674,7 +4674,7 @@
     "question": "A No Through Road sign indicates?",
     "options": [
       "Slow road ahead",
-      "The road does not connect to another road — dead end",
+      "The road does not connect to another road \u2014 dead end",
       "A toll road"
     ],
     "answer": 1
@@ -4714,7 +4714,7 @@
     "question": "What do Botts dots raised road markers in the centre of lanes help with?",
     "options": [
       "Drainage",
-      "Tactile lane guidance — alerting drivers when crossing lane markers",
+      "Tactile lane guidance \u2014 alerting drivers when crossing lane markers",
       "Reflecting light only"
     ],
     "answer": 1
@@ -4814,7 +4814,7 @@
     "question": "A sign showing a green arrow below a speed limit means?",
     "options": [
       "Speed limit in force",
-      "End of speed limit zone — turn arrow direction",
+      "End of speed limit zone \u2014 turn arrow direction",
       "Speed limit on that road direction only"
     ],
     "answer": 2
@@ -4855,7 +4855,7 @@
     "options": [
       "Pedestrians stop",
       "Vehicles stop for pedestrians",
-      "Pedestrians crossing — caution"
+      "Pedestrians crossing \u2014 caution"
     ],
     "answer": 1
   },
@@ -4863,7 +4863,7 @@
     "category": "signs",
     "question": "A sign showing a construction worker helmet in a triangle means?",
     "options": [
-      "Road works — workers present",
+      "Road works \u2014 workers present",
       "No workers allowed",
       "Construction site entrance"
     ],
@@ -4944,7 +4944,7 @@
     "question": "A sign showing two vehicles and a tick means?",
     "options": [
       "Both vehicles may proceed",
-      "Priority road — you have right of way",
+      "Priority road \u2014 you have right of way",
       "No overtaking allowed"
     ],
     "answer": 1
@@ -5093,7 +5093,7 @@
     "category": "signs",
     "question": "A sign showing a horseshoe shape means?",
     "options": [
-      "Sharp bend — similar to U shape",
+      "Sharp bend \u2014 similar to U shape",
       "Horseback riding area",
       "No horseshoes"
     ],
@@ -5133,7 +5133,7 @@
     "category": "signs",
     "question": "A sign with a red octagon and four-way arrows means?",
     "options": [
-      "Four-way stop ahead — warning",
+      "Four-way stop ahead \u2014 warning",
       "Free for all intersection",
       "Four-lane road"
     ],
@@ -5145,7 +5145,7 @@
     "options": [
       "No camping or caravanning",
       "Caravan and camping site nearby",
-      "Caravans only — no tents"
+      "Caravans only \u2014 no tents"
     ],
     "answer": 1
   },
@@ -5154,7 +5154,7 @@
     "question": "A sign showing a warning triangle with an arrow pointing down a slope means?",
     "options": [
       "Road rises",
-      "Steep descent ahead — check brakes and use low gear",
+      "Steep descent ahead \u2014 check brakes and use low gear",
       "Speed bump on descent"
     ],
     "answer": 1
@@ -5184,7 +5184,7 @@
     "question": "A sign showing a taxi with a line through it inside a red circle means?",
     "options": [
       "Taxis only",
-      "No taxis — taxis prohibited from this road",
+      "No taxis \u2014 taxis prohibited from this road",
       "Taxi rank nearby"
     ],
     "answer": 1
@@ -5234,7 +5234,7 @@
     "question": "A sign showing a red circle with a pedestrian figure means?",
     "options": [
       "Pedestrian zone",
-      "No pedestrians — pedestrians are prohibited",
+      "No pedestrians \u2014 pedestrians are prohibited",
       "Pedestrian crossing"
     ],
     "answer": 1
@@ -5244,7 +5244,7 @@
     "question": "A sign showing an orange arrow pointing diagonally across lanes warns?",
     "options": [
       "Speed reduction",
-      "Lane closure — move in the direction of the arrow",
+      "Lane closure \u2014 move in the direction of the arrow",
       "Merge ahead"
     ],
     "answer": 1
@@ -5263,7 +5263,7 @@
     "category": "signs",
     "question": "A sign showing a white arrow in a yellow diamond means?",
     "options": [
-      "Temporary diversion — follow the arrow",
+      "Temporary diversion \u2014 follow the arrow",
       "Speed limit advisory",
       "End of diversion"
     ],
@@ -5304,7 +5304,7 @@
     "question": "A sign showing a steering wheel with a line through it inside a red circle means?",
     "options": [
       "No driving",
-      "Automated vehicle zone — no manual steering",
+      "Automated vehicle zone \u2014 no manual steering",
       "Speed restriction for autonomous vehicles"
     ],
     "answer": 0
@@ -5425,7 +5425,7 @@
     "options": [
       "The highest gear available to maintain smooth progress and save fuel",
       "The same gear you used to climb the hill on the way up",
-      "A low gear — the same or lower than used to ascend the hill"
+      "A low gear \u2014 the same or lower than used to ascend the hill"
     ],
     "answer": 2
   },
@@ -5613,9 +5613,9 @@
     "category": "controls",
     "question": "At what RPM range is it generally efficient to change to a higher gear in a petrol car?",
     "options": [
-      "500 to 1 000 RPM — change up early to keep the engine at very low revs",
+      "500 to 1 000 RPM \u2014 change up early to keep the engine at very low revs",
       "1 500 to 2 500 RPM for smooth, fuel-efficient upshifts under normal conditions",
-      "4 000 to 6 000 RPM — wait until the engine is at high revs before changing"
+      "4 000 to 6 000 RPM \u2014 wait until the engine is at high revs before changing"
     ],
     "answer": 1
   },
@@ -5673,7 +5673,7 @@
     "category": "controls",
     "question": "What does riding the clutch mean and why is it bad?",
     "options": [
-      "Holding the clutch fully depressed — it conserves engine power with no side effects",
+      "Holding the clutch fully depressed \u2014 it conserves engine power with no side effects",
       "Resting your foot lightly on the clutch pedal, causing premature wear on the clutch plates",
       "Pressing the clutch all the way down only when you are about to change gears"
     ],
@@ -5773,9 +5773,9 @@
     "category": "controls",
     "question": "In an automatic vehicle, D on the gear selector means?",
     "options": [
-      "Drive — the vehicle selects the appropriate gear automatically for forward travel",
-      "Downhill mode — reduces engine power to assist descent of steep gradients",
-      "Diesel mode — switches engine management for use with diesel fuel only"
+      "Drive \u2014 the vehicle selects the appropriate gear automatically for forward travel",
+      "Downhill mode \u2014 reduces engine power to assist descent of steep gradients",
+      "Diesel mode \u2014 switches engine management for use with diesel fuel only"
     ],
     "answer": 0
   },
@@ -5783,9 +5783,9 @@
     "category": "controls",
     "question": "In an automatic vehicle, N means?",
     "options": [
-      "Night driving mode — reduces headlight intensity for urban road use",
-      "Neutral — no gear is engaged and the car can roll freely",
-      "No acceleration — locks the throttle to prevent accidental acceleration"
+      "Night driving mode \u2014 reduces headlight intensity for urban road use",
+      "Neutral \u2014 no gear is engaged and the car can roll freely",
+      "No acceleration \u2014 locks the throttle to prevent accidental acceleration"
     ],
     "answer": 1
   },
@@ -5793,9 +5793,9 @@
     "category": "controls",
     "question": "In an automatic vehicle, P means?",
     "options": [
-      "Petrol mode — configures the engine management for petrol combustion",
-      "Park — locks the transmission to prevent the vehicle from rolling",
-      "Performance mode — increases throttle response for spirited acceleration"
+      "Petrol mode \u2014 configures the engine management for petrol combustion",
+      "Park \u2014 locks the transmission to prevent the vehicle from rolling",
+      "Performance mode \u2014 increases throttle response for spirited acceleration"
     ],
     "answer": 1
   },
@@ -5803,9 +5803,9 @@
     "category": "controls",
     "question": "In an automatic vehicle, R means?",
     "options": [
-      "Racing mode — increases throttle response for faster acceleration",
-      "Reverse — engages reverse gear so the vehicle moves backward",
-      "Rest mode — idles the engine and locks the transmission in place"
+      "Racing mode \u2014 increases throttle response for faster acceleration",
+      "Reverse \u2014 engages reverse gear so the vehicle moves backward",
+      "Rest mode \u2014 idles the engine and locks the transmission in place"
     ],
     "answer": 1
   },
@@ -5813,9 +5813,9 @@
     "category": "controls",
     "question": "What does L or 1 on an automatic gear selector mean?",
     "options": [
-      "Low gear — keeps the transmission in first for maximum engine braking",
-      "Left turn — activates left indicator and engages corner-assist mode",
-      "Lane-change mode — assists automatic gear selection during motorway lane changes"
+      "Low gear \u2014 keeps the transmission in first for maximum engine braking",
+      "Left turn \u2014 activates left indicator and engages corner-assist mode",
+      "Lane-change mode \u2014 assists automatic gear selection during motorway lane changes"
     ],
     "answer": 0
   },
@@ -5874,7 +5874,7 @@
     "question": "What does the temperature gauge indicate?",
     "options": [
       "The ambient outside air temperature at the vehicle's current location",
-      "Engine coolant temperature — overheating must be investigated immediately",
+      "Engine coolant temperature \u2014 overheating must be investigated immediately",
       "The engine oil temperature at the current operating conditions"
     ],
     "answer": 1
@@ -5894,7 +5894,7 @@
     "question": "What does a flashing oil warning light mean?",
     "options": [
       "The engine oil is at a satisfactory level and pressure for normal driving",
-      "Check the oil pressure and level immediately — risk of severe engine damage",
+      "Check the oil pressure and level immediately \u2014 risk of severe engine damage",
       "The engine oil is due for a routine change at the next service interval"
     ],
     "answer": 1
@@ -5924,7 +5924,7 @@
     "question": "What does the Check Engine or MIL light indicate?",
     "options": [
       "A routine service is due according to the vehicle's mileage service schedule",
-      "A fault has been detected in the engine management system — have it diagnosed",
+      "A fault has been detected in the engine management system \u2014 have it diagnosed",
       "The engine is operating within normal parameters with no faults detected"
     ],
     "answer": 1
@@ -5944,7 +5944,7 @@
     "question": "When towing a trailer, how does it affect braking distance?",
     "options": [
       "Braking distance decreases because the extra weight provides more traction",
-      "Braking distance increases significantly — maintain a greater following distance",
+      "Braking distance increases significantly \u2014 maintain a greater following distance",
       "Braking distance is unaffected as the trailer brakes compensate automatically"
     ],
     "answer": 1
@@ -5954,7 +5954,7 @@
     "question": "When towing a trailer, what is the effect on steering?",
     "options": [
       "Steering becomes lighter and more responsive due to the additional rear weight",
-      "Steering becomes heavier and the trailer may sway — proceed with extra care",
+      "Steering becomes heavier and the trailer may sway \u2014 proceed with extra care",
       "Steering is completely unaffected regardless of the trailer's weight or length"
     ],
     "answer": 1
@@ -5963,8 +5963,8 @@
     "category": "controls",
     "question": "What is trailer sway and how can it be corrected?",
     "options": [
-      "The trailer tracks perfectly behind the tow vehicle — no corrective action is needed",
-      "The trailer oscillates side to side — ease off the throttle and steer straight without harsh braking",
+      "The trailer tracks perfectly behind the tow vehicle \u2014 no corrective action is needed",
+      "The trailer oscillates side to side \u2014 ease off the throttle and steer straight without harsh braking",
       "Steer aggressively from side to side to counteract the oscillating trailer movement"
     ],
     "answer": 1
@@ -5985,7 +5985,7 @@
     "options": [
       "The cheapest available fuel grade regardless of the engine specification",
       "The fuel grade specified in the vehicle manufacturer's owner's manual",
-      "Any available fuel grade — modern engines automatically adjust to any fuel"
+      "Any available fuel grade \u2014 modern engines automatically adjust to any fuel"
     ],
     "answer": 1
   },
@@ -5994,7 +5994,7 @@
     "question": "Why should you not fill a fuel tank to overflowing?",
     "options": [
       "It is simply wasteful and creates a small mess at the fuel pump",
-      "Overflow fuel can cause a fire risk — sealed fuel systems are not designed for overflow",
+      "Overflow fuel can cause a fire risk \u2014 sealed fuel systems are not designed for overflow",
       "It makes no practical difference to the vehicle's operation or safety"
     ],
     "answer": 1
@@ -6004,7 +6004,7 @@
     "question": "What should you do if you accidentally put the wrong fuel in your vehicle?",
     "options": [
       "Drive slowly and carefully to the nearest garage to have it drained professionally",
-      "Do not start the engine — have the tank completely drained before driving",
+      "Do not start the engine \u2014 have the tank completely drained before driving",
       "Add the correct fuel on top to dilute the wrong fuel in the tank"
     ],
     "answer": 1
@@ -6045,7 +6045,7 @@
     "options": [
       "Only when there is clearly visible traffic approaching from behind you",
       "Always signal before moving off to warn all road users of your intention",
-      "Only when parked on a busy road — not required on quiet residential streets"
+      "Only when parked on a busy road \u2014 not required on quiet residential streets"
     ],
     "answer": 1
   },
@@ -6074,7 +6074,7 @@
     "question": "What should you do if power steering suddenly fails while driving?",
     "options": [
       "Continue driving normally as the effect on steering is minimal at speed",
-      "Maintain a firm grip — more effort is now needed; slow down safely and stop",
+      "Maintain a firm grip \u2014 more effort is now needed; slow down safely and stop",
       "Immediately apply the brakes hard to bring the vehicle to a rapid stop"
     ],
     "answer": 1
@@ -6095,7 +6095,7 @@
     "options": [
       "Only on a flat, long, straight motorway with minimal traffic present",
       "In heavy traffic, on winding roads, in rain or fog, or on steep descents",
-      "Only when driving in heavy rain — it is safe in all other situations"
+      "Only when driving in heavy rain \u2014 it is safe in all other situations"
     ],
     "answer": 1
   },
@@ -6154,7 +6154,7 @@
     "question": "If your vehicle stalls at an intersection, what should you do?",
     "options": [
       "Leave the vehicle where it is and immediately call for roadside assistance",
-      "Restart the engine, select first gear, and move off safely — push to safety if hazardous",
+      "Restart the engine, select first gear, and move off safely \u2014 push to safety if hazardous",
       "Hold the clutch down and allow the vehicle to roll clear of the intersection"
     ],
     "answer": 1
@@ -6184,7 +6184,7 @@
     "question": "How should you treat the brakes to prevent fade on a long descent?",
     "options": [
       "Apply constant moderate brake pressure throughout the entire descent",
-      "Apply short, firm braking applications then release — combined with engine braking",
+      "Apply short, firm braking applications then release \u2014 combined with engine braking",
       "Pump the brakes continuously in a regular rhythm throughout the descent"
     ],
     "answer": 1
@@ -6204,8 +6204,8 @@
     "question": "When reversing around a corner to the left, which way do you turn the wheel?",
     "options": [
       "Turn the wheel to the right as the rear swings left when reversing",
-      "Turn the wheel to the left — the rear follows the wheel direction when reversing",
-      "You do not steer at all when reversing around corners — let the car arc naturally"
+      "Turn the wheel to the left \u2014 the rear follows the wheel direction when reversing",
+      "You do not steer at all when reversing around corners \u2014 let the car arc naturally"
     ],
     "answer": 1
   },
@@ -6234,7 +6234,7 @@
     "question": "What does a soft or spongy brake pedal feel indicate?",
     "options": [
       "The brake pads are well-bedded in and performing at their optimum efficiency",
-      "Air in the brake lines or low brake fluid — have the brakes inspected immediately",
+      "Air in the brake lines or low brake fluid \u2014 have the brakes inspected immediately",
       "Normal brake pad wear at the end of the standard pad service life"
     ],
     "answer": 1
@@ -6243,8 +6243,8 @@
     "category": "controls",
     "question": "What does pulling to one side during braking indicate?",
     "options": [
-      "Normal front-wheel understeer — the vehicle will self-correct on release of brakes",
-      "Brake imbalance — possibly a worn pad, seized calliper, or contaminated fluid",
+      "Normal front-wheel understeer \u2014 the vehicle will self-correct on release of brakes",
+      "Brake imbalance \u2014 possibly a worn pad, seized calliper, or contaminated fluid",
       "A tyre pressure difference causing uneven rolling resistance between the two sides"
     ],
     "answer": 1
@@ -6274,7 +6274,7 @@
     "question": "When should you replace your windscreen wipers?",
     "options": [
       "Only when the wipers stop working entirely and cannot clear any rain at all",
-      "When they leave streaks, skip sections, or make noise — signs of worn rubber",
+      "When they leave streaks, skip sections, or make noise \u2014 signs of worn rubber",
       "Replace wipers on a fixed schedule of every five years regardless of condition"
     ],
     "answer": 1
@@ -6294,7 +6294,7 @@
     "question": "What should you do when parking to ensure the vehicle does not roll?",
     "options": [
       "Rely solely on the automatic transmission or gearbox to hold the vehicle stationary",
-      "Apply the handbrake and select a gear — reverse or first on a slope, Park for automatics",
+      "Apply the handbrake and select a gear \u2014 reverse or first on a slope, Park for automatics",
       "Park only on flat ground where there is no risk of rolling, leaving no gear selected"
     ],
     "answer": 1
@@ -6324,7 +6324,7 @@
     "question": "What is the correct way to use turn signals indicators?",
     "options": [
       "Activate the signal only when turning at a signalised intersection or traffic light",
-      "Signal in good time before any manoeuvre — turning, changing lanes, pulling over, pulling away",
+      "Signal in good time before any manoeuvre \u2014 turning, changing lanes, pulling over, pulling away",
       "Signal only on busy roads where other drivers are clearly present nearby"
     ],
     "answer": 1
@@ -6384,7 +6384,7 @@
     "question": "What does it mean if your vehicle vibrates when braking at high speed?",
     "options": [
       "This is normal braking feedback indicating the brakes are working efficiently",
-      "Warped brake discs or uneven pad wear — have the brakes inspected promptly",
+      "Warped brake discs or uneven pad wear \u2014 have the brakes inspected promptly",
       "This indicates only low tyre pressure causing uneven contact with the road"
     ],
     "answer": 1
@@ -6434,7 +6434,7 @@
     "question": "What does it mean when the ABS light stays on after starting the vehicle?",
     "options": [
       "The ABS system is functioning correctly and has completed its self-test successfully",
-      "There may be a fault in the ABS system — have it inspected by a technician",
+      "There may be a fault in the ABS system \u2014 have it inspected by a technician",
       "ABS is currently actively modulating brake pressure for optimum performance"
     ],
     "answer": 1
@@ -6524,7 +6524,7 @@
     "question": "What does it feel like when a tyre blows out or bursts while driving?",
     "options": [
       "A gradual drift to one side with no noticeable noise or sudden change in feel",
-      "A sudden pull to one side and loss of control — grip the wheel and decelerate gently",
+      "A sudden pull to one side and loss of control \u2014 grip the wheel and decelerate gently",
       "The vehicle speeds up briefly as the tyre releases air pressure rapidly"
     ],
     "answer": 1
@@ -6533,7 +6533,7 @@
     "category": "controls",
     "question": "How do you check if your brakes are working before driving?",
     "options": [
-      "Press the brake pedal firmly while stationary — it should feel solid and not sink",
+      "Press the brake pedal firmly while stationary \u2014 it should feel solid and not sink",
       "Check brake function only by driving at speed and testing stopping performance",
       "Brake inspection can only be done accurately during an annual roadworthy test"
     ],
@@ -6554,8 +6554,8 @@
     "question": "When should you use the vehicle's fog lights front and rear?",
     "options": [
       "Keep fog lights activated at all times to maximise your visibility to others",
-      "Only in conditions of significantly reduced visibility — fog, heavy rain, or dense dust",
-      "Use only the front fog lights — rear fog lights are not required in any situation"
+      "Only in conditions of significantly reduced visibility \u2014 fog, heavy rain, or dense dust",
+      "Use only the front fog lights \u2014 rear fog lights are not required in any situation"
     ],
     "answer": 1
   },
@@ -6593,7 +6593,7 @@
     "category": "controls",
     "question": "What should you do if you hear a grinding or scraping sound when braking?",
     "options": [
-      "This is normal — worn-in brake pads produce this sound during initial application",
+      "This is normal \u2014 worn-in brake pads produce this sound during initial application",
       "Have the brakes inspected immediately as brake pads or discs may be worn through",
       "Add brake fluid to the reservoir as low fluid causes grinding during braking"
     ],
@@ -6603,7 +6603,7 @@
     "category": "controls",
     "question": "What must you check when you notice the vehicle drifting left or right without steering input?",
     "options": [
-      "Tyre pressure difference or wheel misalignment — have the vehicle checked promptly",
+      "Tyre pressure difference or wheel misalignment \u2014 have the vehicle checked promptly",
       "This is normal road camber effect and no action is required from the driver",
       "Check the fuel level as a low tank changes vehicle weight distribution"
     ],
@@ -6643,8 +6643,8 @@
     "category": "controls",
     "question": "What does a burning smell while driving indicate?",
     "options": [
-      "Normal — new brake pads or clutch components always smell when first used",
-      "Possible overheating brakes, a slipping clutch, or electrical fault — stop and investigate",
+      "Normal \u2014 new brake pads or clutch components always smell when first used",
+      "Possible overheating brakes, a slipping clutch, or electrical fault \u2014 stop and investigate",
       "The air freshener system is activating due to a sensor detecting fresh air"
     ],
     "answer": 1
@@ -6654,7 +6654,7 @@
     "question": "What should you do when you feel excessive vibration in the steering wheel?",
     "options": [
       "Ignore it as steering vibration is a normal characteristic of high-speed driving",
-      "Have wheel balance, alignment, or suspension inspected — this may indicate a fault",
+      "Have wheel balance, alignment, or suspension inspected \u2014 this may indicate a fault",
       "Grip the wheel tighter and accelerate to a higher speed to reduce the vibration"
     ],
     "answer": 1
@@ -6704,7 +6704,7 @@
     "question": "What should you do if your vehicle horn stops working?",
     "options": [
       "Continue to drive normally as the horn is rarely needed in practice",
-      "Have it repaired promptly — a working horn is a legal roadworthiness requirement",
+      "Have it repaired promptly \u2014 a working horn is a legal roadworthiness requirement",
       "Only repair the horn if you plan to travel on long-distance rural roads"
     ],
     "answer": 1
@@ -6763,7 +6763,7 @@
     "category": "rules",
     "question": "A vehicle fitted with road-legal tyres but with less than 1.6 mm tread?",
     "options": [
-      "Is fully roadworthy — 1.6 mm is an advisory guideline not a legal minimum",
+      "Is fully roadworthy \u2014 1.6 mm is an advisory guideline not a legal minimum",
       "May be issued a fine and the vehicle is considered unroadworthy",
       "Is only illegal when driving on wet roads where tread depth is critical"
     ],
@@ -6784,7 +6784,7 @@
     "question": "When must you stop for a school bus that has its STOP arm extended?",
     "options": [
       "Only when you are travelling directly behind the bus in the same direction",
-      "From both directions on an undivided road — all approaching traffic must stop",
+      "From both directions on an undivided road \u2014 all approaching traffic must stop",
       "Only on a single-lane road where overtaking the bus is physically impossible"
     ],
     "answer": 1
@@ -6804,7 +6804,7 @@
     "question": "Can you park across a driveway or entrance to a property?",
     "options": [
       "Yes, briefly for up to five minutes if you remain with the vehicle",
-      "No — blocking access to a private driveway or property entrance is illegal",
+      "No \u2014 blocking access to a private driveway or property entrance is illegal",
       "Yes, provided you leave your contact details on the vehicle's windscreen"
     ],
     "answer": 1
@@ -6824,7 +6824,7 @@
     "question": "What is the rule about eating or drinking while driving?",
     "options": [
       "It is completely illegal to consume any food or beverage while driving",
-      "It is legal but distraction is the concern — the driver must maintain full control",
+      "It is legal but distraction is the concern \u2014 the driver must maintain full control",
       "It is illegal in all circumstances including at slow speeds in traffic queues"
     ],
     "answer": 1
@@ -6845,7 +6845,7 @@
     "options": [
       "Only when another motor vehicle is directly involved in the collision",
       "When any person, animal, or property is injured or damaged as a result",
-      "Only when human injuries occur — property damage alone does not require reporting"
+      "Only when human injuries occur \u2014 property damage alone does not require reporting"
     ],
     "answer": 1
   },
@@ -6904,7 +6904,7 @@
     "question": "What does the solid white edge line on the left of a road mark?",
     "options": [
       "The left boundary of a dedicated bicycle lane on that section of road",
-      "The left edge of the carriageway — you should not cross it unless necessary",
+      "The left edge of the carriageway \u2014 you should not cross it unless necessary",
       "A no-parking zone that extends along the full length of the marked section"
     ],
     "answer": 1
@@ -6954,7 +6954,7 @@
     "question": "What must you do when you see a Road Closed sign with a detour arrow?",
     "options": [
       "Ignore the sign if you know an alternative shortcut that avoids the detour",
-      "Follow the detour route — the main road is legally closed to all traffic",
+      "Follow the detour route \u2014 the main road is legally closed to all traffic",
       "Only follow the detour during peak hours when the closure is being enforced"
     ],
     "answer": 1
@@ -6963,9 +6963,9 @@
     "category": "rules",
     "question": "What is the maximum width of a vehicle allowed on a public road without a special permit?",
     "options": [
-      "2.5 metres — vehicles wider than this require an abnormal load permit",
-      "3.0 metres — this is the standard maximum width allowed on all public roads",
-      "2.0 metres — this dimension includes all mirrors and external projections"
+      "2.5 metres \u2014 vehicles wider than this require an abnormal load permit",
+      "3.0 metres \u2014 this is the standard maximum width allowed on all public roads",
+      "2.0 metres \u2014 this dimension includes all mirrors and external projections"
     ],
     "answer": 0
   },
@@ -6973,7 +6973,7 @@
     "category": "rules",
     "question": "What is the maximum height of a vehicle allowed on a public road without a special permit?",
     "options": [
-      "4.0 metres — this is the universally accepted maximum height across Africa",
+      "4.0 metres \u2014 this is the universally accepted maximum height across Africa",
       "4.3 metres is the legal maximum height for a vehicle on a South African public road",
       "5.0 metres is permitted provided the vehicle carries adequate height markers"
     ],
@@ -6994,7 +6994,7 @@
     "question": "Driving the wrong way on a one-way street is?",
     "options": [
       "Acceptable if the road is clear and no other traffic is present at the time",
-      "An offence — one-way streets legally require travel only in the indicated direction",
+      "An offence \u2014 one-way streets legally require travel only in the indicated direction",
       "Only an offence during peak hours when traffic volumes are significantly higher"
     ],
     "answer": 1
@@ -7025,7 +7025,7 @@
     "options": [
       "When directed to do so by a uniformed police officer or authorised traffic official",
       "When no other vehicles or pedestrians are present at the intersection at all",
-      "Never — driving through a red traffic light is illegal under any circumstances"
+      "Never \u2014 driving through a red traffic light is illegal under any circumstances"
     ],
     "answer": 0
   },
@@ -7043,7 +7043,7 @@
     "category": "rules",
     "question": "What makes a person legally allowed to drive a motor vehicle on a public road?",
     "options": [
-      "Being over the age of 18 years — this is the only requirement to drive legally",
+      "Being over the age of 18 years \u2014 this is the only requirement to drive legally",
       "Holding a valid driver's licence for the specific class of vehicle being driven",
       "Having successfully driven for more than two years without any traffic violations"
     ],
@@ -7053,9 +7053,9 @@
     "category": "rules",
     "question": "What is a defensive driving following distance method other than the 2-second rule?",
     "options": [
-      "The 4-second rule — in poor conditions count 4 seconds between you and the vehicle ahead",
-      "The 1 car length rule — stay one car length behind for every 10 km/h of speed",
-      "The 10 metre rule — maintain exactly 10 metres behind the vehicle ahead at all times"
+      "The 4-second rule \u2014 in poor conditions count 4 seconds between you and the vehicle ahead",
+      "The 1 car length rule \u2014 stay one car length behind for every 10 km/h of speed",
+      "The 10 metre rule \u2014 maintain exactly 10 metres behind the vehicle ahead at all times"
     ],
     "answer": 0
   },
@@ -7093,8 +7093,8 @@
     "category": "rules",
     "question": "What does a painted red cross on the road mean?",
     "options": [
-      "No parking is permitted in this zone — it is reserved for emergency access",
-      "No stopping at any time — this marks fire hydrant access or an emergency route",
+      "No parking is permitted in this zone \u2014 it is reserved for emergency access",
+      "No stopping at any time \u2014 this marks fire hydrant access or an emergency route",
       "Speed up through this zone to clear the area as quickly as possible"
     ],
     "answer": 1
@@ -7113,7 +7113,7 @@
     "category": "rules",
     "question": "What is the legal requirement for a vehicle towing a trailer at night?",
     "options": [
-      "Only the towing vehicle's lights are needed — the trailer needs no lights",
+      "Only the towing vehicle's lights are needed \u2014 the trailer needs no lights",
       "The trailer must have working rear lights and reflectors visible to following vehicles",
       "Trailers do not require any lighting as drivers can see the tow vehicle's lights"
     ],
@@ -7134,7 +7134,7 @@
     "question": "What is the rule about picking up passengers in a road or on a freeway?",
     "options": [
       "Stopping briefly on the left side of a freeway to drop off passengers is permitted",
-      "Picking up or dropping off passengers on a freeway is prohibited — use designated lay-bys",
+      "Picking up or dropping off passengers on a freeway is prohibited \u2014 use designated lay-bys",
       "Picking up passengers is permitted anywhere provided the stop is brief"
     ],
     "answer": 1
@@ -7175,7 +7175,7 @@
     "options": [
       "When hazard lights are on",
       "When there is a parking meter or marked bay within that distance",
-      "Never — the 9 m rule is absolute"
+      "Never \u2014 the 9 m rule is absolute"
     ],
     "answer": 2
   },
@@ -7194,7 +7194,7 @@
     "question": "What is the rule about stopping in a tunnel?",
     "options": [
       "Stop to the left immediately if your vehicle develops any mechanical problem",
-      "Never stop in a tunnel unless absolutely necessary — use designated emergency bays",
+      "Never stop in a tunnel unless absolutely necessary \u2014 use designated emergency bays",
       "You may stop anywhere in a tunnel to check your map or navigation directions"
     ],
     "answer": 1
@@ -7204,7 +7204,7 @@
     "question": "When must you obey a portable STOP sign held by a traffic officer?",
     "options": [
       "Only when the sign is displayed at an active road accident scene",
-      "Always — a traffic officer's signals and instructions override all other signs and signals",
+      "Always \u2014 a traffic officer's signals and instructions override all other signs and signals",
       "Only during peak traffic hours when the traffic officer is on official duty"
     ],
     "answer": 1
@@ -7225,7 +7225,7 @@
     "options": [
       "Sound horn and proceed",
       "Stop and wait for the animals to clear the road",
-      "It is the animal owner's responsibility — proceed carefully"
+      "It is the animal owner's responsibility \u2014 proceed carefully"
     ],
     "answer": 1
   },
@@ -7264,7 +7264,7 @@
     "question": "What should you do if your vehicle is parked and you see it rolling away?",
     "options": [
       "Chase the vehicle on foot and attempt to jump in and stop it immediately",
-      "Only attempt to stop it if it can be done safely — otherwise clear the area and call help",
+      "Only attempt to stop it if it can be done safely \u2014 otherwise clear the area and call help",
       "Always chase the rolling vehicle and try to get inside it to apply the brakes"
     ],
     "answer": 1
@@ -7283,8 +7283,8 @@
     "category": "rules",
     "question": "What does it mean when a vehicle in front signals right but does not move?",
     "options": [
-      "The driver is lost and unsure of direction — overtake on either side safely",
-      "They may be waiting for oncoming traffic or preparing to turn — wait or overtake left if safe",
+      "The driver is lost and unsure of direction \u2014 overtake on either side safely",
+      "They may be waiting for oncoming traffic or preparing to turn \u2014 wait or overtake left if safe",
       "Overtake immediately on the right as the vehicle is signalling its intention to move right"
     ],
     "answer": 1
@@ -7325,7 +7325,7 @@
     "options": [
       "At any time of day for brief periods of up to five minutes",
       "Only to load or unload goods or passengers within the times indicated by the sign",
-      "Loading zones are exclusively reserved for commercial vehicles — private cars may never park"
+      "Loading zones are exclusively reserved for commercial vehicles \u2014 private cars may never park"
     ],
     "answer": 1
   },
@@ -7414,7 +7414,7 @@
     "question": "What is the rule about parking within 1.5 m of a fire hydrant?",
     "options": [
       "Parking is permitted for up to five minutes if you remain inside the vehicle",
-      "Parking is strictly prohibited — fire hydrant access must never be blocked",
+      "Parking is strictly prohibited \u2014 fire hydrant access must never be blocked",
       "Parking is permitted at a fire hydrant if your hazard lights are switched on"
     ],
     "answer": 1
@@ -7423,7 +7423,7 @@
     "category": "rules",
     "question": "What should you do if you see a pedestrian who appears to be about to step onto the road?",
     "options": [
-      "Maintain speed — it is their responsibility to wait",
+      "Maintain speed \u2014 it is their responsibility to wait",
       "Slow down and be prepared to stop",
       "Hoot to warn them to stay back"
     ],
@@ -7433,9 +7433,9 @@
     "category": "rules",
     "question": "What does a Keep Left or Keep Right sign at a traffic island mean?",
     "options": [
-      "The sign is advisory only — you may select either side of the island freely",
+      "The sign is advisory only \u2014 you may select either side of the island freely",
       "You must pass on the indicated side of the island without exception",
-      "Both sides of the island are available — choose based on your intended direction"
+      "Both sides of the island are available \u2014 choose based on your intended direction"
     ],
     "answer": 1
   },
@@ -7473,9 +7473,9 @@
     "category": "rules",
     "question": "When is a hazard light in addition to warning triangles required on a stationary vehicle?",
     "options": [
-      "Hazard lights are never legally required — warning triangles alone are sufficient",
-      "When a vehicle is stopped in a dangerous position — use both hazard lights and triangles",
-      "Hazard lights are only required at night — daytime breakdowns need only triangles"
+      "Hazard lights are never legally required \u2014 warning triangles alone are sufficient",
+      "When a vehicle is stopped in a dangerous position \u2014 use both hazard lights and triangles",
+      "Hazard lights are only required at night \u2014 daytime breakdowns need only triangles"
     ],
     "answer": 1
   },
@@ -7483,7 +7483,7 @@
     "category": "rules",
     "question": "What is the correct way to merge when your lane ends and no signs indicate priority?",
     "options": [
-      "The vehicle directly behind you yields — you have priority as the merging vehicle",
+      "The vehicle directly behind you yields \u2014 you have priority as the merging vehicle",
       "The vehicle in the ending lane yields to traffic in the continuing through lane",
       "The larger or heavier vehicle always has priority to continue in the main lane"
     ],
@@ -7504,7 +7504,7 @@
     "question": "What is the law about riding in a vehicle while intoxicated?",
     "options": [
       "Passengers may be intoxicated",
-      "Being a driver under the influence is the offence — passengers are not regulated in the same way",
+      "Being a driver under the influence is the offence \u2014 passengers are not regulated in the same way",
       "Both driver and passenger can be charged"
     ],
     "answer": 0
@@ -7524,7 +7524,7 @@
     "question": "What must you do when you see a STOP sign that has been knocked over?",
     "options": [
       "Proceed without stopping as a fallen sign is not legally enforceable",
-      "Stop as you would at any stop sign — the obligation to stop remains in force",
+      "Stop as you would at any stop sign \u2014 the obligation to stop remains in force",
       "Report the fallen sign and proceed slowly without coming to a complete stop"
     ],
     "answer": 1
@@ -7554,7 +7554,7 @@
     "question": "What does a slow-moving vehicle sign orange triangle mean on the back of a vehicle?",
     "options": [
       "This vehicle is preparing to stop or has stopped at the side of the road",
-      "This vehicle travels at under 40 km/h — approach with caution and extra space",
+      "This vehicle travels at under 40 km/h \u2014 approach with caution and extra space",
       "This vehicle is transporting dangerous or hazardous goods on this road"
     ],
     "answer": 1
@@ -7585,7 +7585,7 @@
     "options": [
       "Brief parking on a bridge is permitted for up to five minutes at any time",
       "Parking on a bridge is prohibited unless a marked parking bay is present",
-      "Parking is only prohibited on major national road bridges — minor bridges are fine"
+      "Parking is only prohibited on major national road bridges \u2014 minor bridges are fine"
     ],
     "answer": 1
   },
@@ -7603,7 +7603,7 @@
     "category": "rules",
     "question": "What causes most rear-end collisions?",
     "options": [
-      "Excessive speeding alone — drivers who speed cause the majority of rear-end crashes",
+      "Excessive speeding alone \u2014 drivers who speed cause the majority of rear-end crashes",
       "Following too closely combined with inattention and inadequate reaction time",
       "Wet road surface conditions causing brakes to lock up during sudden stops"
     ],
@@ -7614,7 +7614,7 @@
     "question": "What is the rule about using a vehicle for racing on a public road?",
     "options": [
       "Permitted with permission from the local authority",
-      "Illegal — racing on public roads is an offence",
+      "Illegal \u2014 racing on public roads is an offence",
       "Only illegal if it is organised"
     ],
     "answer": 1
@@ -7625,7 +7625,7 @@
     "options": [
       "Permitted if the crack does not affect vision",
       "Only permitted if the crack is on the passenger side",
-      "Prohibited — a cracked windscreen is unroadworthy"
+      "Prohibited \u2014 a cracked windscreen is unroadworthy"
     ],
     "answer": 0
   },
@@ -7685,7 +7685,7 @@
     "options": [
       "Prohibited",
       "Permitted only in emergencies",
-      "Permitted — tunnels are not urban areas"
+      "Permitted \u2014 tunnels are not urban areas"
     ],
     "answer": 1
   },
@@ -7703,7 +7703,7 @@
     "category": "rules",
     "question": "What must a driver do at a traffic circle without any signs or markings?",
     "options": [
-      "Proceed through without yielding — you have right of way as you are entering",
+      "Proceed through without yielding \u2014 you have right of way as you are entering",
       "Yield to traffic already circulating in the circle and to vehicles on your right",
       "The largest or heaviest vehicle at the traffic circle always has right of way"
     ],
@@ -7743,7 +7743,7 @@
     "category": "rules",
     "question": "What is the rule about driving a vehicle that has a seatbelt fault?",
     "options": [
-      "Seatbelts are optional — a faulty belt does not affect the vehicle's legality",
+      "Seatbelts are optional \u2014 a faulty belt does not affect the vehicle's legality",
       "The vehicle should be repaired before passengers occupy those affected seats",
       "A faulty seatbelt is only illegal when travelling on a freeway at high speed"
     ],
@@ -7753,8 +7753,8 @@
     "category": "rules",
     "question": "What should you do when the traffic officer waves you through a red light?",
     "options": [
-      "Obey the red traffic light — it always overrides a traffic officer's instruction",
-      "Obey the traffic officer's signal — their authority overrides the traffic light",
+      "Obey the red traffic light \u2014 it always overrides a traffic officer's instruction",
+      "Obey the traffic officer's signal \u2014 their authority overrides the traffic light",
       "Slow to 20 km/h and proceed cautiously as both the light and officer apply"
     ],
     "answer": 1
@@ -7774,7 +7774,7 @@
     "question": "What is the correct response when your vehicle's traction control activates?",
     "options": [
       "Apply more throttle aggressively to push through the wheel spin situation",
-      "Ease off the accelerator — traction control is managing wheel spin on your behalf",
+      "Ease off the accelerator \u2014 traction control is managing wheel spin on your behalf",
       "Apply the brakes firmly to stop the wheel spin and transfer weight forward"
     ],
     "answer": 1
@@ -7805,7 +7805,7 @@
     "options": [
       "No stopping is permitted in the zone marked by the dotted yellow line",
       "It marks where a solid yellow line resumes after a driveway or side road gap",
-      "No overtaking is permitted — the dotted yellow line is a hazard warning"
+      "No overtaking is permitted \u2014 the dotted yellow line is a hazard warning"
     ],
     "answer": 1
   },
@@ -7844,7 +7844,7 @@
     "question": "What is the maximum permissible noise level for a vehicle exhaust?",
     "options": [
       "Any level",
-      "The vehicle must not exceed the prescribed noise limit — excessive noise is an offence",
+      "The vehicle must not exceed the prescribed noise limit \u2014 excessive noise is an offence",
       "Only restricted near hospitals"
     ],
     "answer": 1
@@ -7914,7 +7914,7 @@
     "question": "What is a key hazard when driving on dirt roads?",
     "options": [
       "Improved traction on gravel",
-      "Loose surface reduces grip — slow down and increase following distance",
+      "Loose surface reduces grip \u2014 slow down and increase following distance",
       "Gravel roads have no hazards"
     ],
     "answer": 1
@@ -7933,7 +7933,7 @@
     "category": "rules",
     "question": "What is a key risk when overtaking on a gravel road?",
     "options": [
-      "No risk — gravel roads have no centre lines",
+      "No risk \u2014 gravel roads have no centre lines",
       "Flying gravel, dust obscuring vision, and reduced grip during the manoeuvre",
       "Gravel roads are safer to overtake on"
     ],
@@ -7953,8 +7953,8 @@
     "category": "rules",
     "question": "When approaching a bridge on a rural road, what should you check?",
     "options": [
-      "Nothing — proceed at full speed",
-      "Load limit signs — if your vehicle exceeds the bridge limit you must find an alternative route",
+      "Nothing \u2014 proceed at full speed",
+      "Load limit signs \u2014 if your vehicle exceeds the bridge limit you must find an alternative route",
       "Only check if the bridge looks old"
     ],
     "answer": 1
@@ -7964,7 +7964,7 @@
     "question": "What is the rule about parking on a footpath or pavement?",
     "options": [
       "Permitted if space is available",
-      "Prohibited — vehicles may not obstruct a footpath or pavement",
+      "Prohibited \u2014 vehicles may not obstruct a footpath or pavement",
       "Only prohibited during school hours"
     ],
     "answer": 1
@@ -7984,7 +7984,7 @@
     "question": "What should you do if your vehicle is struck by lightning while driving?",
     "options": [
       "Exit the vehicle immediately",
-      "Stay inside — the metal body conducts electricity safely around the occupants",
+      "Stay inside \u2014 the metal body conducts electricity safely around the occupants",
       "Park under a tall tree"
     ],
     "answer": 0
@@ -8004,7 +8004,7 @@
     "question": "What is the meaning of a flashing green traffic arrow for a turning lane?",
     "options": [
       "You must wait",
-      "You may proceed in the arrow direction — it is a protected turn signal",
+      "You may proceed in the arrow direction \u2014 it is a protected turn signal",
       "Warning that light will change"
     ],
     "answer": 1
@@ -8014,7 +8014,7 @@
     "question": "What is the correct response when your vehicle's stability control activates?",
     "options": [
       "Apply more throttle",
-      "Ease off the accelerator and steer smoothly — the system is managing under or oversteer",
+      "Ease off the accelerator and steer smoothly \u2014 the system is managing under or oversteer",
       "Brake as hard as possible"
     ],
     "answer": 1
@@ -8044,7 +8044,7 @@
     "question": "What is the rule about parking on a corner or bend?",
     "options": [
       "Permitted if visibility is good",
-      "Prohibited — parking on a corner reduces visibility for all road users",
+      "Prohibited \u2014 parking on a corner reduces visibility for all road users",
       "Permitted for short stops only"
     ],
     "answer": 1
@@ -8064,7 +8064,7 @@
     "question": "What is the rule about making a U-turn where a No U-turn sign is displayed?",
     "options": [
       "Permitted if road is clear",
-      "Prohibited — the sign is a mandatory regulatory instruction",
+      "Prohibited \u2014 the sign is a mandatory regulatory instruction",
       "Permitted for motorcycles only"
     ],
     "answer": 1
@@ -8094,7 +8094,7 @@
     "question": "What is the correct response to a vehicle swerving into your lane at speed?",
     "options": [
       "Hoot and maintain position",
-      "Brake and steer to create space — avoid aggressive counter-swerve",
+      "Brake and steer to create space \u2014 avoid aggressive counter-swerve",
       "Flash lights and maintain speed"
     ],
     "answer": 1
@@ -8114,7 +8114,7 @@
     "question": "What effect does excessive speed have on a vehicle's ability to navigate bends?",
     "options": [
       "Improves cornering",
-      "Increases the risk of understeer or oversteer — the vehicle may leave the road",
+      "Increases the risk of understeer or oversteer \u2014 the vehicle may leave the road",
       "Has no effect on bends"
     ],
     "answer": 1
@@ -8164,7 +8164,7 @@
     "question": "What is the correct way to drive through a dip or low point in a road?",
     "options": [
       "Accelerate through it",
-      "Approach at a reduced speed — the bottom of a dip may conceal hazards",
+      "Approach at a reduced speed \u2014 the bottom of a dip may conceal hazards",
       "Brake hard in the dip"
     ],
     "answer": 1
@@ -8184,7 +8184,7 @@
     "question": "What happens to visibility in rain at night?",
     "options": [
       "Visibility improves with reflections",
-      "Visibility is severely reduced — use dipped headlights and reduce speed",
+      "Visibility is severely reduced \u2014 use dipped headlights and reduce speed",
       "Visibility is unaffected"
     ],
     "answer": 1
@@ -8224,7 +8224,7 @@
     "question": "What is the role of the examiner during a K53 driving test?",
     "options": [
       "To guide the candidate where to go",
-      "To observe and assess the candidate's driving against the K53 criteria — the examiner will intervene only if unsafe",
+      "To observe and assess the candidate's driving against the K53 criteria \u2014 the examiner will intervene only if unsafe",
       "To drive the car when the candidate struggles"
     ],
     "answer": 1
@@ -8234,7 +8234,7 @@
     "question": "In South Africa, driving a vehicle not registered in your name requires?",
     "options": [
       "A special permit",
-      "The owner's permission and the vehicle must have a valid licence disc — no special permit needed",
+      "The owner's permission and the vehicle must have a valid licence disc \u2014 no special permit needed",
       "A letter from the owner at all times"
     ],
     "answer": 1
@@ -8294,7 +8294,7 @@
     "question": "What is the rule about driving past road workers in a construction zone?",
     "options": [
       "Maintain speed",
-      "Slow down to the indicated reduced speed limit and be prepared to stop — workers have the right of way",
+      "Slow down to the indicated reduced speed limit and be prepared to stop \u2014 workers have the right of way",
       "Hoot to warn them then continue"
     ],
     "answer": 1
@@ -8344,7 +8344,7 @@
     "question": "A sign with a blue circle and a straight-ahead white arrow at a T-junction means?",
     "options": [
       "You may turn",
-      "You must go straight — turning is not permitted",
+      "You must go straight \u2014 turning is not permitted",
       "Advisory direction"
     ],
     "answer": 1
@@ -8374,7 +8374,7 @@
     "question": "A sign showing a large truck with steam or smoke coming from it in a triangle means?",
     "options": [
       "Truck stop ahead",
-      "Danger from overheating trucks — steep hill with brake fade risk",
+      "Danger from overheating trucks \u2014 steep hill with brake fade risk",
       "No smoking in trucks"
     ],
     "answer": 1
@@ -8394,7 +8394,7 @@
     "question": "What does a NARROW BRIDGE sign with two arrows facing each other indicate?",
     "options": [
       "Bridge is wide",
-      "Bridge is narrow — give way to oncoming traffic",
+      "Bridge is narrow \u2014 give way to oncoming traffic",
       "Speed up to cross faster"
     ],
     "answer": 1
@@ -8424,7 +8424,7 @@
     "question": "What does a triangular sign showing a bus emerging from a side road indicate?",
     "options": [
       "Bus stop ahead",
-      "Bus may be entering the road — be prepared to give way",
+      "Bus may be entering the road \u2014 be prepared to give way",
       "No bus route"
     ],
     "answer": 1
@@ -8464,7 +8464,7 @@
     "question": "What does a DUAL CARRIAGEWAY AHEAD sign indicate?",
     "options": [
       "Two-way traffic starts",
-      "Road ahead has two separate carriageways separated by a median — keep left",
+      "Road ahead has two separate carriageways separated by a median \u2014 keep left",
       "Speed limit increases"
     ],
     "answer": 1
@@ -8474,7 +8474,7 @@
     "question": "A sign showing a white arrow on blue pointing left and right means?",
     "options": [
       "Choose your direction",
-      "Turn left or right — you may not go straight",
+      "Turn left or right \u2014 you may not go straight",
       "Two-way traffic"
     ],
     "answer": 0
@@ -8484,7 +8484,7 @@
     "question": "A sign showing a triangular symbol with a downward arrow and water waves means?",
     "options": [
       "Steep descent into water",
-      "Ford or low-water bridge ahead — may flood",
+      "Ford or low-water bridge ahead \u2014 may flood",
       "No swimming ahead"
     ],
     "answer": 1
@@ -8504,7 +8504,7 @@
     "question": "A sign showing the word TOLL in blue means?",
     "options": [
       "No toll",
-      "Toll plaza ahead — be prepared to pay",
+      "Toll plaza ahead \u2014 be prepared to pay",
       "Free toll road"
     ],
     "answer": 0
@@ -8524,7 +8524,7 @@
     "question": "A sign showing a road under a railway bridge with a height restriction means?",
     "options": [
       "Maximum weight restriction",
-      "Vertical clearance restriction — vehicles taller than shown must not proceed",
+      "Vertical clearance restriction \u2014 vehicles taller than shown must not proceed",
       "No trains overhead"
     ],
     "answer": 1
@@ -8534,7 +8534,7 @@
     "question": "What does a MAJOR ROAD AHEAD sign at a T-junction indicate?",
     "options": [
       "You have right of way",
-      "The road ahead is a major road — you must yield or stop before entering",
+      "The road ahead is a major road \u2014 you must yield or stop before entering",
       "Speed up to match major road traffic"
     ],
     "answer": 1
@@ -8543,7 +8543,7 @@
     "category": "signs",
     "question": "A sign showing curved arrows in a roundabout circle pattern means?",
     "options": [
-      "Traffic circle ahead — give way to traffic in the circle",
+      "Traffic circle ahead \u2014 give way to traffic in the circle",
       "No U-turns",
       "Speed restriction in a circle"
     ],
@@ -8604,7 +8604,7 @@
     "question": "A sign showing a large yellow diamond on black background means?",
     "options": [
       "Dangerous goods vehicle ahead",
-      "Priority road — you are on the main road and have right of way",
+      "Priority road \u2014 you are on the main road and have right of way",
       "Warning of a very sharp bend"
     ],
     "answer": 1
@@ -8614,7 +8614,7 @@
     "question": "What does the loss of priority sign an inverted diamond mean?",
     "options": [
       "You are still on the main road",
-      "You are no longer on the priority road — give way ahead",
+      "You are no longer on the priority road \u2014 give way ahead",
       "Speed up on this section"
     ],
     "answer": 1
@@ -8634,7 +8634,7 @@
     "question": "A sign showing MERGE with a lane arrow means?",
     "options": [
       "Lanes separate",
-      "Lanes combine ahead — yield and merge safely",
+      "Lanes combine ahead \u2014 yield and merge safely",
       "No lane changing"
     ],
     "answer": 1
@@ -8644,7 +8644,7 @@
     "question": "What does a sign showing an orange triangle with a SLOW VEHICLE inscription mean?",
     "options": [
       "Slow vehicle park ahead",
-      "This vehicle or convoy is slow-moving — caution when following or overtaking",
+      "This vehicle or convoy is slow-moving \u2014 caution when following or overtaking",
       "Speed restriction of slow"
     ],
     "answer": 1
@@ -8654,7 +8654,7 @@
     "question": "What does a black and yellow diagonal-striped board at a road edge indicate?",
     "options": [
       "Parking zone",
-      "Barrier or obstruction — the road is blocked or ends here",
+      "Barrier or obstruction \u2014 the road is blocked or ends here",
       "Speed control zone"
     ],
     "answer": 0
@@ -8664,7 +8664,7 @@
     "question": "A sign showing a car on a ramp or incline in a triangle means?",
     "options": [
       "Speed hump ahead",
-      "Steep incline or hill ahead — use appropriate gear",
+      "Steep incline or hill ahead \u2014 use appropriate gear",
       "Car park ramp ahead"
     ],
     "answer": 1
@@ -8674,7 +8674,7 @@
     "question": "What does a sign showing a headlight beam with radiating lines in a triangle indicate?",
     "options": [
       "Use high beams",
-      "Switch on headlights ahead — tunnel or low-light zone begins",
+      "Switch on headlights ahead \u2014 tunnel or low-light zone begins",
       "Headlights prohibited"
     ],
     "answer": 1
@@ -8704,7 +8704,7 @@
     "question": "A sign showing a red-bordered triangle with a winding road arrow means?",
     "options": [
       "One sharp bend",
-      "Series of bends — winding road ahead",
+      "Series of bends \u2014 winding road ahead",
       "Speed hump"
     ],
     "answer": 0
@@ -8724,7 +8724,7 @@
     "question": "A sign showing NO THROUGH ROAD with a T and bar means?",
     "options": [
       "T-junction ahead",
-      "Road is a dead end — no exit through this road",
+      "Road is a dead end \u2014 no exit through this road",
       "No turning"
     ],
     "answer": 1
@@ -8734,7 +8734,7 @@
     "question": "A sign showing a white pedestrian on a green circle means?",
     "options": [
       "No pedestrians",
-      "Pedestrian crossing is active — pedestrians may cross",
+      "Pedestrian crossing is active \u2014 pedestrians may cross",
       "Pedestrian parking"
     ],
     "answer": 1
@@ -8814,7 +8814,7 @@
     "question": "A sign showing a snowflake and rain drop together means?",
     "options": [
       "Cold drink area",
-      "Ice and wet road conditions ahead — extreme caution",
+      "Ice and wet road conditions ahead \u2014 extreme caution",
       "Weather station ahead"
     ],
     "answer": 1
@@ -8824,7 +8824,7 @@
     "question": "A sign showing a deer leaping in a triangle means?",
     "options": [
       "Game reserve entrance",
-      "Deer or wildlife crossing — animals may be on the road",
+      "Deer or wildlife crossing \u2014 animals may be on the road",
       "Hunting allowed ahead"
     ],
     "answer": 0
@@ -8844,7 +8844,7 @@
     "question": "A sign showing a hospital with an H and an arrow is what type of sign?",
     "options": [
       "Warning sign",
-      "Guidance and information sign — direction to a hospital",
+      "Guidance and information sign \u2014 direction to a hospital",
       "Regulatory sign"
     ],
     "answer": 1
@@ -8894,7 +8894,7 @@
     "question": "What does a sign showing NO STOPPING with times below indicate?",
     "options": [
       "No stopping at any time",
-      "No stopping during the specified hours — stopping may be permitted outside those hours",
+      "No stopping during the specified hours \u2014 stopping may be permitted outside those hours",
       "No parking at any time"
     ],
     "answer": 1
@@ -8905,7 +8905,7 @@
     "options": [
       "No electrical vehicles",
       "Electric vehicle charging station nearby",
-      "Danger — electrical cables"
+      "Danger \u2014 electrical cables"
     ],
     "answer": 1
   },
@@ -8944,7 +8944,7 @@
     "question": "A sign showing LANE ENDS MERGE LEFT warns?",
     "options": [
       "The left lane is open",
-      "Your current lane is ending — signal and merge left safely before the lane ends",
+      "Your current lane is ending \u2014 signal and merge left safely before the lane ends",
       "Merging is optional"
     ],
     "answer": 0
@@ -8954,7 +8954,7 @@
     "question": "A sign showing multiple vehicles side by side with an X means?",
     "options": [
       "Traffic jam ahead",
-      "No driving side by side — no undertaking or abreast driving",
+      "No driving side by side \u2014 no undertaking or abreast driving",
       "Carpool zone"
     ],
     "answer": 1
@@ -8974,7 +8974,7 @@
     "question": "A sign showing a hill with water at the bottom warns of?",
     "options": [
       "Scenic water view",
-      "Flood-prone area — road may be submerged in rain",
+      "Flood-prone area \u2014 road may be submerged in rain",
       "Swimming area at the bottom of a hill"
     ],
     "answer": 1
@@ -8984,7 +8984,7 @@
     "question": "A sign showing ROAD HUMPS NEXT 500 M means?",
     "options": [
       "One hump 500 m ahead",
-      "Multiple speed humps for the next 500 m — maintain reduced speed",
+      "Multiple speed humps for the next 500 m \u2014 maintain reduced speed",
       "Road works in 500 m"
     ],
     "answer": 0
@@ -8993,7 +8993,7 @@
     "category": "signs",
     "question": "A sign showing a white diamond on a blue background over a lane means?",
     "options": [
-      "Diamond lane — high-occupancy vehicles or buses only",
+      "Diamond lane \u2014 high-occupancy vehicles or buses only",
       "Fast lane",
       "Slow lane"
     ],
@@ -9004,7 +9004,7 @@
     "question": "A sign showing a white pedestrian crossing a road with dashes means?",
     "options": [
       "Pedestrian crossing ahead",
-      "Pedestrian zone — no vehicles",
+      "Pedestrian zone \u2014 no vehicles",
       "Pedestrians prohibited"
     ],
     "answer": 0
@@ -9014,7 +9014,7 @@
     "question": "A sign showing a triangle with two children and a flag or crossing guard means?",
     "options": [
       "No children allowed",
-      "School crossing patrol ahead — be prepared to stop",
+      "School crossing patrol ahead \u2014 be prepared to stop",
       "Children's playground ahead"
     ],
     "answer": 1
@@ -9024,7 +9024,7 @@
     "question": "A sign showing FALLING SNOW in a triangle with snowflake warns?",
     "options": [
       "Ski resort ahead",
-      "Snow may fall or roads may be icy — reduce speed",
+      "Snow may fall or roads may be icy \u2014 reduce speed",
       "No snowmobiles"
     ],
     "answer": 1
@@ -9034,7 +9034,7 @@
     "question": "What does a circular sign with a blue background and a car heading into a parking bay mean?",
     "options": [
       "No parking",
-      "Parking area or entrance — you are permitted to park",
+      "Parking area or entrance \u2014 you are permitted to park",
       "Paid parking only"
     ],
     "answer": 1
@@ -9044,7 +9044,7 @@
     "question": "A sign showing LOOSE SURFACE or LOOSE STONES on a yellow background warns?",
     "options": [
       "Gravel road is smooth here",
-      "Loose stones may be thrown by vehicles — risk of chipped windscreens",
+      "Loose stones may be thrown by vehicles \u2014 risk of chipped windscreens",
       "No vehicles on loose surface"
     ],
     "answer": 0
@@ -9054,7 +9054,7 @@
     "question": "A sign showing a red outline triangle with two vehicles converging from both sides means?",
     "options": [
       "Overtaking allowed",
-      "Road narrows from both sides — vehicles must give way",
+      "Road narrows from both sides \u2014 vehicles must give way",
       "Two-way traffic"
     ],
     "answer": 1
@@ -9074,7 +9074,7 @@
     "question": "A sign showing an arrow on a blue background curving left means?",
     "options": [
       "Proceed straight only",
-      "Turn or keep left — mandatory direction",
+      "Turn or keep left \u2014 mandatory direction",
       "Advisory left curve"
     ],
     "answer": 1
@@ -9084,7 +9084,7 @@
     "question": "What does a large painted STOP with a box around it on the road indicate?",
     "options": [
       "Suggestion to slow down",
-      "Compulsory stop — come to a complete halt before the box marking",
+      "Compulsory stop \u2014 come to a complete halt before the box marking",
       "Speed limit zone"
     ],
     "answer": 1
@@ -9104,7 +9104,7 @@
     "question": "A sign showing a camera with a lightning bolt means?",
     "options": [
       "No photography",
-      "Red-light camera — vehicles running the red light will be photographed",
+      "Red-light camera \u2014 vehicles running the red light will be photographed",
       "Speed camera"
     ],
     "answer": 1
@@ -9114,7 +9114,7 @@
     "question": "A sign showing a truck on a bridge with a red circle means?",
     "options": [
       "Trucks must use this bridge",
-      "No trucks on this bridge — weight or height restriction applies",
+      "No trucks on this bridge \u2014 weight or height restriction applies",
       "Truck rest stop on bridge"
     ],
     "answer": 1
@@ -9154,7 +9154,7 @@
     "question": "A sign showing a school bus with children in a triangle warns?",
     "options": [
       "School bus stop ahead",
-      "School children boarding or alighting from a bus nearby — be alert",
+      "School children boarding or alighting from a bus nearby \u2014 be alert",
       "No school buses on this road"
     ],
     "answer": 1
@@ -9194,7 +9194,7 @@
     "question": "A sign showing a green sign reading FREEWAY ENDS means?",
     "options": [
       "Speed limit increases",
-      "The freeway regulations are ending — normal road rules apply ahead",
+      "The freeway regulations are ending \u2014 normal road rules apply ahead",
       "Free section of road ends"
     ],
     "answer": 1
@@ -9204,7 +9204,7 @@
     "question": "What does a sign reading NO PEDESTRIANS next to a freeway entry mean?",
     "options": [
       "Pedestrians may walk on the freeway shoulder",
-      "Pedestrians are prohibited from the freeway — they must use alternative routes",
+      "Pedestrians are prohibited from the freeway \u2014 they must use alternative routes",
       "Pedestrian crossing is ahead"
     ],
     "answer": 1
@@ -9214,7 +9214,7 @@
     "question": "A sign showing a pair of glasses in a triangle means?",
     "options": [
       "Eye test centre ahead",
-      "Caution — reduced visibility ahead such as fog glare or a dip",
+      "Caution \u2014 reduced visibility ahead such as fog glare or a dip",
       "Optical illusion on road"
     ],
     "answer": 1
@@ -9254,7 +9254,7 @@
     "question": "A sign showing a cracked road surface in a triangle warns?",
     "options": [
       "Speed bump",
-      "Damaged or cracked road surface ahead — reduce speed",
+      "Damaged or cracked road surface ahead \u2014 reduce speed",
       "Road works end"
     ],
     "answer": 0
@@ -9264,7 +9264,7 @@
     "question": "A sign showing an arrow pointing into a lay-by means?",
     "options": [
       "No stopping",
-      "A rest area or lay-by is ahead — you may stop here",
+      "A rest area or lay-by is ahead \u2014 you may stop here",
       "Emergency vehicles only"
     ],
     "answer": 1
@@ -9284,7 +9284,7 @@
     "question": "A sign showing a road surface with an arrow curving off to the right means?",
     "options": [
       "Turn right here",
-      "Dangerous curve to the right — there is a risk of leaving the road",
+      "Dangerous curve to the right \u2014 there is a risk of leaving the road",
       "Detour to the right"
     ],
     "answer": 1
@@ -9304,7 +9304,7 @@
     "question": "A sign showing a green background with the text REST AREA and distance means?",
     "options": [
       "Rest is prohibited here",
-      "A rest area is ahead at the indicated distance — facilities may be available",
+      "A rest area is ahead at the indicated distance \u2014 facilities may be available",
       "No rest stops on this road"
     ],
     "answer": 1
@@ -9314,7 +9314,7 @@
     "question": "A sign showing NEXT SERVICE 80 KM means?",
     "options": [
       "Speed limit is 80 km/h",
-      "The nearest fuel, food, or rest facilities are 80 km ahead — plan accordingly",
+      "The nearest fuel, food, or rest facilities are 80 km ahead \u2014 plan accordingly",
       "A service road in 80 m"
     ],
     "answer": 0
@@ -9344,7 +9344,7 @@
     "question": "A sign showing an antenna or radio tower in a triangle warns?",
     "options": [
       "Radio station ahead",
-      "Radio interference zone — equipment may be affected",
+      "Radio interference zone \u2014 equipment may be affected",
       "Strong signal area"
     ],
     "answer": 1
@@ -9354,7 +9354,7 @@
     "question": "A sign showing REDUCE SPEED NOW on an electronic message board means?",
     "options": [
       "Advisory suggestion",
-      "A mandatory instruction — reduce speed immediately as a hazard is ahead",
+      "A mandatory instruction \u2014 reduce speed immediately as a hazard is ahead",
       "Speed limit of 'now'"
     ],
     "answer": 1
@@ -9363,8 +9363,8 @@
     "category": "signs",
     "question": "What does a sign showing a green tick in a circle below a speed restriction sign mean?",
     "options": [
-      "Speed limit ends — drive freely",
-      "The speed restriction shown above is the end — normal rules apply beyond this point",
+      "Speed limit ends \u2014 drive freely",
+      "The speed restriction shown above is the end \u2014 normal rules apply beyond this point",
       "You are going the right speed"
     ],
     "answer": 1
@@ -9374,7 +9374,7 @@
     "question": "A sign showing LANE CLOSED AHEAD on a gantry means?",
     "options": [
       "The lane is open",
-      "Prepare to merge — that lane closes ahead",
+      "Prepare to merge \u2014 that lane closes ahead",
       "Optional lane change"
     ],
     "answer": 0
@@ -9414,7 +9414,7 @@
     "question": "A sign showing a diamond with an arrow pointing to a lane means?",
     "options": [
       "Lane speed limit",
-      "This lane is a high-occupancy or priority lane — see restrictions",
+      "This lane is a high-occupancy or priority lane \u2014 see restrictions",
       "No entry into this lane"
     ],
     "answer": 1
@@ -9424,7 +9424,7 @@
     "question": "A sign showing two curved lines and a car going sideways warns of?",
     "options": [
       "A car park entrance",
-      "Severe risk of skidding — very slippery road ahead",
+      "Severe risk of skidding \u2014 very slippery road ahead",
       "Off-road track ahead"
     ],
     "answer": 0
@@ -9454,7 +9454,7 @@
     "question": "A sign showing a white left arrow on blue at the end of a one-way street means?",
     "options": [
       "Road ends",
-      "Turn left — this is the only option",
+      "Turn left \u2014 this is the only option",
       "Advisory left"
     ],
     "answer": 1
@@ -9484,7 +9484,7 @@
     "question": "What does a continuous clicking sound from a wheel while driving indicate?",
     "options": [
       "Normal road noise caused by the tyre tread pattern on a textured road surface",
-      "A worn or damaged CV joint — have it inspected by a qualified technician",
+      "A worn or damaged CV joint \u2014 have it inspected by a qualified technician",
       "Over-inflated tyres causing the tyre bead to click against the wheel rim"
     ],
     "answer": 1
@@ -9544,7 +9544,7 @@
     "question": "What is the correct action when overtaking and you see an oncoming vehicle?",
     "options": [
       "Continue overtaking as the oncoming vehicle will move to the edge of the road",
-      "Abort the overtake immediately — drop back and pull in behind the vehicle you were passing",
+      "Abort the overtake immediately \u2014 drop back and pull in behind the vehicle you were passing",
       "Accelerate hard to complete the overtake before the oncoming vehicle arrives"
     ],
     "answer": 1
@@ -9563,7 +9563,7 @@
     "category": "controls",
     "question": "What is the correct use of the clutch when changing from second to third gear?",
     "options": [
-      "Change gear without using the clutch — modern synchromesh makes it unnecessary",
+      "Change gear without using the clutch \u2014 modern synchromesh makes it unnecessary",
       "Fully depress the clutch, smoothly select third gear, then release clutch with throttle",
       "Partially depress the clutch halfway and slot the gear in quickly to save time"
     ],
@@ -9584,7 +9584,7 @@
     "question": "What is the purpose of the vehicle immobiliser?",
     "options": [
       "To save fuel by automatically switching off the engine when parked for long periods",
-      "To prevent the engine from starting without the correct key or code — an anti-theft device",
+      "To prevent the engine from starting without the correct key or code \u2014 an anti-theft device",
       "To lock the steering wheel in position so the vehicle cannot be steered when parked"
     ],
     "answer": 1
@@ -9604,7 +9604,7 @@
     "question": "What does a steering wheel that is difficult to turn indicate?",
     "options": [
       "Both front tyres are likely flat and need to be inflated immediately",
-      "Power steering may have failed or fluid is low — have it checked promptly",
+      "Power steering may have failed or fluid is low \u2014 have it checked promptly",
       "The rear brakes are binding and causing excessive resistance in the drivetrain"
     ],
     "answer": 1
@@ -9614,7 +9614,7 @@
     "question": "What happens if you engage reverse gear while the vehicle is still moving forward?",
     "options": [
       "The gear engages smoothly in modern vehicles with synchronised transmissions",
-      "You risk damaging the gearbox — always stop fully before engaging reverse gear",
+      "You risk damaging the gearbox \u2014 always stop fully before engaging reverse gear",
       "It is perfectly safe in all modern cars with electronic transmission protection"
     ],
     "answer": 1
@@ -9634,7 +9634,7 @@
     "question": "What is the correct technique when driving in heavy stop-and-go traffic?",
     "options": [
       "Stay as close as possible behind the vehicle ahead to maximise road capacity",
-      "Keep a safe following distance and brake gently — avoid tailgating",
+      "Keep a safe following distance and brake gently \u2014 avoid tailgating",
       "Use only the handbrake to stop at each traffic queue to save the foot brakes"
     ],
     "answer": 1
@@ -9654,7 +9654,7 @@
     "question": "When should you pump the brakes in a vehicle with ABS?",
     "options": [
       "Always pump the brakes quickly for the best possible stopping performance",
-      "Never — ABS automatically pumps the brakes; apply firm, continuous pressure",
+      "Never \u2014 ABS automatically pumps the brakes; apply firm, continuous pressure",
       "Only on wet roads where wheel lock-up is more likely to occur"
     ],
     "answer": 1
@@ -9668,5 +9668,145 @@
       "Drive at full throttle immediately to warm the engine as quickly as possible"
     ],
     "answer": 1
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the BRAKE PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 1,
+    "explanation": "Number 6 is the brake pedal (middle pedal). In a manual car, the pedals from left to right are: clutch (5), brake (6), accelerator (7).",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the GEAR STICK or GEAR LEVER?",
+    "options": [
+      "Number 3",
+      "Number 4",
+      "Number 2",
+      "Number 8"
+    ],
+    "answer": 0,
+    "explanation": "Number 3 is the gear stick (or gear lever). This is used to select different gears (forward, reverse, neutral, park for automatics).",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the HANDBRAKE or PARKING BRAKE?",
+    "options": [
+      "Number 4",
+      "Number 3",
+      "Number 5",
+      "Number 7"
+    ],
+    "answer": 0,
+    "explanation": "Number 4 is the handbrake (parking brake). It holds the vehicle stationary when parked and serves as an emergency brake.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the ACCELERATOR or GAS PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 2,
+    "explanation": "Number 7 is the accelerator pedal (rightmost pedal). Pressing it increases engine speed and vehicle speed.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the CLUTCH PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 0,
+    "explanation": "Number 5 is the clutch pedal (leftmost pedal in a manual car). It disengages the engine from the transmission to allow gear changes.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the DOOR HANDLES?",
+    "options": [
+      "Number 8",
+      "Number 9",
+      "Number 10",
+      "Number 2"
+    ],
+    "answer": 1,
+    "explanation": "Number 9 shows the door handles on both sides of the vehicle. Used to open and close the doors.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the WIPER and INDICATOR CONTROLS on the steering wheel?",
+    "options": [
+      "Number 2",
+      "Number 11 and 12",
+      "Number 8",
+      "Number 1"
+    ],
+    "answer": 1,
+    "explanation": "Number 11 and 12 are the steering wheel stalks that control windscreen wipers and indicators (turn signals).",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the STEERING WHEEL?",
+    "options": [
+      "Number 2",
+      "Number 11",
+      "Number 12",
+      "Number 3"
+    ],
+    "answer": 0,
+    "explanation": "Number 2 is the steering wheel hub (the center/grip area). Used to control the direction of the vehicle.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the WINDOW and DOOR LOCK CONTROLS?",
+    "options": [
+      "Number 9",
+      "Number 10",
+      "Number 8",
+      "Number 1"
+    ],
+    "answer": 1,
+    "explanation": "Number 10 on the door panel contains controls for windows (power windows) and door locks.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In the diagram, which number indicates the SUN VISOR and INTERIOR ROOF CONTROLS?",
+    "options": [
+      "Number 8",
+      "Number 9",
+      "Number 10",
+      "Number 11"
+    ],
+    "answer": 0,
+    "explanation": "Number 8 in the roof area controls the sun visor and interior lights (ceiling light, reading light).",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
   }
 ]
