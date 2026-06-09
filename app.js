@@ -19,13 +19,15 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 const CATEGORY_DISPLAY = { signs: 'Road Signs', rules: 'Road Rules', controls: 'Vehicle Controls' };
 
 const EXAM_PROFILES = {
-  'All':              { signs: 30, rules: 30, controls: 8 },
-  'Road Signs':       { signs: 30 },
+  'All':              { signVisual: 30, rules: 30, controls: 8 },
+  'Road Signs':       { signVisual: 30 },
   'Road Rules':       { rules: 30 },
   'Vehicle Controls': { controls: 8 },
 };
 
-let allQuestions  = { signs: [], rules: [], controls: [] };
+// signVisual = image-based questions from signsData.json (always have a rendered sign)
+// signs      = text-based sign questions from questions.json (kept for potential future use)
+let allQuestions  = { signs: [], signVisual: [], rules: [], controls: [] };
 let quizQuestions = [];
 let current   = 0;
 let score     = 0;
@@ -786,7 +788,7 @@ Promise.all([
     });
 
     if (signsData.length) {
-      allQuestions.signs.push(...generateSignQuestions(signsData));
+      allQuestions.signVisual.push(...generateSignQuestions(signsData));
       buildSignLibrary(signsData);
     }
 
