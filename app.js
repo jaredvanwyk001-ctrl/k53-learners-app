@@ -178,7 +178,7 @@ function showScore() {
 
   document.getElementById('scoreTitle').textContent = pass ? 'Well done!' : 'Keep studying!';
   document.getElementById('scoreMsg').textContent   = pass
-    ? `You passed with ${pct}%. You're on track for the real K53 test.`
+    ? `You passed with ${pct}% — above the 75% pass mark. You're on track for the real K53 test.`
     : `You scored ${pct}%. The pass mark is 75%. Review your mistakes below and try again.`;
 
   buildMistakesList();
