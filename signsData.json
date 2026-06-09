@@ -18,6 +18,51 @@
     "imagePath": "/assets/signs/regulatory/r2-yield.svg"
   },
   {
+    "id": "R3",
+    "name": "No Parking",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory Signs",
+    "code": "R3",
+    "description": "Prohibits the parking of vehicles. A vehicle may stop briefly to drop off or pick up passengers, but must not remain stationary.",
+    "imagePath": "/assets/signs/regulatory/r3-no-parking.svg"
+  },
+  {
+    "id": "R4",
+    "name": "No Stopping",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory Signs",
+    "code": "R4",
+    "description": "Prohibits all stopping of vehicles at any time in the indicated zone. More restrictive than the No Parking sign.",
+    "imagePath": "/assets/signs/regulatory/r4-no-stopping.svg"
+  },
+  {
+    "id": "R5",
+    "name": "No U-Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory Signs",
+    "code": "R5",
+    "description": "Prohibits drivers from making a U-turn at the intersection or road section where this sign is displayed.",
+    "imagePath": "/assets/signs/regulatory/r5-no-u-turn.svg"
+  },
+  {
+    "id": "R6",
+    "name": "No Left Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory Signs",
+    "code": "R6",
+    "description": "Prohibits vehicles from turning left at the intersection where this sign is placed.",
+    "imagePath": "/assets/signs/regulatory/r6-no-left-turn.svg"
+  },
+  {
+    "id": "R7",
+    "name": "No Right Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory Signs",
+    "code": "R7",
+    "description": "Prohibits vehicles from turning right at the intersection where this sign is placed.",
+    "imagePath": "/assets/signs/regulatory/r7-no-right-turn.svg"
+  },
+  {
     "id": "R101",
     "name": "No Entry",
     "category": "Regulatory",
@@ -32,8 +77,35 @@
     "category": "Regulatory",
     "subCategory": "Limit Signs",
     "code": "R201-60",
-    "description": "Indicates the maximum permissible speed permitted on this road section is 60 kilometers per hour.",
+    "description": "Indicates the maximum permissible speed permitted on this road section is 60 kilometres per hour.",
     "imagePath": "/assets/signs/regulatory/r201-60.svg"
+  },
+  {
+    "id": "R201-80",
+    "name": "Speed Limit 80 km/h",
+    "category": "Regulatory",
+    "subCategory": "Limit Signs",
+    "code": "R201-80",
+    "description": "Indicates the maximum permissible speed permitted on this road section is 80 kilometres per hour.",
+    "imagePath": "/assets/signs/regulatory/r201-80.svg"
+  },
+  {
+    "id": "R201-100",
+    "name": "Speed Limit 100 km/h",
+    "category": "Regulatory",
+    "subCategory": "Limit Signs",
+    "code": "R201-100",
+    "description": "Indicates the maximum permissible speed permitted on this road section is 100 kilometres per hour.",
+    "imagePath": "/assets/signs/regulatory/r201-100.svg"
+  },
+  {
+    "id": "R201-120",
+    "name": "Speed Limit 120 km/h",
+    "category": "Regulatory",
+    "subCategory": "Limit Signs",
+    "code": "R201-120",
+    "description": "Indicates the maximum permissible speed permitted on this road section is 120 kilometres per hour, typically on freeways.",
+    "imagePath": "/assets/signs/regulatory/r201-120.svg"
   },
   {
     "id": "R301",
@@ -45,6 +117,24 @@
     "imagePath": "/assets/signs/regulatory/r301-straight-only.svg"
   },
   {
+    "id": "R302",
+    "name": "Turn Left",
+    "category": "Regulatory",
+    "subCategory": "Reservation Signs",
+    "code": "R302",
+    "description": "Mandatory sign indicating that drivers must turn left at the intersection where this sign is displayed.",
+    "imagePath": "/assets/signs/regulatory/r302-turn-left.svg"
+  },
+  {
+    "id": "R303",
+    "name": "Turn Right",
+    "category": "Regulatory",
+    "subCategory": "Reservation Signs",
+    "code": "R303",
+    "description": "Mandatory sign indicating that drivers must turn right at the intersection where this sign is displayed.",
+    "imagePath": "/assets/signs/regulatory/r303-turn-right.svg"
+  },
+  {
     "id": "W102",
     "name": "Sharp Curve to the Right",
     "category": "Warning",
@@ -54,6 +144,24 @@
     "imagePath": "/assets/signs/warning/w102-sharp-curve-right.svg"
   },
   {
+    "id": "W103",
+    "name": "Sharp Curve to the Left",
+    "category": "Warning",
+    "subCategory": "Road Layout",
+    "code": "W103",
+    "description": "Warns drivers of a sharp bend in the road ahead towards the left direction.",
+    "imagePath": "/assets/signs/warning/w103-sharp-curve-left.svg"
+  },
+  {
+    "id": "W105",
+    "name": "Steep Descent",
+    "category": "Warning",
+    "subCategory": "Road Layout",
+    "code": "W105",
+    "description": "Warns drivers of a steep downhill gradient ahead. Reduce speed and select a lower gear before descending.",
+    "imagePath": "/assets/signs/warning/w105-steep-descent.svg"
+  },
+  {
     "id": "W202",
     "name": "Crossroad Ahead",
     "category": "Warning",
@@ -61,6 +169,15 @@
     "code": "W202",
     "description": "Warns drivers that a major, uncontrolled intersecting road is immediately ahead.",
     "imagePath": "/assets/signs/warning/w202-crossroad.svg"
+  },
+  {
+    "id": "W203",
+    "name": "T-Junction — Side Road Right",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "code": "W203",
+    "description": "Warns drivers that a road joins from the right ahead. Traffic on the joining road must yield.",
+    "imagePath": "/assets/signs/warning/w203-t-junction-right.svg"
   },
   {
     "id": "W302",
@@ -81,12 +198,66 @@
     "imagePath": "/assets/signs/warning/w306-pedestrian-crossing.svg"
   },
   {
+    "id": "W307",
+    "name": "School Children",
+    "category": "Warning",
+    "subCategory": "People Hazards",
+    "code": "W307",
+    "description": "Warns drivers that a school is nearby and children may be crossing the road. Reduce speed and proceed with caution.",
+    "imagePath": "/assets/signs/warning/w307-school.svg"
+  },
+  {
+    "id": "W401",
+    "name": "Road Narrows",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "code": "W401",
+    "description": "Warns drivers that the road narrows ahead on both sides. Be prepared to slow down and allow oncoming vehicles to pass.",
+    "imagePath": "/assets/signs/warning/w401-road-narrows.svg"
+  },
+  {
+    "id": "W501",
+    "name": "Slippery Road",
+    "category": "Warning",
+    "subCategory": "Surface Hazards",
+    "code": "W501",
+    "description": "Warns of a slippery road surface ahead. Reduce speed, avoid harsh braking or steering, and increase following distance.",
+    "imagePath": "/assets/signs/warning/w501-slippery-road.svg"
+  },
+  {
+    "id": "W601",
+    "name": "Road Works",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "code": "W601",
+    "description": "Warns drivers of road construction or maintenance activity ahead. Reduce speed, be alert for workers, and follow temporary signs.",
+    "imagePath": "/assets/signs/warning/w601-road-works.svg"
+  },
+  {
+    "id": "G1",
+    "name": "National Route Marker",
+    "category": "Guidance",
+    "subCategory": "Route Information",
+    "code": "G1",
+    "description": "Identifies a national route (N-road) in South Africa. These are the major inter-city and inter-provincial routes.",
+    "imagePath": "/assets/signs/guidance/g1-national-route.svg"
+  },
+  {
     "id": "IN1",
-    "name": "Information Sign - Hospital",
+    "name": "Information Sign — Hospital",
     "category": "Guidance",
     "subCategory": "Information",
     "code": "IN1",
     "description": "Informs drivers of the proximity of a hospital facility where medical services are available.",
     "imagePath": "/assets/signs/guidance/in1-hospital.svg"
+  },
+  {
+    "id": "IN2",
+    "name": "Parking Area",
+    "category": "Guidance",
+    "subCategory": "Information",
+    "code": "IN2",
+    "description": "Indicates the location of a designated parking area where vehicles may be left for an extended period.",
+    "imagePath": "/assets/signs/guidance/in2-parking.svg"
   }
 ]

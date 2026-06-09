@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,12 192,180 8,180" fill="#CC0000"/>
+  <polygon points="100,30 175,166 25,166" fill="white"/>
+  <!-- Car body -->
+  <rect x="68" y="90" width="64" height="26" rx="6" fill="#333"/>
+  <!-- Car roof/cabin -->
+  <rect x="78" y="74" width="44" height="18" rx="5" fill="#333"/>
+  <!-- Front wheel -->
+  <circle cx="83" cy="118" r="9" fill="#444"/>
+  <!-- Rear wheel -->
+  <circle cx="117" cy="118" r="9" fill="#444"/>
+  <!-- Skid track line 1 -->
+  <path d="M72,133 Q82,139 92,133 Q102,127 112,133 Q122,139 132,133" stroke="#777" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Skid track line 2 -->
+  <path d="M72,142 Q82,148 92,142 Q102,136 112,142 Q122,148 132,142" stroke="#777" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

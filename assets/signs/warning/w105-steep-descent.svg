@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,12 192,180 8,180" fill="#CC0000"/>
+  <polygon points="100,30 175,166 25,166" fill="white"/>
+  <!-- Steep downhill slope line -->
+  <line x1="66" y1="72" x2="146" y2="152" stroke="#333" stroke-width="13" stroke-linecap="round"/>
+  <!-- Arrowhead pointing down-right along slope -->
+  <polygon points="146,152 122,138 155,130" fill="#333"/>
+</svg>
