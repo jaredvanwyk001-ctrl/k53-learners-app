@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K53 Learner's Licence App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🚗 K53 Learner's Licence</h1>
+    <p>Practice quiz &amp; study guide for the South African learner's test</p>
+    <nav class="tabs">
+      <button class="tab-btn active" data-page="quizPage">📝 Practice Quiz</button>
+      <button class="tab-btn" data-page="studyPage">📖 Study Guide</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== QUIZ PAGE ===== -->
+    <section id="quizPage" class="page active">
+
+      <div class="filter-bar" id="filterBar"></div>
+
+      <!-- Question card -->
+      <div class="quiz-card" id="quizArea">
+        <div class="progress-bar-wrap">
+          <div class="progress-bar" id="progressBar" style="width:0%"></div>
+        </div>
+
+        <div class="q-meta">
+          <span id="qCounter">Question 1 of 15</span>
+          <span id="qCategory">Road Signs</span>
+        </div>
+
+        <p class="q-text" id="qText"></p>
+
+        <div class="options" id="options"></div>
+
+        <div class="explanation" id="explanation"></div>
+
+        <div class="quiz-actions">
+          <button class="btn btn-outline" onclick="startQuiz()">🔀 Restart</button>
+          <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next →</button>
+        </div>
+      </div>
+
+      <!-- Score screen -->
+      <div class="quiz-card score-screen" id="scoreScreen" style="display:none">
+        <div class="score-circle score-pass" id="scoreCircle">
+          <span class="big">--</span>
+          <span class="label">0/0</span>
+        </div>
+        <h2 id="scoreTitle"></h2>
+        <p id="scoreMsg"></p>
+        <button class="btn btn-success" onclick="startQuiz()">Try Again</button>
+      </div>
+
+    </section>
+
+    <!-- ===== STUDY GUIDE PAGE ===== -->
+    <section id="studyPage" class="page">
+      <div class="study-grid" id="studyGrid"></div>
+    </section>
+
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
