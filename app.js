@@ -849,25 +849,210 @@ function buildMistakesList() {
 }
 
 // ============================================
-//  STUDY GUIDE
+//  VEHICLE CONTROLS REFERENCE
 // ============================================
 
-function buildStudyGuide() {
-  const grid = document.getElementById('studyGrid');
+const vehicleControls = [
+  {
+    number: 1,
+    name: "Indicator/Warning Lights",
+    location: "Dashboard (center-top)",
+    function: "Displays warning and indicator lights to alert you to vehicle problems and system status",
+    usage: [
+      "Monitor lights during startup and while driving",
+      "Red lights indicate serious problems — stop safely immediately",
+      "Amber/yellow lights indicate caution or service needed",
+      "Green/blue lights show activated systems (lights, wipers, etc.)"
+    ],
+    safety: "Never ignore warning lights. They alert you to engine, brake, electrical, or cooling problems that could cause accidents.",
+    maintenance: "Check dashboard regularly; have warning light issues diagnosed immediately by a mechanic."
+  },
+  {
+    number: 2,
+    name: "Turn Indicator/Signal Stalk",
+    location: "Left side of steering wheel",
+    function: "Signals your intention to turn or change lanes to other road users",
+    usage: [
+      "Push down to signal left turn",
+      "Push up to signal right turn",
+      "Signal at least 30 meters before turning",
+      "Release stalk after completing the turn"
+    ],
+    safety: "Failure to signal is illegal. Always signal your intentions — it gives others time to react and prevents accidents.",
+    maintenance: "Check that lights blink correctly. Rapid blinking indicates a burned-out bulb that needs replacement."
+  },
+  {
+    number: 3,
+    name: "Gear Shift Lever",
+    location: "Center console (between driver and passenger)",
+    function: "Selects the transmission gear (P, R, N, D, L) to control vehicle movement",
+    usage: [
+      "P (Park) — when stopped or parked; brake pedal must be pressed to shift out",
+      "R (Reverse) — for backing up",
+      "N (Neutral) — engine running but not driving (rare use)",
+      "D (Drive) — normal forward driving",
+      "L (Low) — for steep hills or towing; provides engine braking"
+    ],
+    safety: "Always place in Park and set handbrake before leaving the vehicle. Never shift gears while accelerating.",
+    maintenance: "Shift smoothly; jerky shifting damages transmission. Service automatic transmission fluid every 100,000 km."
+  },
+  {
+    number: 4,
+    name: "Handbrake/Parking Brake",
+    location: "Between driver seat and center console (or electronic button/switch)",
+    function: "Holds the vehicle stationary when parked, especially on slopes",
+    usage: [
+      "Engage when parking to prevent rolling",
+      "On steep slopes, turn steering wheel toward curb for extra safety",
+      "Release before driving (red warning light disappears)",
+      "For manual cars, can assist in emergency braking"
+    ],
+    safety: "Always use the handbrake. It's your backup if foot brakes fail. A slipping handbrake is a safety hazard.",
+    maintenance: "Have handbrake tension checked annually. If it slips, service cables and brake shoes immediately."
+  },
+  {
+    number: 5,
+    name: "Clutch Pedal",
+    location: "Far left pedal (manual transmission vehicles only)",
+    function: "Disconnects engine from transmission to allow smooth gear changes",
+    usage: [
+      "Press fully down before changing gears",
+      "Release smoothly while applying accelerator to avoid stalling",
+      "Never rest foot on it while driving — causes premature wear",
+      "In hill starts, use clutch bite point to hold vehicle"
+    ],
+    safety: "Smooth clutch control prevents jerky movements that could cause accidents. Abrupt releases can cause stalling.",
+    maintenance: "Don't ride the clutch. Excessive wear requires expensive replacement (R3,000-8,000). Check clutch play regularly."
+  },
+  {
+    number: 6,
+    name: "Brake Pedal",
+    location: "Center pedal (all vehicles)",
+    function: "Applies brakes to slow down or stop the vehicle",
+    usage: [
+      "Apply smooth, progressive pressure for normal braking",
+      "In emergencies, press firmly but maintain steering control",
+      "Light braking in wet/slippery conditions to prevent skidding",
+      "Avoid riding the brake pedal (keeping foot resting on it)"
+    ],
+    safety: "Most important control for safety. Never press brake and accelerator simultaneously. Soft/mushy pedal indicates system fault — stop safely immediately.",
+    maintenance: "Check brakes every 10,000-15,000 km. Replace pads before they grind (which damages rotors). Brake failure requires emergency stop."
+  },
+  {
+    number: 7,
+    name: "Accelerator/Gas Pedal",
+    location: "Right pedal (all vehicles)",
+    function: "Controls engine speed and vehicle speed",
+    usage: [
+      "Use smooth, gradual pressure for steady acceleration",
+      "Avoid sudden acceleration which causes jerking and instability",
+      "For fuel economy, accelerate slowly and maintain steady speed",
+      "Release gradually to decelerate (coasting)"
+    ],
+    safety: "Sudden acceleration can cause loss of traction, skidding, and accidents. Smooth control is always safer and more efficient.",
+    maintenance: "A stuck accelerator is dangerous — do NOT drive. Never use heavy throttle in low gear or it damages the engine."
+  },
+  {
+    number: 8,
+    name: "Sun Visor & Interior Lights",
+    location: "Top center of windscreen (sun visor); ceiling lights throughout cabin",
+    function: "Blocks sunlight from driver's eyes; provides interior cabin lighting",
+    usage: [
+      "Lower visor to reduce glare from sun or reflected light",
+      "Rotate to side windows for side glare",
+      "Flip down mirror for cosmetic use",
+      "Use interior lights for cabin visibility when parked or at night"
+    ],
+    safety: "Adjust visor before driving, not while moving. Never obstruct forward vision. Interior lights help see passengers and check instruments.",
+    maintenance: "Check visor mounting. Interior lights should work for night visibility and safety."
+  },
+  {
+    number: 9,
+    name: "Door Handles",
+    location: "Outside and inside each vehicle door",
+    function: "Opens and closes vehicle doors for entering and exiting",
+    usage: [
+      "Pull outside handle to open door (use before entering)",
+      "Push inside handle to exit vehicle",
+      "Ensure door is fully closed before driving (listen for click)",
+      "Always check mirrors/blind spots before opening door on road"
+    ],
+    safety: "Check for approaching vehicles/cyclists before opening door to prevent 'dooring' accidents. Never open doors while driving.",
+    maintenance: "Ensure all doors lock and close properly. Stuck/damaged handles are safety hazards and should be repaired immediately."
+  },
+  {
+    number: 10,
+    name: "Window & Door Lock Controls",
+    location: "Driver's door armrest (power windows); buttons/switches on door (locks)",
+    function: "Opens/closes windows and locks/unlocks all vehicle doors electronically",
+    usage: [
+      "Lock all doors immediately after entering vehicle and before driving",
+      "Use child locks on rear doors to prevent children exiting while moving",
+      "Power windows allow one-handed operation while driving",
+      "Unlock doors only when parked or safe"
+    ],
+    safety: "Always lock doors while driving for security and safety. Electronic locks may fail — know how to unlock manually in emergencies.",
+    maintenance: "Check that all windows seal properly and locks engage firmly. Power window motors can fail and require replacement (R2,000-5,000)."
+  },
+  {
+    number: 11,
+    name: "Wiper & Washer Controls",
+    location: "Right side of steering wheel (stalk)",
+    function: "Cleans windscreen with wipers and washer fluid for visibility and safety",
+    usage: [
+      "Intermittent — light drizzle or periodic cleaning",
+      "Slow — light rain with steady precipitation",
+      "Fast — heavy rain requiring continuous wiping",
+      "Washer spray — press button/pull lever to spray cleaning fluid"
+    ],
+    safety: "Maintain clear windscreen visibility in all conditions. Worn wipers leave streaks and reduce visibility, creating safety hazards.",
+    maintenance: "Replace wiper blades every 1-2 years (R200-500). Check washer fluid monthly and refill regularly. Worn blades scratch windscreen (R3,000+ replacement)."
+  },
+  {
+    number: 12,
+    name: "Horn Pad",
+    location: "Center of steering wheel (pad or logo area)",
+    function: "Sounds audible warning to alert other road users of your presence or danger",
+    usage: [
+      "Press to sound horn when warning others of danger",
+      "Use in emergencies to avoid collisions",
+      "Single tap for polite warning",
+      "Avoid excessive honking or aggressive horn use"
+    ],
+    safety: "Horn is a safety device — use only to warn of danger, not aggressively. Excessive honking is illegal and creates road rage.",
+    maintenance: "Test horn regularly for proper function. Non-working horn should be repaired for safety. Fuses and relays may need replacement."
+  }
+];
+
+function buildVehicleControlsReference() {
+  const grid = document.getElementById('controlsGrid');
   grid.innerHTML = '';
-  studyGuide.forEach(item => {
-    const card   = document.createElement('div');
+  vehicleControls.forEach(control => {
+    const card = document.createElement('div');
     card.className = 'study-card';
+
     const header = document.createElement('div');
     header.className = 'study-card-header';
-    header.innerHTML = `<span>${item.topic}</span><span class="chevron">▼</span>`;
-    const body   = document.createElement('div');
-    body.className  = 'study-card-body';
-    body.innerHTML  = item.content;
+    header.innerHTML = `<span><strong>#${control.number}</strong> — ${control.name}</span><span class="chevron">▼</span>`;
+
+    const body = document.createElement('div');
+    body.className = 'study-card-body';
+    body.innerHTML = `
+      <p><strong>Location:</strong> ${control.location}</p>
+      <p><strong>Function:</strong> ${control.function}</p>
+      <p><strong>How to Use:</strong></p>
+      <ul style="margin: 0.5rem 0 0.5rem 1.5rem; padding: 0;">
+        ${control.usage.map(u => `<li style="margin-bottom: 0.3rem;">${u}</li>`).join('')}
+      </ul>
+      <p><strong>Safety:</strong> ${control.safety}</p>
+      <p><strong>Maintenance:</strong> ${control.maintenance}</p>
+    `;
+
     header.addEventListener('click', () => {
       const open = body.classList.toggle('open');
       header.classList.toggle('open', open);
     });
+
     card.appendChild(header);
     card.appendChild(body);
     grid.appendChild(card);
@@ -894,7 +1079,7 @@ Promise.all([
 
     buildFilterBar();
     startQuiz();
-    buildStudyGuide();
+    buildVehicleControlsReference();
   })
   .catch(err => {
     console.error('Failed to load data:', err);
