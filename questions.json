@@ -9808,5 +9808,538 @@
     "explanation": "Number 8 in the roof area controls the sun visor and interior lights (ceiling light, reading light).",
     "image": "/assets/controls/vehicle_controls_diagram.png",
     "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 1, the indicator lights on the dashboard?",
+    "options": [
+      "They show the vehicle's fuel level",
+      "They alert you to system problems and important vehicle status",
+      "They control the brightness of the headlights"
+    ],
+    "answer": 1,
+    "explanation": "Number 1 contains the indicator lights (warning lights) that alert the driver to system malfunctions, low fuel, engine problems, low battery, and other important vehicle status information.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "If a red warning light appears on number 1's indicator display while driving, what should you do?",
+    "options": [
+      "Continue driving and check it later at home",
+      "Stop the vehicle safely and investigate the problem immediately",
+      "Drive faster to reach the nearest service station"
+    ],
+    "answer": 1,
+    "explanation": "Red warning lights on the dashboard (number 1) indicate serious problems and you should stop the vehicle safely and investigate immediately. Continuing to drive could cause engine damage or safety hazards.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the primary function of number 2, the indicator stalk on the side of the steering wheel?",
+    "options": [
+      "To control the windscreen wipers",
+      "To signal your intention to turn left or right to other road users",
+      "To adjust the height of the steering wheel"
+    ],
+    "answer": 1,
+    "explanation": "Number 2 is the indicator/turn signal stalk. Push it down for left turns and up for right turns to signal your intentions to other drivers. This is a legal requirement before turning.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You are approaching a right turn. When should you activate number 2 (the turn indicator)?",
+    "options": [
+      "Just as you are turning the steering wheel",
+      "At least 30 metres before the turn so other drivers know your intention",
+      "After you have started turning"
+    ],
+    "answer": 1,
+    "explanation": "You must signal your intention to turn using number 2 at least 30 metres in advance. This gives other road users time to react and is a legal requirement under the K53 driving rules.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What does it mean if number 2 (indicator stalk) is blinking quickly or rapidly?",
+    "options": [
+      "The battery is low",
+      "One of your indicator bulbs may be burned out",
+      "The vehicle is overheating"
+    ],
+    "answer": 1,
+    "explanation": "Rapid blinking of the indicator lights (number 2) suggests a burned-out indicator bulb. You should check and replace the faulty bulb as soon as possible for safety and legal compliance.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the purpose of number 3, the gear shift lever?",
+    "options": [
+      "To adjust the volume of the radio",
+      "To select the appropriate gear (P, R, N, D, L) for driving conditions",
+      "To control the air conditioning"
+    ],
+    "answer": 1,
+    "explanation": "Number 3 is the gear shift lever used to select Park (P), Reverse (R), Neutral (N), Drive (D), or Low (L) gear depending on your vehicle type and driving situation.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "Before you can move number 3 (gear shift) out of Park (P), what must you do?",
+    "options": [
+      "Turn on the radio",
+      "Press the brake pedal (number 6)",
+      "Adjust the side mirrors"
+    ],
+    "answer": 1,
+    "explanation": "You must press the brake pedal (number 6) before moving the gear shift (number 3) out of Park. This safety feature prevents accidental vehicle movement.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You are driving on a steep downhill slope. Which gear should you select on number 3 to help control the vehicle?",
+    "options": [
+      "Neutral (N)",
+      "Drive (D) with light braking",
+      "Low (L) gear for engine braking"
+    ],
+    "answer": 2,
+    "explanation": "Low (L) gear on number 3 provides engine braking on steep downhill slopes, helping to control your speed and reduce brake wear. This is safer than using brakes alone.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What should you do with number 3 (gear shift) before you leave the vehicle?",
+    "options": [
+      "Leave it in Drive (D)",
+      "Place it in Park (P) and set the handbrake",
+      "Leave it in Reverse (R)"
+    ],
+    "answer": 1,
+    "explanation": "Always place number 3 in Park (P) and engage the handbrake (number 4) before leaving the vehicle. This prevents accidental rolling and is essential for vehicle safety.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 4, the handbrake or parking brake?",
+    "options": [
+      "To speed up the vehicle",
+      "To hold the vehicle stationary when parked and prevent it from rolling",
+      "To clean the windscreen"
+    ],
+    "answer": 1,
+    "explanation": "Number 4 is the handbrake (parking brake) which holds the vehicle stationary when parked, especially on slopes. It prevents the vehicle from rolling forward or backward.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You are parked on a steep hill. What should you do with number 4 (handbrake)?",
+    "options": [
+      "Leave it disengaged to save fuel",
+      "Engage it firmly and turn the steering wheel toward the curb for extra safety",
+      "Only engage it if there are other cars nearby"
+    ],
+    "answer": 1,
+    "explanation": "On steep slopes, engage number 4 (handbrake) firmly and turn the steering wheel toward the curb. If the handbrake fails, the wheel will prevent the vehicle from rolling into traffic.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What indicates that number 4 (handbrake) is engaged?",
+    "options": [
+      "A red warning light appears on the dashboard",
+      "The car makes a beeping sound",
+      "The steering wheel locks"
+    ],
+    "answer": 0,
+    "explanation": "When number 4 (handbrake) is engaged, a red warning light (brake light) appears on the dashboard as an indicator. You should release it before driving.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "If the red brake warning light stays on while driving after you release number 4, what does this mean?",
+    "options": [
+      "The handbrake is broken",
+      "The brake system has a problem \u2014 you should stop safely",
+      "You need to fill up with fuel"
+    ],
+    "answer": 1,
+    "explanation": "A persistent red brake warning light (even after releasing number 4) indicates a brake system problem. Stop safely and have the brakes inspected immediately \u2014 this is a serious safety issue.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 5, the clutch pedal (found in manual transmission vehicles)?",
+    "options": [
+      "To start the engine",
+      "To disconnect the engine from the transmission, allowing you to change gears",
+      "To activate the windscreen wipers"
+    ],
+    "answer": 1,
+    "explanation": "Number 5 is the clutch pedal (in manual cars). Pressing it disengages the engine from the transmission, allowing you to change gears smoothly without grinding.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What should you avoid doing when driving a manual vehicle with number 5 (clutch pedal)?",
+    "options": [
+      "Resting your foot on the clutch pedal while driving",
+      "Pressing it fully down before changing gear",
+      "Using it to control the vehicle's speed on hills"
+    ],
+    "answer": 0,
+    "explanation": "Resting your foot on number 5 (clutch pedal) causes premature wear to the clutch. Keep your foot off it when not actively changing gears. Only press it fully when shifting gears.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 6, the brake pedal?",
+    "options": [
+      "To increase the engine speed",
+      "To slow down or stop the vehicle",
+      "To adjust the side mirrors"
+    ],
+    "answer": 1,
+    "explanation": "Number 6 is the brake pedal. Pressing it applies the brakes to slow down or stop the vehicle. It's the most important control for safe driving.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What does it mean if number 6 (brake pedal) feels soft or goes all the way to the floor?",
+    "options": [
+      "The brakes need adjusting at the next service",
+      "You need to replace the brake fluid",
+      "There is a brake system fault \u2014 stop the vehicle safely immediately"
+    ],
+    "answer": 2,
+    "explanation": "If number 6 (brake pedal) feels soft or sinks to the floor, there is a serious brake system failure. Stop safely, use the handbrake (number 4), and call for assistance. Do not continue driving.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In an emergency, if number 6 (brake pedal) fails, what should you do?",
+    "options": [
+      "Shift to Neutral (N) on number 3 and pump the brake pedal repeatedly",
+      "Use the handbrake (number 4) gradually while steering to safety",
+      "Turn off the engine immediately"
+    ],
+    "answer": 1,
+    "explanation": "If number 6 (brake pedal) fails, use the handbrake (number 4) gradually while steering to a safe location. Also try downshifting to Low (L) on number 3 for engine braking assistance.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 7, the accelerator pedal?",
+    "options": [
+      "To turn the vehicle",
+      "To increase engine speed and vehicle speed",
+      "To activate the air conditioning"
+    ],
+    "answer": 1,
+    "explanation": "Number 7 is the accelerator (gas) pedal. Pressing it increases engine speed and vehicle speed. Releasing it reduces speed. It should be used smoothly and carefully.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In heavy traffic, what is the safest way to use number 7 (accelerator)?",
+    "options": [
+      "Press it quickly and suddenly to move faster",
+      "Keep it pressed while braking",
+      "Use smooth, gradual pressure for steady acceleration"
+    ],
+    "answer": 2,
+    "explanation": "Number 7 (accelerator) should be used with smooth, gradual pressure. Sudden acceleration can cause loss of control, skidding, and accidents. Smooth control is always safer.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What should you never do with numbers 6 (brake) and 7 (accelerator) at the same time?",
+    "options": [
+      "Press them with equal force while turning",
+      "Press them both down fully simultaneously",
+      "This is safe in emergencies"
+    ],
+    "answer": 1,
+    "explanation": "Never press number 6 (brake) and number 7 (accelerator) fully at the same time. This damages the brakes and engine, wastes fuel, and is dangerous. Use them separately.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 8, located at the top of the windscreen?",
+    "options": [
+      "To control the engine temperature",
+      "To block sunlight from the driver's eyes and control interior lights",
+      "To adjust the seat position"
+    ],
+    "answer": 1,
+    "explanation": "Number 8 is the sun visor which can be pulled down to block sunlight from your eyes. It also controls the interior lights (ceiling light and reading light) for safety.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "When driving during sunrise or sunset with glare, how should you use number 8?",
+    "options": [
+      "Leave it in the up position for maximum vision",
+      "Lower it to block the glare while ensuring your view of the road is not obstructed",
+      "Adjust the side mirrors instead"
+    ],
+    "answer": 1,
+    "explanation": "Lower number 8 (sun visor) to reduce glare, but only when it doesn't obstruct your forward vision. You can also rotate it to the side window to block side glare.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 9, the door handles (shown on both sides of the vehicle)?",
+    "options": [
+      "To control the windows",
+      "To open and close the vehicle doors",
+      "To adjust the mirror position"
+    ],
+    "answer": 1,
+    "explanation": "Number 9 consists of the door handles on both sides. Use them to open and close the doors safely. Always ensure doors are properly closed before driving.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "Before opening number 9 (door handle) while parked on a busy road, what should you check?",
+    "options": [
+      "Only the front mirror",
+      "That no vehicles or cyclists are approaching from behind",
+      "Just the time of day"
+    ],
+    "answer": 1,
+    "explanation": "Before opening number 9 (door handle), always check your side mirror and look over your shoulder to ensure no vehicles or cyclists are approaching. This prevents 'dooring' accidents.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What should you do if number 9 (door handle) feels stuck or damaged?",
+    "options": [
+      "Force it open to avoid being trapped",
+      "Have it repaired immediately before driving",
+      "Continue driving and fix it later"
+    ],
+    "answer": 1,
+    "explanation": "A damaged or stuck door handle (number 9) is a safety hazard and must be repaired before driving. If you're trapped, use the emergency door release if available.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 10, the window and door lock controls?",
+    "options": [
+      "To control the engine temperature",
+      "To open/close windows and lock/unlock doors for safety",
+      "To adjust the seat"
+    ],
+    "answer": 1,
+    "explanation": "Number 10 controls the power windows and door locks. Use it to lock/unlock doors and raise/lower windows. Always lock doors while driving for safety.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "For safety, when should you use number 10 (door lock controls)?",
+    "options": [
+      "Only when parked",
+      "After passengers have exited",
+      "Immediately after entering the vehicle and before driving"
+    ],
+    "answer": 2,
+    "explanation": "Lock all doors using number 10 immediately after entering and before driving. This prevents doors from accidentally opening during driving and protects against carjacking.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What safety feature do modern vehicles have with number 10 (door locks)?",
+    "options": [
+      "Doors lock automatically during emergency braking",
+      "Doors unlock automatically in a crash",
+      "Doors cannot be opened from outside"
+    ],
+    "answer": 0,
+    "explanation": "Many vehicles automatically lock doors during emergency braking or collision. This is a safety feature controlled by number 10 systems to keep occupants secure.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 11, the wiper and washer controls?",
+    "options": [
+      "To control the air conditioning",
+      "To clean the windscreen with wipers and washer fluid for visibility",
+      "To adjust the radio volume"
+    ],
+    "answer": 1,
+    "explanation": "Number 11 controls the windscreen wipers and washer fluid spray. Use it to keep the windscreen clean for safe driving, especially in rain or dust.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In heavy rain, what settings should you use for number 11 (wipers)?",
+    "options": [
+      "Intermittent (slow) setting",
+      "Fast or continuous setting to match the rain",
+      "Leave them off and use headlights"
+    ],
+    "answer": 1,
+    "explanation": "In heavy rain, use the fast or continuous wiper setting on number 11 to maintain good visibility. Use intermittent setting for light drizzle to save energy.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What should you check regularly about number 11 (wiper blades)?",
+    "options": [
+      "That they're the correct color",
+      "That they don't leave streaks and clear the windscreen completely",
+      "That they make noise"
+    ],
+    "answer": 1,
+    "explanation": "Wiper blades (number 11) should be checked regularly and replaced if they leave streaks or don't clear properly. Worn blades reduce visibility and are a safety hazard.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "Before using number 11 (washer fluid), what should you ensure?",
+    "options": [
+      "The sun is shining",
+      "The windscreen is wet",
+      "The washer fluid reservoir is filled and you're stationary or on a straight road"
+    ],
+    "answer": 2,
+    "explanation": "Check that number 11's washer fluid reservoir is full. Use it while stationary or on a straight road to avoid distraction. This prevents streaks and maintains visibility.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "What is the function of number 12, the horn pad on the steering wheel?",
+    "options": [
+      "To speed up the vehicle",
+      "To alert other road users of your presence or warn them of danger",
+      "To turn on the headlights"
+    ],
+    "answer": 1,
+    "explanation": "Number 12 is the horn pad. Press it to sound the horn and alert other road users of your presence or warn them of a potential hazard.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "When is it appropriate to use number 12 (horn)?",
+    "options": [
+      "Whenever you feel angry at another driver",
+      "To warn of a real danger or potential collision",
+      "To show off or annoy other people"
+    ],
+    "answer": 1,
+    "explanation": "Use number 12 (horn) only to warn of danger or potential collision. Don't use it aggressively, for fun, or to show off. Unnecessary honking is illegal and dangerous.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "In what situations should you NOT use number 12 (horn)?",
+    "options": [
+      "When a pedestrian is in the road",
+      "In a residential area late at night, unless there's danger",
+      "When another driver cuts you off"
+    ],
+    "answer": 1,
+    "explanation": "Don't use number 12 (horn) in residential areas late at night unless there's genuine danger. This is a nuisance and may be illegal. Use it sparingly and only for warning purposes.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You need to make an emergency stop. In order, what controls should you use?",
+    "options": [
+      "Number 7 (accelerator), then number 6 (brake)",
+      "Number 2 (indicator), number 6 (brake), number 4 (handbrake)",
+      "Number 6 (brake), then number 4 (handbrake), then number 3 (gear to Park)"
+    ],
+    "answer": 2,
+    "explanation": "For emergency stopping: press number 6 (brake) firmly, engage number 4 (handbrake) as needed, then place number 3 in Park. Use number 2 (indicator) if time permits to warn others.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You are starting a manual car. What is the correct sequence of controls?",
+    "options": [
+      "Number 5 (clutch) down, start engine, then shift to gear",
+      "Start engine, number 5 (clutch) down, number 3 (shift to gear)",
+      "Number 5 (clutch) down, shift to first gear (number 3), start engine, release clutch slowly"
+    ],
+    "answer": 2,
+    "explanation": "Press number 5 (clutch) fully, shift number 3 to first gear, start the engine, then slowly release number 5 (clutch) while applying number 7 (accelerator) gently.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You're driving in fog. Which controls should you adjust for safety?",
+    "options": [
+      "Number 2 (indicators) only",
+      "Number 11 (wipers), reduce number 7 (speed), and use headlights",
+      "Number 8 (sun visor) and number 10 (windows)"
+    ],
+    "answer": 1,
+    "explanation": "In fog, use number 11 (wipers) to clear moisture, reduce speed (less number 7 accelerator), use headlights for visibility, and increase following distance for safety.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "A child is in the back seat. Which control should you use to prevent them opening the door while driving?",
+    "options": [
+      "Number 1 (indicators)",
+      "Number 10 (child lock on door controls)",
+      "Number 9 (door handles)"
+    ],
+    "answer": 1,
+    "explanation": "Use number 10 (door lock controls) to activate child locks on the rear doors. This prevents children from accidentally opening doors while the vehicle is moving.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
+  },
+  {
+    "category": "controls",
+    "question": "You notice number 1 (warning lights) showing an overheating indicator. What should you do with number 11?",
+    "options": [
+      "Turn on the wipers to cool the engine",
+      "Don't use number 11 (wipers) as this drains the battery",
+      "Stop safely, turn off number 11 (wipers) and engine, and let it cool"
+    ],
+    "answer": 2,
+    "explanation": "If number 1 shows overheating, stop safely immediately. Turn off number 11 (wipers) and the engine to stop draining power. Let the engine cool before investigating.",
+    "image": "/assets/controls/vehicle_controls_diagram.png",
+    "imageLabel": "Vehicle Control Identification"
   }
 ]
