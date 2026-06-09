@@ -232,6 +232,68 @@ main { max-width: 720px; margin: 2rem auto; padding: 0 1rem 4rem; }
 }
 .study-card-body.open { display: block; }
 
+/* ---- Sign Library ---- */
+.sign-lib-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.sign-lib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.9rem;
+}
+.sign-lib-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0.75rem 0.5rem 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  text-align: center;
+}
+.sign-lib-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.13); }
+.sign-lib-card svg   { width: 72px; height: 72px; }
+.sign-lib-card .slc-code { font-size: 0.68rem; font-weight: 700; color: #7f8c9a; letter-spacing: 0.4px; }
+.sign-lib-card .slc-name { font-size: 0.72rem; color: var(--dark); line-height: 1.25; }
+
+/* Detail overlay */
+.sign-detail-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 999;
+  padding: 1rem;
+}
+.sign-detail-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.22);
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+.sign-detail-close {
+  position: absolute; top: 1rem; right: 1rem;
+  background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #7f8c9a;
+}
+.sign-detail-img svg { width: 160px; height: 160px; }
+.sign-detail-code { font-size: 0.78rem; font-weight: 700; color: #7f8c9a; letter-spacing: 1px; text-transform: uppercase; }
+.sign-detail-card h2 { font-size: 1.3rem; }
+.sign-detail-sub  { font-size: 0.8rem; color: #7f8c9a; margin-top: -0.3rem; }
+.sign-detail-desc { font-size: 0.92rem; line-height: 1.6; color: #4a5568; margin-top: 0.4rem; }
+
 /* ---- Sign image display ---- */
 .sign-image-wrap {
   display: flex;
@@ -239,6 +301,15 @@ main { max-width: 720px; margin: 2rem auto; padding: 0 1rem 4rem; }
   align-items: center;
   min-height: 200px;
   margin-bottom: 1.25rem;
+}
+.sign-svg-container svg {
+  width: 220px;
+  height: 220px;
+  display: block;
+  filter: drop-shadow(0 2px 10px rgba(0,0,0,0.12));
+}
+@media (max-width: 500px) {
+  .sign-svg-container svg { width: 160px; height: 160px; }
 }
 
 /* CSS spinner */
