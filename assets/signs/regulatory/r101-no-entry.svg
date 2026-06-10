@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Red filled circle -->
-  <circle cx="100" cy="100" r="92" fill="#CC0000"/>
-  <!-- White border ring -->
-  <circle cx="100" cy="100" r="92" fill="none" stroke="white" stroke-width="5"/>
-  <!-- White horizontal prohibition bar -->
-  <rect x="22" y="82" width="156" height="36" rx="4" fill="white"/>
-</svg>

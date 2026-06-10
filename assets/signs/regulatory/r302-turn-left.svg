@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <circle cx="100" cy="100" r="92" fill="#1565C0"/>
-  <!-- Stem up from lower-right, curve left, arrowhead pointing left -->
-  <path d="M125,158 L125,80 Q125,52 100,52 L62,52" stroke="white" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <polygon points="44,52 68,38 68,66" fill="white"/>
-</svg>

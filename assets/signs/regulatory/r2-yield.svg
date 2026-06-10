@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Outer red inverted triangle -->
-  <polygon points="4,18 196,18 100,192" fill="#CC0000"/>
-  <!-- Inner white fill -->
-  <polygon points="18,30 182,30 100,176" fill="white"/>
-  <!-- YIELD text -->
-  <text x="100" y="118" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#CC0000" text-anchor="middle">YIELD</text>
-</svg>
