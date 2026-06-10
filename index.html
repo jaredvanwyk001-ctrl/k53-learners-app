@@ -13,8 +13,8 @@
     <p>Practice quiz &amp; study guide for the South African learner's test</p>
     <nav class="tabs">
       <button class="tab-btn active" data-page="quizPage">📝 Practice Quiz</button>
-      <button class="tab-btn" data-page="controlsPage">🎮 Vehicle Controls</button>
-      <button class="tab-btn" data-page="markingsPage">🛣️ Road Markings</button>
+      <button class="tab-btn" data-page="signCachePage">🪧 Road Signs</button>
+      <button class="tab-btn" data-page="referencePage">📚 Reference</button>
       <button class="tab-btn" data-page="progressPage">📊 Progress</button>
     </nav>
   </header>
@@ -73,6 +73,25 @@
     <!-- ===== ROAD MARKINGS PAGE ===== -->
     <section id="markingsPage" class="page">
       <div class="study-grid" id="markingsGrid"></div>
+    </section>
+
+    <!-- ===== ROAD SIGNS CACHE PAGE ===== -->
+    <section id="signCachePage" class="page">
+      <div class="sign-cache-filters" id="signCacheFilters"></div>
+      <div class="sign-cache-grid" id="signCacheGrid"></div>
+    </section>
+
+    <!-- ===== REFERENCE PAGE (Vehicle Controls + Road Markings) ===== -->
+    <section id="referencePage" class="page">
+      <div style="display: flex; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 300px;">
+          <h3 style="margin-bottom: 1rem;">Vehicle Controls</h3>
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <img src="/assets/controls/vehicle_controls_diagram.png" alt="Vehicle Controls Diagram" style="max-width: 100%; max-height: 400px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+      <div class="study-grid" id="referenceGrid"></div>
     </section>
 
     <!-- ===== PROGRESS DASHBOARD PAGE ===== -->

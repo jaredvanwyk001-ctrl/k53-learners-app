@@ -1,0 +1,722 @@
+[
+  {
+    "id": "R1",
+    "code": "R1",
+    "name": "Stop",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "You must come to a complete stop and give way to all traffic. Only proceed when safe."
+  },
+  {
+    "id": "R2",
+    "code": "R2",
+    "name": "Yield",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "You must give way to traffic on the road you are entering. Slow down and stop if necessary."
+  },
+  {
+    "id": "R3",
+    "code": "R3",
+    "name": "No Parking",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Parking is not allowed at any time in this area."
+  },
+  {
+    "id": "R4",
+    "code": "R4",
+    "name": "No Stopping",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "No stopping is allowed at any time, even briefly."
+  },
+  {
+    "id": "R5",
+    "code": "R5",
+    "name": "No U-Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "U-turns are not permitted in this location."
+  },
+  {
+    "id": "R6",
+    "code": "R6",
+    "name": "No Left Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Left turns are not permitted at this location."
+  },
+  {
+    "id": "R7",
+    "code": "R7",
+    "name": "No Right Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Right turns are not permitted at this location."
+  },
+  {
+    "id": "R101",
+    "code": "R101",
+    "name": "No Entry",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Entry is prohibited. Do not proceed in this direction."
+  },
+  {
+    "id": "R102",
+    "code": "R102",
+    "name": "No Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "No vehicles of any kind are allowed to proceed in this direction."
+  },
+  {
+    "id": "R103",
+    "code": "R103",
+    "name": "No Motor Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Motor vehicles are not permitted on this road."
+  },
+  {
+    "id": "R104",
+    "code": "R104",
+    "name": "No Motorcycles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Motorcycles and motor scooters are not allowed on this road."
+  },
+  {
+    "id": "R105",
+    "code": "R105",
+    "name": "No Goods Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Goods vehicles are not permitted on this road."
+  },
+  {
+    "id": "R106",
+    "code": "R106",
+    "name": "No Buses",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Buses are not allowed on this road."
+  },
+  {
+    "id": "R107",
+    "code": "R107",
+    "name": "No Minibus Taxis",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Minibus taxis are not permitted on this road."
+  },
+  {
+    "id": "R108",
+    "code": "R108",
+    "name": "No Animal-drawn Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Animal-drawn vehicles are not allowed on this road."
+  },
+  {
+    "id": "R109",
+    "code": "R109",
+    "name": "No Bicycles",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Bicycles are not permitted on this road."
+  },
+  {
+    "id": "R110",
+    "code": "R110",
+    "name": "No Pedestrians",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Pedestrians are not allowed on this road."
+  },
+  {
+    "id": "R201-20",
+    "code": "R201-20",
+    "name": "Speed Limit 20",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 20 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-30",
+    "code": "R201-30",
+    "name": "Speed Limit 30",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 30 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-40",
+    "code": "R201-40",
+    "name": "Speed Limit 40",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 40 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-60",
+    "code": "R201-60",
+    "name": "Speed Limit 60",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 60 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-80",
+    "code": "R201-80",
+    "name": "Speed Limit 80",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 80 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-100",
+    "code": "R201-100",
+    "name": "Speed Limit 100",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 100 km/h is permitted in this area."
+  },
+  {
+    "id": "R201-120",
+    "code": "R201-120",
+    "name": "Speed Limit 120",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Maximum speed of 120 km/h is permitted in this area."
+  },
+  {
+    "id": "R202",
+    "code": "R202",
+    "name": "End of Speed Limit",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "The speed restriction has ended. Normal speed limits now apply."
+  },
+  {
+    "id": "R203-40",
+    "code": "R203-40",
+    "name": "Minimum Speed 40",
+    "category": "Regulatory",
+    "subCategory": "Speed Limit",
+    "description": "Minimum speed of 40 km/h must be maintained on this road."
+  },
+  {
+    "id": "R204",
+    "code": "R204",
+    "name": "No Overtaking",
+    "category": "Regulatory",
+    "subCategory": "Control",
+    "description": "Overtaking other vehicles is not permitted in this area."
+  },
+  {
+    "id": "R205",
+    "code": "R205",
+    "name": "End of No Overtaking",
+    "category": "Regulatory",
+    "subCategory": "Control",
+    "description": "The no overtaking restriction has ended. Overtaking is now permitted."
+  },
+  {
+    "id": "R301",
+    "code": "R301",
+    "name": "Proceed Straight",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You must proceed straight ahead in this direction only."
+  },
+  {
+    "id": "R302",
+    "code": "R302",
+    "name": "Turn Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You must turn left at this intersection."
+  },
+  {
+    "id": "R303",
+    "code": "R303",
+    "name": "Turn Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You must turn right at this intersection."
+  },
+  {
+    "id": "R304",
+    "code": "R304",
+    "name": "Straight or Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You may proceed straight or turn left."
+  },
+  {
+    "id": "R305",
+    "code": "R305",
+    "name": "Straight or Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You may proceed straight or turn right."
+  },
+  {
+    "id": "R306",
+    "code": "R306",
+    "name": "Left or Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You must turn either left or right. Straight ahead is not permitted."
+  },
+  {
+    "id": "R307",
+    "code": "R307",
+    "name": "Keep Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "Keep to the left side of the road or obstacle."
+  },
+  {
+    "id": "R308",
+    "code": "R308",
+    "name": "Keep Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "Keep to the right side of the road or obstacle."
+  },
+  {
+    "id": "R309",
+    "code": "R309",
+    "name": "Roundabout",
+    "category": "Regulatory",
+    "subCategory": "Mandatory Direction",
+    "description": "You must go around this roundabout in the direction shown."
+  },
+  {
+    "id": "W101",
+    "code": "W101",
+    "name": "Curve Right",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "The road curves to the right ahead. Reduce speed and be prepared to steer right."
+  },
+  {
+    "id": "W102",
+    "code": "W102",
+    "name": "Curve Left",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "The road curves to the left ahead. Reduce speed and be prepared to steer left."
+  },
+  {
+    "id": "W103",
+    "code": "W103",
+    "name": "Double Curve",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "The road has two curves ahead in opposite directions. Reduce speed and be cautious."
+  },
+  {
+    "id": "W104",
+    "code": "W104",
+    "name": "Winding Road",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "The road winds with multiple curves ahead. Reduce speed significantly."
+  },
+  {
+    "id": "W105",
+    "code": "W105",
+    "name": "Steep Descent",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "A steep downhill slope is ahead. Use a low gear and brake carefully."
+  },
+  {
+    "id": "W106",
+    "code": "W106",
+    "name": "Steep Ascent",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "A steep uphill slope is ahead. Use low gear and be prepared for slower traffic."
+  },
+  {
+    "id": "W107",
+    "code": "W107",
+    "name": "Uneven Road",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "The road surface is uneven or rutted. Reduce speed and be cautious."
+  },
+  {
+    "id": "W108",
+    "code": "W108",
+    "name": "Bumps",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "Speed bumps or humps are ahead. Reduce speed before crossing."
+  },
+  {
+    "id": "W109",
+    "code": "W109",
+    "name": "Slippery Road",
+    "category": "Warning",
+    "subCategory": "Road Surface",
+    "description": "The road surface is slippery. Reduce speed and increase following distance."
+  },
+  {
+    "id": "W110",
+    "code": "W110",
+    "name": "Loose Gravel",
+    "category": "Warning",
+    "subCategory": "Road Surface",
+    "description": "There is loose gravel on the road. Be careful with steering and braking."
+  },
+  {
+    "id": "W201",
+    "code": "W201",
+    "name": "Crossroad",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A cross intersection is ahead where traffic crosses your path. Be prepared to stop."
+  },
+  {
+    "id": "W202",
+    "code": "W202",
+    "name": "T-Junction Ahead",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A T-junction is ahead. Reduce speed and be prepared for cross traffic."
+  },
+  {
+    "id": "W203",
+    "code": "W203",
+    "name": "T-Junction Right",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A T-junction with traffic from the right is ahead."
+  },
+  {
+    "id": "W204",
+    "code": "W204",
+    "name": "T-Junction Left",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A T-junction with traffic from the left is ahead."
+  },
+  {
+    "id": "W205",
+    "code": "W205",
+    "name": "Y-Junction",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A Y-junction is ahead. Keep to your lane and be prepared to give way if required."
+  },
+  {
+    "id": "W206",
+    "code": "W206",
+    "name": "Staggered Junction",
+    "category": "Warning",
+    "subCategory": "Intersections",
+    "description": "A staggered junction is ahead where side roads are not aligned. Be cautious."
+  },
+  {
+    "id": "W301",
+    "code": "W301",
+    "name": "Railway Crossing Unguarded",
+    "category": "Warning",
+    "subCategory": "Railway",
+    "description": "An unguarded railway crossing is ahead. Stop, look, and listen before crossing."
+  },
+  {
+    "id": "W302",
+    "code": "W302",
+    "name": "Railway Crossing Guarded",
+    "category": "Warning",
+    "subCategory": "Railway",
+    "description": "A guarded railway crossing is ahead. Obey the signals and barriers."
+  },
+  {
+    "id": "W303",
+    "code": "W303",
+    "name": "Traffic Lights Ahead",
+    "category": "Warning",
+    "subCategory": "Traffic Control",
+    "description": "Traffic lights are ahead. Be prepared to stop if the light is red."
+  },
+  {
+    "id": "W304",
+    "code": "W304",
+    "name": "Pedestrian Crossing",
+    "category": "Warning",
+    "subCategory": "Pedestrians",
+    "description": "A pedestrian crossing is ahead. Reduce speed and be prepared to stop for pedestrians."
+  },
+  {
+    "id": "W305",
+    "code": "W305",
+    "name": "School Zone",
+    "category": "Warning",
+    "subCategory": "Pedestrians",
+    "description": "You are approaching a school. Reduce speed and watch for children."
+  },
+  {
+    "id": "W306",
+    "code": "W306",
+    "name": "Cyclists Likely",
+    "category": "Warning",
+    "subCategory": "Pedestrians",
+    "description": "Cyclists are likely in this area. Be prepared to slow down or stop."
+  },
+  {
+    "id": "W401",
+    "code": "W401",
+    "name": "Road Narrows",
+    "category": "Warning",
+    "subCategory": "Road Changes",
+    "description": "The road ahead becomes narrower. Be prepared to adjust your driving."
+  },
+  {
+    "id": "W402",
+    "code": "W402",
+    "name": "Two-way Traffic",
+    "category": "Warning",
+    "subCategory": "Road Changes",
+    "description": "Two-way traffic ahead. You may be on a road where traffic has been one-way."
+  },
+  {
+    "id": "W403",
+    "code": "W403",
+    "name": "Dead End",
+    "category": "Warning",
+    "subCategory": "Road Changes",
+    "description": "The road ahead ends in a dead end. Turn around or prepare to reverse."
+  },
+  {
+    "id": "W404",
+    "code": "W404",
+    "name": "Low Clearance",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "There is low clearance ahead (bridge or overhang). Tall vehicles may not fit."
+  },
+  {
+    "id": "W405",
+    "code": "W405",
+    "name": "Falling Rocks",
+    "category": "Warning",
+    "subCategory": "Road Hazards",
+    "description": "Rocks may fall onto the road from cliffs ahead. Be alert and reduce speed."
+  },
+  {
+    "id": "W501",
+    "code": "W501",
+    "name": "Slippery When Wet",
+    "category": "Warning",
+    "subCategory": "Weather",
+    "description": "The road becomes slippery when wet. Reduce speed in rainy conditions."
+  },
+  {
+    "id": "W502",
+    "code": "W502",
+    "name": "Fog Likely",
+    "category": "Warning",
+    "subCategory": "Weather",
+    "description": "Fog is likely in this area. Use headlights and reduce speed if visibility is poor."
+  },
+  {
+    "id": "W503",
+    "code": "W503",
+    "name": "Flooding",
+    "category": "Warning",
+    "subCategory": "Weather",
+    "description": "This area is prone to flooding. Do not cross flooded roads."
+  },
+  {
+    "id": "W601",
+    "code": "W601",
+    "name": "Road Works",
+    "category": "Warning",
+    "subCategory": "Construction",
+    "description": "Road construction or maintenance is ahead. Reduce speed and follow signs."
+  },
+  {
+    "id": "W602",
+    "code": "W602",
+    "name": "Lane Closed",
+    "category": "Warning",
+    "subCategory": "Construction",
+    "description": "A lane is closed ahead due to construction. Be prepared to change lanes."
+  },
+  {
+    "id": "W603",
+    "code": "W603",
+    "name": "Flagman",
+    "category": "Warning",
+    "subCategory": "Construction",
+    "description": "A flagman is directing traffic ahead. Obey their signals."
+  },
+  {
+    "id": "W701",
+    "code": "W701",
+    "name": "Cattle Crossing",
+    "category": "Warning",
+    "subCategory": "Animals",
+    "description": "Cattle may cross the road ahead. Reduce speed and be prepared to stop."
+  },
+  {
+    "id": "W702",
+    "code": "W702",
+    "name": "Wild Animals",
+    "category": "Warning",
+    "subCategory": "Animals",
+    "description": "Wild animals may cross the road. Be alert, especially at night."
+  },
+  {
+    "id": "W703",
+    "code": "W703",
+    "name": "Horses",
+    "category": "Warning",
+    "subCategory": "Animals",
+    "description": "Horse riders or carts may be on the road ahead. Reduce speed and be cautious."
+  },
+  {
+    "id": "IN1",
+    "code": "IN1",
+    "name": "Hospital",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A hospital is located in this direction."
+  },
+  {
+    "id": "IN2",
+    "code": "IN2",
+    "name": "Parking",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "Parking is available in this direction."
+  },
+  {
+    "id": "IN3",
+    "code": "IN3",
+    "name": "Police Station",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A police station is located in this direction."
+  },
+  {
+    "id": "IN4",
+    "code": "IN4",
+    "name": "Petrol Station",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A petrol or fuel station is located in this direction."
+  },
+  {
+    "id": "IN5",
+    "code": "IN5",
+    "name": "Restaurant",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A restaurant is located in this direction."
+  },
+  {
+    "id": "IN6",
+    "code": "IN6",
+    "name": "Telephone",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A telephone is located in this direction."
+  },
+  {
+    "id": "IN7",
+    "code": "IN7",
+    "name": "First Aid",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "First aid facilities are located in this direction."
+  },
+  {
+    "id": "IN8",
+    "code": "IN8",
+    "name": "Accommodation",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "Accommodation is available in this direction."
+  },
+  {
+    "id": "IN9",
+    "code": "IN9",
+    "name": "Camping",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A camping site is located in this direction."
+  },
+  {
+    "id": "IN10",
+    "code": "IN10",
+    "name": "Caravan Park",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A caravan park is located in this direction."
+  },
+  {
+    "id": "IN11",
+    "code": "IN11",
+    "name": "Viewpoint",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A scenic viewpoint is located in this direction."
+  },
+  {
+    "id": "IN12",
+    "code": "IN12",
+    "name": "Tourist Info",
+    "category": "Guidance",
+    "subCategory": "Facilities",
+    "description": "A tourist information centre is located in this direction."
+  },
+  {
+    "id": "G1",
+    "code": "G1",
+    "name": "National Route",
+    "category": "Guidance",
+    "subCategory": "Route Markers",
+    "description": "This is a national route marker. Follow these routes for main thoroughfares."
+  },
+  {
+    "id": "G2",
+    "code": "G2",
+    "name": "Regional Route",
+    "category": "Guidance",
+    "subCategory": "Route Markers",
+    "description": "This is a regional route marker. These connect regional towns and cities."
+  },
+  {
+    "id": "G3",
+    "code": "G3",
+    "name": "Metropolitan Route",
+    "category": "Guidance",
+    "subCategory": "Route Markers",
+    "description": "This is a metropolitan route marker within a city or urban area."
+  },
+  {
+    "id": "G101",
+    "code": "G101",
+    "name": "One Way Right",
+    "category": "Guidance",
+    "subCategory": "One-way",
+    "description": "This is a one-way road. Traffic must proceed in the direction shown (right)."
+  },
+  {
+    "id": "G102",
+    "code": "G102",
+    "name": "One Way Left",
+    "category": "Guidance",
+    "subCategory": "One-way",
+    "description": "This is a one-way road. Traffic must proceed in the direction shown (left)."
+  }
+]

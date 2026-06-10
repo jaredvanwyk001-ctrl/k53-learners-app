@@ -16,15 +16,17 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 //  QUIZ CONFIGURATION
 // ============================================
 
-const CATEGORY_DISPLAY = { rules: 'Road Rules', controls: 'Vehicle Controls' };
+const CATEGORY_DISPLAY = { signVisual: 'Road Signs', rules: 'Road Rules', controls: 'Vehicle Controls' };
 
 const EXAM_PROFILES = {
-  'All':              { rules: 30, controls: 8 },
+  'All':              { signVisual: 20, rules: 30, controls: 8 },
+  'Road Signs':       { signVisual: 30 },
   'Road Rules':       { rules: 30 },
   'Vehicle Controls': { controls: 8 },
 };
 
-let allQuestions  = { rules: [], controls: [] };
+let allQuestions  = { signVisual: [], rules: [], controls: [] };
+let allSignsData  = [];
 let quizQuestions = [];
 let current   = 0;
 let score     = 0;
@@ -59,6 +61,178 @@ function shuffle(arr) {
 }
 
 function pickRandom(arr, n) { return shuffle(arr).slice(0, n); }
+
+// ============================================
+//  SIGN SVG RENDERING
+// ============================================
+
+function renderSignSVG(sign) {
+  const name = sign.name.toLowerCase().replace(/\s+/g, '_');
+  const code = sign.code.toLowerCase().replace(/-/g, '_');
+
+  let svg = '';
+
+  if (sign.category === 'Regulatory') {
+    if (code === 'r1') {
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,8 92,15 98,50 92,85 50,92 8,85 2,50 8,15" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+        <polygon points="50,15 88,22 94,50 88,78 50,85 12,78 6,50 12,22" fill="white"/>
+        <text x="50" y="65" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#CC0000" text-anchor="middle">STOP</text>
+      </svg>`;
+    } else if (code === 'r2') {
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,5 95,85 5,85" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+        <polygon points="50,15 85,75 15,75" fill="white"/>
+        <text x="50" y="60" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#CC0000" text-anchor="middle">YIELD</text>
+      </svg>`;
+    } else if (name.includes('speed')) {
+      const speed = code.split('_').pop();
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" fill="white" stroke="#CC0000" stroke-width="6"/>
+        <text x="50" y="65" font-family="Arial,sans-serif" font-size="48" font-weight="bold" fill="#CC0000" text-anchor="middle">${speed}</text>
+        <text x="50" y="85" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">km/h</text>
+      </svg>`;
+    } else if (code.startsWith('r3')) {
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+        <circle cx="50" cy="50" r="40" fill="white"/>
+        <line x1="70" y1="30" x2="30" y2="70" stroke="#CC0000" stroke-width="8" stroke-linecap="round"/>
+      </svg>`;
+    } else if (code.startsWith('r') && (code.includes('r1') || code.includes('r10'))) {
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+        <circle cx="50" cy="50" r="40" fill="white"/>
+        <line x1="70" y1="30" x2="30" y2="70" stroke="#CC0000" stroke-width="8" stroke-linecap="round"/>
+      </svg>`;
+    } else if (code.startsWith('r3')) {
+      const dir = name.includes('left') ? 'L' : name.includes('right') ? 'R' : name.includes('straight') ? '↑' : '?';
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" fill="#003DA5" stroke="#001f5c" stroke-width="2"/>
+        <polygon points="50,20 70,45 50,40 30,45" fill="white"/>
+      </svg>`;
+    } else {
+      svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="80" height="80" fill="#f0f0f0" stroke="#999" stroke-width="2"/>
+        <text x="50" y="55" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">${sign.code}</text>
+      </svg>`;
+    }
+  } else if (sign.category === 'Warning') {
+    svg = `<svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,5 95,110 5,110" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+      <polygon points="50,15 85,100 15,100" fill="white"/>
+      <text x="50" y="75" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#333" text-anchor="middle">${sign.code.replace('W', '')}</text>
+    </svg>`;
+  } else if (sign.category === 'Guidance') {
+    const isGreen = code.startsWith('in');
+    const bgColor = isGreen ? '#1B5E20' : '#003DA5';
+    const darkColor = isGreen ? '#0d3d1a' : '#001f5c';
+    svg = `<svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="5" y="5" width="90" height="70" fill="${bgColor}" stroke="${darkColor}" stroke-width="2"/>
+      <text x="50" y="50" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">${sign.code.replace('IN', '')}</text>
+    </svg>`;
+  }
+
+  return svg;
+}
+
+// ============================================
+//  SIGN CACHE & REFERENCE
+// ============================================
+
+function buildSignCache() {
+  const filters = document.getElementById('signCacheFilters');
+  filters.innerHTML = '';
+  const categories = ['All', ...new Set(allSignsData.map(s => s.category))];
+
+  categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn' + (cat === 'All' ? ' active' : '');
+    btn.textContent = cat;
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#signCacheFilters .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderSignCacheGrid(cat);
+    });
+    filters.appendChild(btn);
+  });
+
+  renderSignCacheGrid('All');
+}
+
+function renderSignCacheGrid(category) {
+  const grid = document.getElementById('signCacheGrid');
+  grid.innerHTML = '';
+
+  const signs = category === 'All' ? allSignsData : allSignsData.filter(s => s.category === category);
+
+  signs.forEach(sign => {
+    const card = document.createElement('div');
+    card.className = 'sign-cache-card';
+
+    const svgContainer = document.createElement('div');
+    svgContainer.className = 'sign-cache-svg';
+    svgContainer.innerHTML = renderSignSVG(sign);
+
+    const code = document.createElement('div');
+    code.className = 'sign-cache-code';
+    code.textContent = sign.code;
+
+    const name = document.createElement('div');
+    name.className = 'sign-cache-name';
+    name.textContent = sign.name;
+
+    const desc = document.createElement('div');
+    desc.className = 'sign-cache-desc';
+    desc.textContent = sign.description;
+
+    card.appendChild(svgContainer);
+    card.appendChild(code);
+    card.appendChild(name);
+    card.appendChild(desc);
+    grid.appendChild(card);
+  });
+}
+
+function buildReferenceGuide() {
+  const grid = document.getElementById('referenceGrid');
+  grid.innerHTML = '';
+
+  const sections = [
+    {
+      title: 'Road Markings',
+      items: [
+        { name: 'White Centre Line (Dashed)', desc: 'You may cross to overtake when safe.' },
+        { name: 'White Centre Line (Solid)', desc: 'You may not cross this line.' },
+        { name: 'Yellow Line', desc: 'Indicates no parking or stopping.' },
+        { name: 'White Edge Line', desc: 'Marks the edge of the road.' },
+        { name: 'Chevrons', desc: 'Indicates a traffic separation area.' }
+      ]
+    }
+  ];
+
+  sections.forEach(section => {
+    const card = document.createElement('div');
+    card.className = 'study-card';
+
+    const header = document.createElement('div');
+    header.className = 'study-card-header';
+    header.textContent = section.title;
+
+    const body = document.createElement('div');
+    body.className = 'study-card-body open';
+
+    section.items.forEach(item => {
+      const itemDiv = document.createElement('div');
+      itemDiv.style.cssText = 'margin-bottom: 0.8rem;';
+      itemDiv.innerHTML = `<strong>${item.name}</strong><br><small>${item.desc}</small>`;
+      body.appendChild(itemDiv);
+    });
+
+    card.appendChild(header);
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+}
 
 function buildFilterBar() {
   const bar = document.getElementById('filterBar');
@@ -103,11 +277,26 @@ function renderQuestion() {
 
   document.getElementById('progressBar').style.width = `${(current / quizQuestions.length) * 100}%`;
   document.getElementById('qCounter').textContent    = `Question ${current + 1} of ${quizQuestions.length}`;
-  document.getElementById('qCategory').textContent   = q.signCategory || CATEGORY_DISPLAY[q.category] || q.category;
+  document.getElementById('qCategory').textContent   = q.signName || CATEGORY_DISPLAY[q.category] || q.category;
 
-  // Control diagram image (vehicle controls identification)
+  // Remove existing media containers
+  const existingSign = document.getElementById('signImageContainer');
+  if (existingSign) existingSign.remove();
   const existingControl = document.getElementById('controlImageContainer');
   if (existingControl) existingControl.remove();
+
+  // Display sign SVG if this is a sign question
+  if (q.signSVG) {
+    const signWrap = document.createElement('div');
+    signWrap.id = 'signImageContainer';
+    signWrap.style.cssText = 'text-align:center;margin-bottom:1.5rem;';
+    const svgContainer = document.createElement('div');
+    svgContainer.style.cssText = 'display:inline-block;width:200px;height:200px;';
+    svgContainer.innerHTML = q.signSVG;
+    signWrap.appendChild(svgContainer);
+    const qTextEl = document.getElementById('qText');
+    qTextEl.parentNode.insertBefore(signWrap, qTextEl);
+  }
   if (q.image && q.imageLabel) {
     const imgWrap = document.createElement('div');
     imgWrap.id = 'controlImageContainer';
@@ -196,7 +385,7 @@ function showScore() {
     : `You scored ${pct}%. The pass mark is 75%. Review your mistakes below and try again.`;
 
   // Track progress
-  const categoryScores = { rules: { correct: 0, total: 0, percentage: 0 }, controls: { correct: 0, total: 0, percentage: 0 } };
+  const categoryScores = { signVisual: { correct: 0, total: 0, percentage: 0 }, rules: { correct: 0, total: 0, percentage: 0 }, controls: { correct: 0, total: 0, percentage: 0 } };
   quizQuestions.forEach((q, idx) => {
     const isCorrect = !mistakes.some(m => m.q === q && m.chosen !== q.answer);
     const cat = q.category;
@@ -668,7 +857,7 @@ class ProgressTracker {
 
     // Category breakdown
     const categoryStats = {};
-    const categories = ['rules', 'controls'];
+    const categories = ['signVisual', 'rules', 'controls'];
     categories.forEach(cat => {
       const scores = this.attempts
         .filter(a => a.categoryScores && a.categoryScores[cat])
@@ -714,7 +903,7 @@ function practiceWeakAreas() {
 
   // Set weak area mode and start quiz
   activeTab = 'Weak Areas Practice';
-  const profile = { rules: 0, controls: 0 };
+  const profile = { signVisual: 0, rules: 0, controls: 0 };
   weakCategories.forEach(cat => {
     profile[cat] = 30; // Get 30 questions from each weak category
   });
@@ -870,14 +1059,26 @@ function buildProgressDashboard() {
 //  INIT
 // ============================================
 
-fetch('questions.json').then(r => r.json())
-  .then((questionsData) => {
+Promise.all([
+  fetch('questions.json').then(r => r.json()),
+  fetch('signsData.json').then(r => r.json()).catch(() => [])
+])
+  .then(([questionsData, signsData]) => {
+    allSignsData = signsData;
+
     questionsData.forEach(q => {
       if (allQuestions[q.category]) allQuestions[q.category].push(q);
     });
 
+    if (signsData.length) {
+      const signQuestions = generateSignQuestions(signsData);
+      allQuestions.signVisual.push(...signQuestions);
+    }
+
     buildFilterBar();
     startQuiz();
+    buildSignCache();
+    buildReferenceGuide();
     buildVehicleControlsReference();
     buildRoadMarkingsGuide();
     buildProgressDashboard();
@@ -885,5 +1086,29 @@ fetch('questions.json').then(r => r.json())
   .catch(err => {
     console.error('Failed to load data:', err);
     document.getElementById('qText').textContent =
-      'Error loading questions. Serve via a local server or deploy to Vercel.';
+      'Error loading data. Serve via a local server or deploy to Vercel.';
   });
+
+function generateSignQuestions(signsData) {
+  const questions = [];
+
+  signsData.forEach(sign => {
+    const otherSigns = signsData.filter(s => s.id !== sign.id);
+
+    questions.push({
+      category: 'signVisual',
+      signCode: sign.code,
+      signName: sign.name,
+      signSVG: renderSignSVG(sign),
+      question: 'What is this road sign called?',
+      options: [
+        sign.name,
+        ...pickRandom(otherSigns, 3).map(s => s.name)
+      ].sort(() => Math.random() - 0.5),
+      answer: [sign.name, ...pickRandom(otherSigns, 3).map(s => s.name)].sort(() => Math.random() - 0.5).indexOf(sign.name),
+      explanation: sign.description
+    });
+  });
+
+  return questions;
+}
