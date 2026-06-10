@@ -13,7 +13,6 @@
     <p>Practice quiz &amp; study guide for the South African learner's test</p>
     <nav class="tabs">
       <button class="tab-btn active" data-page="quizPage">📝 Practice Quiz</button>
-      <button class="tab-btn" data-page="signsPage">🪧 Sign Library</button>
       <button class="tab-btn" data-page="controlsPage">🎮 Vehicle Controls</button>
       <button class="tab-btn" data-page="markingsPage">🛣️ Road Markings</button>
       <button class="tab-btn" data-page="progressPage">📊 Progress</button>
@@ -61,25 +60,6 @@
         <button class="btn btn-success" onclick="startQuiz()">Try Again</button>
       </div>
 
-    </section>
-
-    <!-- ===== SIGN LIBRARY PAGE ===== -->
-    <section id="signsPage" class="page">
-      <div class="sign-lib-filters" id="signLibFilters"></div>
-      <div class="sign-lib-grid" id="signLibGrid"></div>
-      <!-- Detail panel -->
-      <div class="sign-detail-overlay" id="signDetailOverlay" style="display:none" onclick="closeSignDetail()">
-        <div class="sign-detail-card" onclick="event.stopPropagation()">
-          <button class="sign-detail-close" onclick="closeSignDetail()">✕</button>
-          <div class="sign-detail-img" id="signDetailImg"></div>
-          <div class="sign-detail-info">
-            <span class="sign-detail-code" id="signDetailCode"></span>
-            <h2 id="signDetailName"></h2>
-            <p class="sign-detail-sub" id="signDetailSub"></p>
-            <p class="sign-detail-desc" id="signDetailDesc"></p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- ===== VEHICLE CONTROLS PAGE ===== -->
