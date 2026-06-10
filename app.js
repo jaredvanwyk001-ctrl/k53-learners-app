@@ -476,16 +476,38 @@ function createSignSVG(sign) {
 }
 
 // ============================================
-//  SIGN IMAGE — inline SVG (no HTTP request)
+//  SIGN IMAGE — load from assets or fallback to SVG
 // ============================================
 
 function buildSignImage(sign) {
   const wrap = document.createElement('div');
   wrap.className = 'sign-image-wrap';
-  const inner = document.createElement('div');
-  inner.className = 'sign-svg-container';
-  inner.innerHTML = createSignSVG(sign);
-  wrap.appendChild(inner);
+
+  // Try to load image first
+  if (sign.imagePath) {
+    const img = document.createElement('img');
+    img.src = sign.imagePath;
+    img.alt = sign.name || 'Road Sign';
+    img.style.cssText = 'max-width: 220px; max-height: 220px; object-fit: contain; border-radius: 10px; box-shadow: 0 2px 14px rgba(0,0,0,0.13);';
+
+    // Fallback to SVG if image fails to load
+    img.onerror = () => {
+      wrap.innerHTML = '';
+      const inner = document.createElement('div');
+      inner.className = 'sign-svg-container';
+      inner.innerHTML = createSignSVG(sign);
+      wrap.appendChild(inner);
+    };
+
+    wrap.appendChild(img);
+  } else {
+    // No image path, use SVG
+    const inner = document.createElement('div');
+    inner.className = 'sign-svg-container';
+    inner.innerHTML = createSignSVG(sign);
+    wrap.appendChild(inner);
+  }
+
   return wrap;
 }
 
@@ -623,7 +645,16 @@ function renderSignGrid() {
   signs.forEach(sign => {
     const card = document.createElement('div');
     card.className = 'sign-lib-card';
-    card.innerHTML = createSignSVG(sign) +
+
+    // Use image if available, otherwise use SVG
+    let signContent = '';
+    if (sign.imagePath) {
+      signContent = `<img src="${sign.imagePath}" alt="${sign.name}" style="width: 72px; height: 72px; object-fit: contain;" onerror="this.outerHTML='${createSignSVG(sign).replace(/'/g, "\\'")}'">`;
+    } else {
+      signContent = createSignSVG(sign);
+    }
+
+    card.innerHTML = signContent +
       `<span class="slc-code">${sign.code}</span>` +
       `<span class="slc-name">${sign.name}</span>`;
     card.addEventListener('click', () => openSignDetail(sign));
@@ -632,7 +663,15 @@ function renderSignGrid() {
 }
 
 function openSignDetail(sign) {
-  document.getElementById('signDetailImg').innerHTML  = createSignSVG(sign);
+  const imgContainer = document.getElementById('signDetailImg');
+
+  // Use image if available, otherwise use SVG
+  if (sign.imagePath) {
+    imgContainer.innerHTML = `<img src="${sign.imagePath}" alt="${sign.name}" style="max-width: 160px; max-height: 160px; object-fit: contain; border-radius: 10px;" onerror="this.outerHTML='${createSignSVG(sign).replace(/'/g, "\\'")}'">`;
+  } else {
+    imgContainer.innerHTML = createSignSVG(sign);
+  }
+
   document.getElementById('signDetailCode').textContent = sign.code;
   document.getElementById('signDetailName').textContent = sign.name;
   document.getElementById('signDetailSub').textContent  = `${sign.category} — ${sign.subCategory}`;
@@ -833,11 +872,19 @@ function buildMistakesList() {
     item.style.cssText = 'background:#f8f9fa;border-radius:8px;padding:0.85rem 1rem;margin-bottom:0.75rem;border-left:4px solid #e74c3c;';
 
     // Thumbnail for sign questions
-    if (q.signRender) {
+    if (q.imagePath || q.signRender) {
       const thumb = document.createElement('div');
       thumb.style.cssText = 'float:right;margin-left:0.75rem;';
-      thumb.innerHTML = createSignSVG({ render: q.signRender, code: q.signCode, name: q.signName });
-      thumb.querySelector('svg').style.cssText = 'width:52px;height:52px;';
+
+      if (q.imagePath) {
+        // Try to load image
+        thumb.innerHTML = `<img src="${q.imagePath}" alt="${q.signName}" style="width:52px;height:52px;object-fit:contain;border-radius:4px;" onerror="this.outerHTML='${createSignSVG({ render: q.signRender, code: q.signCode, name: q.signName }).replace(/'/g, "\\'")}'">`;
+      } else {
+        // Fallback to SVG
+        thumb.innerHTML = createSignSVG({ render: q.signRender, code: q.signCode, name: q.signName });
+        thumb.querySelector('svg').style.cssText = 'width:52px;height:52px;';
+      }
+
       item.appendChild(thumb);
     }
 
