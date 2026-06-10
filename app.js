@@ -646,17 +646,38 @@ function renderSignGrid() {
     const card = document.createElement('div');
     card.className = 'sign-lib-card';
 
-    // Use image if available, otherwise use SVG
-    let signContent = '';
-    if (sign.imagePath) {
-      signContent = `<img src="${sign.imagePath}" alt="${sign.name}" style="width: 72px; height: 72px; object-fit: contain;" onerror="this.outerHTML='${createSignSVG(sign).replace(/'/g, "\\'")}'">`;
-    } else {
-      signContent = createSignSVG(sign);
-    }
+    // Create image element
+    const img = document.createElement('img');
+    img.src = sign.imagePath || '';
+    img.alt = sign.name;
+    img.style.cssText = 'width: 72px; height: 72px; object-fit: contain;';
 
-    card.innerHTML = signContent +
-      `<span class="slc-code">${sign.code}</span>` +
-      `<span class="slc-name">${sign.name}</span>`;
+    // Fallback to SVG if image fails
+    img.onerror = () => {
+      img.style.display = 'none';
+      const svgDiv = document.createElement('div');
+      svgDiv.innerHTML = createSignSVG(sign);
+      svgDiv.style.cssText = 'width: 72px; height: 72px;';
+      if (svgDiv.firstChild) {
+        svgDiv.firstChild.style.cssText = 'width: 72px; height: 72px;';
+        card.insertBefore(svgDiv, card.firstChild);
+      }
+    };
+
+    card.appendChild(img);
+
+    // Add code label
+    const codeEl = document.createElement('span');
+    codeEl.className = 'slc-code';
+    codeEl.textContent = sign.code;
+    card.appendChild(codeEl);
+
+    // Add name label
+    const nameEl = document.createElement('span');
+    nameEl.className = 'slc-name';
+    nameEl.textContent = sign.name;
+    card.appendChild(nameEl);
+
     card.addEventListener('click', () => openSignDetail(sign));
     grid.appendChild(card);
   });
@@ -664,13 +685,18 @@ function renderSignGrid() {
 
 function openSignDetail(sign) {
   const imgContainer = document.getElementById('signDetailImg');
+  imgContainer.innerHTML = '';
 
-  // Use image if available, otherwise use SVG
-  if (sign.imagePath) {
-    imgContainer.innerHTML = `<img src="${sign.imagePath}" alt="${sign.name}" style="max-width: 160px; max-height: 160px; object-fit: contain; border-radius: 10px;" onerror="this.outerHTML='${createSignSVG(sign).replace(/'/g, "\\'")}'">`;
-  } else {
+  const img = document.createElement('img');
+  img.src = sign.imagePath || '';
+  img.alt = sign.name;
+  img.style.cssText = 'max-width: 160px; max-height: 160px; object-fit: contain; border-radius: 10px;';
+
+  img.onerror = () => {
     imgContainer.innerHTML = createSignSVG(sign);
-  }
+  };
+
+  imgContainer.appendChild(img);
 
   document.getElementById('signDetailCode').textContent = sign.code;
   document.getElementById('signDetailName').textContent = sign.name;
