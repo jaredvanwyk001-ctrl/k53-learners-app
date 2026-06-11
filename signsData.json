@@ -1,71 +1,603 @@
 [
-  {"id":"R1","code":"R1","name":"Stop","category":"Regulatory","subCategory":"Prohibitory","description":"Come to a complete stop. Give way to all traffic. Only proceed when safe."},
-  {"id":"R2","code":"R2","name":"Yield","category":"Regulatory","subCategory":"Prohibitory","description":"Give way to traffic on the road you are entering. Slow down and stop if necessary."},
-  {"id":"R3","code":"R3","name":"No Parking","category":"Regulatory","subCategory":"Prohibitory","description":"Parking is prohibited at any time in this area."},
-  {"id":"R4","code":"R4","name":"No Stopping","category":"Regulatory","subCategory":"Prohibitory","description":"Stopping is prohibited at any time, even temporarily."},
-  {"id":"R5","code":"R5","name":"No U-Turn","category":"Regulatory","subCategory":"Prohibitory","description":"U-turns and reversing are not permitted at this location."},
-  {"id":"R6","code":"R6","name":"No Left Turn","category":"Regulatory","subCategory":"Prohibitory","description":"Left turns are not permitted at this intersection."},
-  {"id":"R7","code":"R7","name":"No Right Turn","category":"Regulatory","subCategory":"Prohibitory","description":"Right turns are not permitted at this intersection."},
-  {"id":"R101","code":"R101","name":"No Entry","category":"Regulatory","subCategory":"Mandatory","description":"No entry. Do not proceed. Road or area is closed to all traffic.","imagePath":"./assets/signs/mandatory/R101.svg"},
-  {"id":"R102","code":"R102","name":"No Vehicles","category":"Regulatory","subCategory":"Mandatory","description":"No vehicles allowed. Area restricted to pedestrians and bicycles only.","imagePath":"./assets/signs/mandatory/R102.svg"},
-  {"id":"R103","code":"R103","name":"No Motor Vehicles","category":"Regulatory","subCategory":"Mandatory","description":"No motor vehicles permitted. Only bicycles and pedestrians allowed.","imagePath":"./assets/signs/mandatory/R103.svg"},
-  {"id":"R104","code":"R104","name":"No Motorcycles","category":"Regulatory","subCategory":"Mandatory","description":"Motorcycles and motor-bikes are not permitted in this area.","imagePath":"./assets/signs/mandatory/R104.svg"},
-  {"id":"R105","code":"R105","name":"No Goods Vehicles","category":"Regulatory","subCategory":"Mandatory","description":"Vehicles carrying goods are not permitted.","imagePath":"./assets/signs/mandatory/R105.svg"},
-  {"id":"R106","code":"R106","name":"No Buses","category":"Regulatory","subCategory":"Mandatory","description":"Buses are not permitted in this area.","imagePath":"./assets/signs/mandatory/R106.svg"},
-  {"id":"R107","code":"R107","name":"No Minibus Taxis","category":"Regulatory","subCategory":"Mandatory","description":"Minibus taxis are not allowed to use this route.","imagePath":"./assets/signs/mandatory/R107.svg"},
-  {"id":"R108","code":"R108","name":"No Animal-drawn Vehicles","category":"Regulatory","subCategory":"Mandatory","description":"Animal-drawn vehicles are not permitted.","imagePath":"./assets/signs/mandatory/R108.svg"},
-  {"id":"R109","code":"R109","name":"No Bicycles","category":"Regulatory","subCategory":"Mandatory","description":"Bicycles are not allowed on this road.","imagePath":"./assets/signs/mandatory/R109.svg"},
-  {"id":"R110","code":"R110","name":"No Pedestrians","category":"Regulatory","subCategory":"Mandatory","description":"Pedestrians are not permitted on this road."},
-  {"id":"R201-10","code":"R201-10","name":"Speed Limit 10","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 10 km/h.","imagePath":"./assets/signs/prohibitory/R201-10.svg"},
-  {"id":"R201-20","code":"R201-20","name":"Speed Limit 20","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 20 km/h.","imagePath":"./assets/signs/prohibitory/R201-20.svg"},
-  {"id":"R201-30","code":"R201-30","name":"Speed Limit 30","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 30 km/h.","imagePath":"./assets/signs/prohibitory/R201-30.svg"},
-  {"id":"R201-40","code":"R201-40","name":"Speed Limit 40","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 40 km/h.","imagePath":"./assets/signs/prohibitory/R201-40.svg"},
-  {"id":"R201-50","code":"R201-50","name":"Speed Limit 50","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 50 km/h.","imagePath":"./assets/signs/prohibitory/R201-50.svg"},
-  {"id":"R201-60","code":"R201-60","name":"Speed Limit 60","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 60 km/h.","imagePath":"./assets/signs/prohibitory/R201-60.svg"},
-  {"id":"R201-70","code":"R201-70","name":"Speed Limit 70","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 70 km/h.","imagePath":"./assets/signs/prohibitory/R201-70.svg"},
-  {"id":"R201-75","code":"R201-75","name":"Speed Limit 75","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 75 km/h.","imagePath":"./assets/signs/prohibitory/R201-75.svg"},
-  {"id":"R201-80","code":"R201-80","name":"Speed Limit 80","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 80 km/h.","imagePath":"./assets/signs/prohibitory/R201-80.svg"},
-  {"id":"R201-90","code":"R201-90","name":"Speed Limit 90","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 90 km/h.","imagePath":"./assets/signs/prohibitory/R201-90.svg"},
-  {"id":"R201-100","code":"R201-100","name":"Speed Limit 100","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 100 km/h.","imagePath":"./assets/signs/prohibitory/R201-100.svg"},
-  {"id":"R201-120","code":"R201-120","name":"Speed Limit 120","category":"Regulatory","subCategory":"Speed","description":"Maximum speed limit of 120 km/h.","imagePath":"./assets/signs/prohibitory/R201-120.svg"},
-  {"id":"R202","code":"R202","name":"End of Speed Limit","category":"Regulatory","subCategory":"Speed","description":"Speed limit restriction has ended."},
-  {"id":"R204","code":"R204","name":"No Overtaking","category":"Regulatory","subCategory":"Prohibitory","description":"Overtaking is not permitted."},
-  {"id":"R205","code":"R205","name":"End of No Overtaking","category":"Regulatory","subCategory":"Prohibitory","description":"No-overtaking restriction has ended."},
-  {"id":"R301","code":"R301","name":"Proceed Straight","category":"Regulatory","subCategory":"Mandatory","description":"You must proceed straight ahead."},
-  {"id":"R302","code":"R302","name":"Turn Left","category":"Regulatory","subCategory":"Mandatory","description":"You must turn left at this intersection."},
-  {"id":"R303","code":"R303","name":"Turn Right","category":"Regulatory","subCategory":"Mandatory","description":"You must turn right at this intersection."},
-  {"id":"R304","code":"R304","name":"Straight or Left","category":"Regulatory","subCategory":"Mandatory","description":"You must go straight or turn left."},
-  {"id":"R305","code":"R305","name":"Straight or Right","category":"Regulatory","subCategory":"Mandatory","description":"You must go straight or turn right."},
-  {"id":"R306","code":"R306","name":"Left or Right","category":"Regulatory","subCategory":"Mandatory","description":"You must turn left or right."},
-  {"id":"R307","code":"R307","name":"Keep Left","category":"Regulatory","subCategory":"Mandatory","description":"Keep to the left side of the road."},
-  {"id":"R308","code":"R308","name":"Keep Right","category":"Regulatory","subCategory":"Mandatory","description":"Keep to the right side of the road."},
-  {"id":"R309","code":"R309","name":"Roundabout","category":"Regulatory","subCategory":"Mandatory","description":"Approaching a roundabout. Give way to traffic in the roundabout."},
-  {"id":"W101","code":"W101","name":"Pedestrian Crossing","category":"Warning","subCategory":"Pedestrian","description":"Pedestrians cross here. Slow down and be prepared to stop.","imagePath":"./assets/signs/warning/W101.svg"},
-  {"id":"W102","code":"W102","name":"School Crossing","category":"Warning","subCategory":"Pedestrian","description":"School children cross here. Slow down and watch for children.","imagePath":"./assets/signs/warning/W102.svg"},
-  {"id":"W103","code":"W103","name":"Bicycle Crossing","category":"Warning","subCategory":"Traffic","description":"Cyclists cross here. Slow down and watch for bicycles.","imagePath":"./assets/signs/warning/W103.svg"},
-  {"id":"W104","code":"W104","name":"Disabled Persons Crossing","category":"Warning","subCategory":"Pedestrian","description":"Disabled persons may cross here. Slow down and be prepared.","imagePath":"./assets/signs/warning/W104.svg"},
-  {"id":"W105","code":"W105","name":"Accident Prone Area","category":"Warning","subCategory":"Hazard","description":"High accident area. Reduce speed and drive with caution.","imagePath":"./assets/signs/warning/W105.svg"},
-  {"id":"W106","code":"W106","name":"Slippery Road","category":"Warning","subCategory":"Hazard","description":"Road is slippery. Reduce speed and exercise caution.","imagePath":"./assets/signs/warning/W106.svg"},
-  {"id":"W107","code":"W107","name":"Uneven Road","category":"Warning","subCategory":"Road","description":"Road surface is uneven or has potholes. Drive slowly and carefully.","imagePath":"./assets/signs/warning/W107.svg"},
-  {"id":"W108","code":"W108","name":"Loose Gravel","category":"Warning","subCategory":"Road","description":"Loose gravel on road. Reduce speed and be cautious.","imagePath":"./assets/signs/warning/W108.svg"},
-  {"id":"W109","code":"W109","name":"Steep Hill Downward","category":"Warning","subCategory":"Road","description":"Steep downhill ahead. Use lower gear and check brakes.","imagePath":"./assets/signs/warning/W109.svg"},
-  {"id":"W110","code":"W110","name":"Steep Hill Upward","category":"Warning","subCategory":"Road","description":"Steep uphill ahead. Be prepared for vehicles in difficulty.","imagePath":"./assets/signs/warning/W110.svg"},
-  {"id":"W112","code":"W112","name":"Right Curve","category":"Warning","subCategory":"Road","description":"Road curves right. Reduce speed.","imagePath":"./assets/signs/warning/W112.svg"},
-  {"id":"W113","code":"W113","name":"Double Curve","category":"Warning","subCategory":"Road","description":"Road has two curves in succession. Reduce speed.","imagePath":"./assets/signs/warning/W113.svg"},
-  {"id":"W114","code":"W114","name":"Double Curve Right First","category":"Warning","subCategory":"Road","description":"Double curves, right first. Reduce speed.","imagePath":"./assets/signs/warning/W114.svg"},
-  {"id":"W115","code":"W115","name":"Road Narrows","category":"Warning","subCategory":"Road","description":"Road narrows ahead. Drive carefully.","imagePath":"./assets/signs/warning/W115.svg"},
-  {"id":"W116","code":"W116","name":"Road Narrows Right","category":"Warning","subCategory":"Road","description":"Road narrows on the right. Stay in your lane.","imagePath":"./assets/signs/warning/W116.svg"},
-  {"id":"W117","code":"W117","name":"Road Narrows Left","category":"Warning","subCategory":"Road","description":"Road narrows on the left. Stay in your lane.","imagePath":"./assets/signs/warning/W117.svg"},
-  {"id":"W118","code":"W118","name":"Merging Traffic","category":"Warning","subCategory":"Traffic","description":"Traffic merges ahead. Be prepared for vehicles joining.","imagePath":"./assets/signs/warning/W118.svg"},
-  {"id":"W119","code":"W119","name":"Two-Way Traffic","category":"Warning","subCategory":"Traffic","description":"Two-way traffic ahead. Be alert for oncoming vehicles.","imagePath":"./assets/signs/warning/W119.svg"},
-  {"id":"W201","code":"W201","name":"Railway Crossing with Gates","category":"Warning","subCategory":"Railway","description":"Railway crossing with gates. Stop if gates are closing.","imagePath":"./assets/signs/warning/W201.svg"},
-  {"id":"W202","code":"W202","name":"Railway Crossing without Gates","category":"Warning","subCategory":"Railway","description":"Railway crossing without gates. Stop and listen.","imagePath":"./assets/signs/warning/W202.svg"},
-  {"id":"W203","code":"W203","name":"Cattle Crossing","category":"Warning","subCategory":"Animals","description":"Livestock may cross. Be prepared to stop.","imagePath":"./assets/signs/warning/W203.svg"},
-  {"id":"W204","code":"W204","name":"Wild Animals","category":"Warning","subCategory":"Animals","description":"Wild animals may cross. Reduce speed and watch.","imagePath":"./assets/signs/warning/W204.svg"},
-  {"id":"W205","code":"W205","name":"Intersection Ahead","category":"Warning","subCategory":"Intersection","description":"Intersection ahead. Reduce speed and be prepared to give way.","imagePath":"./assets/signs/warning/W205.svg"},
-  {"id":"W206","code":"W206","name":"Side Road Right","category":"Warning","subCategory":"Intersection","description":"Side road from right. Watch for vehicles.","imagePath":"./assets/signs/warning/W206.svg"},
-  {"id":"W215","code":"W215","name":"Dust Storm","category":"Warning","subCategory":"Hazard","description":"Dust storms in this area. Reduce speed.","imagePath":"./assets/signs/warning/W215.svg"},
-  {"id":"W216","code":"W216","name":"Low Flying Aircraft","category":"Warning","subCategory":"Hazard","description":"Aircraft may fly low. Do not be startled.","imagePath":"./assets/signs/warning/W216.svg"},
-  {"id":"W217","code":"W217","name":"Falling Rocks","category":"Warning","subCategory":"Hazard","description":"Rocks may fall. Be cautious in mountains.","imagePath":"./assets/signs/warning/W217.svg"},
-  {"id":"IN20","code":"IN20","name":"Shopping Center","category":"Information","subCategory":"Facility","description":"Shopping center nearby.","imagePath":"./assets/signs/svg-information-other/IN20.svg"}
+  {
+    "id": "R1",
+    "code": "R1",
+    "name": "Stop",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Come to a complete stop. Give way to all traffic. Only proceed when safe."
+  },
+  {
+    "id": "R2",
+    "code": "R2",
+    "name": "Yield",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Give way to traffic on the road you are entering. Slow down and stop if necessary."
+  },
+  {
+    "id": "R3",
+    "code": "R3",
+    "name": "No Parking",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Parking is prohibited at any time in this area."
+  },
+  {
+    "id": "R4",
+    "code": "R4",
+    "name": "No Stopping",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Stopping is prohibited at any time, even temporarily."
+  },
+  {
+    "id": "R5",
+    "code": "R5",
+    "name": "No U-Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "U-turns and reversing are not permitted at this location."
+  },
+  {
+    "id": "R6",
+    "code": "R6",
+    "name": "No Left Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Left turns are not permitted at this intersection."
+  },
+  {
+    "id": "R7",
+    "code": "R7",
+    "name": "No Right Turn",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Right turns are not permitted at this intersection."
+  },
+  {
+    "id": "R101",
+    "code": "R101",
+    "name": "No Entry",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "No entry. Do not proceed. Road or area is closed to all traffic.",
+    "imagePath": "./assets/signs/mandatory/R101.svg"
+  },
+  {
+    "id": "R102",
+    "code": "R102",
+    "name": "No Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "No vehicles allowed. Area restricted to pedestrians and bicycles only.",
+    "imagePath": "./assets/signs/mandatory/R102.svg"
+  },
+  {
+    "id": "R103",
+    "code": "R103",
+    "name": "No Motor Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "No motor vehicles permitted. Only bicycles and pedestrians allowed.",
+    "imagePath": "./assets/signs/mandatory/R103.svg"
+  },
+  {
+    "id": "R104",
+    "code": "R104",
+    "name": "No Motorcycles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Motorcycles and motor-bikes are not permitted in this area.",
+    "imagePath": "./assets/signs/mandatory/R104.svg"
+  },
+  {
+    "id": "R105",
+    "code": "R105",
+    "name": "No Goods Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Vehicles carrying goods are not permitted.",
+    "imagePath": "./assets/signs/mandatory/R105.svg"
+  },
+  {
+    "id": "R106",
+    "code": "R106",
+    "name": "No Buses",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Buses are not permitted in this area.",
+    "imagePath": "./assets/signs/mandatory/R106.svg"
+  },
+  {
+    "id": "R107",
+    "code": "R107",
+    "name": "No Minibus Taxis",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Minibus taxis are not allowed to use this route.",
+    "imagePath": "./assets/signs/mandatory/R107.svg"
+  },
+  {
+    "id": "R108",
+    "code": "R108",
+    "name": "No Animal-drawn Vehicles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Animal-drawn vehicles are not permitted.",
+    "imagePath": "./assets/signs/mandatory/R108.svg"
+  },
+  {
+    "id": "R109",
+    "code": "R109",
+    "name": "No Bicycles",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Bicycles are not allowed on this road.",
+    "imagePath": "./assets/signs/mandatory/R109.svg"
+  },
+  {
+    "id": "R110",
+    "code": "R110",
+    "name": "No Pedestrians",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Pedestrians are not permitted on this road."
+  },
+  {
+    "id": "R201-10",
+    "code": "R201-10",
+    "name": "Speed Limit 10",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 10 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-10.svg"
+  },
+  {
+    "id": "R201-20",
+    "code": "R201-20",
+    "name": "Speed Limit 20",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 20 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-20.svg"
+  },
+  {
+    "id": "R201-30",
+    "code": "R201-30",
+    "name": "Speed Limit 30",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 30 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-30.svg"
+  },
+  {
+    "id": "R201-40",
+    "code": "R201-40",
+    "name": "Speed Limit 40",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 40 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-40.svg"
+  },
+  {
+    "id": "R201-50",
+    "code": "R201-50",
+    "name": "Speed Limit 50",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 50 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-50.svg"
+  },
+  {
+    "id": "R201-60",
+    "code": "R201-60",
+    "name": "Speed Limit 60",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 60 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-60.svg"
+  },
+  {
+    "id": "R201-70",
+    "code": "R201-70",
+    "name": "Speed Limit 70",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 70 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-70.svg"
+  },
+  {
+    "id": "R201-75",
+    "code": "R201-75",
+    "name": "Speed Limit 75",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 75 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-75.svg"
+  },
+  {
+    "id": "R201-80",
+    "code": "R201-80",
+    "name": "Speed Limit 80",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 80 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-80.svg"
+  },
+  {
+    "id": "R201-90",
+    "code": "R201-90",
+    "name": "Speed Limit 90",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 90 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-90.svg"
+  },
+  {
+    "id": "R201-100",
+    "code": "R201-100",
+    "name": "Speed Limit 100",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 100 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-100.svg"
+  },
+  {
+    "id": "R201-120",
+    "code": "R201-120",
+    "name": "Speed Limit 120",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Maximum speed limit of 120 km/h.",
+    "imagePath": "./assets/signs/prohibitory/R201-120.svg"
+  },
+  {
+    "id": "R202",
+    "code": "R202",
+    "name": "End of Speed Limit",
+    "category": "Regulatory",
+    "subCategory": "Speed",
+    "description": "Speed limit restriction has ended."
+  },
+  {
+    "id": "R204",
+    "code": "R204",
+    "name": "No Overtaking",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "Overtaking is not permitted."
+  },
+  {
+    "id": "R205",
+    "code": "R205",
+    "name": "End of No Overtaking",
+    "category": "Regulatory",
+    "subCategory": "Prohibitory",
+    "description": "No-overtaking restriction has ended."
+  },
+  {
+    "id": "R301",
+    "code": "R301",
+    "name": "Proceed Straight",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must proceed straight ahead."
+  },
+  {
+    "id": "R302",
+    "code": "R302",
+    "name": "Turn Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must turn left at this intersection."
+  },
+  {
+    "id": "R303",
+    "code": "R303",
+    "name": "Turn Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must turn right at this intersection."
+  },
+  {
+    "id": "R304",
+    "code": "R304",
+    "name": "Straight or Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must go straight or turn left."
+  },
+  {
+    "id": "R305",
+    "code": "R305",
+    "name": "Straight or Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must go straight or turn right."
+  },
+  {
+    "id": "R306",
+    "code": "R306",
+    "name": "Left or Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "You must turn left or right."
+  },
+  {
+    "id": "R307",
+    "code": "R307",
+    "name": "Keep Left",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Keep to the left side of the road."
+  },
+  {
+    "id": "R308",
+    "code": "R308",
+    "name": "Keep Right",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Keep to the right side of the road."
+  },
+  {
+    "id": "R309",
+    "code": "R309",
+    "name": "Roundabout",
+    "category": "Regulatory",
+    "subCategory": "Mandatory",
+    "description": "Approaching a roundabout. Give way to traffic in the roundabout."
+  },
+  {
+    "id": "W101",
+    "code": "W101",
+    "name": "Pedestrian Crossing",
+    "category": "Warning",
+    "subCategory": "Pedestrian",
+    "description": "Pedestrians cross here. Slow down and be prepared to stop.",
+    "imagePath": "./assets/signs/warning/W101.svg"
+  },
+  {
+    "id": "W102",
+    "code": "W102",
+    "name": "School Crossing",
+    "category": "Warning",
+    "subCategory": "Pedestrian",
+    "description": "School children cross here. Slow down and watch for children.",
+    "imagePath": "./assets/signs/warning/W102.svg"
+  },
+  {
+    "id": "W103",
+    "code": "W103",
+    "name": "Bicycle Crossing",
+    "category": "Warning",
+    "subCategory": "Traffic",
+    "description": "Cyclists cross here. Slow down and watch for bicycles.",
+    "imagePath": "./assets/signs/warning/W103.svg"
+  },
+  {
+    "id": "W104",
+    "code": "W104",
+    "name": "Disabled Persons Crossing",
+    "category": "Warning",
+    "subCategory": "Pedestrian",
+    "description": "Disabled persons may cross here. Slow down and be prepared.",
+    "imagePath": "./assets/signs/warning/W104.svg"
+  },
+  {
+    "id": "W105",
+    "code": "W105",
+    "name": "Accident Prone Area",
+    "category": "Warning",
+    "subCategory": "Hazard",
+    "description": "High accident area. Reduce speed and drive with caution.",
+    "imagePath": "./assets/signs/warning/W105.svg"
+  },
+  {
+    "id": "W106",
+    "code": "W106",
+    "name": "Slippery Road",
+    "category": "Warning",
+    "subCategory": "Hazard",
+    "description": "Road is slippery. Reduce speed and exercise caution.",
+    "imagePath": "./assets/signs/warning/W106.svg"
+  },
+  {
+    "id": "W107",
+    "code": "W107",
+    "name": "Uneven Road",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road surface is uneven or has potholes. Drive slowly and carefully.",
+    "imagePath": "./assets/signs/warning/W107.svg"
+  },
+  {
+    "id": "W108",
+    "code": "W108",
+    "name": "Loose Gravel",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Loose gravel on road. Reduce speed and be cautious.",
+    "imagePath": "./assets/signs/warning/W108.svg"
+  },
+  {
+    "id": "W109",
+    "code": "W109",
+    "name": "Steep Hill Downward",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Steep downhill ahead. Use lower gear and check brakes.",
+    "imagePath": "./assets/signs/warning/W109.svg"
+  },
+  {
+    "id": "W110",
+    "code": "W110",
+    "name": "Steep Hill Upward",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Steep uphill ahead. Be prepared for vehicles in difficulty.",
+    "imagePath": "./assets/signs/warning/W110.svg"
+  },
+  {
+    "id": "W112",
+    "code": "W112",
+    "name": "Right Curve",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road curves right. Reduce speed.",
+    "imagePath": "./assets/signs/warning/W112.svg"
+  },
+  {
+    "id": "W113",
+    "code": "W113",
+    "name": "Double Curve",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road has two curves in succession. Reduce speed.",
+    "imagePath": "./assets/signs/warning/W113.svg"
+  },
+  {
+    "id": "W114",
+    "code": "W114",
+    "name": "Double Curve Right First",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Double curves, right first. Reduce speed.",
+    "imagePath": "./assets/signs/warning/W114.svg"
+  },
+  {
+    "id": "W115",
+    "code": "W115",
+    "name": "Road Narrows",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road narrows ahead. Drive carefully.",
+    "imagePath": "./assets/signs/warning/W115.svg"
+  },
+  {
+    "id": "W116",
+    "code": "W116",
+    "name": "Road Narrows Right",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road narrows on the right. Stay in your lane.",
+    "imagePath": "./assets/signs/warning/W116.svg"
+  },
+  {
+    "id": "W117",
+    "code": "W117",
+    "name": "Road Narrows Left",
+    "category": "Warning",
+    "subCategory": "Road",
+    "description": "Road narrows on the left. Stay in your lane.",
+    "imagePath": "./assets/signs/warning/W117.svg"
+  },
+  {
+    "id": "W118",
+    "code": "W118",
+    "name": "Merging Traffic",
+    "category": "Warning",
+    "subCategory": "Traffic",
+    "description": "Traffic merges ahead. Be prepared for vehicles joining.",
+    "imagePath": "./assets/signs/warning/W118.svg"
+  },
+  {
+    "id": "W119",
+    "code": "W119",
+    "name": "Two-Way Traffic",
+    "category": "Warning",
+    "subCategory": "Traffic",
+    "description": "Two-way traffic ahead. Be alert for oncoming vehicles.",
+    "imagePath": "./assets/signs/warning/W119.svg"
+  },
+  {
+    "id": "W201",
+    "code": "W201",
+    "name": "Railway Crossing with Gates",
+    "category": "Warning",
+    "subCategory": "Railway",
+    "description": "Railway crossing with gates. Stop if gates are closing.",
+    "imagePath": "./assets/signs/warning/W201.svg"
+  },
+  {
+    "id": "W202",
+    "code": "W202",
+    "name": "Railway Crossing without Gates",
+    "category": "Warning",
+    "subCategory": "Railway",
+    "description": "Railway crossing without gates. Stop and listen.",
+    "imagePath": "./assets/signs/warning/W202.svg"
+  },
+  {
+    "id": "W203",
+    "code": "W203",
+    "name": "Cattle Crossing",
+    "category": "Warning",
+    "subCategory": "Animals",
+    "description": "Livestock may cross. Be prepared to stop.",
+    "imagePath": "./assets/signs/warning/W203.svg"
+  },
+  {
+    "id": "W204",
+    "code": "W204",
+    "name": "Wild Animals",
+    "category": "Warning",
+    "subCategory": "Animals",
+    "description": "Wild animals may cross. Reduce speed and watch.",
+    "imagePath": "./assets/signs/warning/W204.svg"
+  },
+  {
+    "id": "W205",
+    "code": "W205",
+    "name": "Intersection Ahead",
+    "category": "Warning",
+    "subCategory": "Intersection",
+    "description": "Intersection ahead. Reduce speed and be prepared to give way.",
+    "imagePath": "./assets/signs/warning/W205.svg"
+  },
+  {
+    "id": "W206",
+    "code": "W206",
+    "name": "Side Road Right",
+    "category": "Warning",
+    "subCategory": "Intersection",
+    "description": "Side road from right. Watch for vehicles.",
+    "imagePath": "./assets/signs/warning/W206.svg"
+  },
+  {
+    "id": "W215",
+    "code": "W215",
+    "name": "Dust Storm",
+    "category": "Warning",
+    "subCategory": "Hazard",
+    "description": "Dust storms in this area. Reduce speed.",
+    "imagePath": "./assets/signs/warning/W215.svg"
+  },
+  {
+    "id": "W216",
+    "code": "W216",
+    "name": "Low Flying Aircraft",
+    "category": "Warning",
+    "subCategory": "Hazard",
+    "description": "Aircraft may fly low. Do not be startled.",
+    "imagePath": "./assets/signs/warning/W216.svg"
+  },
+  {
+    "id": "W217",
+    "code": "W217",
+    "name": "Falling Rocks",
+    "category": "Warning",
+    "subCategory": "Hazard",
+    "description": "Rocks may fall. Be cautious in mountains.",
+    "imagePath": "./assets/signs/warning/W217.svg"
+  },
+  {
+    "id": "IN20",
+    "code": "IN20",
+    "name": "Shopping Center",
+    "category": "Information",
+    "subCategory": "Facility",
+    "description": "Shopping center nearby.",
+    "imagePath": "./assets/signs/svg-information-other/IN20.svg"
+  }
 ]
