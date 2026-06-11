@@ -171,7 +171,16 @@ function renderSignCacheGrid(category) {
 
     const svgContainer = document.createElement('div');
     svgContainer.className = 'sign-cache-svg';
-    svgContainer.innerHTML = renderSignSVG(sign);
+
+    if (sign.imagePath) {
+      const img = document.createElement('img');
+      img.src = sign.imagePath;
+      img.alt = sign.name;
+      img.style.cssText = 'width:100%;height:100%;object-fit:contain;';
+      svgContainer.appendChild(img);
+    } else {
+      svgContainer.innerHTML = renderSignSVG(sign);
+    }
 
     const code = document.createElement('div');
     code.className = 'sign-cache-code';
@@ -286,13 +295,23 @@ function renderQuestion() {
   if (existingControl) existingControl.remove();
 
   // Display sign SVG if this is a sign question
-  if (q.signSVG) {
+  if (q.signSVG || q.signImagePath) {
     const signWrap = document.createElement('div');
     signWrap.id = 'signImageContainer';
     signWrap.style.cssText = 'text-align:center;margin-bottom:1.5rem;';
     const svgContainer = document.createElement('div');
     svgContainer.style.cssText = 'display:inline-block;width:200px;height:200px;';
-    svgContainer.innerHTML = q.signSVG;
+
+    if (q.signImagePath) {
+      const img = document.createElement('img');
+      img.src = q.signImagePath;
+      img.alt = q.signName;
+      img.style.cssText = 'width:100%;height:100%;object-fit:contain;';
+      svgContainer.appendChild(img);
+    } else {
+      svgContainer.innerHTML = q.signSVG;
+    }
+
     signWrap.appendChild(svgContainer);
     const qTextEl = document.getElementById('qText');
     qTextEl.parentNode.insertBefore(signWrap, qTextEl);
@@ -1095,7 +1114,7 @@ function generateSignQuestions(signsData) {
   signsData.forEach(sign => {
     const otherSigns = signsData.filter(s => s.id !== sign.id);
 
-    questions.push({
+    const questionObj = {
       category: 'signVisual',
       signCode: sign.code,
       signName: sign.name,
@@ -1107,7 +1126,13 @@ function generateSignQuestions(signsData) {
       ].sort(() => Math.random() - 0.5),
       answer: [sign.name, ...pickRandom(otherSigns, 3).map(s => s.name)].sort(() => Math.random() - 0.5).indexOf(sign.name),
       explanation: sign.description
-    });
+    };
+
+    if (sign.imagePath) {
+      questionObj.signImagePath = sign.imagePath;
+    }
+
+    questions.push(questionObj);
   });
 
   return questions;

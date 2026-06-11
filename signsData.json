@@ -61,7 +61,8 @@
     "name": "No Entry",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Entry is prohibited. Do not proceed in this direction."
+    "description": "Entry is prohibited. Do not proceed in this direction.",
+    "imagePath": "./assets/signs/mandatory/R101.svg"
   },
   {
     "id": "R102",
@@ -69,7 +70,8 @@
     "name": "No Vehicles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "No vehicles of any kind are allowed to proceed in this direction."
+    "description": "No vehicles of any kind are allowed to proceed in this direction.",
+    "imagePath": "./assets/signs/mandatory/R102.svg"
   },
   {
     "id": "R103",
@@ -77,7 +79,8 @@
     "name": "No Motor Vehicles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Motor vehicles are not permitted on this road."
+    "description": "Motor vehicles are not permitted on this road.",
+    "imagePath": "./assets/signs/mandatory/R103.svg"
   },
   {
     "id": "R104",
@@ -85,7 +88,8 @@
     "name": "No Motorcycles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Motorcycles and motor scooters are not allowed on this road."
+    "description": "Motorcycles and motor scooters are not allowed on this road.",
+    "imagePath": "./assets/signs/mandatory/R104.svg"
   },
   {
     "id": "R105",
@@ -93,7 +97,8 @@
     "name": "No Goods Vehicles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Goods vehicles are not permitted on this road."
+    "description": "Goods vehicles are not permitted on this road.",
+    "imagePath": "./assets/signs/mandatory/R105.svg"
   },
   {
     "id": "R106",
@@ -101,7 +106,8 @@
     "name": "No Buses",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Buses are not allowed on this road."
+    "description": "Buses are not allowed on this road.",
+    "imagePath": "./assets/signs/mandatory/R106.svg"
   },
   {
     "id": "R107",
@@ -109,7 +115,8 @@
     "name": "No Minibus Taxis",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Minibus taxis are not permitted on this road."
+    "description": "Minibus taxis are not permitted on this road.",
+    "imagePath": "./assets/signs/mandatory/R107.svg"
   },
   {
     "id": "R108",
@@ -117,7 +124,8 @@
     "name": "No Animal-drawn Vehicles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Animal-drawn vehicles are not allowed on this road."
+    "description": "Animal-drawn vehicles are not allowed on this road.",
+    "imagePath": "./assets/signs/mandatory/R108.svg"
   },
   {
     "id": "R109",
@@ -125,7 +133,8 @@
     "name": "No Bicycles",
     "category": "Regulatory",
     "subCategory": "Prohibitory",
-    "description": "Bicycles are not permitted on this road."
+    "description": "Bicycles are not permitted on this road.",
+    "imagePath": "./assets/signs/mandatory/R109.svg"
   },
   {
     "id": "R110",
@@ -141,7 +150,8 @@
     "name": "Speed Limit 20",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 20 km/h is permitted in this area."
+    "description": "Maximum speed of 20 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-20.svg"
   },
   {
     "id": "R201-30",
@@ -149,7 +159,8 @@
     "name": "Speed Limit 30",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 30 km/h is permitted in this area."
+    "description": "Maximum speed of 30 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-30.svg"
   },
   {
     "id": "R201-40",
@@ -157,7 +168,8 @@
     "name": "Speed Limit 40",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 40 km/h is permitted in this area."
+    "description": "Maximum speed of 40 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-40.svg"
   },
   {
     "id": "R201-60",
@@ -165,7 +177,8 @@
     "name": "Speed Limit 60",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 60 km/h is permitted in this area."
+    "description": "Maximum speed of 60 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-60.svg"
   },
   {
     "id": "R201-80",
@@ -173,7 +186,8 @@
     "name": "Speed Limit 80",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 80 km/h is permitted in this area."
+    "description": "Maximum speed of 80 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-80.svg"
   },
   {
     "id": "R201-100",
@@ -181,7 +195,8 @@
     "name": "Speed Limit 100",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 100 km/h is permitted in this area."
+    "description": "Maximum speed of 100 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-100.svg"
   },
   {
     "id": "R201-120",
@@ -189,7 +204,8 @@
     "name": "Speed Limit 120",
     "category": "Regulatory",
     "subCategory": "Speed Limit",
-    "description": "Maximum speed of 120 km/h is permitted in this area."
+    "description": "Maximum speed of 120 km/h is permitted in this area.",
+    "imagePath": "./assets/signs/prohibitory/R201-120.svg"
   },
   {
     "id": "R202",
@@ -301,7 +317,8 @@
     "name": "Curve Right",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "The road curves to the right ahead. Reduce speed and be prepared to steer right."
+    "description": "The road curves to the right ahead. Reduce speed and be prepared to steer right.",
+    "imagePath": "./assets/signs/warning/TW101.svg"
   },
   {
     "id": "W102",
@@ -309,7 +326,8 @@
     "name": "Curve Left",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "The road curves to the left ahead. Reduce speed and be prepared to steer left."
+    "description": "The road curves to the left ahead. Reduce speed and be prepared to steer left.",
+    "imagePath": "./assets/signs/warning/TW102.svg"
   },
   {
     "id": "W103",
@@ -317,7 +335,8 @@
     "name": "Double Curve",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "The road has two curves ahead in opposite directions. Reduce speed and be cautious."
+    "description": "The road has two curves ahead in opposite directions. Reduce speed and be cautious.",
+    "imagePath": "./assets/signs/warning/TW103.svg"
   },
   {
     "id": "W104",
@@ -325,7 +344,8 @@
     "name": "Winding Road",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "The road winds with multiple curves ahead. Reduce speed significantly."
+    "description": "The road winds with multiple curves ahead. Reduce speed significantly.",
+    "imagePath": "./assets/signs/warning/TW104.svg"
   },
   {
     "id": "W105",
@@ -333,7 +353,8 @@
     "name": "Steep Descent",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "A steep downhill slope is ahead. Use a low gear and brake carefully."
+    "description": "A steep downhill slope is ahead. Use a low gear and brake carefully.",
+    "imagePath": "./assets/signs/warning/TW105.svg"
   },
   {
     "id": "W106",
@@ -341,7 +362,8 @@
     "name": "Steep Ascent",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "A steep uphill slope is ahead. Use low gear and be prepared for slower traffic."
+    "description": "A steep uphill slope is ahead. Use low gear and be prepared for slower traffic.",
+    "imagePath": "./assets/signs/warning/TW106.svg"
   },
   {
     "id": "W107",
@@ -349,7 +371,8 @@
     "name": "Uneven Road",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "The road surface is uneven or rutted. Reduce speed and be cautious."
+    "description": "The road surface is uneven or rutted. Reduce speed and be cautious.",
+    "imagePath": "./assets/signs/warning/TW107.svg"
   },
   {
     "id": "W108",
@@ -357,7 +380,8 @@
     "name": "Bumps",
     "category": "Warning",
     "subCategory": "Road Hazards",
-    "description": "Speed bumps or humps are ahead. Reduce speed before crossing."
+    "description": "Speed bumps or humps are ahead. Reduce speed before crossing.",
+    "imagePath": "./assets/signs/warning/TW108.svg"
   },
   {
     "id": "W109",
@@ -365,7 +389,8 @@
     "name": "Slippery Road",
     "category": "Warning",
     "subCategory": "Road Surface",
-    "description": "The road surface is slippery. Reduce speed and increase following distance."
+    "description": "The road surface is slippery. Reduce speed and increase following distance.",
+    "imagePath": "./assets/signs/warning/TW109.svg"
   },
   {
     "id": "W110",
@@ -373,7 +398,8 @@
     "name": "Loose Gravel",
     "category": "Warning",
     "subCategory": "Road Surface",
-    "description": "There is loose gravel on the road. Be careful with steering and braking."
+    "description": "There is loose gravel on the road. Be careful with steering and braking.",
+    "imagePath": "./assets/signs/warning/TW110.svg"
   },
   {
     "id": "W201",
@@ -381,7 +407,8 @@
     "name": "Crossroad",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A cross intersection is ahead where traffic crosses your path. Be prepared to stop."
+    "description": "A cross intersection is ahead where traffic crosses your path. Be prepared to stop.",
+    "imagePath": "./assets/signs/warning/W201.svg"
   },
   {
     "id": "W202",
@@ -389,7 +416,8 @@
     "name": "T-Junction Ahead",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A T-junction is ahead. Reduce speed and be prepared for cross traffic."
+    "description": "A T-junction is ahead. Reduce speed and be prepared for cross traffic.",
+    "imagePath": "./assets/signs/warning/W202.svg"
   },
   {
     "id": "W203",
@@ -397,7 +425,8 @@
     "name": "T-Junction Right",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A T-junction with traffic from the right is ahead."
+    "description": "A T-junction with traffic from the right is ahead.",
+    "imagePath": "./assets/signs/warning/W203.svg"
   },
   {
     "id": "W204",
@@ -405,7 +434,8 @@
     "name": "T-Junction Left",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A T-junction with traffic from the left is ahead."
+    "description": "A T-junction with traffic from the left is ahead.",
+    "imagePath": "./assets/signs/warning/W204.svg"
   },
   {
     "id": "W205",
@@ -413,7 +443,8 @@
     "name": "Y-Junction",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A Y-junction is ahead. Keep to your lane and be prepared to give way if required."
+    "description": "A Y-junction is ahead. Keep to your lane and be prepared to give way if required.",
+    "imagePath": "./assets/signs/warning/W205.svg"
   },
   {
     "id": "W206",
@@ -421,7 +452,8 @@
     "name": "Staggered Junction",
     "category": "Warning",
     "subCategory": "Intersections",
-    "description": "A staggered junction is ahead where side roads are not aligned. Be cautious."
+    "description": "A staggered junction is ahead where side roads are not aligned. Be cautious.",
+    "imagePath": "./assets/signs/warning/W206.svg"
   },
   {
     "id": "W301",
