@@ -3,105 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>K53 Learner's Licence App</title>
+  <title>K53 Learner's Licence - Practice & Study</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
     <h1>🚗 K53 Learner's Licence</h1>
-    <p>Practice quiz &amp; study guide for the South African learner's test</p>
+    <p>Complete practice quiz & study guide for South African learner's test</p>
     <nav class="tabs">
-      <button class="tab-btn active" data-page="quizPage">📝 Practice Quiz</button>
-      <button class="tab-btn" data-page="signCachePage">🪧 Road Signs</button>
-      <button class="tab-btn" data-page="referencePage">📚 Reference</button>
-      <button class="tab-btn" data-page="progressPage">📊 Progress</button>
+      <button class="tab-btn active" data-page="quiz-page">📝 Quiz</button>
+      <button class="tab-btn" data-page="signs-page">🪧 Road Signs</button>
+      <button class="tab-btn" data-page="reference-page">📚 Reference</button>
+      <button class="tab-btn" data-page="progress-page">📊 Progress</button>
     </nav>
   </header>
 
   <main>
 
     <!-- ===== QUIZ PAGE ===== -->
-    <section id="quizPage" class="page active">
+    <section id="quiz-page" class="page active">
+      <div class="quiz-filters" id="quizFilters"></div>
 
-      <div class="filter-bar" id="filterBar"></div>
-
-      <!-- Question card -->
-      <div class="quiz-card" id="quizArea">
+      <div class="quiz-card" id="quizCard">
         <div class="progress-bar-wrap">
-          <div class="progress-bar" id="progressBar" style="width:0%"></div>
+          <div class="progress-bar" id="progressBar"></div>
         </div>
 
         <div class="q-meta">
-          <span id="qCounter">Question 1 of 15</span>
-          <span id="qCategory">Road Signs</span>
+          <span id="qNumber">Question 1 of 15</span>
+          <span id="qType">Road Signs</span>
         </div>
 
-        <p class="q-text" id="qText"></p>
-
+        <div id="qContent"></div>
         <div class="options" id="options"></div>
-
         <div class="explanation" id="explanation"></div>
 
         <div class="quiz-actions">
-          <button class="btn btn-outline" onclick="startQuiz()">🔀 Restart</button>
-          <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next →</button>
+          <button class="btn btn-outline" onclick="app.startQuiz()">🔀 Restart</button>
+          <button class="btn btn-primary" id="nextBtn" onclick="app.nextQuestion()">Next →</button>
         </div>
       </div>
 
-      <!-- Score screen -->
-      <div class="quiz-card score-screen" id="scoreScreen" style="display:none">
-        <div class="score-circle score-pass" id="scoreCircle">
-          <span class="big">--</span>
-          <span class="label">0/0</span>
+      <div class="score-card" id="scoreCard" style="display:none">
+        <div class="score-circle" id="scoreCircle">
+          <span class="score-pct">0%</span>
+          <span class="score-label">0/0</span>
         </div>
         <h2 id="scoreTitle"></h2>
         <p id="scoreMsg"></p>
-        <button class="btn btn-success" onclick="startQuiz()">Try Again</button>
+        <div class="score-mistakes" id="scoreMistakes"></div>
+        <button class="btn btn-success" onclick="app.startQuiz()">Try Again</button>
       </div>
-
     </section>
 
-    <!-- ===== VEHICLE CONTROLS PAGE ===== -->
-    <section id="controlsPage" class="page">
-      <div style="text-align: center; margin-bottom: 2rem;">
-        <img src="/assets/controls/vehicle_controls_diagram.png" alt="Vehicle Controls Diagram" style="max-width: 100%; max-height: 400px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
-      </div>
-      <div class="study-grid" id="controlsGrid"></div>
+    <!-- ===== ROAD SIGNS PAGE ===== -->
+    <section id="signs-page" class="page">
+      <div class="signs-filters" id="signsFilters"></div>
+      <div class="signs-grid" id="signsGrid"></div>
     </section>
 
-    <!-- ===== ROAD MARKINGS PAGE ===== -->
-    <section id="markingsPage" class="page">
-      <div class="study-grid" id="markingsGrid"></div>
-    </section>
-
-    <!-- ===== ROAD SIGNS CACHE PAGE ===== -->
-    <section id="signCachePage" class="page">
-      <div class="sign-cache-filters" id="signCacheFilters"></div>
-      <div class="sign-cache-grid" id="signCacheGrid"></div>
-    </section>
-
-    <!-- ===== REFERENCE PAGE (Vehicle Controls + Road Markings) ===== -->
-    <section id="referencePage" class="page">
-      <div style="display: flex; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <h3 style="margin-bottom: 1rem;">Vehicle Controls</h3>
+    <!-- ===== REFERENCE PAGE ===== -->
+    <section id="reference-page" class="page">
+      <div class="reference-content">
+        <div class="reference-section">
+          <h3>🚗 Vehicle Controls</h3>
           <div style="text-align: center; margin-bottom: 2rem;">
-            <img src="/assets/controls/vehicle_controls_diagram.png" alt="Vehicle Controls Diagram" style="max-width: 100%; max-height: 400px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+            <img src="./assets/controls/vehicle_controls_diagram.png" alt="Vehicle Controls" class="controls-img">
           </div>
+          <div class="reference-cards" id="controlsReference"></div>
+        </div>
+
+        <div class="reference-section">
+          <h3>🛣️ Road Markings</h3>
+          <div class="reference-cards" id="markingsReference"></div>
         </div>
       </div>
-      <div class="study-grid" id="referenceGrid"></div>
     </section>
 
-    <!-- ===== PROGRESS DASHBOARD PAGE ===== -->
-    <section id="progressPage" class="page">
-      <div id="progressDashboard"></div>
+    <!-- ===== PROGRESS PAGE ===== -->
+    <section id="progress-page" class="page">
+      <div id="progressDash"></div>
     </section>
 
   </main>
 
-  <script src="questions.js"></script>
+  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
