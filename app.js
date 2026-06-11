@@ -215,13 +215,17 @@ function renderSignSVG(sign) {
       <polygon points="50,15 85,100 15,100" fill="white"/>
       <text x="50" y="75" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#333" text-anchor="middle">${sign.code.replace('W', '')}</text>
     </svg>`;
-  } else if (sign.category === 'Guidance') {
-    const isGreen = code.startsWith('in');
-    const bgColor = isGreen ? '#1B5E20' : '#003DA5';
-    const darkColor = isGreen ? '#0d3d1a' : '#001f5c';
+  } else if (sign.category === 'Information') {
     svg = `<svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
-      <rect x="5" y="5" width="90" height="70" fill="${bgColor}" stroke="${darkColor}" stroke-width="2"/>
-      <text x="50" y="50" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">${sign.code.replace('IN', '')}</text>
+      <rect x="5" y="5" width="90" height="70" fill="#1B5E20" stroke="#0d3d1a" stroke-width="2"/>
+      <text x="50" y="30" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">${sign.code}</text>
+      <text x="50" y="55" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">${sign.name.substring(0, 8)}</text>
+    </svg>`;
+  } else if (sign.category === 'Guidance') {
+    svg = `<svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="5" y="5" width="90" height="70" fill="#003DA5" stroke="#001f5c" stroke-width="2"/>
+      <text x="50" y="30" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">${sign.code}</text>
+      <text x="50" y="55" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">${sign.name.substring(0, 8)}</text>
     </svg>`;
   }
 
