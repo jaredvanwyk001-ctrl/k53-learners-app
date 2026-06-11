@@ -302,36 +302,28 @@ function renderSignCacheGrid(category) {
 function buildReferenceGuide() {
   const grid = document.getElementById('referenceGrid');
   grid.innerHTML = '';
-
-  const sections = [
-    {
-      title: 'Road Markings',
-      items: [
-        { name: 'White Centre Line (Dashed)', desc: 'You may cross to overtake when safe.' },
-        { name: 'White Centre Line (Solid)', desc: 'You may not cross this line.' },
-        { name: 'Yellow Line', desc: 'Indicates no parking or stopping.' },
-        { name: 'White Edge Line', desc: 'Marks the edge of the road.' },
-        { name: 'Chevrons', desc: 'Indicates a traffic separation area.' }
-      ]
-    }
-  ];
-
-  sections.forEach(section => {
+  roadMarkings.forEach(marking => {
     const card = document.createElement('div');
     card.className = 'study-card';
 
     const header = document.createElement('div');
     header.className = 'study-card-header';
-    header.textContent = section.title;
+    header.innerHTML = `<span><strong>${marking.title}</strong><br><small style="opacity:0.7">${marking.meaning}</small></span><span class="chevron">▼</span>`;
 
     const body = document.createElement('div');
-    body.className = 'study-card-body open';
+    body.className = 'study-card-body';
+    body.innerHTML = `
+      ${marking.svg}
+      <p><strong>Meaning:</strong> ${marking.description}</p>
+      <p><strong>Common Locations:</strong></p>
+      <ul style="margin: 0.5rem 0 0 1.5rem; padding: 0;">
+        ${marking.examples.map(e => `<li style="margin-bottom: 0.3rem;">${e}</li>`).join('')}
+      </ul>
+    `;
 
-    section.items.forEach(item => {
-      const itemDiv = document.createElement('div');
-      itemDiv.style.cssText = 'margin-bottom: 0.8rem;';
-      itemDiv.innerHTML = `<strong>${item.name}</strong><br><small>${item.desc}</small>`;
-      body.appendChild(itemDiv);
+    header.addEventListener('click', () => {
+      const open = body.classList.toggle('open');
+      header.classList.toggle('open', open);
     });
 
     card.appendChild(header);
