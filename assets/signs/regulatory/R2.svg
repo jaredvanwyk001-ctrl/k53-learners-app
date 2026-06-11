@@ -1,5 +1,8 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50,5 95,85 5,85" fill="#CC0000" stroke="#990000" stroke-width="2"/>
-    <polygon points="50,15 85,75 15,75" fill="white"/>
-    <text x="50" y="60" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#CC0000" text-anchor="middle">YIELD</text>
-  </svg>
+<svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Inverted triangle for YIELD -->
+  <polygon points="50,8 95,105 5,105" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+  <!-- White inner triangle -->
+  <polygon points="50,20 85,95 15,95" fill="white"/>
+  <!-- YIELD text -->
+  <text x="50" y="75" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#CC0000" text-anchor="middle">YIELD</text>
+</svg>

@@ -1,7 +1,7 @@
 <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50,5 95,110 5,110" fill="#CC0000" stroke="#990000" stroke-width="2"/>
-    <polygon points="50,15 85,100 15,100" fill="white"/>
-    <circle cx="35" cy="45" r="8" fill="#CC0000"/>
-    <circle cx="50" cy="45" r="8" fill="#FFD700"/>
-    <circle cx="65" cy="45" r="8" fill="#00CC00"/>
-  </svg>
+  <polygon points="50,8 95,110 5,110" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+  <polygon points="50,18 88,105 12,105" fill="white"/>
+  <polygon points="50,35 60,50 40,50" fill="#CC0000"/>
+  <path d="M 45 55 Q 50 50 55 55" fill="none" stroke="#CC0000" stroke-width="2"/>
+  <path d="M 35 60 L 35 80 M 40 65 L 40 80 M 60 65 L 60 80 M 65 60 L 65 80" stroke="#CC0000" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
