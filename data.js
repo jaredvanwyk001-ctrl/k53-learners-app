@@ -4,33 +4,36 @@
 let SIGNS = [];
 let OFFICIAL_DATA_LOADED = false;
 
-// Load official K53 road signs from SADC-RTSM database
+// Load OFFICIAL K53 road signs from k53_signs_official.json (SINGLE SOURCE OF TRUTH)
 async function loadK53Data() {
   try {
-    const response = await fetch('./k53_assets/k53_signs.json');
-    const k53Signs = await response.json();
+    const response = await fetch('./k53_signs_official.json');
+    const officialSigns = await response.json();
 
-    // Transform official K53 data into app format
-    SIGNS = k53Signs.map(sign => ({
+    // Transform official K53 data - NO MODIFICATIONS, NO GENERATION
+    SIGNS = officialSigns.map(sign => ({
       id: sign.id,
-      code: sign.id.toUpperCase(),
+      code: sign.code,
       name: sign.name,
       category: mapCategory(sign.category),
+      subcategory: sign.subcategory,
       description: sign.description,
-      imagePath: './' + sign.local_path,
-      action: extractAction(sign.description)
+      purpose: sign.purpose,
+      action: sign.action,
+      where: sign.where,
+      imagePath: `./k53_assets/${sign.category}/${sign.id}.png`
     }));
 
     OFFICIAL_DATA_LOADED = true;
-    console.log(`✅ Loaded ${SIGNS.length} official K53 road signs`);
+    console.log(`✅ Loaded ${SIGNS.length} official K53 road signs from k53_signs_official.json`);
 
     // Initialize app after data loads
     if (app && typeof app.init === 'function') {
       app.init();
     }
   } catch (error) {
-    console.error('Failed to load K53 signs data:', error);
-    SIGNS = createFallbackSigns();
+    console.error('❌ Failed to load K53 official signs data:', error);
+    SIGNS = [];
   }
 }
 
@@ -40,31 +43,10 @@ function mapCategory(officialCategory) {
     'regulatory': 'Regulatory',
     'warning': 'Warning',
     'guidance': 'Information',
-    'tourism': 'Information'
+    'tourism': 'Information',
+    'road-markings': 'Road Markings'
   };
   return mapping[officialCategory] || officialCategory;
-}
-
-// Extract driver action from sign description
-function extractAction(description) {
-  if (!description) return 'Follow instructions';
-  const firstSentence = description.split('.')[0];
-  return firstSentence || 'Follow instructions';
-}
-
-// Fallback signs if official data fails to load
-function createFallbackSigns() {
-  return [
-    {
-      id: 'stop',
-      code: 'STOP',
-      name: 'Stop Sign',
-      category: 'Regulatory',
-      description: 'Come to a complete stop at the stop line',
-      imagePath: './k53_assets/regulatory/stop.png',
-      action: 'Come to complete stop'
-    }
-  ];
 }
 
 // ============================================================================

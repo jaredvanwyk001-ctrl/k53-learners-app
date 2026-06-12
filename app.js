@@ -232,10 +232,24 @@ const app = {
       const card = document.createElement('div');
       card.className = 'sign-card';
 
+      const imgContainer = document.createElement('div');
+      imgContainer.className = 'sign-image-container';
+      imgContainer.style.cssText = 'width:100%;aspect-ratio:1/1;background:#e8e8e8;display:flex;align-items:center;justify-content:center;border-radius:4px;margin-bottom:0.5rem;';
+
       const img = document.createElement('img');
       img.src = sign.imagePath;
       img.alt = sign.name;
-      img.onerror = () => { img.src = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22100%22 height=%22100%22/%3E%3Ctext x=%2250%22 y=%2250%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22%3E' + sign.code + '%3C/text%3E%3C/svg%3E'; };
+      img.style.cssText = 'max-width:100%;max-height:100%;border-radius:4px;';
+
+      img.onerror = () => {
+        imgContainer.innerHTML = '';
+        const placeholder = document.createElement('div');
+        placeholder.style.cssText = 'text-align:center;color:#999;font-size:12px;font-weight:500;';
+        placeholder.textContent = sign.code;
+        imgContainer.appendChild(placeholder);
+      };
+
+      imgContainer.appendChild(img);
 
       const code = document.createElement('div');
       code.className = 'sign-code';
@@ -249,7 +263,7 @@ const app = {
       desc.className = 'sign-desc';
       desc.textContent = sign.description;
 
-      card.appendChild(img);
+      card.appendChild(imgContainer);
       card.appendChild(code);
       card.appendChild(name);
       card.appendChild(desc);
