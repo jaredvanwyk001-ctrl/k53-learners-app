@@ -1,0 +1,1328 @@
+{
+  "total_permanent": 148,
+  "assigned": 132,
+  "unassigned": [],
+  "assignments": [
+    {
+      "sign_id": "R1-3",
+      "code": "R1.3",
+      "name": "3-Way Stop Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "97×144",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R1-4",
+      "code": "R1.4",
+      "name": "4-Way Stop Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R1-2",
+      "code": "R1.2",
+      "name": "Stop/Yield Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "66×139",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R1-5",
+      "code": "R1.5",
+      "name": "STOP/RY-GO Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "69×98",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R2",
+      "code": "R2",
+      "name": "Yield Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "69×98",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R1-1",
+      "code": "R1.1",
+      "name": "Stop Sign",
+      "page": 5,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "71×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R2-2",
+      "code": "R2.2",
+      "name": "Yield at Traffic Circle Sign",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "64×86",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R4-3",
+      "code": "R4.3",
+      "name": "One-Way Roadway Sign (Ahead)",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "79×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R3",
+      "code": "R3",
+      "name": "No Entry Sign",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "61×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R6",
+      "code": "R6",
+      "name": "Yield to Oncoming Traffic Sign",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "46×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R4-1",
+      "code": "R4.1",
+      "name": "One-Way Roadway Sign (Left)",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "58×58",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R5",
+      "code": "R5",
+      "name": "Pedestrian Priority Sign",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "412×309",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R2-1",
+      "code": "R2.1",
+      "name": "Yield to Pedestrians Sign",
+      "page": 6,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "56×58",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R104",
+      "code": "R104",
+      "name": "Keep Right Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R101",
+      "code": "R101",
+      "name": "Minimum Speed Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "60×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R111",
+      "code": "R111",
+      "name": "Cyclists Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R102",
+      "code": "R102",
+      "name": "Vehicles Exceeding Mass Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R108",
+      "code": "R108",
+      "name": "Turn Left Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R106",
+      "code": "R106",
+      "name": "Proceed Right Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "61×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R103",
+      "code": "R103",
+      "name": "Keep Left Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R105",
+      "code": "R105",
+      "name": "Proceed Left Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R107",
+      "code": "R107",
+      "name": "Proceed Straight Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "61×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R109",
+      "code": "R109",
+      "name": "Turn Right Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "84×87",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R110",
+      "code": "R110",
+      "name": "Pedestrians Only Sign",
+      "page": 7,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "84×87",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R133",
+      "code": "R133",
+      "name": "Switch Headlamps On Sign",
+      "page": 11,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R137",
+      "code": "R137",
+      "name": "Roundabout Sign",
+      "page": 11,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R202",
+      "code": "R202",
+      "name": "Mass Limit Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R203",
+      "code": "R203",
+      "name": "Axle Mass Limit Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R201",
+      "code": "R201",
+      "name": "Speed Limit Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R206",
+      "code": "R206",
+      "name": "Excessive Noise Prohibited Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R204",
+      "code": "R204",
+      "name": "Height Limit Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R207",
+      "code": "R207",
+      "name": "Hitch-Hiking Prohibited Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R205",
+      "code": "R205",
+      "name": "Length Limit Sign",
+      "page": 12,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R216",
+      "code": "R216",
+      "name": "Parking Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R212",
+      "code": "R212",
+      "name": "Right Turn Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R217",
+      "code": "R217",
+      "name": "Stopping Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R210",
+      "code": "R210",
+      "name": "Right Turn Ahead Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R214",
+      "code": "R214",
+      "name": "Overtaking Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R208",
+      "code": "R208",
+      "name": "Unauthorised Vehicles Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R215",
+      "code": "R215",
+      "name": "Overtaking by Heavy Vehicles Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "63×63",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "R213",
+      "code": "R213",
+      "name": "U-Turn Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "63×63",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "R211",
+      "code": "R211",
+      "name": "Left Turn Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R209",
+      "code": "R209",
+      "name": "Left Turn Ahead Prohibited Sign",
+      "page": 13,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "63×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R218",
+      "code": "R218",
+      "name": "Pedestrians Prohibited Sign",
+      "page": 14,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R219",
+      "code": "R219",
+      "name": "Pedal Cycles Prohibited Sign",
+      "page": 14,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "62×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R239",
+      "code": "R239",
+      "name": "Width Limit Sign",
+      "page": 16,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "63×62",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "R301",
+      "code": "R301",
+      "name": "Bus Reservation Sign",
+      "page": 17,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "53×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R302",
+      "code": "R302",
+      "name": "Bus Lane Reservation Sign",
+      "page": 17,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "53×69",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "R304",
+      "code": "R304",
+      "name": "Pedal Cycle Lane Reservation Sign",
+      "page": 17,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "53×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R402",
+      "code": "R402",
+      "name": "Single-Carriageway Freeway Begins Sign",
+      "page": 20,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "53×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R401",
+      "code": "R401",
+      "name": "Dual-Carriageway Freeway Begins Sign",
+      "page": 20,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "53×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R403",
+      "code": "R403",
+      "name": "Woonerf Sign",
+      "page": 20,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "52×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "R600",
+      "code": "R600",
+      "name": "De-Restriction Sign",
+      "page": 23,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "54×71",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W106",
+      "code": "W106",
+      "name": "Skew T-Junction (Right) Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W104",
+      "code": "W104",
+      "name": "T-Junction Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "79×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W101",
+      "code": "W101",
+      "name": "Crossroad Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W105",
+      "code": "W105",
+      "name": "Skew T-Junction (Left) Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "72×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W103",
+      "code": "W103",
+      "name": "Secondary Crossroad Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "72×63",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W102",
+      "code": "W102",
+      "name": "Priority Crossroad Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W107",
+      "code": "W107",
+      "name": "Side Road Junction from the Left Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W108",
+      "code": "W108",
+      "name": "Side Road Junction from the Right Warning Sign",
+      "page": 24,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W203",
+      "code": "W203",
+      "name": "Gentle Curve Right Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W205",
+      "code": "W205",
+      "name": "Sharp Curve Right Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×76",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W207",
+      "code": "W207",
+      "name": "Hairpin Bend Right Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "72×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W202",
+      "code": "W202",
+      "name": "Gentle Curve Left Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "69×61",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W208",
+      "code": "W208",
+      "name": "Winding Road (First Bend Right) Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "79×69",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W206",
+      "code": "W206",
+      "name": "Hairpin Bend Left Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W209",
+      "code": "W209",
+      "name": "Winding Road (First Bend Left) Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W201",
+      "code": "W201",
+      "name": "Traffic Circle Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W204",
+      "code": "W204",
+      "name": "Sharp Curve Left Warning Sign",
+      "page": 26,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W302",
+      "code": "W302",
+      "name": "Traffic Control STOP Ahead Warning Sign",
+      "page": 27,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W301",
+      "code": "W301",
+      "name": "Traffic Signals Ahead Warning Sign",
+      "page": 27,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "79×70",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W306",
+      "code": "W306",
+      "name": "Pedestrian Crossing Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W312",
+      "code": "W312",
+      "name": "Sheep Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "81×71",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W303",
+      "code": "W303",
+      "name": "Traffic Control YIELD Ahead Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W307",
+      "code": "W307",
+      "name": "Pedestrians Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×76",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W311",
+      "code": "W311",
+      "name": "Horses Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W309",
+      "code": "W309",
+      "name": "Pedal Cyclists Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "82×71",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W310",
+      "code": "W310",
+      "name": "Cattle Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "73×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W308",
+      "code": "W308",
+      "name": "Children Warning Sign",
+      "page": 28,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W313",
+      "code": "W313",
+      "name": "Wild Animals Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W323",
+      "code": "W323",
+      "name": "Steep Descent Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W321",
+      "code": "W321",
+      "name": "Length Restricted Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W318",
+      "code": "W318",
+      "name": "Railway Crossing Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W314",
+      "code": "W314",
+      "name": "Gate Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "72×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W322",
+      "code": "W322",
+      "name": "Steep Ascent Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "72×64",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W320",
+      "code": "W320",
+      "name": "Height Restricted Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W319",
+      "code": "W319",
+      "name": "Tunnel Warning Sign",
+      "page": 29,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×76",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W331",
+      "code": "W331",
+      "name": "Uneven Roadway Warning Sign",
+      "page": 30,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W328",
+      "code": "W328",
+      "name": "Road Narrows from Both Sides Warning Sign",
+      "page": 30,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "80×70",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W327",
+      "code": "W327",
+      "name": "One Vehicle Width Structure Warning Sign",
+      "page": 30,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W325",
+      "code": "W325",
+      "name": "Gravel Road Begins Warning Sign",
+      "page": 30,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "84×73",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W326",
+      "code": "W326",
+      "name": "Narrow Bridge Warning Sign",
+      "page": 30,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×74",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W334",
+      "code": "W334",
+      "name": "Falling Rocks (Left) Warning Sign",
+      "page": 31,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "94×82",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W333",
+      "code": "W333",
+      "name": "Slippery Road Warning Sign",
+      "page": 31,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "82×72",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W339",
+      "code": "W339",
+      "name": "General Warning Sign",
+      "page": 31,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "85×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W335",
+      "code": "W335",
+      "name": "Falling Rocks (Right) Warning Sign",
+      "page": 31,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W332",
+      "code": "W332",
+      "name": "Speed Humps Warning Sign",
+      "page": 31,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W351",
+      "code": "W351",
+      "name": "Low-Flying Aircraft Warning Sign",
+      "page": 33,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W349",
+      "code": "W349",
+      "name": "Crosswinds Warning Sign",
+      "page": 33,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "86×75",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W350",
+      "code": "W350",
+      "name": "Drift Warning Sign",
+      "page": 33,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W359",
+      "code": "W359",
+      "name": "Hippo Warning Sign",
+      "page": 34,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W357",
+      "code": "W357",
+      "name": "Elephant Warning Sign",
+      "page": 34,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "84×82",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W356",
+      "code": "W356",
+      "name": "Horses and Riders Warning Sign",
+      "page": 34,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "W358",
+      "code": "W358",
+      "name": "Warthog Warning Sign",
+      "page": 34,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "92×81",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GLS-1",
+      "code": "GLS-1",
+      "name": "River Name Sign",
+      "page": 39,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "99×55",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GDS-1",
+      "code": "GDS-1",
+      "name": "Railway Station Guidance Sign",
+      "page": 39,
+      "confidence": 0.98,
+      "method": "OCR exact code match (GDS-1)",
+      "dimensions": "758×71",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GLS-5",
+      "code": "GLS-5",
+      "name": "Freeway Name Sign (Single)",
+      "page": 39,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "758×71",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GDS-3",
+      "code": "GDS-3",
+      "name": "Airport Guidance Sign",
+      "page": 39,
+      "confidence": 0.98,
+      "method": "OCR exact code match (GDS-3)",
+      "dimensions": "758×71",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GLS-4",
+      "code": "GLS-4",
+      "name": "Freeway Name Sign (Dual)",
+      "page": 39,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "208×69",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GDS-20",
+      "code": "GDS-20",
+      "name": "Parking Guidance Sign",
+      "page": 39,
+      "confidence": 0.98,
+      "method": "OCR exact code match (GDS-20)",
+      "dimensions": "829×73",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GE-2",
+      "code": "GE2",
+      "name": "Advance Trailblazer Sign",
+      "page": 40,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "75×94",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GE-14",
+      "code": "GE14",
+      "name": "Provincial Route Confirmation Marker",
+      "page": 41,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "106×140",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GE-15",
+      "code": "GE15",
+      "name": "National Route Confirmation Marker",
+      "page": 41,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "91×62",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GD-3",
+      "code": "GD3",
+      "name": "Confirmation Sign",
+      "page": 42,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "52×77",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GD-1",
+      "code": "GD1",
+      "name": "Stack-Type Advance Direction Sign",
+      "page": 42,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.9)",
+      "dimensions": "229×194",
+      "validation_score": 0.9
+    },
+    {
+      "sign_id": "GD-4",
+      "code": "GD4",
+      "name": "Fingerboard Sign",
+      "page": 42,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "245×154",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GA-1",
+      "code": "GA1",
+      "name": "Pre-Advance Exit Direction Sign",
+      "page": 43,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "189×138",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GA-3",
+      "code": "GA3",
+      "name": "Exit Direction Sign",
+      "page": 43,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "134×86",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM1",
+      "code": "RM1",
+      "name": "No Overtaking Lines",
+      "page": 49,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "112×170",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RTM1",
+      "code": "RTM1",
+      "name": "Stop Line Marking",
+      "page": 49,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "101×163",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RTM3",
+      "code": "RTM3",
+      "name": "Pedestrian Crossing Lines (Zebra)",
+      "page": 49,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "277×130",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RTM2",
+      "code": "RTM2",
+      "name": "Yield Line Marking",
+      "page": 49,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "64×152",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM2",
+      "code": "RM2",
+      "name": "No Crossing Lines",
+      "page": 49,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "117×151",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM5",
+      "code": "RM5",
+      "name": "Painted Island Marking",
+      "page": 50,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "126×171",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM8",
+      "code": "RM8",
+      "name": "Mandatory Direction Arrows Marking",
+      "page": 51,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "113×194",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM12",
+      "code": "RM12",
+      "name": "No Stopping Lines",
+      "page": 52,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "113×183",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM13",
+      "code": "RM13",
+      "name": "No Parking Line",
+      "page": 52,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "81×79",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "RM15",
+      "code": "RM15",
+      "name": "Traffic Circle Mandatory Directional Arrows",
+      "page": 53,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "169×185",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "WM1",
+      "code": "WM1",
+      "name": "Railway Crossing Ahead Road Marking",
+      "page": 53,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "80×164",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "WM10",
+      "code": "WM10",
+      "name": "Speed Hump Road Marking",
+      "page": 54,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "101×154",
+      "validation_score": 0.95
+    },
+    {
+      "sign_id": "GM1",
+      "code": "GM1",
+      "name": "Lane Lines Marking",
+      "page": 55,
+      "confidence": 0.92,
+      "method": "Position match (validation: 0.95)",
+      "dimensions": "281×280",
+      "validation_score": 0.95
+    }
+  ],
+  "unassigned_count": 0
+}
