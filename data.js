@@ -7,7 +7,7 @@ let OFFICIAL_DATA_LOADED = false;
 // Load OFFICIAL K53 road signs from k53_signs_official.json (SINGLE SOURCE OF TRUTH)
 async function loadK53Data() {
   try {
-    const response = await fetch('./k53_signs_official.json');
+    const response = await fetch('/k53_signs_official.json');
     const officialSigns = await response.json();
 
     // Transform official K53 data - NO MODIFICATIONS, NO GENERATION
@@ -21,7 +21,7 @@ async function loadK53Data() {
       purpose: sign.purpose,
       action: sign.action,
       where: sign.where,
-      imagePath: `./k53_assets/${sign.category}/${sign.id}.png`
+      imagePath: `/k53_assets/${sign.category}/${sign.id}.png`
     }));
 
     OFFICIAL_DATA_LOADED = true;
