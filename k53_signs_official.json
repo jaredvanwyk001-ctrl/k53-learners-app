@@ -11,12 +11,6 @@
     "purpose": "To bring traffic to a stop.",
     "action": "Bring your vehicle to a stop behind the stop line. If there is no stop line, the front of the vehicle must come to a stand still in line with the stop sign. At a three or four-way stop you may not move off before all the other vehicles which stopped before you have moved off. Proceed only when it is safe.",
     "description": "A regulatory control sign that compels all drivers to come to a complete standstill. Failure to obey is an offence punishable by a fine or imprisonment or both.",
-    "_meticulous_match": {
-      "page": 5,
-      "position": 0,
-      "quality": 0.3327803290113084,
-      "dimensions": "97×144"
-    },
     "imagePath": "/k53_assets/regulatory/R1-1.png"
   },
   {
@@ -31,12 +25,6 @@
     "purpose": "To allow traffic turning left, to do so (if it can be done without interfering with cross traffic) without stopping.",
     "action": "If you intend to carry straight on, bring your vehicle to a standstill behind the stop line. When turning left, yield to all traffic which is close enough to pose a hazard. Proceed only when it is safe.",
     "description": "A combined regulatory control sign. Drivers going straight must stop; drivers turning left may do so without stopping if it is safe.",
-    "_meticulous_match": {
-      "page": 5,
-      "position": 1,
-      "quality": 0.4088552712162387,
-      "dimensions": "62×64"
-    },
     "imagePath": "/k53_assets/regulatory/R1-2.png"
   },
   {
@@ -51,12 +39,6 @@
     "purpose": "To bring traffic from all three directions to a stop.",
     "action": "If more than one vehicle stops at the intersection, the vehicle which stopped first should move off first.",
     "description": "A regulatory control sign at a three-way intersection. All traffic from all three approaches must stop completely. Right of way is determined by order of arrival.",
-    "_meticulous_match": {
-      "page": 5,
-      "position": 2,
-      "quality": 0.21868606592249407,
-      "dimensions": "66×139"
-    },
     "imagePath": "/k53_assets/regulatory/R1-3.png"
   },
   {
@@ -71,12 +53,6 @@
     "purpose": "To bring traffic from all four directions to a stop.",
     "action": "Bring your vehicle to a standstill behind the stop line. If there is no stop line, the front of your vehicle must be brought to a stop in line with the stop sign. Proceed only when it is safe. If more than one vehicle stops at such an intersection, the vehicle which stopped first should move off first.",
     "description": "A regulatory control sign at a four-way intersection. All traffic from all four approaches must stop. The vehicle that arrived first has right of way.",
-    "_meticulous_match": {
-      "page": 5,
-      "position": 3,
-      "quality": 0.30311933201619906,
-      "dimensions": "69×98"
-    },
     "imagePath": "/k53_assets/regulatory/R1-4.png"
   },
   {
@@ -91,12 +67,6 @@
     "purpose": "These are two different signs which are mounted back to back. It indicates whether you may proceed or must stop.",
     "action": "Stop if the STOP sign is displayed and move off or proceed with caution if safe when the GO sign is displayed.",
     "description": "A temporary reversible traffic control sign used at road works to alternate the flow of traffic past a single-lane obstruction.",
-    "_meticulous_match": {
-      "page": 5,
-      "position": 4,
-      "quality": 0.30311933201619906,
-      "dimensions": "69×98"
-    },
     "imagePath": "/k53_assets/regulatory/R1-5.png"
   },
   {
@@ -117,12 +87,6 @@
       "height": 58,
       "sizeKB": 8.6
     },
-    "_meticulous_match": {
-      "page": 5,
-      "position": 5,
-      "quality": 0.3733821980960785,
-      "dimensions": "71×63"
-    },
     "imagePath": "/k53_assets/regulatory/R2.png"
   },
   {
@@ -137,12 +101,6 @@
     "purpose": "To compel you to give priority to pedestrians crossing the road or wanting to cross the road.",
     "action": "Look out for pedestrians crossing the road or near the road and be ready to stop.",
     "description": "A regulatory control sign that gives pedestrians absolute priority. Drivers must slow down and stop to allow pedestrians to cross.",
-    "_meticulous_match": {
-      "page": 6,
-      "position": 0,
-      "quality": 0.3136176371772874,
-      "dimensions": "64×86"
-    },
     "imagePath": "/k53_assets/regulatory/R2-1.png"
   },
   {
@@ -157,12 +115,6 @@
     "purpose": "To warn you that there is a traffic circle ahead where you must expect to yield.",
     "action": "Look out for other vehicles and yield to vehicles already in the circle or that will cross the yield line at their entrance to the circle before you will cross yours. Stop if necessary. The driver who reaches his/her yield line first may proceed first. At a mini circle you must signal in time in which direction you want to turn.",
     "description": "A regulatory control sign at roundabouts. Traffic inside the circle has right of way. Entering traffic must yield.",
-    "_meticulous_match": {
-      "page": 6,
-      "position": 1,
-      "quality": 0.37274316812980585,
-      "dimensions": "79×69"
-    },
     "imagePath": "/k53_assets/regulatory/R2-2.png"
   },
   {
@@ -183,12 +135,6 @@
       "height": 58,
       "sizeKB": 6.8
     },
-    "_meticulous_match": {
-      "page": 6,
-      "position": 2,
-      "quality": 0.40786869514690455,
-      "dimensions": "61×63"
-    },
     "imagePath": "/k53_assets/regulatory/R3.png"
   },
   {
@@ -203,12 +149,6 @@
     "purpose": "To indicate that there is a one-way carriageway to the left.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
     "description": "A regulatory control sign indicating a one-way road to the left. Traffic may only travel in the direction shown.",
-    "_meticulous_match": {
-      "page": 6,
-      "position": 3,
-      "quality": 0.29164690012453287,
-      "dimensions": "46×63"
-    },
     "imagePath": "/k53_assets/regulatory/R4-1.png"
   },
   {
@@ -223,12 +163,6 @@
     "purpose": "To indicate that there is a one-way carriageway to the right.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
     "description": "A regulatory control sign indicating a one-way road to the right. Traffic may only travel in the direction shown.",
-    "_meticulous_match": {
-      "page": 6,
-      "position": 4,
-      "quality": 0.420184,
-      "dimensions": "58×58"
-    },
     "imagePath": "/k53_assets/regulatory/R4-2.png"
   },
   {
@@ -243,12 +177,6 @@
     "purpose": "To indicate that there is a one-way carriageway ahead.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
     "description": "A regulatory control sign indicating a one-way road ahead. Traffic may only travel in the direction shown.",
-    "_meticulous_match": {
-      "page": 6,
-      "position": 5,
-      "quality": 0.8832262533884705,
-      "dimensions": "412×309"
-    },
     "imagePath": "/k53_assets/regulatory/R4-3.png"
   },
   {
@@ -269,12 +197,6 @@
       "height": 58,
       "sizeKB": 7.5
     },
-    "_meticulous_match": {
-      "page": 6,
-      "position": 6,
-      "quality": 0.40299388390429774,
-      "dimensions": "56×58"
-    },
     "imagePath": "/k53_assets/regulatory/R5.png"
   },
   {
@@ -294,7 +216,8 @@
       "width": 106,
       "height": 149,
       "sizeKB": 27.6
-    }
+    },
+    "imagePath": "/k53_assets/regulatory/R6.png"
   },
   {
     "id": "R101",
@@ -308,12 +231,6 @@
     "purpose": "To regulate the minimum speed of traffic.",
     "action": "Do not drive slower than the speed indicated in km/h.",
     "description": "A regulatory command sign. You must drive at least at the speed shown. Driving slower than this speed is an offence.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 0,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R101.png"
   },
   {
@@ -328,12 +245,6 @@
     "purpose": "To compel drivers of certain heavy vehicles to use the road or part of the road indicated by this road traffic sign.",
     "action": "When driving a vehicle with a Gross Vehicle Mass (GVM) or Gross Combination Mass (GCM) in excess of the mass indicated in tons, use only the part of the road indicated by this sign. If the GVM or GCM of your vehicle is less than the mass indicated in tons, use a part of the road not indicated by this sign.",
     "description": "A regulatory command sign reserving a lane or road section for heavy vehicles exceeding the specified mass.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 1,
-      "quality": 0.39323071609402876,
-      "dimensions": "60×64"
-    },
     "imagePath": "/k53_assets/regulatory/R102.png"
   },
   {
@@ -348,12 +259,6 @@
     "purpose": "To indicate that you must drive to the left of an obstruction where the sign is displayed.",
     "action": "Pass to the left of the obstruction as indicated by the sign.",
     "description": "A regulatory command sign. You are compelled to pass to the left of the obstruction or traffic island indicated.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 2,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R103.png"
   },
   {
@@ -368,12 +273,6 @@
     "purpose": "To indicate that you must drive to the right of an obstruction where the sign is displayed.",
     "action": "Pass to the right of the obstruction as indicated by the sign.",
     "description": "A regulatory command sign. You are compelled to pass to the right of the obstruction or traffic island indicated.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 3,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R104.png"
   },
   {
@@ -388,12 +287,6 @@
     "purpose": "To indicate the direction in which you must proceed.",
     "action": "Drive only in the direction indicated by the arrow — left.",
     "description": "A regulatory command sign. You must turn left. Proceeding straight or turning right is prohibited.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 4,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R105.png"
   },
   {
@@ -408,12 +301,6 @@
     "purpose": "To indicate the direction in which you must proceed.",
     "action": "Drive only in the direction indicated by the arrow — right.",
     "description": "A regulatory command sign. You must turn right. Proceeding straight or turning left is prohibited.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 5,
-      "quality": 0.40786869514690455,
-      "dimensions": "61×63"
-    },
     "imagePath": "/k53_assets/regulatory/R106.png"
   },
   {
@@ -428,12 +315,6 @@
     "purpose": "To indicate the direction in which you must proceed.",
     "action": "Drive only in the direction indicated by the arrow — straight ahead.",
     "description": "A regulatory command sign. You must proceed straight. Turning left or right is prohibited.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 6,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R107.png"
   },
   {
@@ -448,12 +329,6 @@
     "purpose": "To indicate to drivers the direction in which they must turn at the intersection ahead.",
     "action": "Proceed only in the direction indicated by the arrow — turn left.",
     "description": "A regulatory command sign placed before an intersection. You must turn left at the intersection ahead.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 7,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R108.png"
   },
   {
@@ -468,12 +343,6 @@
     "purpose": "To indicate to drivers the direction in which they must turn at the intersection ahead.",
     "action": "Proceed only in the direction indicated by the arrow — turn right.",
     "description": "A regulatory command sign placed before an intersection. You must turn right at the intersection ahead.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 8,
-      "quality": 0.40786869514690455,
-      "dimensions": "61×63"
-    },
     "imagePath": "/k53_assets/regulatory/R109.png"
   },
   {
@@ -488,12 +357,6 @@
     "purpose": "To indicate that the road or part of the road may be used by pedestrians only.",
     "action": "Do not use the road or part of the road indicated by this sign. Pedestrians may use only the part of the road indicated by this sign.",
     "description": "A regulatory command sign. This road or section is reserved exclusively for pedestrians. No vehicles permitted.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 9,
-      "quality": 0.42735388390429774,
-      "dimensions": "84×87"
-    },
     "imagePath": "/k53_assets/regulatory/R110.png"
   },
   {
@@ -508,12 +371,6 @@
     "purpose": "To indicate that the road or part of the road may be used by cyclists only.",
     "action": "Do not use the road or part of the road indicated by this sign. Cyclists may use only the part of the road indicated by this sign.",
     "description": "A regulatory command sign. This road or section is reserved exclusively for pedal cyclists.",
-    "_meticulous_match": {
-      "page": 7,
-      "position": 10,
-      "quality": 0.42735388390429774,
-      "dimensions": "84×87"
-    },
     "imagePath": "/k53_assets/regulatory/R111.png"
   },
   {
@@ -528,12 +385,6 @@
     "purpose": "To indicate that you must switch on your headlights in order to see and be seen.",
     "action": "Switch the lights of your vehicle on in the dip position.",
     "description": "A regulatory command sign. You are compelled to switch your headlights on (dipped beam) from this point.",
-    "_meticulous_match": {
-      "page": 11,
-      "position": 0,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R133.png"
   },
   {
@@ -548,12 +399,6 @@
     "purpose": "To indicate that you must move in a clockwise direction at the junction.",
     "action": "Yield right of way to vehicles approaching from the right within the roundabout, where such vehicles are close enough to cause a danger or potential danger. Proceed clockwise at the junction if it is safe to do so.",
     "description": "A regulatory command sign. Traffic must circulate clockwise. Yield to traffic already in the roundabout.",
-    "_meticulous_match": {
-      "page": 11,
-      "position": 1,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R137.png"
   },
   {
@@ -568,12 +413,6 @@
     "purpose": "Inform you of the speed limit applicable on this road. The restriction applies from the sign.",
     "action": "Do not exceed the speed indicated by this sign.",
     "description": "A regulatory prohibition sign. The number shown is the maximum speed in km/h permitted on this road from this point. Exceeding it is an offence.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 0,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R201.png"
   },
   {
@@ -588,12 +427,6 @@
     "purpose": "To prevent certain heavy vehicles from using a road or part of a road.",
     "action": "If the GVM or GCM of your vehicle exceeds the mass indicated in tons, use another road or part of the road which is not indicated by this sign. If your vehicle's GVM or GCM is less than the indicated mass in tons, you may use this road.",
     "description": "A regulatory prohibition sign. Vehicles whose Gross Vehicle Mass or Gross Combination Mass exceeds the figure shown in tonnes are prohibited from this road.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 1,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R202.png"
   },
   {
@@ -608,12 +441,6 @@
     "purpose": "To prohibit certain heavy vehicles from using the road.",
     "action": "If the axle mass of any of your vehicle's axles exceeds the indicated mass in tons, use another road or part of the road not indicated by this sign.",
     "description": "A regulatory prohibition sign. Vehicles with any axle exceeding the stated mass in tonnes are prohibited.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 2,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R203.png"
   },
   {
@@ -628,12 +455,6 @@
     "purpose": "To warn you against a height restriction ahead.",
     "action": "If your vehicle (or load) is higher than the indicated height in metres, another road not indicated by this sign must be used.",
     "description": "A regulatory prohibition sign. Vehicles or loads exceeding the stated height in metres must use an alternative route.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 3,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R204.png"
   },
   {
@@ -648,12 +469,6 @@
     "purpose": "To prohibit long vehicles from using a road where such a vehicle will not be able to negotiate a curve or will turn in such a manner that it will disrupt or endanger other traffic.",
     "action": "If applicable, take an alternative route.",
     "description": "A regulatory prohibition sign. Vehicles exceeding the stated length in metres are prohibited and must take an alternative route.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 4,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R205.png"
   },
   {
@@ -668,12 +483,6 @@
     "purpose": "To prohibit noise.",
     "action": "If the noise level of your vehicle is high, you may not proceed past the sign, and for 100 metres after passing the sign, the vehicle's hooter may not be used.",
     "description": "A regulatory prohibition sign. Excessive noise and the use of a hooter are prohibited for 100m beyond this sign.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 5,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R206.png"
   },
   {
@@ -688,12 +497,6 @@
     "purpose": "To prohibit pedestrians from soliciting lifts and stationary vehicles from picking up passengers.",
     "action": "No pedestrian may attempt to be picked up by a passing vehicle. A driver of a vehicle may not pick up passengers for the next 500m.",
     "description": "A regulatory prohibition sign. Hitchhiking and picking up hitchhikers are prohibited for 500m beyond this sign.",
-    "_meticulous_match": {
-      "page": 12,
-      "position": 6,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R207.png"
   },
   {
@@ -708,12 +511,6 @@
     "purpose": "To prohibit drivers without special authorisation from entering a certain road or section of a road.",
     "action": "Do not proceed past the sign or enter the road without special permission.",
     "description": "A regulatory prohibition sign. Only authorised vehicles may proceed beyond this sign.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 0,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R208.png"
   },
   {
@@ -728,12 +525,6 @@
     "purpose": "To prohibit vehicles from turning left at an intersection.",
     "action": "Do not turn left at the intersection.",
     "description": "A regulatory prohibition sign. Left turns are prohibited at the intersection ahead.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 1,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R209.png"
   },
   {
@@ -748,12 +539,6 @@
     "purpose": "To prohibit vehicles from turning right at an intersection.",
     "action": "Do not turn right at the intersection.",
     "description": "A regulatory prohibition sign. Right turns are prohibited at the intersection ahead.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 2,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R210.png"
   },
   {
@@ -768,12 +553,6 @@
     "purpose": "To prohibit traffic from turning left.",
     "action": "Where a left-turn prohibition is displayed, you may proceed straight or turn right.",
     "description": "A regulatory prohibition sign at an intersection. You may not turn left. You may go straight or turn right.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 3,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R211.png"
   },
   {
@@ -788,12 +567,6 @@
     "purpose": "To prohibit traffic from turning right.",
     "action": "Where a right-turn prohibition is displayed, you may proceed straight or turn left.",
     "description": "A regulatory prohibition sign at an intersection. You may not turn right. You may go straight or turn left.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 4,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R212.png"
   },
   {
@@ -808,12 +581,6 @@
     "purpose": "To prevent vehicles from turning around so that they face the opposite direction.",
     "action": "Do not turn your vehicle around so that it faces the opposite direction.",
     "description": "A regulatory prohibition sign. U-turns are completely prohibited at or beyond this sign.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 5,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R213.png"
   },
   {
@@ -828,12 +595,6 @@
     "purpose": "To inform drivers that overtaking vehicles is prohibited for the next 500m.",
     "action": "Do not overtake any vehicle for the next 500m.",
     "description": "A regulatory prohibition sign. Overtaking of motor vehicles is prohibited for 500m. No vehicle may pass another moving vehicle.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 6,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R214.png"
   },
   {
@@ -848,12 +609,6 @@
     "purpose": "To prohibit heavy vehicles from overtaking other heavy vehicles.",
     "action": "If you are driving a heavy motor vehicle, do not overtake another heavy vehicle.",
     "description": "A regulatory prohibition sign. Heavy motor vehicles may not overtake other heavy motor vehicles.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 7,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R215.png"
   },
   {
@@ -868,12 +623,6 @@
     "purpose": "To prohibit drivers from parking during any time of the day or night.",
     "action": "Do not park where these signs are displayed.",
     "description": "A regulatory prohibition sign. Parking is prohibited at any time. You may stop briefly to pick up or drop off passengers.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 8,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R216.png"
   },
   {
@@ -888,12 +637,6 @@
     "purpose": "To ensure traffic flow and prevent that driver's views are not impaired by stationary vehicles.",
     "action": "Do not stop unless to obey a traffic light or a traffic officer or to avoid a collision.",
     "description": "A regulatory prohibition sign. Stopping of any kind is absolutely prohibited except to obey a traffic signal, officer instruction, or to avoid a collision.",
-    "_meticulous_match": {
-      "page": 13,
-      "position": 9,
-      "quality": 0.423814,
-      "dimensions": "63×63"
-    },
     "imagePath": "/k53_assets/regulatory/R217.png"
   },
   {
@@ -908,12 +651,6 @@
     "purpose": "To prohibit pedestrians from proceeding past this sign where they could cause a danger to themselves and to vehicles.",
     "action": "Despite the fact that pedestrians are prohibited on such a road, you must still look out for them. Pedestrians may not enter or cross a road where this sign is displayed.",
     "description": "A regulatory prohibition sign. Pedestrians are not permitted beyond this sign. Drivers must still watch out for pedestrians who may ignore the sign.",
-    "_meticulous_match": {
-      "page": 14,
-      "position": 0,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R218.png"
   },
   {
@@ -928,12 +665,6 @@
     "purpose": "To prohibit cyclists from using the carriageway, lane or path where they can cause a danger.",
     "action": "Look out for cyclists who use the road despite the prohibition. Cyclists must follow a different route and may not proceed beyond this sign.",
     "description": "A regulatory prohibition sign. Pedal cyclists are not permitted on this road or section.",
-    "_meticulous_match": {
-      "page": 14,
-      "position": 1,
-      "quality": 0.4158290976666368,
-      "dimensions": "62×63"
-    },
     "imagePath": "/k53_assets/regulatory/R219.png"
   },
   {
@@ -948,12 +679,6 @@
     "purpose": "To indicate that vehicles wider than the stated width in metres may not proceed.",
     "action": "Do not enter this area if the overall width of the vehicle you are driving exceeds the width indicated on the sign.",
     "description": "A regulatory prohibition sign. Vehicles whose overall width exceeds the stated figure in metres are prohibited.",
-    "_meticulous_match": {
-      "page": 16,
-      "position": 0,
-      "quality": 0.4158290976666368,
-      "dimensions": "63×62"
-    },
     "imagePath": "/k53_assets/regulatory/R239.png"
   },
   {
@@ -968,12 +693,6 @@
     "purpose": "Indicate that the road or part of the carriageway is reserved for buses only.",
     "action": "Do not enter this area or park here if you are not driving a bus.",
     "description": "A regulatory reservation sign. This road, lane or area is reserved exclusively for buses.",
-    "_meticulous_match": {
-      "page": 17,
-      "position": 0,
-      "quality": 0.3133974132567012,
-      "dimensions": "53×69"
-    },
     "imagePath": "/k53_assets/regulatory/R301.png"
   },
   {
@@ -988,12 +707,6 @@
     "purpose": "Indicates that no other class of vehicle may use that part of the road.",
     "action": "Do not follow this bus route if you are not driving a bus.",
     "description": "A regulatory reservation sign marking a dedicated bus lane. Only buses may use this lane during the periods indicated.",
-    "_meticulous_match": {
-      "page": 17,
-      "position": 1,
-      "quality": 0.3133974132567012,
-      "dimensions": "53×69"
-    },
     "imagePath": "/k53_assets/regulatory/R302.png"
   },
   {
@@ -1008,12 +721,6 @@
     "purpose": "To inform you that a parking area is reserved for bicycles only.",
     "action": "If you are not riding a bicycle, do not enter or use this area.",
     "description": "A regulatory reservation sign. This lane or area is reserved exclusively for pedal cyclists.",
-    "_meticulous_match": {
-      "page": 17,
-      "position": 2,
-      "quality": 0.3133974132567012,
-      "dimensions": "53×69"
-    },
     "imagePath": "/k53_assets/regulatory/R304.png"
   },
   {
@@ -1028,12 +735,6 @@
     "purpose": "To indicate that a freeway begins at the sign and that the rules that apply to freeways are effective from here.",
     "action": "Follow all the rules that apply to freeways.",
     "description": "A regulatory comprehensive sign marking the start of a dual-carriageway freeway. All freeway rules now apply: no pedestrians, cyclists, or animal-drawn vehicles; no stopping except in emergencies.",
-    "_meticulous_match": {
-      "page": 20,
-      "position": 0,
-      "quality": 0.3133974132567012,
-      "dimensions": "53×69"
-    },
     "imagePath": "/k53_assets/regulatory/R401.png"
   },
   {
@@ -1048,12 +749,6 @@
     "purpose": "To indicate that a single-carriageway freeway begins at the sign and that all rules that apply to freeways are effective from here.",
     "action": "Follow all the rules which apply to freeways.",
     "description": "A regulatory comprehensive sign marking the start of a single-carriageway freeway. All freeway rules apply from this point.",
-    "_meticulous_match": {
-      "page": 20,
-      "position": 1,
-      "quality": 0.3133974132567012,
-      "dimensions": "53×69"
-    },
     "imagePath": "/k53_assets/regulatory/R402.png"
   },
   {
@@ -1068,12 +763,6 @@
     "purpose": "To prohibit vehicles with a mass exceeding 3 500 kg, or vehicles with more than 10 seats (except for local access or delivery). To yield right of way to pedestrians. To prohibit vehicles from driving through the area without breaking their journey. To limit the speed of vehicles in the area to 30 km/h.",
     "action": "Drive slowly, obey the special rules and be particularly on the lookout for children playing in the street.",
     "description": "A regulatory comprehensive sign for a shared street zone. Maximum speed 30 km/h, pedestrians have priority, heavy vehicles and through traffic are prohibited.",
-    "_meticulous_match": {
-      "page": 20,
-      "position": 2,
-      "quality": 0.3063969368770762,
-      "dimensions": "52×69"
-    },
     "imagePath": "/k53_assets/regulatory/R403.png"
   },
   {
@@ -1088,12 +777,6 @@
     "purpose": "To cancel a restriction.",
     "action": "From here you do not have to comply with the restriction sign with a symbol similar to this sign but without the red cross.",
     "description": "A regulatory de-restriction sign. The restriction shown by the matching regulatory sign no longer applies from this point.",
-    "_meticulous_match": {
-      "page": 23,
-      "position": 0,
-      "quality": 0.31102389296208055,
-      "dimensions": "54×71"
-    },
     "imagePath": "/k53_assets/regulatory/R600.png"
   },
   {
@@ -1108,12 +791,6 @@
     "purpose": "To warn that a hazard in the form of a crossroad is ahead.",
     "action": "Approach cautiously, look carefully and be able to stop if cross-traffic requires it.",
     "description": "A warning sign indicating an intersection ahead where roads cross at right angles. Approach with caution and be prepared to stop.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 0,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W101.png"
   },
   {
@@ -1128,12 +805,6 @@
     "purpose": "To warn that you are approaching an intersection where you have right of way. The thicker leg of the cross on the sign indicates which road has priority.",
     "action": "Approach cautiously, look carefully and be able to stop if cross-traffic does not yield.",
     "description": "A warning sign. You are approaching an intersection on the priority road (indicated by the thicker line). You have right of way but must still watch for traffic that may not yield.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 1,
-      "quality": 0.37274316812980585,
-      "dimensions": "79×69"
-    },
     "imagePath": "/k53_assets/warning/W102.png"
   },
   {
@@ -1148,12 +819,6 @@
     "purpose": "To warn that you are approaching an intersection where you have to yield to cross-traffic. The thicker leg of the cross on the sign indicates which road has priority.",
     "action": "Approach cautiously, and yield to traffic approaching from left or right.",
     "description": "A warning sign. You are on the minor road and must yield to traffic on the priority road (indicated by the thicker line).",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 2,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W103.png"
   },
   {
@@ -1174,12 +839,6 @@
       "height": 75,
       "sizeKB": 8.6
     },
-    "_meticulous_match": {
-      "page": 24,
-      "position": 3,
-      "quality": 0.3679925132153089,
-      "dimensions": "72×63"
-    },
     "imagePath": "/k53_assets/warning/W104.png"
   },
   {
@@ -1194,12 +853,6 @@
     "purpose": "To warn that you are approaching an intersection where another road meets yours at an angle from the left.",
     "action": "Look out for cross-traffic. Slow down and be prepared to stop.",
     "description": "A warning sign. A road joins from the left at an acute or oblique angle ahead.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 4,
-      "quality": 0.3679925132153089,
-      "dimensions": "72×63"
-    },
     "imagePath": "/k53_assets/warning/W105.png"
   },
   {
@@ -1214,12 +867,6 @@
     "purpose": "To warn that you are approaching an intersection where another road meets yours at an angle from the right.",
     "action": "Look out for cross-traffic. Slow down and be prepared to stop.",
     "description": "A warning sign. A road joins from the right at an acute or oblique angle ahead.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 5,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W106.png"
   },
   {
@@ -1234,12 +881,6 @@
     "purpose": "To warn that traffic may be approaching from the left-hand side.",
     "action": "Slow down so that you will be able to stop, or go around the corner or pass the intersection at a safe speed. Look out for other traffic at the intersection that might not yield.",
     "description": "A warning sign. A side road joins from the left. Traffic may enter from that direction.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 6,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W107.png"
   },
   {
@@ -1254,12 +895,6 @@
     "purpose": "To warn that traffic may be approaching from the right-hand side.",
     "action": "Slow down so that you will be able to stop, or go around the corner or pass the intersection at a safe speed. Look out for other traffic at the intersection that might not yield.",
     "description": "A warning sign. A side road joins from the right. Traffic may enter from that direction.",
-    "_meticulous_match": {
-      "page": 24,
-      "position": 7,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W108.png"
   },
   {
@@ -1274,12 +909,6 @@
     "purpose": "To warn that there is a traffic circle ahead where you may need to yield to other traffic.",
     "action": "Slow down so that you can stop or drive around the circle at a safe speed. Look out for road traffic signs and markings. If there is no indication you have to give way to traffic approaching from the right. Vehicles within a traffic circle have right of way.",
     "description": "A warning sign. A traffic circle (roundabout) is ahead. Vehicles inside the circle have right of way. If sign R2.2 is displayed, yield to any driver who crosses their yield line first.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 0,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W201.png"
   },
   {
@@ -1294,12 +923,6 @@
     "purpose": "To warn that there is a gentle curve ahead to the left.",
     "action": "Ensure that you drive at such a speed that you can take the curve safely or stop within the distance that you can see.",
     "description": "A warning sign. A gentle curve to the left lies ahead. Adjust speed accordingly.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 2,
-      "quality": 0.3749257542617507,
-      "dimensions": "72×64"
-    },
     "imagePath": "/k53_assets/warning/W202.png"
   },
   {
@@ -1314,12 +937,6 @@
     "purpose": "To warn that there is a gentle curve ahead to the right.",
     "action": "Ensure that you drive at such a speed that you can take the curve safely or stop within the distance that you can see.",
     "description": "A warning sign. A gentle curve to the right lies ahead. Adjust speed accordingly.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 3,
-      "quality": 0.37026813203035325,
-      "dimensions": "69×61"
-    },
     "imagePath": "/k53_assets/warning/W203.png"
   },
   {
@@ -1334,12 +951,6 @@
     "purpose": "To warn that there is a sharp curve ahead to the left.",
     "action": "Slow down so that you can take the curve safely or stop within the distance that you can see.",
     "description": "A warning sign. A sharp curve to the left is ahead. Reduce speed significantly before entering the curve.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 4,
-      "quality": 0.37274316812980585,
-      "dimensions": "79×69"
-    },
     "imagePath": "/k53_assets/warning/W204.png"
   },
   {
@@ -1354,12 +965,6 @@
     "purpose": "To warn that there is a sharp curve ahead to the right.",
     "action": "Slow down so that you can take the curve safely or stop within the distance that you can see.",
     "description": "A warning sign. A sharp curve to the right is ahead. Reduce speed significantly before entering the curve.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 5,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W205.png"
   },
   {
@@ -1374,12 +979,6 @@
     "purpose": "To warn that there is a very sharp, U-shaped curve ahead to the left.",
     "action": "Slow down so that you can take the curve safely or stop within the distance you can see.",
     "description": "A warning sign. A very sharp U-shaped hairpin bend to the left lies ahead. Used particularly in mountainous areas. Significant speed reduction required.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 6,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W206.png"
   },
   {
@@ -1394,12 +993,6 @@
     "purpose": "To warn that there is a very sharp, U-shaped curve ahead to the right.",
     "action": "Slow down so that you can take the curve safely or stop within the distance you can see.",
     "description": "A warning sign. A very sharp U-shaped hairpin bend to the right lies ahead. Significant speed reduction required.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 7,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W207.png"
   },
   {
@@ -1414,12 +1007,6 @@
     "purpose": "To warn of a series of curves ahead where the first bend is to the right.",
     "action": "Slow down enough to take the curves safely or stop within the distance you can see. Remember that there could be any number of curves after the first one without further warning.",
     "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the right. The winding continues beyond what is signed.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 8,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W208.png"
   },
   {
@@ -1434,12 +1021,6 @@
     "purpose": "To warn of a series of curves ahead where the first curve is to the left.",
     "action": "Slow down enough to take the curves safely or stop within the distance you can see.",
     "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the left.",
-    "_meticulous_match": {
-      "page": 26,
-      "position": 9,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W209.png"
   },
   {
@@ -1454,12 +1035,6 @@
     "purpose": "To warn that there are isolated and particularly new traffic lights or traffic lights near an isolated traffic light at a pedestrian crossing ahead.",
     "action": "Slow down immediately and be ready to stop if the light changes from green to amber. Make sure there are no pedestrians or cross-traffic who might not obey the signals.",
     "description": "A warning sign. Traffic lights are ahead. Approach with caution and be prepared to stop.",
-    "_meticulous_match": {
-      "page": 27,
-      "position": 0,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W301.png"
   },
   {
@@ -1474,12 +1049,6 @@
     "purpose": "To warn that there is a stop sign ahead which cannot be seen in time.",
     "action": "Slow down in good time and be ready to stop as required for sign R1.1.",
     "description": "A warning sign. A stop sign lies ahead that may not yet be visible. Prepare to stop completely.",
-    "_meticulous_match": {
-      "page": 27,
-      "position": 1,
-      "quality": 0.37913939566669375,
-      "dimensions": "79×70"
-    },
     "imagePath": "/k53_assets/warning/W302.png"
   },
   {
@@ -1494,12 +1063,6 @@
     "purpose": "To warn that there is a yield sign ahead which you may not be able to see in time without a warning.",
     "action": "Slow down and be ready to stop if necessary.",
     "description": "A warning sign. A yield sign lies ahead. Reduce speed and be prepared to stop and give way.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 0,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W303.png"
   },
   {
@@ -1514,12 +1077,6 @@
     "purpose": "To warn that there is a demarcated pedestrian crossing ahead.",
     "action": "Slow down and stop if a pedestrian is waiting at the crossing. Do not overtake other vehicles that have stopped at the pedestrian crossing.",
     "description": "A warning sign. A marked pedestrian crossing is ahead. Stop for pedestrians waiting to cross.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 1,
-      "quality": 0.3760038604886401,
-      "dimensions": "81×71"
-    },
     "imagePath": "/k53_assets/warning/W306.png"
   },
   {
@@ -1534,12 +1091,6 @@
     "purpose": "To warn that pedestrians may be crossing the road for the next 2 km.",
     "action": "Slow down and look out for pedestrians who may be crossing the road.",
     "description": "A warning sign. Pedestrians may cross the road in this area for the next 2 km. Heightened vigilance required.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 2,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W307.png"
   },
   {
@@ -1554,12 +1105,6 @@
     "purpose": "To warn that children might be crossing the road.",
     "action": "Slow down immediately and look out for children who could be crossing the road unexpectedly or even be playing in the road.",
     "description": "A warning sign. Children may be near or crossing the road ahead, particularly near schools and play areas.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 3,
-      "quality": 0.38407229704265566,
-      "dimensions": "86×76"
-    },
     "imagePath": "/k53_assets/warning/W308.png"
   },
   {
@@ -1574,12 +1119,6 @@
     "purpose": "To warn the driver that there can be cyclists ahead.",
     "action": "Slow down and be on the lookout for cyclists using or crossing the road for the next 2 km.",
     "description": "A warning sign. Pedal cyclists may be on or crossing the road for the next 2 km.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 4,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W309.png"
   },
   {
@@ -1594,12 +1133,6 @@
     "purpose": "To warn that there may be free-ranging cattle on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for cattle.",
     "description": "A warning sign. Free-ranging cattle may be on or crossing the road for the next 2 km.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 5,
-      "quality": 0.37143844530051007,
-      "dimensions": "82×71"
-    },
     "imagePath": "/k53_assets/warning/W310.png"
   },
   {
@@ -1614,12 +1147,6 @@
     "purpose": "To warn that there may be free-ranging horses on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for horses.",
     "description": "A warning sign. Horses may be on or near the road for the next 2 km.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 6,
-      "quality": 0.3696089276965791,
-      "dimensions": "73×64"
-    },
     "imagePath": "/k53_assets/warning/W311.png"
   },
   {
@@ -1634,12 +1161,6 @@
     "purpose": "To warn that there may be free-ranging sheep on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for sheep.",
     "description": "A warning sign. Free-ranging sheep may be on or crossing the road for the next 2 km.",
-    "_meticulous_match": {
-      "page": 28,
-      "position": 7,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W312.png"
   },
   {
@@ -1654,12 +1175,6 @@
     "purpose": "To warn that there may be wild animals on the road or crossing the road.",
     "action": "Slow down and be on the lookout for the next 2 km for wild animals.",
     "description": "A warning sign. Wild animals may be on or crossing the road for the next 2 km. Particularly dangerous at dawn and dusk.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 0,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W313.png"
   },
   {
@@ -1674,12 +1189,6 @@
     "purpose": "To warn that there is a gate or boom across the road ahead.",
     "action": "Slow down and be prepared to stop should the gates be closing or are closed.",
     "description": "A warning sign. A gate or level crossing boom is across the road ahead. Be prepared to stop.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 1,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W314.png"
   },
   {
@@ -1694,12 +1203,6 @@
     "purpose": "To warn that there is a railway crossing ahead.",
     "action": "Slow down and look to the right and left for oncoming trains. If a train is approaching stop in time, but not within the railway crossing reserve.",
     "description": "A warning sign. A railway level crossing lies ahead. Stop if a train is approaching. Never stop on the tracks.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 2,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W318.png"
   },
   {
@@ -1714,12 +1217,6 @@
     "purpose": "To warn that there is a tunnel ahead.",
     "action": "Slow down and switch your car's headlights on in the dim position.",
     "description": "A warning sign. A tunnel lies ahead. Switch headlights to dipped beam before entering.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 3,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W319.png"
   },
   {
@@ -1734,12 +1231,6 @@
     "purpose": "To warn that there is a structure ahead of which the height is indicated on the road traffic sign.",
     "action": "If your vehicle is higher than the bridge or structure as indicated by this sign, find an alternative route.",
     "description": "A warning sign. A height restriction lies ahead. Vehicles taller than the stated measurement must use an alternative route.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 4,
-      "quality": 0.3749257542617507,
-      "dimensions": "72×64"
-    },
     "imagePath": "/k53_assets/warning/W320.png"
   },
   {
@@ -1754,12 +1245,6 @@
     "purpose": "To warn that curves in the road or other structures make it impossible for vehicles longer than the stated length to pass.",
     "action": "Find an alternative route if your vehicle is longer than the length indicated in metres on this sign.",
     "description": "A warning sign. A length restriction lies ahead. Vehicles longer than the stated measurement must use an alternative route.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 5,
-      "quality": 0.3749257542617507,
-      "dimensions": "72×64"
-    },
     "imagePath": "/k53_assets/warning/W321.png"
   },
   {
@@ -1774,12 +1259,6 @@
     "purpose": "To warn that the road will climb steeply.",
     "action": "Be aware of slow-moving traffic. Allow for longer distance when passing.",
     "description": "A warning sign. A steep uphill gradient lies ahead. Engage a lower gear for heavy vehicles. Slow-moving vehicles may be encountered.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 6,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W322.png"
   },
   {
@@ -1794,12 +1273,6 @@
     "purpose": "To warn that the road will descend steeply.",
     "action": "Allow for a longer stopping distance on a descent, especially when your vehicle is heavily laden. Engage a lower gear.",
     "description": "A warning sign. A steep downhill gradient lies ahead. Engage a lower gear and use engine braking to control speed. Allow longer stopping distances.",
-    "_meticulous_match": {
-      "page": 29,
-      "position": 7,
-      "quality": 0.38407229704265566,
-      "dimensions": "86×76"
-    },
     "imagePath": "/k53_assets/warning/W323.png"
   },
   {
@@ -1814,12 +1287,6 @@
     "purpose": "To warn that the tarred road you are driving on will end soon and will have a gravel surface ahead.",
     "action": "Slow down and look out for ditches or potholes at the joint between the gravel and the tarred surface. Steering will be lighter on the gravel, vehicles will tend to skid easier and will need a longer stopping distance.",
     "description": "A warning sign. The tar surface ends ahead and transitions to gravel. Reduce speed — gravel roads have less grip and longer stopping distances.",
-    "_meticulous_match": {
-      "page": 30,
-      "position": 0,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W325.png"
   },
   {
@@ -1834,12 +1301,6 @@
     "purpose": "To warn that the road narrows when crossing a bridge.",
     "action": "Slow down and, if there is oncoming traffic, try not to cross the bridge at the same time as an approaching vehicle.",
     "description": "A warning sign. A bridge narrows the road ahead. One vehicle may need to wait for the other to cross first.",
-    "_meticulous_match": {
-      "page": 30,
-      "position": 1,
-      "quality": 0.3743765132153089,
-      "dimensions": "80×70"
-    },
     "imagePath": "/k53_assets/warning/W326.png"
   },
   {
@@ -1854,12 +1315,6 @@
     "purpose": "To warn that the carriageway ahead narrows to a width that will make it possible for only one vehicle at a time to pass.",
     "action": "Slow down if there is oncoming traffic, stop at least 6m from the structure and yield to the other vehicle.",
     "description": "A warning sign. The road narrows to a single vehicle width ahead. Stop at least 6m from the structure and yield to oncoming vehicles.",
-    "_meticulous_match": {
-      "page": 30,
-      "position": 2,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W327.png"
   },
   {
@@ -1874,12 +1329,6 @@
     "purpose": "To warn that the road ahead narrows from both sides.",
     "action": "Slow down and adjust your position on the carriageway since oncoming vehicles will pass close to you.",
     "description": "A warning sign. The road narrows symmetrically from both sides ahead. Position your vehicle carefully.",
-    "_meticulous_match": {
-      "page": 30,
-      "position": 3,
-      "quality": 0.3747885599856826,
-      "dimensions": "84×73"
-    },
     "imagePath": "/k53_assets/warning/W328.png"
   },
   {
@@ -1894,12 +1343,6 @@
     "purpose": "To warn that there is a depression or a ridge in the road, or that the road in general is uneven and potholed.",
     "action": "Slow down to avoid potholes without endangering other traffic.",
     "description": "A warning sign. The road surface ahead is uneven, potholed, or has a ridge or depression. Reduce speed to protect your vehicle and maintain control.",
-    "_meticulous_match": {
-      "page": 30,
-      "position": 4,
-      "quality": 0.3764557131116294,
-      "dimensions": "85×74"
-    },
     "imagePath": "/k53_assets/warning/W331.png"
   },
   {
@@ -1914,12 +1357,6 @@
     "purpose": "To warn that there are speed humps on the carriageway ahead which require a reduction of speed.",
     "action": "Slow down so that you can drive over the speed humps without damaging your vehicle or losing control.",
     "description": "A warning sign. Speed humps (road bumps) lie ahead. Reduce speed significantly to cross safely without vehicle damage.",
-    "_meticulous_match": {
-      "page": 31,
-      "position": 0,
-      "quality": 0.38578193747187556,
-      "dimensions": "94×82"
-    },
     "imagePath": "/k53_assets/warning/W332.png"
   },
   {
@@ -1934,12 +1371,6 @@
     "purpose": "To warn about unusually slippery conditions on the road ahead.",
     "action": "Slow down since any sudden braking or harsh steering could cause your vehicle to start skidding sooner than usual for the next 2 km.",
     "description": "A warning sign. The road surface ahead is unusually slippery. Avoid harsh braking or steering for the next 2 km.",
-    "_meticulous_match": {
-      "page": 31,
-      "position": 1,
-      "quality": 0.3776258587506002,
-      "dimensions": "82×72"
-    },
     "imagePath": "/k53_assets/warning/W333.png"
   },
   {
@@ -1954,12 +1385,6 @@
     "purpose": "To warn that rocks could fall on the carriageway from the left-hand side.",
     "action": "Slow down to be able to stop within sight distance if a fall occurs or has occurred. Falls occur more often when it rains.",
     "description": "A warning sign. Rocks may fall onto the road from the left. Be prepared to stop. Exercise extra caution in rain.",
-    "_meticulous_match": {
-      "page": 31,
-      "position": 2,
-      "quality": 0.382465796315108,
-      "dimensions": "85×75"
-    },
     "imagePath": "/k53_assets/warning/W334.png"
   },
   {
@@ -1974,12 +1399,6 @@
     "purpose": "To warn that rocks could fall on the carriageway from the right-hand side.",
     "action": "Slow down to be able to stop within sight distance if a fall occurs. Exercise extra caution in rain.",
     "description": "A warning sign. Rocks may fall onto the road from the right. Be prepared to stop.",
-    "_meticulous_match": {
-      "page": 31,
-      "position": 3,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W335.png"
   },
   {
@@ -1994,12 +1413,6 @@
     "purpose": "To warn that there is danger of some kind ahead.",
     "action": "Slow down and look out for anything on or next to the carriageway that could cause you to change speed or direction.",
     "description": "A general warning sign (exclamation mark). An unspecified hazard exists ahead. Reduce speed and be vigilant.",
-    "_meticulous_match": {
-      "page": 31,
-      "position": 4,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W339.png"
   },
   {
@@ -2014,12 +1427,6 @@
     "purpose": "To warn about strong crosswinds that could force your vehicles off course.",
     "action": "Determine if a wind is blowing and from which direction. Any shielding of the wind by a truck, bridge or excavation will affect your vehicle and you should adjust the steering in time.",
     "description": "A warning sign. Strong crosswinds are present that may push your vehicle sideways. Be alert for sudden gusts and steering changes required.",
-    "_meticulous_match": {
-      "page": 33,
-      "position": 0,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W349.png"
   },
   {
@@ -2034,12 +1441,6 @@
     "purpose": "To warn the driver that there is a drift ahead and that the road could be flooded.",
     "action": "Slow down and if it is not known how deep the water is, stop. If passable, drive through the water slowly.",
     "description": "A warning sign. A low-water crossing (drift/ford) lies ahead. The road may be flooded. Stop if depth is unknown.",
-    "_meticulous_match": {
-      "page": 33,
-      "position": 1,
-      "quality": 0.3781183875090939,
-      "dimensions": "86×75"
-    },
     "imagePath": "/k53_assets/warning/W350.png"
   },
   {
@@ -2054,12 +1455,6 @@
     "purpose": "To warn of the possibility of low-flying aircraft and sudden aircraft noise near the road.",
     "action": "Do not be frightened and do not brake suddenly.",
     "description": "A warning sign. Low-flying aircraft operate near this road, typically near airfields. Do not react suddenly to aircraft noise.",
-    "_meticulous_match": {
-      "page": 33,
-      "position": 2,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W351.png"
   },
   {
@@ -2080,12 +1475,6 @@
       "height": 82,
       "sizeKB": 11.7
     },
-    "_meticulous_match": {
-      "page": 34,
-      "position": 0,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W356.png"
   },
   {
@@ -2100,12 +1489,6 @@
     "purpose": "To warn that there is a possibility of elephants being present on the road ahead.",
     "action": "Look out for elephants ahead and be prepared to slow down or stop.",
     "description": "A warning sign found near game reserves. Elephants may be on or crossing the road. Stop and wait — never hoot or drive close to elephants.",
-    "_meticulous_match": {
-      "page": 34,
-      "position": 1,
-      "quality": 0.429926814099442,
-      "dimensions": "84×82"
-    },
     "imagePath": "/k53_assets/warning/W357.png"
   },
   {
@@ -2120,12 +1503,6 @@
     "purpose": "To warn that there is a possibility of warthogs being present on the road ahead.",
     "action": "Look out for warthogs ahead and be prepared to slow down or stop.",
     "description": "A warning sign. Warthogs may be on or crossing the road in this area.",
-    "_meticulous_match": {
-      "page": 34,
-      "position": 2,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W358.png"
   },
   {
@@ -2140,12 +1517,6 @@
     "purpose": "To warn that there is a possibility of hippos being present on the road ahead.",
     "action": "Look out for hippos ahead and be prepared to slow down or stop.",
     "description": "A warning sign. Hippos may be on or near the road, particularly near rivers and game reserves.",
-    "_meticulous_match": {
-      "page": 34,
-      "position": 3,
-      "quality": 0.38803003738457176,
-      "dimensions": "92×81"
-    },
     "imagePath": "/k53_assets/warning/W359.png"
   },
   {
@@ -2165,12 +1536,6 @@
       "width": 758,
       "height": 71,
       "sizeKB": 94.5
-    },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 0,
-      "quality": 0.23024545247382225,
-      "dimensions": "99×55"
     },
     "imagePath": "/k53_assets/guidance/GLS-1.png"
   },
@@ -2192,12 +1557,6 @@
       "height": 73,
       "sizeKB": 109.1
     },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 1,
-      "quality": 0.20845578404429219,
-      "dimensions": "403×67"
-    },
     "imagePath": "/k53_assets/guidance/GLS-4.png"
   },
   {
@@ -2217,12 +1576,6 @@
       "width": 403,
       "height": 67,
       "sizeKB": 21.0
-    },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 2,
-      "quality": 0.34624080561876175,
-      "dimensions": "758×71"
     },
     "imagePath": "/k53_assets/guidance/GLS-5.png"
   },
@@ -2244,12 +1597,6 @@
       "height": 70,
       "sizeKB": 36.0
     },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 3,
-      "quality": 0.38476816203629366,
-      "dimensions": "829×73"
-    },
     "imagePath": "/k53_assets/guidance/GDS-1.png"
   },
   {
@@ -2269,12 +1616,6 @@
       "width": 208,
       "height": 69,
       "sizeKB": 19.9
-    },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 4,
-      "quality": 0.19252701197896108,
-      "dimensions": "208×69"
     },
     "imagePath": "/k53_assets/guidance/GDS-3.png"
   },
@@ -2296,12 +1637,6 @@
       "height": 55,
       "sizeKB": 6.1
     },
-    "_meticulous_match": {
-      "page": 39,
-      "position": 5,
-      "quality": 0.20262735727243975,
-      "dimensions": "339×70"
-    },
     "imagePath": "/k53_assets/guidance/GDS-20.png"
   },
   {
@@ -2316,12 +1651,6 @@
     "purpose": "To confirm the number and status of the national route on which you are travelling.",
     "action": "Make sure that the route you are travelling on is the route that you want to take to reach your destination.",
     "description": "A guidance route confirmation marker (N-road). Confirms you are on the correct numbered national route.",
-    "_meticulous_match": {
-      "page": 41,
-      "position": 1,
-      "quality": 0.2862467679725514,
-      "dimensions": "91×62"
-    },
     "imagePath": "/k53_assets/guidance/GE-15.png"
   },
   {
@@ -2336,12 +1665,6 @@
     "purpose": "To confirm the number and status of the provincial route on which you are travelling.",
     "action": "Make sure that the route you are travelling on is the route that you want to take.",
     "description": "A guidance route confirmation marker for provincial roads (R-roads). Confirms you are on the correct numbered provincial route.",
-    "_meticulous_match": {
-      "page": 41,
-      "position": 0,
-      "quality": 0.3755061997947063,
-      "dimensions": "106×140"
-    },
     "imagePath": "/k53_assets/guidance/GE-14.png"
   },
   {
@@ -2356,12 +1679,6 @@
     "purpose": "To point out the direction you must follow to reach the more important route.",
     "action": "Follow the traffic signs if you want to join the more important route and look out for the next trailblazer.",
     "description": "A guidance sign pointing drivers toward a more significant numbered route at an upcoming junction.",
-    "_meticulous_match": {
-      "page": 40,
-      "position": 0,
-      "quality": 0.34735635945269405,
-      "dimensions": "75×94"
-    },
     "imagePath": "/k53_assets/guidance/GE-2.png"
   },
   {
@@ -2376,12 +1693,6 @@
     "purpose": "To indicate the numbers of routes leading from an intersection and destinations that can be reached from this intersection.",
     "action": "Make sure which route you want to follow, slow down for the intersection and take the correct route.",
     "description": "A guidance advance direction sign displayed before an intersection showing route numbers and destinations reachable from the upcoming junction.",
-    "_meticulous_match": {
-      "page": 42,
-      "position": 0,
-      "quality": 0.2737565395021164,
-      "dimensions": "52×77"
-    },
     "imagePath": "/k53_assets/guidance/GD-1.png"
   },
   {
@@ -2396,12 +1707,6 @@
     "purpose": "To confirm the route to a destination and the distance indicated in kilometres to such destinations.",
     "action": "Note the destination and in particular note the distance to plan your trip to fill up with petrol or rest.",
     "description": "A guidance confirmation sign placed after an intersection to confirm the destination and show distance in kilometres.",
-    "_meticulous_match": {
-      "page": 42,
-      "position": 1,
-      "quality": 0.5943639549532449,
-      "dimensions": "229×194"
-    },
     "imagePath": "/k53_assets/guidance/GD-3.png"
   },
   {
@@ -2416,12 +1721,6 @@
     "purpose": "To guide you to small locations or to destinations on less travelled routes.",
     "action": "Slow down and look out for traffic that might not yield at the intersection.",
     "description": "A guidance sign shaped like a pointing finger/board, directing drivers to small towns or destinations on minor roads.",
-    "_meticulous_match": {
-      "page": 42,
-      "position": 2,
-      "quality": 0.45551189933046404,
-      "dimensions": "245×154"
-    },
     "imagePath": "/k53_assets/guidance/GD-4.png"
   },
   {
@@ -2436,12 +1735,6 @@
     "purpose": "To indicate early on that there is an exit from the freeway to certain routes ahead.",
     "action": "If you want to leave the freeway, move to the left hand lane in good time.",
     "description": "A guidance freeway sign warning of an upcoming off-ramp exit approximately 2 km ahead. Begin moving to the left lane.",
-    "_meticulous_match": {
-      "page": 43,
-      "position": 0,
-      "quality": 0.4307509001245329,
-      "dimensions": "189×138"
-    },
     "imagePath": "/k53_assets/guidance/GA-1.png"
   },
   {
@@ -2456,12 +1749,6 @@
     "purpose": "To indicate exactly where the exit is.",
     "action": "Only leave the freeway if you are in the left-hand lane.",
     "description": "A guidance freeway direction sign marking the precise point of an off-ramp exit.",
-    "_meticulous_match": {
-      "page": 43,
-      "position": 1,
-      "quality": 0.30407069813846993,
-      "dimensions": "134×86"
-    },
     "imagePath": "/k53_assets/guidance/GA-3.png"
   },
   {
@@ -2710,12 +1997,6 @@
       "height": 130,
       "sizeKB": 29.5
     },
-    "_meticulous_match": {
-      "page": 49,
-      "position": 0,
-      "quality": 0.35666807494090946,
-      "dimensions": "112×170"
-    },
     "imagePath": "/k53_assets/road-markings/RTM1.png"
   },
   {
@@ -2735,12 +2016,6 @@
       "width": 117,
       "height": 151,
       "sizeKB": 11.0
-    },
-    "_meticulous_match": {
-      "page": 49,
-      "position": 1,
-      "quality": 0.32400503239719947,
-      "dimensions": "101×163"
     },
     "imagePath": "/k53_assets/road-markings/RTM2.png"
   },
@@ -2762,12 +2037,6 @@
       "height": 170,
       "sizeKB": 17.1
     },
-    "_meticulous_match": {
-      "page": 49,
-      "position": 2,
-      "quality": 0.3774275819333042,
-      "dimensions": "277×130"
-    },
     "imagePath": "/k53_assets/road-markings/RTM3.png"
   },
   {
@@ -2782,12 +2051,6 @@
     "purpose": "To inform that it is prohibited to drive with any part of your vehicle on the right-hand side of this line.",
     "action": "Do not cross the line, except to gain direct access to an entrance on the other side, to gain access from such an entrance to the road, or to pass a stationary obstruction. In all these cases ensure it is safe to do so.",
     "description": "A continuous centre line marking prohibiting overtaking. No part of your vehicle may cross this line. Breaking this rule is an offence.",
-    "_meticulous_match": {
-      "page": 49,
-      "position": 3,
-      "quality": 0.2000333551040025,
-      "dimensions": "64×152"
-    },
     "imagePath": "/k53_assets/road-markings/RM1.png"
   },
   {
@@ -2802,12 +2065,6 @@
     "purpose": "To inform you that you may not cross this line.",
     "action": "You may under no circumstances drive on the right-hand side or cross these lines with any part of your vehicle, except to drive around a stationary vehicle or stationary obstruction in the road.",
     "description": "A double continuous centre line. Under no circumstances may you cross this marking except to avoid a stationary obstruction.",
-    "_meticulous_match": {
-      "page": 49,
-      "position": 4,
-      "quality": 0.4005192174432197,
-      "dimensions": "117×151"
-    },
     "imagePath": "/k53_assets/road-markings/RM2.png"
   },
   {
@@ -2822,12 +2079,6 @@
     "purpose": "To prohibit drivers from driving in this area.",
     "action": "Drive in such a way that you do not stop, park or drive over the island, unless on the orders of a traffic or police officer, to avoid a collision or in an emergency.",
     "description": "A hatched painted island on the road surface. Driving, stopping or parking in this area is prohibited except in emergencies or on police instruction.",
-    "_meticulous_match": {
-      "page": 50,
-      "position": 0,
-      "quality": 0.4065501055554806,
-      "dimensions": "126×171"
-    },
     "imagePath": "/k53_assets/road-markings/RM5.png"
   },
   {
@@ -2842,12 +2093,6 @@
     "purpose": "To show that you may only proceed in the direction indicated by the arrow in your lane.",
     "action": "Choose the correct lane in time to travel in the direction you want to go. Make sure that other traffic is obeying the mandatory direction arrows in their lanes. Check your blind spot before turning right.",
     "description": "White directional arrows painted on the road surface within a lane. You must follow the direction indicated by the arrow in your lane.",
-    "_meticulous_match": {
-      "page": 51,
-      "position": 0,
-      "quality": 0.3406503037950115,
-      "dimensions": "113×194"
-    },
     "imagePath": "/k53_assets/road-markings/RM8.png"
   },
   {
@@ -2862,12 +2107,6 @@
     "purpose": "To prohibit drivers from stopping where stationary vehicles may disrupt the traffic or obstruct the view.",
     "action": "Except in any emergency, do not stop at these lines. In the case of a broken line, you may not stop during the times indicated by a road traffic sign.",
     "description": "A continuous coloured line painted at the edge of the road. Stopping is absolutely prohibited (broken line = time-restricted prohibition).",
-    "_meticulous_match": {
-      "page": 52,
-      "position": 0,
-      "quality": 0.3483655002288708,
-      "dimensions": "113×183"
-    },
     "imagePath": "/k53_assets/road-markings/RM12.png"
   },
   {
@@ -2882,12 +2121,6 @@
     "purpose": "To prevent drivers from parking where stationary vehicles may disrupt traffic or obstruct the view.",
     "action": "Except in an emergency, you may stop for short periods to drop off or pick up passengers, but may not park here.",
     "description": "A continuous line at the road edge prohibiting parking. Brief stops to load/unload passengers are allowed but parking is not.",
-    "_meticulous_match": {
-      "page": 52,
-      "position": 1,
-      "quality": 0.42657160683455037,
-      "dimensions": "81×79"
-    },
     "imagePath": "/k53_assets/road-markings/RM13.png"
   },
   {
@@ -2902,12 +2135,6 @@
     "purpose": "To indicate the direction you must follow around the circle or mini-circle.",
     "action": "Only drive around the circle in the direction indicated by the arrows. Yield to traffic coming from your right-hand side. At a mini-circle yield to traffic that reaches their yield line first. Drive slowly so that you can stop if someone does not yield.",
     "description": "Directional arrows painted inside a roundabout. Traffic must circulate clockwise as indicated. Yield to vehicles from the right already in the circle.",
-    "_meticulous_match": {
-      "page": 53,
-      "position": 0,
-      "quality": 0.546444141528112,
-      "dimensions": "169×185"
-    },
     "imagePath": "/k53_assets/road-markings/RM15.png"
   },
   {
@@ -2922,12 +2149,6 @@
     "purpose": "To warn that there is a railway crossing ahead.",
     "action": "Slow down and if necessary, stop before the crossing.",
     "description": "An X-shape painted on the road surface warning of an upcoming railway level crossing.",
-    "_meticulous_match": {
-      "page": 53,
-      "position": 1,
-      "quality": 0.24774671770008205,
-      "dimensions": "80×164"
-    },
     "imagePath": "/k53_assets/road-markings/WM1.png"
   },
   {
@@ -2942,12 +2163,6 @@
     "purpose": "To warn that there is a speed hump in the road.",
     "action": "Slow down and release your brake before driving over the speed hump.",
     "description": "Diagonal stripes painted on a speed hump to make it more visible. Release brakes before crossing to prevent vehicle damage.",
-    "_meticulous_match": {
-      "page": 54,
-      "position": 0,
-      "quality": 0.334437082256234,
-      "dimensions": "101×154"
-    },
     "imagePath": "/k53_assets/road-markings/WM10.png"
   },
   {
@@ -2962,12 +2177,6 @@
     "purpose": "To show that you are using a part of the road with traffic in the same direction.",
     "action": "Drive in the centre of your demarcated lane.",
     "description": "Broken white lines separating lanes travelling in the same direction. May be crossed to change lanes when safe.",
-    "_meticulous_match": {
-      "page": 55,
-      "position": 0,
-      "quality": 0.8703724234194691,
-      "dimensions": "281×280"
-    },
     "imagePath": "/k53_assets/road-markings/GM1.png"
   },
   {
