@@ -1,5 +1,5 @@
-// K53 Learner's Licence - Official SADC-RTSM Data Loader
-// This file loads official K53 road sign data from k53_signs.json
+// K53 Learner's Licence - Official K53 Data with NRTA-based Questions
+// Data loader for official K53 road signs and questions
 
 let SIGNS = [];
 let OFFICIAL_DATA_LOADED = false;
@@ -38,19 +38,17 @@ async function loadK53Data() {
 // Map official category names to app categories
 function mapCategory(officialCategory) {
   const mapping = {
-    'regulatory': 'Regulatory',
-    'warning': 'Warning',
-    'guidance': 'Information',
-    'tourism': 'Information'
+    'regulatory': 'Road Signs',
+    'warning': 'Road Signs',
+    'guidance': 'Road Signs',
+    'tourism': 'Road Signs'
   };
-  return mapping[officialCategory] || officialCategory;
+  return mapping[officialCategory] || 'Road Signs';
 }
 
 // Extract driver action from description
 function extractAction(description) {
   if (!description) return 'Follow instructions';
-
-  // First sentence usually contains the main action
   const firstSentence = description.split('.')[0];
   return firstSentence || 'Follow instructions';
 }
@@ -62,73 +60,214 @@ function createFallbackSigns() {
       id: 'stop',
       code: 'STOP',
       name: 'Stop Sign',
-      category: 'Regulatory',
+      category: 'Road Signs',
       description: 'You must come to a complete stop at the stop line',
       imagePath: './k53_assets/regulatory/stop.png',
       action: 'Come to complete stop'
-    },
-    {
-      id: 'yield',
-      code: 'YIELD',
-      name: 'Yield Sign',
-      category: 'Regulatory',
-      description: 'Give way to traffic on the road you are entering',
-      imagePath: './k53_assets/regulatory/yield.png',
-      action: 'Give way to traffic'
     }
   ];
 }
 
-// Quiz questions
+// === OFFICIAL K53 QUESTIONS (NRTA-BASED) ===
 const QUESTIONS = [
-  { id: 1, category: 'road-rules', question: 'What is the speed limit in residential areas?', options: ['40 km/h', '60 km/h', '80 km/h', '100 km/h'], answer: 0, explanation: 'Speed limit in residential areas is 40 km/h.' },
-  { id: 2, category: 'road-rules', question: 'When should you use your headlights?', options: ['Only at night', 'At dusk, dawn, and night', 'Whenever another vehicle approaches', 'Only in rain'], answer: 1, explanation: 'Use headlights during dusk, dawn, and at night.' },
-  { id: 3, category: 'road-rules', question: 'What is the legal blood alcohol limit?', options: ['0.02%', '0.05%', '0.08%', '0.10%'], answer: 1, explanation: 'The legal limit is 0.05% blood alcohol content.' },
-  { id: 4, category: 'road-rules', question: 'At a four-way stop, who goes first?', options: ['Vehicle that arrived first', 'Vehicle turning right', 'Vehicle on the right', 'Straight vehicles'], answer: 0, explanation: 'The vehicle that stopped first has right of way.' },
-  { id: 5, category: 'road-rules', question: 'What if your brakes fail?', options: ['Honk continuously', 'Pump brake pedal and find escape route', 'Turn off engine', 'Shift to neutral'], answer: 1, explanation: 'Pump brakes, look for escape route, use handbrake if needed.' },
-  { id: 6, category: 'road-rules', question: 'When turning left, which lane?', options: ['Any lane', 'Far right lane', 'Far left lane', 'Second from left'], answer: 2, explanation: 'Always turn from the far left lane.' },
-  { id: 7, category: 'road-rules', question: 'What is minimum safe following distance?', options: ['1 car length', '2 car lengths', '3 car lengths', 'At least 2 seconds'], answer: 3, explanation: 'Maintain at least 2 seconds gap at current speed.' },
-  { id: 8, category: 'road-rules', question: 'Can you use your cellphone while driving?', options: ['Yes, if hands-free', 'Only for emergencies', 'No, it is illegal', 'Yes, with speakerphone'], answer: 2, explanation: 'Using cellphone while driving is illegal in South Africa.' },
-  { id: 9, category: 'road-rules', question: 'What at a red traffic light?', options: ['Stop and wait', 'Turn right if safe', 'Proceed with caution', 'Stop but turn left'], answer: 0, explanation: 'Come to complete stop. Do not proceed until green.' },
-  { id: 10, category: 'road-rules', question: 'When is it safe to overtake?', options: ['Whenever lane is clear', 'Only right side, clear visibility', 'Never on curves/hills', 'No oncoming traffic, straight section'], answer: 3, explanation: 'Overtake only with clear visibility and no oncoming traffic.' },
+  // ROAD SIGNS QUESTIONS
+  {
+    id: 1,
+    category: 'Road Signs',
+    question: 'What is the meaning of a red circle with a white horizontal bar?',
+    options: ['Stop immediately', 'No entry - do not proceed', 'No parking', 'Yield to traffic'],
+    answer: 1,
+    explanation: 'The No Entry sign (red circle with white bar) means you must not proceed - entry is prohibited.'
+  },
+  {
+    id: 2,
+    category: 'Road Signs',
+    question: 'What must you do when you see a triangular warning sign?',
+    options: ['Come to a complete stop', 'Reduce speed and be cautious', 'Speed up to pass quickly', 'Flash your headlights'],
+    answer: 1,
+    explanation: 'Triangular warning signs alert you to hazards ahead. Reduce speed and increase alertness.'
+  },
+  {
+    id: 3,
+    category: 'Road Signs',
+    question: 'What does a red octagon sign mean?',
+    options: ['Yield to traffic', 'No entry', 'Come to a complete stop', 'No parking'],
+    answer: 2,
+    explanation: 'The octagonal red sign is the STOP sign. You must come to a complete stop before proceeding.'
+  },
+  {
+    id: 4,
+    category: 'Road Signs',
+    question: 'What does a red inverted triangle mean?',
+    options: ['Stop sign', 'Speed limit', 'Give way/Yield sign', 'No entry'],
+    answer: 2,
+    explanation: 'The inverted red triangle is the Yield or Give Way sign. Reduce speed and give way to other traffic.'
+  },
+  {
+    id: 5,
+    category: 'Road Signs',
+    question: 'What does a blue circular sign with an arrow indicate?',
+    options: ['Warning ahead', 'Prohibition', 'Mandatory instruction - you must go in this direction', 'No parking'],
+    answer: 2,
+    explanation: 'Blue circular signs with arrows are mandatory instruction signs. You MUST follow the direction indicated.'
+  },
 
-  { id: 20, category: 'vehicle-controls', question: 'What does steering wheel control?', options: ['Engine speed', 'Direction', 'Brake pressure', 'Gear selection'], answer: 1, explanation: 'Steering wheel controls vehicle direction.' },
-  { id: 21, category: 'vehicle-controls', question: 'Function of accelerator?', options: ['Braking', 'Increase engine speed', 'Select gears', 'Activate lights'], answer: 1, explanation: 'Accelerator increases engine power.' },
-  { id: 22, category: 'vehicle-controls', question: 'What does brake pedal do?', options: ['Increase speed', 'Slow down or stop', 'Select reverse', 'Control wipers'], answer: 1, explanation: 'Brake pedal slows or stops vehicle.' },
-  { id: 23, category: 'vehicle-controls', question: 'Clutch pedal function?', options: ['Steering', 'Disconnect engine for gear changes', 'Apply parking brake', 'Turn on lights'], answer: 1, explanation: 'Clutch disconnects engine from wheels.' },
-  { id: 24, category: 'vehicle-controls', question: 'Where is handbrake located?', options: ['On steering wheel', 'Between seats or left of wheel', 'On left door', 'Below steering wheel'], answer: 1, explanation: 'Handbrake is between seats or left of steering wheel.' },
-  { id: 25, category: 'vehicle-controls', question: 'Gear shift controls?', options: ['Engine temperature', 'Which gear vehicle is in', 'Brake pressure', 'Headlight intensity'], answer: 1, explanation: 'Gear shift selects which gear.' },
-  { id: 26, category: 'vehicle-controls', question: 'Ignition switch function?', options: ['Start engine', 'Control fuel', 'Select gears', 'Adjust mirrors'], answer: 0, explanation: 'Ignition switch starts engine.' },
-  { id: 27, category: 'vehicle-controls', question: 'Where are wipers controlled?', options: ['Steering wheel hub', 'Left steering wheel stalk', 'Dashboard below wheel', 'On handbrake'], answer: 1, explanation: 'Wipers controlled by left steering wheel stalk.' },
-  { id: 28, category: 'vehicle-controls', question: 'How adjust side mirrors?', options: ['From steering wheel', 'Control buttons on door/dashboard', 'Manually by hand', 'Automatically'], answer: 1, explanation: 'Use buttons on door or dashboard.' },
-  { id: 29, category: 'vehicle-controls', question: 'What does horn do?', options: ['Control wipers', 'Alert signal', 'Turn lights on/off', 'Automatic transmission'], answer: 1, explanation: 'Horn produces alert sound.' },
-];
+  // ROAD RULES QUESTIONS
+  {
+    id: 6,
+    category: 'Road Rules',
+    question: 'What is the national speed limit on a freeway in South Africa?',
+    options: ['80 km/h', '100 km/h', '110 km/h', '120 km/h'],
+    answer: 3,
+    explanation: 'The national speed limit on freeways in South Africa is 120 km/h unless otherwise indicated.'
+  },
+  {
+    id: 7,
+    category: 'Road Rules',
+    question: 'What is the speed limit in a residential area?',
+    options: ['40 km/h', '50 km/h', '60 km/h', '80 km/h'],
+    answer: 0,
+    explanation: 'In residential areas, the speed limit is 40 km/h unless another speed limit is displayed.'
+  },
+  {
+    id: 8,
+    category: 'Road Rules',
+    question: 'What is the legal maximum blood alcohol content (BAC) for drivers in South Africa?',
+    options: ['0.02%', '0.05%', '0.08%', '0.10%'],
+    answer: 1,
+    explanation: 'The legal BAC limit for drivers in South Africa is 0.05%, which is approximately one standard drink.'
+  },
+  {
+    id: 9,
+    category: 'Road Rules',
+    question: 'When should a driver use headlights?',
+    options: ['Only at night', 'At dusk, at dawn, and at night', 'Only when raining', 'Only when visibility is less than 100m'],
+    answer: 1,
+    explanation: 'Headlights must be used from dusk through dawn (before sunrise and after sunset) to be seen by other drivers.'
+  },
+  {
+    id: 10,
+    category: 'Road Rules',
+    question: 'What is the minimum safe following distance behind another vehicle?',
+    options: ['1 car length', '2 car lengths', 'At least 2 seconds at your current speed', 'Whatever feels safe'],
+    answer: 2,
+    explanation: 'The safe following distance is at least 2 seconds at your current speed. In bad weather, this should be increased.'
+  },
+  {
+    id: 11,
+    category: 'Road Rules',
+    question: 'You are about to overtake a vehicle. What must you do?',
+    options: ['Just check your mirror and go', 'Check mirrors, signal, and ensure clear road ahead', 'Flash your headlights first', 'Sound your horn'],
+    answer: 1,
+    explanation: 'Before overtaking: check mirrors, indicate with a turn signal, and ensure the road is clear for the entire overtaking maneuver.'
+  },
+  {
+    id: 12,
+    category: 'Road Rules',
+    question: 'At a four-way stop, who has the right of way?',
+    options: ['The driver who arrives first', 'Drivers turning right', 'Drivers going straight', 'The vehicle on the right'],
+    answer: 0,
+    explanation: 'At a four-way stop, the driver who arrives and stops first has the right of way.'
+  },
+  {
+    id: 13,
+    category: 'Road Rules',
+    question: 'What should you do if your brakes fail?',
+    options: ['Shift to neutral and coast', 'Pump the brake pedal and look for an escape route', 'Turn off the engine', 'Swerve to the side immediately'],
+    answer: 1,
+    explanation: 'If brakes fail, pump the pedal to build pressure, look for an escape route, and use the handbrake as a last resort.'
+  },
+  {
+    id: 14,
+    category: 'Road Rules',
+    question: 'Can a driver use a cell phone while driving?',
+    options: ['Yes, if hands-free', 'Yes, for emergencies only', 'No, it is illegal', 'Yes, if you hold it safely'],
+    answer: 2,
+    explanation: 'Using a cell phone while driving is illegal in South Africa, even with hands-free devices in many circumstances.'
+  },
 
-// Vehicle controls reference
-const VEHICLE_CONTROLS = [
-  { number: 1, name: 'Steering Wheel', location: 'Front center', function: 'Directs vehicle', usage: ['Turn in direction of travel', 'Use gentle pressure', 'Return to center'], safety: 'Never remove both hands while driving', maintenance: 'Check power steering fluid' },
-  { number: 2, name: 'Accelerator', location: 'Right pedal', function: 'Increases speed', usage: ['Press gradually', 'Release to maintain speed', 'Never rest foot on pedal'], safety: 'Smooth acceleration prevents skidding', maintenance: 'Check throttle cable' },
-  { number: 3, name: 'Brake Pedal', location: 'Center pedal', function: 'Slows/stops vehicle', usage: ['Press firmly and smoothly', 'Emergency: press hard', 'Do not pump on normal roads'], safety: 'Check brake fluid level', maintenance: 'Replace pads when worn' },
-  { number: 4, name: 'Clutch Pedal', location: 'Left pedal (manual)', function: 'Disconnect engine for gears', usage: ['Press fully for gear changes', 'Release slowly', 'Never rest foot on it'], safety: 'Fully press to prevent stalling', maintenance: 'Check clutch fluid' },
-  { number: 5, name: 'Gear Shift', location: 'Center console', function: 'Selects gear', usage: ['Press clutch fully first', 'Select appropriate gear', 'Return to neutral at stops'], safety: 'Never shift into Reverse while moving', maintenance: 'Check transmission fluid' },
-  { number: 6, name: 'Handbrake', location: 'Between seats', function: 'Keeps car parked', usage: ['Pull firmly when parked', 'Use on slopes', 'Release before driving'], safety: 'Engage on hills', maintenance: 'Check cable tension' },
-  { number: 7, name: 'Ignition Switch', location: 'Steering column', function: 'Powers/starts engine', usage: ['Turn clockwise to start', 'Return when running', 'Turn off when stopped'], safety: 'Never remove key while moving', maintenance: 'Keep clean and dry' },
-  { number: 8, name: 'Headlights', location: 'Left stalk', function: 'Lights road ahead', usage: ['On at dusk/night', 'High beam on empty roads', 'Dip for oncoming traffic'], safety: 'Always use in poor visibility', maintenance: 'Replace bulbs when dim' },
-  { number: 9, name: 'Windshield Wipers', location: 'Left stalk', function: 'Clears windshield', usage: ['Adjust to rainfall rate', 'Low for light rain', 'Fast for heavy rain'], safety: 'Keep windshield clear', maintenance: 'Replace blades every 6-12 months' },
-  { number: 10, name: 'Horn', location: 'Steering wheel center', function: 'Alert signal', usage: ['Alert others', 'Short beep for warnings', 'Avoid excessive use'], safety: 'Do not rely only on horn', maintenance: 'Test regularly' },
-];
-
-// Road markings reference
-const ROAD_MARKINGS = [
-  { title: 'Solid White Center Line', meaning: 'No Overtaking', description: 'Solid white line means overtaking is prohibited', examples: ['Curves and bends', 'Hills', 'Intersections', 'Residential areas'] },
-  { title: 'Dashed White Center Line', meaning: 'Overtaking Allowed if Safe', description: 'Dashed white line allows overtaking if safe', examples: ['Open roads', 'Long straights', 'Good visibility', 'Rural highways'] },
-  { title: 'Double Yellow Lines', meaning: 'No Overtaking Either Side', description: 'Double yellow lines prohibit overtaking', examples: ['Sharp curves', 'Poor visibility', 'Schools', 'Hazardous areas'] },
-  { title: 'White Edge Line', meaning: 'Road Boundary', description: 'White edge line marks road boundary', examples: ['Highway edges', 'Lane dividers', 'Parking lots', 'Safe area limits'] },
-  { title: 'Yellow Edge Line', meaning: 'No Parking/Stopping', description: 'Yellow edge line prohibits parking', examples: ['Bus lanes', 'Taxi stands', 'Hospital entrances', 'Emergency zones'] },
-  { title: 'Dashed White Lane Divider', meaning: 'Lane Change Permitted', description: 'Dashed white allows lane changes if safe', examples: ['Multi-lane roads', 'Divided roads', 'Intersections', 'City streets'] },
-  { title: 'Chevron Arrows', meaning: 'Directional Guidance', description: 'Chevron arrows guide traffic direction', examples: ['Intersections', 'Lane guidance', 'One-way streets', 'Highway ends'] },
-  { title: 'Stop Line', meaning: 'Stop Before This Line', description: 'White line where you must stop', examples: ['Traffic lights', 'Stop signs', 'Railway crossings', 'Yield intersections'] },
+  // VEHICLE CONTROLS QUESTIONS
+  {
+    id: 15,
+    category: 'Vehicle Controls',
+    question: 'What is the function of the steering wheel?',
+    options: ['Controls speed', 'Controls direction of the vehicle', 'Controls braking', 'Controls gears'],
+    answer: 1,
+    explanation: 'The steering wheel controls the direction the vehicle travels.'
+  },
+  {
+    id: 16,
+    category: 'Vehicle Controls',
+    question: 'Which pedal increases the vehicle\'s speed?',
+    options: ['Left pedal (clutch)', 'Middle pedal (brake)', 'Right pedal (accelerator)', 'There is no such pedal'],
+    answer: 2,
+    explanation: 'The accelerator (right pedal) increases engine power and speed when pressed.'
+  },
+  {
+    id: 17,
+    category: 'Vehicle Controls',
+    question: 'What does the brake pedal do?',
+    options: ['Speeds up the vehicle', 'Slows down or stops the vehicle', 'Changes gears', 'Turns on lights'],
+    answer: 1,
+    explanation: 'The brake pedal (middle pedal) reduces vehicle speed or brings it to a complete stop.'
+  },
+  {
+    id: 18,
+    category: 'Vehicle Controls',
+    question: 'In a manual transmission vehicle, what does the clutch pedal do?',
+    options: ['Applies the brakes', 'Disconnects the engine from the wheels to allow gear changes', 'Increases engine speed', 'Controls steering'],
+    answer: 1,
+    explanation: 'The clutch pedal (left pedal) disconnects the engine from the transmission, allowing you to change gears.'
+  },
+  {
+    id: 19,
+    category: 'Vehicle Controls',
+    question: 'What is the purpose of the gear shift?',
+    options: ['To control speed', 'To select which gear the vehicle operates in', 'To brake the vehicle', 'To signal other drivers'],
+    answer: 1,
+    explanation: 'The gear shift selects which gear (1-5 or R) the vehicle uses, affecting power and speed.'
+  },
+  {
+    id: 20,
+    category: 'Vehicle Controls',
+    question: 'Where is the handbrake located?',
+    options: ['On the steering wheel', 'Between the front seats or to the left of the steering wheel', 'On the floor near the pedals', 'On the right side of the door'],
+    answer: 1,
+    explanation: 'The handbrake is located between the front seats (as a lever) or to the left of the steering wheel (as a pedal).'
+  },
+  {
+    id: 21,
+    category: 'Vehicle Controls',
+    question: 'What is the function of the ignition switch?',
+    options: ['To turn on the lights', 'To start the engine and power the vehicle\'s electrical system', 'To control the wipers', 'To adjust the mirrors'],
+    answer: 1,
+    explanation: 'The ignition switch starts the engine and powers all electrical systems in the vehicle.'
+  },
+  {
+    id: 22,
+    category: 'Vehicle Controls',
+    question: 'Where are the windshield wipers controlled from?',
+    options: ['From a button on the dashboard', 'From a stalk on the left side of the steering wheel', 'From the right side of the steering wheel', 'From the headlight switch'],
+    answer: 1,
+    explanation: 'Windshield wipers are controlled by a stalk (lever) on the left side of the steering wheel.'
+  },
+  {
+    id: 23,
+    category: 'Vehicle Controls',
+    question: 'How do you adjust the side mirrors?',
+    options: ['Manually by reaching out and adjusting them', 'Using control buttons usually on the door or dashboard', 'They adjust automatically', 'From the steering wheel'],
+    answer: 1,
+    explanation: 'Most modern vehicles have electric buttons on the door or dashboard to adjust the side mirrors.'
+  },
+  {
+    id: 24,
+    category: 'Vehicle Controls',
+    question: 'What does the horn do?',
+    options: ['Turns on the lights', 'Produces an audible alert signal', 'Applies the brakes', 'Adjusts the volume of the radio'],
+    answer: 1,
+    explanation: 'The horn (usually centered on the steering wheel) produces a sound to alert other road users.'
+  }
 ];
 
 // Load data when script initializes
-console.log('K53 Data Loader ready. Waiting for app initialization...');
+console.log('K53 Official Data Loader ready. Waiting for app initialization...');
