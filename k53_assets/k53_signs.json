@@ -1,1028 +1,458 @@
 [
   {
-    "id": "r1.1",
+    "id": "freeway-begin",
+    "name": "Freeway Begins Sign",
+    "category": "guidance",
+    "description": "The freeway (national road) begins at this point. Freeway rules apply: no pedestrians, cyclists, or animal-drawn vehicles.",
+    "local_path": "k53_assets/guidance/freeway-begin.png",
+    "source_url": ""
+  },
+  {
+    "id": "freeway-end",
+    "name": "Freeway Ends Sign",
+    "category": "guidance",
+    "description": "The freeway ends at this point. Urban road rules and reduced speed limits now apply.",
+    "local_path": "k53_assets/guidance/freeway-end.png",
+    "source_url": ""
+  },
+  {
+    "id": "fuel-station",
+    "name": "Fuel Station Information Sign",
+    "category": "guidance",
+    "description": "A fuel station is located in the direction indicated. Typically shown with distance on rural roads.",
+    "local_path": "k53_assets/guidance/fuel-station.png",
+    "source_url": ""
+  },
+  {
+    "id": "hospital",
+    "name": "Hospital Information Sign",
+    "category": "guidance",
+    "description": "A hospital is located in the direction indicated. Blue and white; aids navigation to medical services.",
+    "local_path": "k53_assets/guidance/hospital.png",
+    "source_url": ""
+  },
+  {
+    "id": "route-marker-n",
+    "name": "National Route Marker",
+    "category": "guidance",
+    "description": "Identifies a national route (N-road). Displayed in green and white; the number indicates the specific route.",
+    "local_path": "k53_assets/guidance/route-marker-n.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-through-road",
+    "name": "No Through Road Sign",
+    "category": "guidance",
+    "description": "This road is a dead end — there is no exit at the far end. Used to prevent unnecessary entry.",
+    "local_path": "k53_assets/guidance/no-through-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "one-way-road",
+    "name": "One-Way Road Sign",
+    "category": "guidance",
+    "description": "Traffic flows in one direction only on this road. The arrow indicates the permitted direction of travel.",
+    "local_path": "k53_assets/guidance/one-way-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "parking-area",
+    "name": "Parking Area Sign",
+    "category": "guidance",
+    "description": "A designated parking area is available in the direction indicated. Parking rules applicable at that site apply.",
+    "local_path": "k53_assets/guidance/parking-area.png",
+    "source_url": ""
+  },
+  {
+    "id": "route-marker-r",
+    "name": "Regional Route Marker",
+    "category": "guidance",
+    "description": "Identifies a regional route (R-road). Displayed in blue and white; connects towns and cities within a province.",
+    "local_path": "k53_assets/guidance/route-marker-r.png",
+    "source_url": ""
+  },
+  {
+    "id": "rest-area",
+    "name": "Rest Area Sign",
+    "category": "guidance",
+    "description": "A rest area or lay-by is ahead where drivers may stop safely to rest, use facilities, or take a break from driving.",
+    "local_path": "k53_assets/guidance/rest-area.png",
+    "source_url": ""
+  },
+  {
+    "id": "bicycle-lane",
+    "name": "Bicycle Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved exclusively for pedal cyclists. Motor vehicles may not use a bicycle lane.",
+    "local_path": "k53_assets/regulatory/bicycle-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "bus-lane",
+    "name": "Bus Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved for buses during the times indicated. Other vehicles must vacate or not enter the bus lane.",
+    "local_path": "k53_assets/regulatory/bus-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "down-arrow-icon",
+    "name": "Down arrow icon",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/down-arrow-icon.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/quick_links_tab_top2.png"
+  },
+  {
+    "id": "end-speed-limit",
+    "name": "End Speed Restriction Sign",
+    "category": "regulatory",
+    "description": "The speed restriction indicated earlier no longer applies. The applicable general limit for the road class is now in force.",
+    "local_path": "k53_assets/regulatory/end-speed-limit.png",
+    "source_url": ""
+  },
+  {
+    "id": "keep-left",
+    "name": "Keep Left Sign",
+    "category": "regulatory",
+    "description": "You must keep to the left side of the road or traffic island. Used to direct traffic around an obstruction or island.",
+    "local_path": "k53_assets/regulatory/keep-left.png",
+    "source_url": ""
+  },
+  {
+    "id": "keep-right",
+    "name": "Keep Right Sign",
+    "category": "regulatory",
+    "description": "You must keep to the right side of the road or traffic island. Directs traffic to pass an obstruction on the right.",
+    "local_path": "k53_assets/regulatory/keep-right.png",
+    "source_url": ""
+  },
+  {
+    "id": "minibus-taxi-lane",
+    "name": "Mini-bus Taxi Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved for mini-bus taxis. Other vehicles may not use this lane except to access properties or make turns where permitted.",
+    "local_path": "k53_assets/regulatory/minibus-taxi-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-entry",
+    "name": "No Entry Sign",
+    "category": "regulatory",
+    "description": "Entry by vehicles is prohibited. You may not drive into the road or area beyond this sign.",
+    "local_path": "k53_assets/regulatory/no-entry.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-left-turn",
+    "name": "No Left Turn Sign",
+    "category": "regulatory",
+    "description": "Left turns are prohibited at this intersection or road. You must proceed straight or turn right if permitted.",
+    "local_path": "k53_assets/regulatory/no-left-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-overtaking",
+    "name": "No Overtaking Sign",
+    "category": "regulatory",
+    "description": "Overtaking of motor vehicles is prohibited on this section of road. You may not pass another moving vehicle.",
+    "local_path": "k53_assets/regulatory/no-overtaking.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-parking",
+    "name": "No Parking Sign",
+    "category": "regulatory",
+    "description": "Parking is prohibited on the side of the road where this sign is displayed. You may stop briefly to pick up or drop off passengers.",
+    "local_path": "k53_assets/regulatory/no-parking.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-right-turn",
+    "name": "No Right Turn Sign",
+    "category": "regulatory",
+    "description": "Right turns are prohibited at this intersection or road. You must proceed straight or turn left if permitted.",
+    "local_path": "k53_assets/regulatory/no-right-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-stopping",
+    "name": "No Stopping Sign",
+    "category": "regulatory",
+    "description": "Stopping or parking is completely prohibited where this sign is displayed. You may not stop for any reason.",
+    "local_path": "k53_assets/regulatory/no-stopping.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-u-turn",
+    "name": "No U-Turn Sign",
+    "category": "regulatory",
+    "description": "U-turns are prohibited at this point. You may not turn your vehicle to travel in the opposite direction.",
+    "local_path": "k53_assets/regulatory/no-u-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "partner",
+    "name": "Partner",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/partner.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/arrive_alivpartner_program.png"
+  },
+  {
+    "id": "proceed-straight",
+    "name": "Proceed Straight Sign",
+    "category": "regulatory",
+    "description": "You must proceed straight ahead. You may not turn left or right at this point.",
+    "local_path": "k53_assets/regulatory/proceed-straight.png",
+    "source_url": ""
+  },
+  {
+    "id": "report-bad-driving",
+    "name": "Report Bad Driving",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/report-bad-driving.jpg",
+    "source_url": "https://www.arrivealive.co.za/images/homepage/report_bad_driving.jpg"
+  },
+  {
+    "id": "speed-limit-100",
+    "name": "Speed Limit 100 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 100 km/h. Typical limit on rural two-lane national roads.",
+    "local_path": "k53_assets/regulatory/speed-limit-100.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-120",
+    "name": "Speed Limit 120 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 120 km/h. The national maximum permitted speed for light motor vehicles on freeways.",
+    "local_path": "k53_assets/regulatory/speed-limit-120.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-30",
+    "name": "Speed Limit 30 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 30 km/h. You must not exceed this speed.",
+    "local_path": "k53_assets/regulatory/speed-limit-30.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-60",
+    "name": "Speed Limit 60 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 60 km/h. Typical urban arterial limit.",
+    "local_path": "k53_assets/regulatory/speed-limit-60.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-80",
+    "name": "Speed Limit 80 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 80 km/h. Common on peri-urban roads and certain national roads through towns.",
+    "local_path": "k53_assets/regulatory/speed-limit-80.png",
+    "source_url": ""
+  },
+  {
+    "id": "stop",
     "name": "Stop Sign",
     "category": "regulatory",
-    "description": "Bring vehicle to complete stop",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r1.1.svg",
+    "description": "You must come to a complete stop at the stop line or, if there is no line, before entering the intersection. You may proceed only when it is safe to do so.",
+    "local_path": "k53_assets/regulatory/stop.png",
     "source_url": ""
   },
   {
-    "id": "r1.2",
-    "name": "Stop/Yield Sign",
+    "id": "traffic-light-ahead",
+    "name": "Traffic Signal Ahead",
     "category": "regulatory",
-    "description": "Stop if approaching traffic; yield if turning left",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r1.2.svg",
+    "description": "Warns drivers that a traffic signal is ahead. Reduce speed and be prepared to stop.",
+    "local_path": "k53_assets/regulatory/traffic-light-ahead.png",
     "source_url": ""
   },
   {
-    "id": "r1.3",
-    "name": "3-Way Stop",
+    "id": "turn-left",
+    "name": "Turn Left Sign",
     "category": "regulatory",
-    "description": "Stop at intersection; first stopped vehicle proceeds first",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r1.3.svg",
+    "description": "You are compelled to turn left at this point. You may not proceed straight or turn right.",
+    "local_path": "k53_assets/regulatory/turn-left.png",
     "source_url": ""
   },
   {
-    "id": "r1.4",
-    "name": "4-Way Stop",
+    "id": "turn-right",
+    "name": "Turn Right Sign",
     "category": "regulatory",
-    "description": "Stop at all-way intersection; first stopped vehicle proceeds first",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r1.4.svg",
+    "description": "You are compelled to turn right at this point. You may not proceed straight or turn left.",
+    "local_path": "k53_assets/regulatory/turn-right.png",
     "source_url": ""
   },
   {
-    "id": "r1.5",
-    "name": "Stop/Go Sign",
+    "id": "up-arrow-icon",
+    "name": "Up arrow icon",
     "category": "regulatory",
-    "description": "Follow sign showing stop or proceed at road works",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r1.5.svg",
-    "source_url": ""
+    "description": "",
+    "local_path": "k53_assets/regulatory/up-arrow-icon.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/quick_links_tab_top.png"
   },
   {
-    "id": "r10",
-    "name": "No Pedestrians",
+    "id": "yield",
+    "name": "Yield / Give Way Sign",
     "category": "regulatory",
-    "description": "Pedestrians not allowed on this road",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r10.svg",
+    "description": "You must give way to traffic on the road you are entering. Slow down and stop if necessary; proceed only when it is safe.",
+    "local_path": "k53_assets/regulatory/yield.png",
     "source_url": ""
   },
   {
-    "id": "r100",
-    "name": "Speed Limit 100",
-    "category": "regulatory",
-    "description": "Maximum speed 100 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r100.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r101",
-    "name": "Keep Right",
-    "category": "regulatory",
-    "description": "Keep to the right side of the road",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r101.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r102",
-    "name": "Keep Left",
-    "category": "regulatory",
-    "description": "Keep to the left side of the road",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r102.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r103",
-    "name": "Proceed Straight",
-    "category": "regulatory",
-    "description": "Proceed straight ahead",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r103.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r104",
-    "name": "Turn Right",
-    "category": "regulatory",
-    "description": "Turn right ahead",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r104.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r105",
-    "name": "Turn Left",
-    "category": "regulatory",
-    "description": "Turn left ahead",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r105.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r106",
-    "name": "Turn Right Ahead",
-    "category": "regulatory",
-    "description": "Must turn right at next intersection",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r106.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r107",
-    "name": "Turn Left Ahead",
-    "category": "regulatory",
-    "description": "Must turn left at next intersection",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r107.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r108",
-    "name": "Go Straight",
-    "category": "regulatory",
-    "description": "Continue straight; do not turn",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r108.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r109",
-    "name": "Roundabout",
-    "category": "regulatory",
-    "description": "Traffic circle/roundabout ahead",
-    "subcategory": "Command",
-    "local_path": "k53_assets/regulatory/r109.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r11",
-    "name": "No Bicycles",
-    "category": "regulatory",
-    "description": "Bicycles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r11.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r110",
-    "name": "Speed Limit 110",
-    "category": "regulatory",
-    "description": "Maximum speed 110 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r110.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r12",
-    "name": "No Motor Cycles",
-    "category": "regulatory",
-    "description": "Motor cycles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r12.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r120",
-    "name": "Speed Limit 120",
-    "category": "regulatory",
-    "description": "Maximum speed 120 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r120.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r13",
-    "name": "No Heavy Vehicles",
-    "category": "regulatory",
-    "description": "Heavy vehicles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r13.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r14",
-    "name": "No Animals",
-    "category": "regulatory",
-    "description": "Animals not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r14.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r140",
-    "name": "Speed Limit 140",
-    "category": "regulatory",
-    "description": "Maximum speed 140 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r140.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r15",
-    "name": "No Towed Vehicles",
-    "category": "regulatory",
-    "description": "Towed vehicles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r15.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r16",
-    "name": "No Trailers",
-    "category": "regulatory",
-    "description": "Trailers not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r16.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r17",
-    "name": "No Wide Vehicles",
-    "category": "regulatory",
-    "description": "Wide vehicles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r17.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r18",
-    "name": "No Tall Vehicles",
-    "category": "regulatory",
-    "description": "Tall vehicles not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r18.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r2",
-    "name": "Yield Sign",
-    "category": "regulatory",
-    "description": "Yield to other traffic; reduce speed and stop if necessary",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r2.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r2.1",
-    "name": "Yield to Pedestrians",
-    "category": "regulatory",
-    "description": "Give priority to pedestrians crossing or wanting to cross",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r2.1.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r2.2",
-    "name": "Yield at Traffic Circle",
-    "category": "regulatory",
-    "description": "Yield to traffic already in circle or entering before you",
-    "subcategory": "Control Signs",
-    "local_path": "k53_assets/regulatory/r2.2.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r20",
-    "name": "Speed Limit 20",
-    "category": "regulatory",
-    "description": "Maximum speed 20 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r20.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r201",
-    "name": "Bus Lane",
-    "category": "regulatory",
-    "description": "Reserved for buses only",
-    "subcategory": "Lane Markings",
-    "local_path": "k53_assets/regulatory/r201.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r202",
-    "name": "Taxi Lane",
-    "category": "regulatory",
-    "description": "Reserved for taxis only",
-    "subcategory": "Lane Markings",
-    "local_path": "k53_assets/regulatory/r202.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r203",
-    "name": "Bicycle Lane",
-    "category": "regulatory",
-    "description": "Reserved for bicycles only",
-    "subcategory": "Lane Markings",
-    "local_path": "k53_assets/regulatory/r203.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r3",
-    "name": "No Entry",
-    "category": "regulatory",
-    "description": "Do not enter; no traffic may proceed past this sign",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r3.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r30",
-    "name": "Speed Limit 30",
-    "category": "regulatory",
-    "description": "Maximum speed 30 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r30.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r301",
-    "name": "Parking Area",
-    "category": "regulatory",
-    "description": "Designated parking area",
-    "subcategory": "Parking",
-    "local_path": "k53_assets/regulatory/r301.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r302",
-    "name": "No Parking Zone",
-    "category": "regulatory",
-    "description": "Parking prohibited in this zone",
-    "subcategory": "Parking",
-    "local_path": "k53_assets/regulatory/r302.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r303",
-    "name": "Reserved Parking",
-    "category": "regulatory",
-    "description": "Reserved parking area",
-    "subcategory": "Parking",
-    "local_path": "k53_assets/regulatory/r303.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r4",
-    "name": "No Left Turn",
-    "category": "regulatory",
-    "description": "Left turning is prohibited",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r4.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r40",
-    "name": "Speed Limit 40",
-    "category": "regulatory",
-    "description": "Maximum speed 40 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r40.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r5",
-    "name": "No Right Turn",
-    "category": "regulatory",
-    "description": "Right turning is prohibited",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r5.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r50",
-    "name": "Speed Limit 50",
-    "category": "regulatory",
-    "description": "Maximum speed 50 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r50.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r6",
-    "name": "No U-Turn",
-    "category": "regulatory",
-    "description": "U-turns are prohibited",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r6.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r60",
-    "name": "Speed Limit 60",
-    "category": "regulatory",
-    "description": "Maximum speed 60 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r60.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r7",
-    "name": "No Overtaking",
-    "category": "regulatory",
-    "description": "Overtaking other vehicles is prohibited",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r7.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r70",
-    "name": "Speed Limit 70",
-    "category": "regulatory",
-    "description": "Maximum speed 70 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r70.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r8",
-    "name": "No Parking",
-    "category": "regulatory",
-    "description": "Parking is not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r8.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r80",
-    "name": "Speed Limit 80",
-    "category": "regulatory",
-    "description": "Maximum speed 80 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r80.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r9",
-    "name": "No Stopping",
-    "category": "regulatory",
-    "description": "Stopping is not allowed",
-    "subcategory": "Prohibition",
-    "local_path": "k53_assets/regulatory/r9.svg",
-    "source_url": ""
-  },
-  {
-    "id": "r90",
-    "name": "Speed Limit 90",
-    "category": "regulatory",
-    "description": "Maximum speed 90 km/h",
-    "subcategory": "Restriction",
-    "local_path": "k53_assets/regulatory/r90.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w1",
-    "name": "Danger Ahead",
-    "category": "warning",
-    "description": "General warning of danger ahead",
-    "subcategory": "General",
-    "local_path": "k53_assets/warning/w1.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w10",
-    "name": "Loose Gravel",
-    "category": "warning",
-    "description": "Loose gravel on road; use caution",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w10.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w11",
-    "name": "Pedestrian Crossing",
-    "category": "warning",
-    "description": "Pedestrian crossing ahead; be prepared to stop",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w11.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w12",
-    "name": "School Zone",
-    "category": "warning",
-    "description": "School ahead; reduce speed and watch for children",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w12.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w13",
-    "name": "Children Crossing",
-    "category": "warning",
-    "description": "Children may cross here; be prepared to stop",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w13.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w14",
-    "name": "Animals Crossing",
-    "category": "warning",
-    "description": "Animals may cross road; reduce speed",
-    "subcategory": "Animals",
-    "local_path": "k53_assets/warning/w14.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w15",
-    "name": "Wild Animals",
-    "category": "warning",
-    "description": "Wild animals in area; be alert",
-    "subcategory": "Animals",
-    "local_path": "k53_assets/warning/w15.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w16",
-    "name": "Traffic Lights Ahead",
-    "category": "warning",
-    "description": "Traffic signals ahead; be prepared to stop",
-    "subcategory": "Traffic Control",
-    "local_path": "k53_assets/warning/w16.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w17",
-    "name": "Road Works",
-    "category": "warning",
-    "description": "Road works ahead; reduce speed and use caution",
-    "subcategory": "Work Zone",
-    "local_path": "k53_assets/warning/w17.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w18",
-    "name": "Railway Crossing",
-    "category": "warning",
-    "description": "Railway crossing ahead; stop and check for trains",
-    "subcategory": "Railway",
-    "local_path": "k53_assets/warning/w18.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w19",
-    "name": "Narrow Bridge",
-    "category": "warning",
-    "description": "Narrow bridge ahead; use caution",
-    "subcategory": "Bridge",
-    "local_path": "k53_assets/warning/w19.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w2",
-    "name": "Curve Ahead (Right)",
-    "category": "warning",
-    "description": "Curve to the right ahead; reduce speed",
-    "subcategory": "Curve",
-    "local_path": "k53_assets/warning/w2.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w20",
-    "name": "Toll Ahead",
-    "category": "warning",
-    "description": "Toll gate ahead",
-    "subcategory": "Toll",
-    "local_path": "k53_assets/warning/w20.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w21",
-    "name": "Intersection Ahead",
-    "category": "warning",
-    "description": "Intersection ahead; be prepared to yield or stop",
-    "subcategory": "Intersection",
-    "local_path": "k53_assets/warning/w21.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w22",
-    "name": "Side Road",
-    "category": "warning",
-    "description": "Side road junction ahead",
-    "subcategory": "Intersection",
-    "local_path": "k53_assets/warning/w22.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w23",
-    "name": "Roundabout",
-    "category": "warning",
-    "description": "Roundabout/traffic circle ahead",
-    "subcategory": "Intersection",
-    "local_path": "k53_assets/warning/w23.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w24",
-    "name": "Divided Highway Ends",
-    "category": "warning",
-    "description": "Divided highway ends; oncoming traffic ahead",
-    "subcategory": "Road",
-    "local_path": "k53_assets/warning/w24.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w25",
-    "name": "Road Narrows",
-    "category": "warning",
-    "description": "Road narrows ahead; use caution",
-    "subcategory": "Road",
-    "local_path": "k53_assets/warning/w25.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w26",
-    "name": "Uneven Road",
-    "category": "warning",
-    "description": "Uneven or rough road surface ahead",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w26.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w27",
-    "name": "Pothole",
-    "category": "warning",
-    "description": "Potholes on road; use caution",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w27.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w28",
-    "name": "Speed Hump",
-    "category": "warning",
-    "description": "Speed hump ahead; reduce speed",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w28.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w29",
-    "name": "Risk of Skidding",
-    "category": "warning",
-    "description": "Risk of skidding; reduce speed",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w29.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w3",
-    "name": "Curve Ahead (Left)",
-    "category": "warning",
-    "description": "Curve to the left ahead; reduce speed",
-    "subcategory": "Curve",
-    "local_path": "k53_assets/warning/w3.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w30",
-    "name": "Waterlogged Road",
-    "category": "warning",
-    "description": "Road may be flooded; use caution",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w30.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w31",
-    "name": "Pedestrians",
-    "category": "warning",
-    "description": "Pedestrians may be on road; be alert",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w31.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w32",
-    "name": "Elderly Persons",
-    "category": "warning",
-    "description": "Elderly persons may cross; be prepared to stop",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w32.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w33",
-    "name": "Disabled Persons",
-    "category": "warning",
-    "description": "Disabled persons ahead; use caution",
-    "subcategory": "Pedestrians",
-    "local_path": "k53_assets/warning/w33.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w34",
-    "name": "Horse Riding",
-    "category": "warning",
-    "description": "Horse riders ahead; use caution",
-    "subcategory": "Animals",
-    "local_path": "k53_assets/warning/w34.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w35",
-    "name": "Stock Crossing",
-    "category": "warning",
-    "description": "Livestock may cross; reduce speed",
-    "subcategory": "Animals",
-    "local_path": "k53_assets/warning/w35.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w36",
-    "name": "Low Flying Aircraft",
-    "category": "warning",
-    "description": "Low flying aircraft in area",
-    "subcategory": "Hazard",
-    "local_path": "k53_assets/warning/w36.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w37",
-    "name": "Falling Rocks",
-    "category": "warning",
-    "description": "Falling rocks on road; use caution",
-    "subcategory": "Hazard",
-    "local_path": "k53_assets/warning/w37.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w38",
-    "name": "Debris on Road",
-    "category": "warning",
-    "description": "Debris or obstacles on road; use caution",
-    "subcategory": "Hazard",
-    "local_path": "k53_assets/warning/w38.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w4",
-    "name": "Sharp Curve (Right)",
-    "category": "warning",
-    "description": "Sharp curve to the right; reduce speed significantly",
-    "subcategory": "Curve",
-    "local_path": "k53_assets/warning/w4.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w5",
-    "name": "Sharp Curve (Left)",
-    "category": "warning",
-    "description": "Sharp curve to the left; reduce speed significantly",
-    "subcategory": "Curve",
-    "local_path": "k53_assets/warning/w5.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w6",
-    "name": "S-Curve",
-    "category": "warning",
-    "description": "Two curves in succession; reduce speed",
-    "subcategory": "Curve",
-    "local_path": "k53_assets/warning/w6.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w7",
-    "name": "Steep Ascent",
-    "category": "warning",
-    "description": "Steep uphill gradient ahead",
-    "subcategory": "Grade",
-    "local_path": "k53_assets/warning/w7.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w8",
-    "name": "Steep Descent",
-    "category": "warning",
-    "description": "Steep downhill gradient ahead",
-    "subcategory": "Grade",
-    "local_path": "k53_assets/warning/w8.svg",
-    "source_url": ""
-  },
-  {
-    "id": "w9",
-    "name": "Slippery Road",
-    "category": "warning",
-    "description": "Road surface is slippery; reduce speed",
-    "subcategory": "Road Conditions",
-    "local_path": "k53_assets/warning/w9.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g1",
-    "name": "One-Way Road",
-    "category": "guidance",
-    "description": "Traffic flows in one direction only",
-    "subcategory": "Direction",
-    "local_path": "k53_assets/guidance/g1.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g10",
-    "name": "Telephone",
-    "category": "guidance",
-    "description": "Telephone facility ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g10.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g11",
-    "name": "Petrol Station",
-    "category": "guidance",
-    "description": "Petrol/fuel station ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g11.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g12",
-    "name": "Restaurant",
-    "category": "guidance",
-    "description": "Restaurant ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g12.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g13",
-    "name": "Hotel",
-    "category": "guidance",
-    "description": "Hotel accommodation ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g13.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g14",
-    "name": "Camping",
-    "category": "guidance",
-    "description": "Camping site ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g14.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g15",
-    "name": "Picnic Area",
-    "category": "guidance",
-    "description": "Picnic area ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g15.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g16",
-    "name": "Public Telephone",
-    "category": "guidance",
-    "description": "Public telephone ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g16.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g17",
-    "name": "First Aid",
-    "category": "guidance",
-    "description": "First aid facilities ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g17.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g18",
-    "name": "Bus Stop",
-    "category": "guidance",
-    "description": "Bus stop ahead",
-    "subcategory": "Transport",
-    "local_path": "k53_assets/guidance/g18.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g19",
-    "name": "Train Station",
-    "category": "guidance",
-    "description": "Train/railway station ahead",
-    "subcategory": "Transport",
-    "local_path": "k53_assets/guidance/g19.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g2",
-    "name": "Two-Way Traffic",
-    "category": "guidance",
-    "description": "Traffic flows in both directions",
-    "subcategory": "Direction",
-    "local_path": "k53_assets/guidance/g2.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g20",
-    "name": "Filling Station",
-    "category": "guidance",
-    "description": "Filling/fuel station ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g20.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g3",
-    "name": "Freeway Begins",
-    "category": "guidance",
-    "description": "Freeway starts here; observe freeway rules",
-    "subcategory": "Freeway",
-    "local_path": "k53_assets/guidance/g3.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g4",
-    "name": "Freeway Ends",
-    "category": "guidance",
-    "description": "Freeway ends here; observe urban road rules",
-    "subcategory": "Freeway",
-    "local_path": "k53_assets/guidance/g4.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g5",
-    "name": "Parking Area",
-    "category": "guidance",
-    "description": "Parking facilities available ahead",
-    "subcategory": "Parking",
-    "local_path": "k53_assets/guidance/g5.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g6",
-    "name": "Rest Area",
-    "category": "guidance",
-    "description": "Rest area with facilities ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g6.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g7",
-    "name": "Service Station",
-    "category": "guidance",
-    "description": "Service station ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g7.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g8",
-    "name": "Hospital",
-    "category": "guidance",
-    "description": "Hospital ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g8.svg",
-    "source_url": ""
-  },
-  {
-    "id": "g9",
-    "name": "Police Station",
-    "category": "guidance",
-    "description": "Police station ahead",
-    "subcategory": "Facilities",
-    "local_path": "k53_assets/guidance/g9.svg",
-    "source_url": ""
-  },
-  {
-    "id": "i1",
-    "name": "Speed Limit Info",
-    "category": "information",
-    "description": "Provides speed limit information",
-    "subcategory": "Regulatory",
-    "local_path": "k53_assets/information/i1.svg",
-    "source_url": ""
-  },
-  {
-    "id": "i2",
-    "name": "Route Number",
-    "category": "information",
-    "description": "National or provincial route number",
-    "subcategory": "Navigation",
-    "local_path": "k53_assets/information/i2.svg",
-    "source_url": ""
-  },
-  {
-    "id": "i3",
-    "name": "Distance Information",
-    "category": "information",
-    "description": "Distance to major towns/destinations",
-    "subcategory": "Navigation",
-    "local_path": "k53_assets/information/i3.svg",
-    "source_url": ""
-  },
-  {
-    "id": "t1",
-    "name": "Tourism Point of Interest",
+    "id": "tourism-brown-sign",
+    "name": "Tourism Destination Sign",
     "category": "tourism",
-    "description": "Point of tourist interest ahead",
-    "subcategory": "Attractions",
-    "local_path": "k53_assets/tourism/t1.svg",
+    "description": "Brown tourism signs direct travellers to places of tourist interest such as nature reserves, heritage sites, museums, and scenic attractions.",
+    "local_path": "k53_assets/tourism/tourism-brown-sign.png",
     "source_url": ""
   },
   {
-    "id": "t2",
-    "name": "Historic Site",
+    "id": "tourism-directions",
+    "name": "Tourism Direction Sign",
     "category": "tourism",
-    "description": "Historic site or monument",
-    "subcategory": "Attractions",
-    "local_path": "k53_assets/tourism/t2.svg",
+    "description": "Directional sign for tourist destinations. Brown background with white text and icons; standard across South Africa.",
+    "local_path": "k53_assets/tourism/tourism-directions.png",
+    "source_url": ""
+  },
+  {
+    "id": "animals-crossing",
+    "name": "Animals Crossing Warning Sign",
+    "category": "warning",
+    "description": "Domestic or wild animals may cross the road ahead. Reduce speed and be prepared to stop.",
+    "local_path": "k53_assets/warning/animals-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "bridge-ahead",
+    "name": "Bridge Ahead Warning Sign",
+    "category": "warning",
+    "description": "A bridge is ahead. The bridge may be narrow — reduce speed and give way to oncoming vehicles.",
+    "local_path": "k53_assets/warning/bridge-ahead.png",
+    "source_url": ""
+  },
+  {
+    "id": "children-crossing",
+    "name": "Children Warning Sign",
+    "category": "warning",
+    "description": "Children may be present or crossing ahead. Proceed with caution at reduced speed.",
+    "local_path": "k53_assets/warning/children-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "loose-gravel",
+    "name": "Loose Gravel Warning Sign",
+    "category": "warning",
+    "description": "The road surface has loose gravel or stones. Reduce speed to prevent loss of control or windscreen damage.",
+    "local_path": "k53_assets/warning/loose-gravel.png",
+    "source_url": ""
+  },
+  {
+    "id": "low-flying-aircraft",
+    "name": "Low Flying Aircraft Warning Sign",
+    "category": "warning",
+    "description": "Low-flying aircraft may cross or operate near this road, typically near airfields. Be alert for aircraft and instructions.",
+    "local_path": "k53_assets/warning/low-flying-aircraft.png",
+    "source_url": ""
+  },
+  {
+    "id": "pedestrian-crossing",
+    "name": "Pedestrian Crossing Warning Sign",
+    "category": "warning",
+    "description": "A pedestrian crossing is ahead. Reduce speed and be prepared to stop for pedestrians.",
+    "local_path": "k53_assets/warning/pedestrian-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "railway-crossing",
+    "name": "Railway Crossing Warning Sign",
+    "category": "warning",
+    "description": "A level crossing with a railway line is ahead. Reduce speed, look both ways, and stop if a train is approaching.",
+    "local_path": "k53_assets/warning/railway-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "road-narrows",
+    "name": "Road Narrows Warning Sign",
+    "category": "warning",
+    "description": "The road ahead narrows. Reduce speed and be prepared to give way to oncoming traffic.",
+    "local_path": "k53_assets/warning/road-narrows.png",
+    "source_url": ""
+  },
+  {
+    "id": "roadworks",
+    "name": "Road Works Warning Sign",
+    "category": "warning",
+    "description": "Road construction or maintenance is taking place ahead. Reduce speed and obey flagmen or temporary signals.",
+    "local_path": "k53_assets/warning/roadworks.png",
+    "source_url": ""
+  },
+  {
+    "id": "school-crossing",
+    "name": "School Crossing Warning Sign",
+    "category": "warning",
+    "description": "A school crossing or school zone is ahead. Reduce speed significantly and watch for children crossing.",
+    "local_path": "k53_assets/warning/school-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "sharp-curve-left",
+    "name": "Sharp Curve Left Warning Sign",
+    "category": "warning",
+    "description": "There is a sharp curve to the left ahead. Reduce speed before entering the curve.",
+    "local_path": "k53_assets/warning/sharp-curve-left.png",
+    "source_url": ""
+  },
+  {
+    "id": "sharp-curve-right",
+    "name": "Sharp Curve Right Warning Sign",
+    "category": "warning",
+    "description": "There is a sharp curve to the right ahead. Reduce speed before entering the curve.",
+    "local_path": "k53_assets/warning/sharp-curve-right.png",
+    "source_url": ""
+  },
+  {
+    "id": "slippery-road",
+    "name": "Slippery Road Warning Sign",
+    "category": "warning",
+    "description": "The road surface ahead may be slippery, especially when wet. Reduce speed and avoid harsh braking or steering.",
+    "local_path": "k53_assets/warning/slippery-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "steep-ascent",
+    "name": "Steep Ascent Warning Sign",
+    "category": "warning",
+    "description": "A steep uphill gradient lies ahead. Engage a lower gear to maintain safe progress.",
+    "local_path": "k53_assets/warning/steep-ascent.png",
+    "source_url": ""
+  },
+  {
+    "id": "steep-descent",
+    "name": "Steep Descent Warning Sign",
+    "category": "warning",
+    "description": "A steep downhill gradient lies ahead. Engage a lower gear and use engine braking to control speed.",
+    "local_path": "k53_assets/warning/steep-descent.png",
+    "source_url": ""
+  },
+  {
+    "id": "traffic-signals-ahead",
+    "name": "Traffic Signals Ahead Warning Sign",
+    "category": "warning",
+    "description": "Traffic signals are situated ahead. Reduce speed and be prepared to stop at a red signal.",
+    "local_path": "k53_assets/warning/traffic-signals-ahead.png",
+    "source_url": ""
+  },
+  {
+    "id": "wild-animals",
+    "name": "Wild Animals Warning Sign",
+    "category": "warning",
+    "description": "Wild animals may stray onto the road in this area. Reduce speed, especially at dawn and dusk.",
+    "local_path": "k53_assets/warning/wild-animals.png",
     "source_url": ""
   }
 ]
