@@ -10,7 +10,8 @@
     "where": "At intersections, railway crossings and scholar patrols.",
     "purpose": "To bring traffic to a stop.",
     "action": "Bring your vehicle to a stop behind the stop line. If there is no stop line, the front of the vehicle must come to a stand still in line with the stop sign. At a three or four-way stop you may not move off before all the other vehicles which stopped before you have moved off. Proceed only when it is safe.",
-    "description": "A regulatory control sign that compels all drivers to come to a complete standstill. Failure to obey is an offence punishable by a fine or imprisonment or both."
+    "description": "A regulatory control sign that compels all drivers to come to a complete standstill. Failure to obey is an offence punishable by a fine or imprisonment or both.",
+    "imagePath": "/k53_assets/regulatory/R1-1.png"
   },
   {
     "id": "R1-2",
@@ -23,7 +24,8 @@
     "where": "At intersections.",
     "purpose": "To allow traffic turning left, to do so (if it can be done without interfering with cross traffic) without stopping.",
     "action": "If you intend to carry straight on, bring your vehicle to a standstill behind the stop line. When turning left, yield to all traffic which is close enough to pose a hazard. Proceed only when it is safe.",
-    "description": "A combined regulatory control sign. Drivers going straight must stop; drivers turning left may do so without stopping if it is safe."
+    "description": "A combined regulatory control sign. Drivers going straight must stop; drivers turning left may do so without stopping if it is safe.",
+    "imagePath": "/k53_assets/regulatory/R1-2.png"
   },
   {
     "id": "R1-3",
@@ -36,7 +38,8 @@
     "where": "At intersections.",
     "purpose": "To bring traffic from all three directions to a stop.",
     "action": "If more than one vehicle stops at the intersection, the vehicle which stopped first should move off first.",
-    "description": "A regulatory control sign at a three-way intersection. All traffic from all three approaches must stop completely. Right of way is determined by order of arrival."
+    "description": "A regulatory control sign at a three-way intersection. All traffic from all three approaches must stop completely. Right of way is determined by order of arrival.",
+    "imagePath": "/k53_assets/regulatory/R1-3.png"
   },
   {
     "id": "R1-4",
@@ -49,7 +52,8 @@
     "where": "At intersections.",
     "purpose": "To bring traffic from all four directions to a stop.",
     "action": "Bring your vehicle to a standstill behind the stop line. If there is no stop line, the front of your vehicle must be brought to a stop in line with the stop sign. Proceed only when it is safe. If more than one vehicle stops at such an intersection, the vehicle which stopped first should move off first.",
-    "description": "A regulatory control sign at a four-way intersection. All traffic from all four approaches must stop. The vehicle that arrived first has right of way."
+    "description": "A regulatory control sign at a four-way intersection. All traffic from all four approaches must stop. The vehicle that arrived first has right of way.",
+    "imagePath": "/k53_assets/regulatory/R1-4.png"
   },
   {
     "id": "R1-5",
@@ -62,7 +66,8 @@
     "where": "Usually at road works for temporary traffic control.",
     "purpose": "These are two different signs which are mounted back to back. It indicates whether you may proceed or must stop.",
     "action": "Stop if the STOP sign is displayed and move off or proceed with caution if safe when the GO sign is displayed.",
-    "description": "A temporary reversible traffic control sign used at road works to alternate the flow of traffic past a single-lane obstruction."
+    "description": "A temporary reversible traffic control sign used at road works to alternate the flow of traffic past a single-lane obstruction.",
+    "imagePath": "/k53_assets/regulatory/R1-5.png"
   },
   {
     "id": "R2",
@@ -81,7 +86,8 @@
       "width": 58,
       "height": 58,
       "sizeKB": 8.6
-    }
+    },
+    "imagePath": "/k53_assets/regulatory/R2.png"
   },
   {
     "id": "R2-1",
@@ -94,7 +100,8 @@
     "where": "At intersections and pedestrian crossings.",
     "purpose": "To compel you to give priority to pedestrians crossing the road or wanting to cross the road.",
     "action": "Look out for pedestrians crossing the road or near the road and be ready to stop.",
-    "description": "A regulatory control sign that gives pedestrians absolute priority. Drivers must slow down and stop to allow pedestrians to cross."
+    "description": "A regulatory control sign that gives pedestrians absolute priority. Drivers must slow down and stop to allow pedestrians to cross.",
+    "imagePath": "/k53_assets/regulatory/R2-1.png"
   },
   {
     "id": "R2-2",
@@ -107,7 +114,8 @@
     "where": "At traffic circles, particularly mini circles.",
     "purpose": "To warn you that there is a traffic circle ahead where you must expect to yield.",
     "action": "Look out for other vehicles and yield to vehicles already in the circle or that will cross the yield line at their entrance to the circle before you will cross yours. Stop if necessary. The driver who reaches his/her yield line first may proceed first. At a mini circle you must signal in time in which direction you want to turn.",
-    "description": "A regulatory control sign at roundabouts. Traffic inside the circle has right of way. Entering traffic must yield."
+    "description": "A regulatory control sign at roundabouts. Traffic inside the circle has right of way. Entering traffic must yield.",
+    "imagePath": "/k53_assets/regulatory/R2-2.png"
   },
   {
     "id": "R3",
@@ -126,7 +134,8 @@
       "width": 56,
       "height": 58,
       "sizeKB": 6.8
-    }
+    },
+    "imagePath": "/k53_assets/regulatory/R3.png"
   },
   {
     "id": "R4-1",
@@ -139,7 +148,8 @@
     "where": "At intersections where a one-way road joins another road.",
     "purpose": "To indicate that there is a one-way carriageway to the left.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
-    "description": "A regulatory control sign indicating a one-way road to the left. Traffic may only travel in the direction shown."
+    "description": "A regulatory control sign indicating a one-way road to the left. Traffic may only travel in the direction shown.",
+    "imagePath": "/k53_assets/regulatory/R4-1.png"
   },
   {
     "id": "R4-2",
@@ -152,7 +162,8 @@
     "where": "At intersections where a one-way road joins another road.",
     "purpose": "To indicate that there is a one-way carriageway to the right.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
-    "description": "A regulatory control sign indicating a one-way road to the right. Traffic may only travel in the direction shown."
+    "description": "A regulatory control sign indicating a one-way road to the right. Traffic may only travel in the direction shown.",
+    "imagePath": "/k53_assets/regulatory/R4-2.png"
   },
   {
     "id": "R4-3",
@@ -165,7 +176,8 @@
     "where": "At intersections where a one-way road joins another road.",
     "purpose": "To indicate that there is a one-way carriageway ahead.",
     "action": "Proceed in the direction of the arrow only if you want to use that specific carriageway.",
-    "description": "A regulatory control sign indicating a one-way road ahead. Traffic may only travel in the direction shown."
+    "description": "A regulatory control sign indicating a one-way road ahead. Traffic may only travel in the direction shown.",
+    "imagePath": "/k53_assets/regulatory/R4-3.png"
   },
   {
     "id": "R5",
@@ -184,7 +196,8 @@
       "width": 58,
       "height": 58,
       "sizeKB": 7.5
-    }
+    },
+    "imagePath": "/k53_assets/regulatory/R5.png"
   },
   {
     "id": "R6",
@@ -203,7 +216,8 @@
       "width": 106,
       "height": 149,
       "sizeKB": 27.6
-    }
+    },
+    "imagePath": "/k53_assets/regulatory/R6.png"
   },
   {
     "id": "R101",
@@ -370,7 +384,8 @@
     "where": "On any road especially in mountainous areas before a tunnel.",
     "purpose": "To indicate that you must switch on your headlights in order to see and be seen.",
     "action": "Switch the lights of your vehicle on in the dip position.",
-    "description": "A regulatory command sign. You are compelled to switch your headlights on (dipped beam) from this point."
+    "description": "A regulatory command sign. You are compelled to switch your headlights on (dipped beam) from this point.",
+    "imagePath": "/k53_assets/regulatory/R133.png"
   },
   {
     "id": "R137",
@@ -383,7 +398,8 @@
     "where": "On any road where there are multiple roads intersecting.",
     "purpose": "To indicate that you must move in a clockwise direction at the junction.",
     "action": "Yield right of way to vehicles approaching from the right within the roundabout, where such vehicles are close enough to cause a danger or potential danger. Proceed clockwise at the junction if it is safe to do so.",
-    "description": "A regulatory command sign. Traffic must circulate clockwise. Yield to traffic already in the roundabout."
+    "description": "A regulatory command sign. Traffic must circulate clockwise. Yield to traffic already in the roundabout.",
+    "imagePath": "/k53_assets/regulatory/R137.png"
   },
   {
     "id": "R201",
@@ -410,7 +426,8 @@
     "where": "On any public road.",
     "purpose": "To prevent certain heavy vehicles from using a road or part of a road.",
     "action": "If the GVM or GCM of your vehicle exceeds the mass indicated in tons, use another road or part of the road which is not indicated by this sign. If your vehicle's GVM or GCM is less than the indicated mass in tons, you may use this road.",
-    "description": "A regulatory prohibition sign. Vehicles whose Gross Vehicle Mass or Gross Combination Mass exceeds the figure shown in tonnes are prohibited from this road."
+    "description": "A regulatory prohibition sign. Vehicles whose Gross Vehicle Mass or Gross Combination Mass exceeds the figure shown in tonnes are prohibited from this road.",
+    "imagePath": "/k53_assets/regulatory/R202.png"
   },
   {
     "id": "R203",
@@ -423,7 +440,8 @@
     "where": "On any public road.",
     "purpose": "To prohibit certain heavy vehicles from using the road.",
     "action": "If the axle mass of any of your vehicle's axles exceeds the indicated mass in tons, use another road or part of the road not indicated by this sign.",
-    "description": "A regulatory prohibition sign. Vehicles with any axle exceeding the stated mass in tonnes are prohibited."
+    "description": "A regulatory prohibition sign. Vehicles with any axle exceeding the stated mass in tonnes are prohibited.",
+    "imagePath": "/k53_assets/regulatory/R203.png"
   },
   {
     "id": "R204",
@@ -436,7 +454,8 @@
     "where": "On any public road.",
     "purpose": "To warn you against a height restriction ahead.",
     "action": "If your vehicle (or load) is higher than the indicated height in metres, another road not indicated by this sign must be used.",
-    "description": "A regulatory prohibition sign. Vehicles or loads exceeding the stated height in metres must use an alternative route."
+    "description": "A regulatory prohibition sign. Vehicles or loads exceeding the stated height in metres must use an alternative route.",
+    "imagePath": "/k53_assets/regulatory/R204.png"
   },
   {
     "id": "R205",
@@ -449,7 +468,8 @@
     "where": "On any public road, especially in mountainous areas.",
     "purpose": "To prohibit long vehicles from using a road where such a vehicle will not be able to negotiate a curve or will turn in such a manner that it will disrupt or endanger other traffic.",
     "action": "If applicable, take an alternative route.",
-    "description": "A regulatory prohibition sign. Vehicles exceeding the stated length in metres are prohibited and must take an alternative route."
+    "description": "A regulatory prohibition sign. Vehicles exceeding the stated length in metres are prohibited and must take an alternative route.",
+    "imagePath": "/k53_assets/regulatory/R205.png"
   },
   {
     "id": "R206",
@@ -462,7 +482,8 @@
     "where": "On any public road usually near hospitals, churches and homes for the aged.",
     "purpose": "To prohibit noise.",
     "action": "If the noise level of your vehicle is high, you may not proceed past the sign, and for 100 metres after passing the sign, the vehicle's hooter may not be used.",
-    "description": "A regulatory prohibition sign. Excessive noise and the use of a hooter are prohibited for 100m beyond this sign."
+    "description": "A regulatory prohibition sign. Excessive noise and the use of a hooter are prohibited for 100m beyond this sign.",
+    "imagePath": "/k53_assets/regulatory/R206.png"
   },
   {
     "id": "R207",
@@ -475,7 +496,8 @@
     "where": "On any public road.",
     "purpose": "To prohibit pedestrians from soliciting lifts and stationary vehicles from picking up passengers.",
     "action": "No pedestrian may attempt to be picked up by a passing vehicle. A driver of a vehicle may not pick up passengers for the next 500m.",
-    "description": "A regulatory prohibition sign. Hitchhiking and picking up hitchhikers are prohibited for 500m beyond this sign."
+    "description": "A regulatory prohibition sign. Hitchhiking and picking up hitchhikers are prohibited for 500m beyond this sign.",
+    "imagePath": "/k53_assets/regulatory/R207.png"
   },
   {
     "id": "R208",
@@ -502,7 +524,8 @@
     "where": "On any public road before a junction.",
     "purpose": "To prohibit vehicles from turning left at an intersection.",
     "action": "Do not turn left at the intersection.",
-    "description": "A regulatory prohibition sign. Left turns are prohibited at the intersection ahead."
+    "description": "A regulatory prohibition sign. Left turns are prohibited at the intersection ahead.",
+    "imagePath": "/k53_assets/regulatory/R209.png"
   },
   {
     "id": "R210",
@@ -515,7 +538,8 @@
     "where": "On any public road before a junction.",
     "purpose": "To prohibit vehicles from turning right at an intersection.",
     "action": "Do not turn right at the intersection.",
-    "description": "A regulatory prohibition sign. Right turns are prohibited at the intersection ahead."
+    "description": "A regulatory prohibition sign. Right turns are prohibited at the intersection ahead.",
+    "imagePath": "/k53_assets/regulatory/R210.png"
   },
   {
     "id": "R211",
@@ -528,7 +552,8 @@
     "where": "At intersections on any public road.",
     "purpose": "To prohibit traffic from turning left.",
     "action": "Where a left-turn prohibition is displayed, you may proceed straight or turn right.",
-    "description": "A regulatory prohibition sign at an intersection. You may not turn left. You may go straight or turn right."
+    "description": "A regulatory prohibition sign at an intersection. You may not turn left. You may go straight or turn right.",
+    "imagePath": "/k53_assets/regulatory/R211.png"
   },
   {
     "id": "R212",
@@ -541,7 +566,8 @@
     "where": "At intersections on any public road.",
     "purpose": "To prohibit traffic from turning right.",
     "action": "Where a right-turn prohibition is displayed, you may proceed straight or turn left.",
-    "description": "A regulatory prohibition sign at an intersection. You may not turn right. You may go straight or turn left."
+    "description": "A regulatory prohibition sign at an intersection. You may not turn right. You may go straight or turn left.",
+    "imagePath": "/k53_assets/regulatory/R212.png"
   },
   {
     "id": "R213",
@@ -554,7 +580,8 @@
     "where": "On a public road before or on the far side of an intersection.",
     "purpose": "To prevent vehicles from turning around so that they face the opposite direction.",
     "action": "Do not turn your vehicle around so that it faces the opposite direction.",
-    "description": "A regulatory prohibition sign. U-turns are completely prohibited at or beyond this sign."
+    "description": "A regulatory prohibition sign. U-turns are completely prohibited at or beyond this sign.",
+    "imagePath": "/k53_assets/regulatory/R213.png"
   },
   {
     "id": "R214",
@@ -567,7 +594,8 @@
     "where": "On any public road.",
     "purpose": "To inform drivers that overtaking vehicles is prohibited for the next 500m.",
     "action": "Do not overtake any vehicle for the next 500m.",
-    "description": "A regulatory prohibition sign. Overtaking of motor vehicles is prohibited for 500m. No vehicle may pass another moving vehicle."
+    "description": "A regulatory prohibition sign. Overtaking of motor vehicles is prohibited for 500m. No vehicle may pass another moving vehicle.",
+    "imagePath": "/k53_assets/regulatory/R214.png"
   },
   {
     "id": "R215",
@@ -580,7 +608,8 @@
     "where": "On any public road.",
     "purpose": "To prohibit heavy vehicles from overtaking other heavy vehicles.",
     "action": "If you are driving a heavy motor vehicle, do not overtake another heavy vehicle.",
-    "description": "A regulatory prohibition sign. Heavy motor vehicles may not overtake other heavy motor vehicles."
+    "description": "A regulatory prohibition sign. Heavy motor vehicles may not overtake other heavy motor vehicles.",
+    "imagePath": "/k53_assets/regulatory/R215.png"
   },
   {
     "id": "R216",
@@ -593,7 +622,8 @@
     "where": "On a public road where the road is narrow, near an intersection or where a parked vehicle can impair the vision of other drivers.",
     "purpose": "To prohibit drivers from parking during any time of the day or night.",
     "action": "Do not park where these signs are displayed.",
-    "description": "A regulatory prohibition sign. Parking is prohibited at any time. You may stop briefly to pick up or drop off passengers."
+    "description": "A regulatory prohibition sign. Parking is prohibited at any time. You may stop briefly to pick up or drop off passengers.",
+    "imagePath": "/k53_assets/regulatory/R216.png"
   },
   {
     "id": "R217",
@@ -606,7 +636,8 @@
     "where": "On any public road. The sign may be supplemented by a red 'no stopping line'.",
     "purpose": "To ensure traffic flow and prevent that driver's views are not impaired by stationary vehicles.",
     "action": "Do not stop unless to obey a traffic light or a traffic officer or to avoid a collision.",
-    "description": "A regulatory prohibition sign. Stopping of any kind is absolutely prohibited except to obey a traffic signal, officer instruction, or to avoid a collision."
+    "description": "A regulatory prohibition sign. Stopping of any kind is absolutely prohibited except to obey a traffic signal, officer instruction, or to avoid a collision.",
+    "imagePath": "/k53_assets/regulatory/R217.png"
   },
   {
     "id": "R218",
@@ -633,7 +664,8 @@
     "where": "At the beginning of or entrance to any carriageway, lane or path.",
     "purpose": "To prohibit cyclists from using the carriageway, lane or path where they can cause a danger.",
     "action": "Look out for cyclists who use the road despite the prohibition. Cyclists must follow a different route and may not proceed beyond this sign.",
-    "description": "A regulatory prohibition sign. Pedal cyclists are not permitted on this road or section."
+    "description": "A regulatory prohibition sign. Pedal cyclists are not permitted on this road or section.",
+    "imagePath": "/k53_assets/regulatory/R219.png"
   },
   {
     "id": "R239",
@@ -646,7 +678,8 @@
     "where": "On any public road where there is a limit in the road width.",
     "purpose": "To indicate that vehicles wider than the stated width in metres may not proceed.",
     "action": "Do not enter this area if the overall width of the vehicle you are driving exceeds the width indicated on the sign.",
-    "description": "A regulatory prohibition sign. Vehicles whose overall width exceeds the stated figure in metres are prohibited."
+    "description": "A regulatory prohibition sign. Vehicles whose overall width exceeds the stated figure in metres are prohibited.",
+    "imagePath": "/k53_assets/regulatory/R239.png"
   },
   {
     "id": "R301",
@@ -673,7 +706,8 @@
     "where": "On any road, particularly in urban areas.",
     "purpose": "Indicates that no other class of vehicle may use that part of the road.",
     "action": "Do not follow this bus route if you are not driving a bus.",
-    "description": "A regulatory reservation sign marking a dedicated bus lane. Only buses may use this lane during the periods indicated."
+    "description": "A regulatory reservation sign marking a dedicated bus lane. Only buses may use this lane during the periods indicated.",
+    "imagePath": "/k53_assets/regulatory/R302.png"
   },
   {
     "id": "R304",
@@ -686,7 +720,8 @@
     "where": "At the entrance to or in a demarcated area.",
     "purpose": "To inform you that a parking area is reserved for bicycles only.",
     "action": "If you are not riding a bicycle, do not enter or use this area.",
-    "description": "A regulatory reservation sign. This lane or area is reserved exclusively for pedal cyclists."
+    "description": "A regulatory reservation sign. This lane or area is reserved exclusively for pedal cyclists.",
+    "imagePath": "/k53_assets/regulatory/R304.png"
   },
   {
     "id": "R401",
@@ -699,7 +734,8 @@
     "where": "At the beginning of a dual-carriageway freeway.",
     "purpose": "To indicate that a freeway begins at the sign and that the rules that apply to freeways are effective from here.",
     "action": "Follow all the rules that apply to freeways.",
-    "description": "A regulatory comprehensive sign marking the start of a dual-carriageway freeway. All freeway rules now apply: no pedestrians, cyclists, or animal-drawn vehicles; no stopping except in emergencies."
+    "description": "A regulatory comprehensive sign marking the start of a dual-carriageway freeway. All freeway rules now apply: no pedestrians, cyclists, or animal-drawn vehicles; no stopping except in emergencies.",
+    "imagePath": "/k53_assets/regulatory/R401.png"
   },
   {
     "id": "R402",
@@ -712,7 +748,8 @@
     "where": "At the beginning of a single-carriageway freeway.",
     "purpose": "To indicate that a single-carriageway freeway begins at the sign and that all rules that apply to freeways are effective from here.",
     "action": "Follow all the rules which apply to freeways.",
-    "description": "A regulatory comprehensive sign marking the start of a single-carriageway freeway. All freeway rules apply from this point."
+    "description": "A regulatory comprehensive sign marking the start of a single-carriageway freeway. All freeway rules apply from this point.",
+    "imagePath": "/k53_assets/regulatory/R402.png"
   },
   {
     "id": "R403",
@@ -725,7 +762,8 @@
     "where": "On any public road.",
     "purpose": "To prohibit vehicles with a mass exceeding 3 500 kg, or vehicles with more than 10 seats (except for local access or delivery). To yield right of way to pedestrians. To prohibit vehicles from driving through the area without breaking their journey. To limit the speed of vehicles in the area to 30 km/h.",
     "action": "Drive slowly, obey the special rules and be particularly on the lookout for children playing in the street.",
-    "description": "A regulatory comprehensive sign for a shared street zone. Maximum speed 30 km/h, pedestrians have priority, heavy vehicles and through traffic are prohibited."
+    "description": "A regulatory comprehensive sign for a shared street zone. Maximum speed 30 km/h, pedestrians have priority, heavy vehicles and through traffic are prohibited.",
+    "imagePath": "/k53_assets/regulatory/R403.png"
   },
   {
     "id": "R600",
@@ -738,7 +776,8 @@
     "where": "On any public road.",
     "purpose": "To cancel a restriction.",
     "action": "From here you do not have to comply with the restriction sign with a symbol similar to this sign but without the red cross.",
-    "description": "A regulatory de-restriction sign. The restriction shown by the matching regulatory sign no longer applies from this point."
+    "description": "A regulatory de-restriction sign. The restriction shown by the matching regulatory sign no longer applies from this point.",
+    "imagePath": "/k53_assets/regulatory/R600.png"
   },
   {
     "id": "W101",
@@ -765,7 +804,8 @@
     "where": "On any road.",
     "purpose": "To warn that you are approaching an intersection where you have right of way. The thicker leg of the cross on the sign indicates which road has priority.",
     "action": "Approach cautiously, look carefully and be able to stop if cross-traffic does not yield.",
-    "description": "A warning sign. You are approaching an intersection on the priority road (indicated by the thicker line). You have right of way but must still watch for traffic that may not yield."
+    "description": "A warning sign. You are approaching an intersection on the priority road (indicated by the thicker line). You have right of way but must still watch for traffic that may not yield.",
+    "imagePath": "/k53_assets/warning/W102.png"
   },
   {
     "id": "W103",
@@ -778,7 +818,8 @@
     "where": "On any road.",
     "purpose": "To warn that you are approaching an intersection where you have to yield to cross-traffic. The thicker leg of the cross on the sign indicates which road has priority.",
     "action": "Approach cautiously, and yield to traffic approaching from left or right.",
-    "description": "A warning sign. You are on the minor road and must yield to traffic on the priority road (indicated by the thicker line)."
+    "description": "A warning sign. You are on the minor road and must yield to traffic on the priority road (indicated by the thicker line).",
+    "imagePath": "/k53_assets/warning/W103.png"
   },
   {
     "id": "W104",
@@ -797,7 +838,8 @@
       "width": 86,
       "height": 75,
       "sizeKB": 8.6
-    }
+    },
+    "imagePath": "/k53_assets/warning/W104.png"
   },
   {
     "id": "W105",
@@ -810,7 +852,8 @@
     "where": "On any road.",
     "purpose": "To warn that you are approaching an intersection where another road meets yours at an angle from the left.",
     "action": "Look out for cross-traffic. Slow down and be prepared to stop.",
-    "description": "A warning sign. A road joins from the left at an acute or oblique angle ahead."
+    "description": "A warning sign. A road joins from the left at an acute or oblique angle ahead.",
+    "imagePath": "/k53_assets/warning/W105.png"
   },
   {
     "id": "W106",
@@ -823,7 +866,8 @@
     "where": "On any road.",
     "purpose": "To warn that you are approaching an intersection where another road meets yours at an angle from the right.",
     "action": "Look out for cross-traffic. Slow down and be prepared to stop.",
-    "description": "A warning sign. A road joins from the right at an acute or oblique angle ahead."
+    "description": "A warning sign. A road joins from the right at an acute or oblique angle ahead.",
+    "imagePath": "/k53_assets/warning/W106.png"
   },
   {
     "id": "W107",
@@ -836,7 +880,8 @@
     "where": "On any road before you reach the place where another road joins your road from the left.",
     "purpose": "To warn that traffic may be approaching from the left-hand side.",
     "action": "Slow down so that you will be able to stop, or go around the corner or pass the intersection at a safe speed. Look out for other traffic at the intersection that might not yield.",
-    "description": "A warning sign. A side road joins from the left. Traffic may enter from that direction."
+    "description": "A warning sign. A side road joins from the left. Traffic may enter from that direction.",
+    "imagePath": "/k53_assets/warning/W107.png"
   },
   {
     "id": "W108",
@@ -849,7 +894,8 @@
     "where": "On any road before you reach the place where another road joins your road from the right.",
     "purpose": "To warn that traffic may be approaching from the right-hand side.",
     "action": "Slow down so that you will be able to stop, or go around the corner or pass the intersection at a safe speed. Look out for other traffic at the intersection that might not yield.",
-    "description": "A warning sign. A side road joins from the right. Traffic may enter from that direction."
+    "description": "A warning sign. A side road joins from the right. Traffic may enter from that direction.",
+    "imagePath": "/k53_assets/warning/W108.png"
   },
   {
     "id": "W201",
@@ -876,7 +922,8 @@
     "where": "On any public road.",
     "purpose": "To warn that there is a gentle curve ahead to the left.",
     "action": "Ensure that you drive at such a speed that you can take the curve safely or stop within the distance that you can see.",
-    "description": "A warning sign. A gentle curve to the left lies ahead. Adjust speed accordingly."
+    "description": "A warning sign. A gentle curve to the left lies ahead. Adjust speed accordingly.",
+    "imagePath": "/k53_assets/warning/W202.png"
   },
   {
     "id": "W203",
@@ -889,7 +936,8 @@
     "where": "On any public road.",
     "purpose": "To warn that there is a gentle curve ahead to the right.",
     "action": "Ensure that you drive at such a speed that you can take the curve safely or stop within the distance that you can see.",
-    "description": "A warning sign. A gentle curve to the right lies ahead. Adjust speed accordingly."
+    "description": "A warning sign. A gentle curve to the right lies ahead. Adjust speed accordingly.",
+    "imagePath": "/k53_assets/warning/W203.png"
   },
   {
     "id": "W204",
@@ -902,7 +950,8 @@
     "where": "On any public road.",
     "purpose": "To warn that there is a sharp curve ahead to the left.",
     "action": "Slow down so that you can take the curve safely or stop within the distance that you can see.",
-    "description": "A warning sign. A sharp curve to the left is ahead. Reduce speed significantly before entering the curve."
+    "description": "A warning sign. A sharp curve to the left is ahead. Reduce speed significantly before entering the curve.",
+    "imagePath": "/k53_assets/warning/W204.png"
   },
   {
     "id": "W205",
@@ -915,7 +964,8 @@
     "where": "On any public road.",
     "purpose": "To warn that there is a sharp curve ahead to the right.",
     "action": "Slow down so that you can take the curve safely or stop within the distance that you can see.",
-    "description": "A warning sign. A sharp curve to the right is ahead. Reduce speed significantly before entering the curve."
+    "description": "A warning sign. A sharp curve to the right is ahead. Reduce speed significantly before entering the curve.",
+    "imagePath": "/k53_assets/warning/W205.png"
   },
   {
     "id": "W206",
@@ -928,7 +978,8 @@
     "where": "On any public road especially in mountainous areas.",
     "purpose": "To warn that there is a very sharp, U-shaped curve ahead to the left.",
     "action": "Slow down so that you can take the curve safely or stop within the distance you can see.",
-    "description": "A warning sign. A very sharp U-shaped hairpin bend to the left lies ahead. Used particularly in mountainous areas. Significant speed reduction required."
+    "description": "A warning sign. A very sharp U-shaped hairpin bend to the left lies ahead. Used particularly in mountainous areas. Significant speed reduction required.",
+    "imagePath": "/k53_assets/warning/W206.png"
   },
   {
     "id": "W207",
@@ -941,7 +992,8 @@
     "where": "On any public road especially in mountainous areas.",
     "purpose": "To warn that there is a very sharp, U-shaped curve ahead to the right.",
     "action": "Slow down so that you can take the curve safely or stop within the distance you can see.",
-    "description": "A warning sign. A very sharp U-shaped hairpin bend to the right lies ahead. Significant speed reduction required."
+    "description": "A warning sign. A very sharp U-shaped hairpin bend to the right lies ahead. Significant speed reduction required.",
+    "imagePath": "/k53_assets/warning/W207.png"
   },
   {
     "id": "W208",
@@ -954,7 +1006,8 @@
     "where": "On any public road especially in mountainous areas.",
     "purpose": "To warn of a series of curves ahead where the first bend is to the right.",
     "action": "Slow down enough to take the curves safely or stop within the distance you can see. Remember that there could be any number of curves after the first one without further warning.",
-    "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the right. The winding continues beyond what is signed."
+    "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the right. The winding continues beyond what is signed.",
+    "imagePath": "/k53_assets/warning/W208.png"
   },
   {
     "id": "W209",
@@ -967,7 +1020,8 @@
     "where": "On any public road especially in mountainous areas.",
     "purpose": "To warn of a series of curves ahead where the first curve is to the left.",
     "action": "Slow down enough to take the curves safely or stop within the distance you can see.",
-    "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the left."
+    "description": "A warning sign. A series of consecutive curves lies ahead, with the first curve to the left.",
+    "imagePath": "/k53_assets/warning/W209.png"
   },
   {
     "id": "W301",
@@ -980,7 +1034,8 @@
     "where": "On any road before an intersection with traffic lights.",
     "purpose": "To warn that there are isolated and particularly new traffic lights or traffic lights near an isolated traffic light at a pedestrian crossing ahead.",
     "action": "Slow down immediately and be ready to stop if the light changes from green to amber. Make sure there are no pedestrians or cross-traffic who might not obey the signals.",
-    "description": "A warning sign. Traffic lights are ahead. Approach with caution and be prepared to stop."
+    "description": "A warning sign. Traffic lights are ahead. Approach with caution and be prepared to stop.",
+    "imagePath": "/k53_assets/warning/W301.png"
   },
   {
     "id": "W302",
@@ -993,7 +1048,8 @@
     "where": "On any road before an intersection with a stop sign.",
     "purpose": "To warn that there is a stop sign ahead which cannot be seen in time.",
     "action": "Slow down in good time and be ready to stop as required for sign R1.1.",
-    "description": "A warning sign. A stop sign lies ahead that may not yet be visible. Prepare to stop completely."
+    "description": "A warning sign. A stop sign lies ahead that may not yet be visible. Prepare to stop completely.",
+    "imagePath": "/k53_assets/warning/W302.png"
   },
   {
     "id": "W303",
@@ -1020,7 +1076,8 @@
     "where": "On any road especially in rural areas.",
     "purpose": "To warn that there is a demarcated pedestrian crossing ahead.",
     "action": "Slow down and stop if a pedestrian is waiting at the crossing. Do not overtake other vehicles that have stopped at the pedestrian crossing.",
-    "description": "A warning sign. A marked pedestrian crossing is ahead. Stop for pedestrians waiting to cross."
+    "description": "A warning sign. A marked pedestrian crossing is ahead. Stop for pedestrians waiting to cross.",
+    "imagePath": "/k53_assets/warning/W306.png"
   },
   {
     "id": "W307",
@@ -1033,7 +1090,8 @@
     "where": "On roads where there are more pedestrians than normally can be expected.",
     "purpose": "To warn that pedestrians may be crossing the road for the next 2 km.",
     "action": "Slow down and look out for pedestrians who may be crossing the road.",
-    "description": "A warning sign. Pedestrians may cross the road in this area for the next 2 km. Heightened vigilance required."
+    "description": "A warning sign. Pedestrians may cross the road in this area for the next 2 km. Heightened vigilance required.",
+    "imagePath": "/k53_assets/warning/W307.png"
   },
   {
     "id": "W308",
@@ -1046,7 +1104,8 @@
     "where": "On any road especially near schools, playgrounds and sports fields.",
     "purpose": "To warn that children might be crossing the road.",
     "action": "Slow down immediately and look out for children who could be crossing the road unexpectedly or even be playing in the road.",
-    "description": "A warning sign. Children may be near or crossing the road ahead, particularly near schools and play areas."
+    "description": "A warning sign. Children may be near or crossing the road ahead, particularly near schools and play areas.",
+    "imagePath": "/k53_assets/warning/W308.png"
   },
   {
     "id": "W309",
@@ -1059,7 +1118,8 @@
     "where": "On any road.",
     "purpose": "To warn the driver that there can be cyclists ahead.",
     "action": "Slow down and be on the lookout for cyclists using or crossing the road for the next 2 km.",
-    "description": "A warning sign. Pedal cyclists may be on or crossing the road for the next 2 km."
+    "description": "A warning sign. Pedal cyclists may be on or crossing the road for the next 2 km.",
+    "imagePath": "/k53_assets/warning/W309.png"
   },
   {
     "id": "W310",
@@ -1072,7 +1132,8 @@
     "where": "On any road.",
     "purpose": "To warn that there may be free-ranging cattle on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for cattle.",
-    "description": "A warning sign. Free-ranging cattle may be on or crossing the road for the next 2 km."
+    "description": "A warning sign. Free-ranging cattle may be on or crossing the road for the next 2 km.",
+    "imagePath": "/k53_assets/warning/W310.png"
   },
   {
     "id": "W311",
@@ -1085,7 +1146,8 @@
     "where": "On any road.",
     "purpose": "To warn that there may be free-ranging horses on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for horses.",
-    "description": "A warning sign. Horses may be on or near the road for the next 2 km."
+    "description": "A warning sign. Horses may be on or near the road for the next 2 km.",
+    "imagePath": "/k53_assets/warning/W311.png"
   },
   {
     "id": "W312",
@@ -1098,7 +1160,8 @@
     "where": "On any road.",
     "purpose": "To warn that there may be free-ranging sheep on the road.",
     "action": "Slow down and be on the lookout for the next 2 km for sheep.",
-    "description": "A warning sign. Free-ranging sheep may be on or crossing the road for the next 2 km."
+    "description": "A warning sign. Free-ranging sheep may be on or crossing the road for the next 2 km.",
+    "imagePath": "/k53_assets/warning/W312.png"
   },
   {
     "id": "W313",
@@ -1125,7 +1188,8 @@
     "where": "At a railway crossing or roadway ahead.",
     "purpose": "To warn that there is a gate or boom across the road ahead.",
     "action": "Slow down and be prepared to stop should the gates be closing or are closed.",
-    "description": "A warning sign. A gate or level crossing boom is across the road ahead. Be prepared to stop."
+    "description": "A warning sign. A gate or level crossing boom is across the road ahead. Be prepared to stop.",
+    "imagePath": "/k53_assets/warning/W314.png"
   },
   {
     "id": "W318",
@@ -1138,7 +1202,8 @@
     "where": "On any road.",
     "purpose": "To warn that there is a railway crossing ahead.",
     "action": "Slow down and look to the right and left for oncoming trains. If a train is approaching stop in time, but not within the railway crossing reserve.",
-    "description": "A warning sign. A railway level crossing lies ahead. Stop if a train is approaching. Never stop on the tracks."
+    "description": "A warning sign. A railway level crossing lies ahead. Stop if a train is approaching. Never stop on the tracks.",
+    "imagePath": "/k53_assets/warning/W318.png"
   },
   {
     "id": "W319",
@@ -1151,7 +1216,8 @@
     "where": "On any road especially in mountainous areas.",
     "purpose": "To warn that there is a tunnel ahead.",
     "action": "Slow down and switch your car's headlights on in the dim position.",
-    "description": "A warning sign. A tunnel lies ahead. Switch headlights to dipped beam before entering."
+    "description": "A warning sign. A tunnel lies ahead. Switch headlights to dipped beam before entering.",
+    "imagePath": "/k53_assets/warning/W319.png"
   },
   {
     "id": "W320",
@@ -1164,7 +1230,8 @@
     "where": "On any road.",
     "purpose": "To warn that there is a structure ahead of which the height is indicated on the road traffic sign.",
     "action": "If your vehicle is higher than the bridge or structure as indicated by this sign, find an alternative route.",
-    "description": "A warning sign. A height restriction lies ahead. Vehicles taller than the stated measurement must use an alternative route."
+    "description": "A warning sign. A height restriction lies ahead. Vehicles taller than the stated measurement must use an alternative route.",
+    "imagePath": "/k53_assets/warning/W320.png"
   },
   {
     "id": "W321",
@@ -1177,7 +1244,8 @@
     "where": "On any road but especially in mountainous areas.",
     "purpose": "To warn that curves in the road or other structures make it impossible for vehicles longer than the stated length to pass.",
     "action": "Find an alternative route if your vehicle is longer than the length indicated in metres on this sign.",
-    "description": "A warning sign. A length restriction lies ahead. Vehicles longer than the stated measurement must use an alternative route."
+    "description": "A warning sign. A length restriction lies ahead. Vehicles longer than the stated measurement must use an alternative route.",
+    "imagePath": "/k53_assets/warning/W321.png"
   },
   {
     "id": "W322",
@@ -1190,7 +1258,8 @@
     "where": "On any road but especially in mountainous areas.",
     "purpose": "To warn that the road will climb steeply.",
     "action": "Be aware of slow-moving traffic. Allow for longer distance when passing.",
-    "description": "A warning sign. A steep uphill gradient lies ahead. Engage a lower gear for heavy vehicles. Slow-moving vehicles may be encountered."
+    "description": "A warning sign. A steep uphill gradient lies ahead. Engage a lower gear for heavy vehicles. Slow-moving vehicles may be encountered.",
+    "imagePath": "/k53_assets/warning/W322.png"
   },
   {
     "id": "W323",
@@ -1203,7 +1272,8 @@
     "where": "On any road but especially in mountainous areas.",
     "purpose": "To warn that the road will descend steeply.",
     "action": "Allow for a longer stopping distance on a descent, especially when your vehicle is heavily laden. Engage a lower gear.",
-    "description": "A warning sign. A steep downhill gradient lies ahead. Engage a lower gear and use engine braking to control speed. Allow longer stopping distances."
+    "description": "A warning sign. A steep downhill gradient lies ahead. Engage a lower gear and use engine braking to control speed. Allow longer stopping distances.",
+    "imagePath": "/k53_assets/warning/W323.png"
   },
   {
     "id": "W325",
@@ -1216,7 +1286,8 @@
     "where": "On any tarred road, especially in the vicinity of farms.",
     "purpose": "To warn that the tarred road you are driving on will end soon and will have a gravel surface ahead.",
     "action": "Slow down and look out for ditches or potholes at the joint between the gravel and the tarred surface. Steering will be lighter on the gravel, vehicles will tend to skid easier and will need a longer stopping distance.",
-    "description": "A warning sign. The tar surface ends ahead and transitions to gravel. Reduce speed — gravel roads have less grip and longer stopping distances."
+    "description": "A warning sign. The tar surface ends ahead and transitions to gravel. Reduce speed — gravel roads have less grip and longer stopping distances.",
+    "imagePath": "/k53_assets/warning/W325.png"
   },
   {
     "id": "W326",
@@ -1229,7 +1300,8 @@
     "where": "On any road.",
     "purpose": "To warn that the road narrows when crossing a bridge.",
     "action": "Slow down and, if there is oncoming traffic, try not to cross the bridge at the same time as an approaching vehicle.",
-    "description": "A warning sign. A bridge narrows the road ahead. One vehicle may need to wait for the other to cross first."
+    "description": "A warning sign. A bridge narrows the road ahead. One vehicle may need to wait for the other to cross first.",
+    "imagePath": "/k53_assets/warning/W326.png"
   },
   {
     "id": "W327",
@@ -1242,7 +1314,8 @@
     "where": "On any road.",
     "purpose": "To warn that the carriageway ahead narrows to a width that will make it possible for only one vehicle at a time to pass.",
     "action": "Slow down if there is oncoming traffic, stop at least 6m from the structure and yield to the other vehicle.",
-    "description": "A warning sign. The road narrows to a single vehicle width ahead. Stop at least 6m from the structure and yield to oncoming vehicles."
+    "description": "A warning sign. The road narrows to a single vehicle width ahead. Stop at least 6m from the structure and yield to oncoming vehicles.",
+    "imagePath": "/k53_assets/warning/W327.png"
   },
   {
     "id": "W328",
@@ -1255,7 +1328,8 @@
     "where": "On any road.",
     "purpose": "To warn that the road ahead narrows from both sides.",
     "action": "Slow down and adjust your position on the carriageway since oncoming vehicles will pass close to you.",
-    "description": "A warning sign. The road narrows symmetrically from both sides ahead. Position your vehicle carefully."
+    "description": "A warning sign. The road narrows symmetrically from both sides ahead. Position your vehicle carefully.",
+    "imagePath": "/k53_assets/warning/W328.png"
   },
   {
     "id": "W331",
@@ -1268,7 +1342,8 @@
     "where": "On any road.",
     "purpose": "To warn that there is a depression or a ridge in the road, or that the road in general is uneven and potholed.",
     "action": "Slow down to avoid potholes without endangering other traffic.",
-    "description": "A warning sign. The road surface ahead is uneven, potholed, or has a ridge or depression. Reduce speed to protect your vehicle and maintain control."
+    "description": "A warning sign. The road surface ahead is uneven, potholed, or has a ridge or depression. Reduce speed to protect your vehicle and maintain control.",
+    "imagePath": "/k53_assets/warning/W331.png"
   },
   {
     "id": "W332",
@@ -1295,7 +1370,8 @@
     "where": "On any road.",
     "purpose": "To warn about unusually slippery conditions on the road ahead.",
     "action": "Slow down since any sudden braking or harsh steering could cause your vehicle to start skidding sooner than usual for the next 2 km.",
-    "description": "A warning sign. The road surface ahead is unusually slippery. Avoid harsh braking or steering for the next 2 km."
+    "description": "A warning sign. The road surface ahead is unusually slippery. Avoid harsh braking or steering for the next 2 km.",
+    "imagePath": "/k53_assets/warning/W333.png"
   },
   {
     "id": "W334",
@@ -1308,7 +1384,8 @@
     "where": "Especially in mountainous areas.",
     "purpose": "To warn that rocks could fall on the carriageway from the left-hand side.",
     "action": "Slow down to be able to stop within sight distance if a fall occurs or has occurred. Falls occur more often when it rains.",
-    "description": "A warning sign. Rocks may fall onto the road from the left. Be prepared to stop. Exercise extra caution in rain."
+    "description": "A warning sign. Rocks may fall onto the road from the left. Be prepared to stop. Exercise extra caution in rain.",
+    "imagePath": "/k53_assets/warning/W334.png"
   },
   {
     "id": "W335",
@@ -1321,7 +1398,8 @@
     "where": "Especially in mountainous areas.",
     "purpose": "To warn that rocks could fall on the carriageway from the right-hand side.",
     "action": "Slow down to be able to stop within sight distance if a fall occurs. Exercise extra caution in rain.",
-    "description": "A warning sign. Rocks may fall onto the road from the right. Be prepared to stop."
+    "description": "A warning sign. Rocks may fall onto the road from the right. Be prepared to stop.",
+    "imagePath": "/k53_assets/warning/W335.png"
   },
   {
     "id": "W339",
@@ -1334,7 +1412,8 @@
     "where": "On any road.",
     "purpose": "To warn that there is danger of some kind ahead.",
     "action": "Slow down and look out for anything on or next to the carriageway that could cause you to change speed or direction.",
-    "description": "A general warning sign (exclamation mark). An unspecified hazard exists ahead. Reduce speed and be vigilant."
+    "description": "A general warning sign (exclamation mark). An unspecified hazard exists ahead. Reduce speed and be vigilant.",
+    "imagePath": "/k53_assets/warning/W339.png"
   },
   {
     "id": "W349",
@@ -1361,7 +1440,8 @@
     "where": "On any road especially in rural areas.",
     "purpose": "To warn the driver that there is a drift ahead and that the road could be flooded.",
     "action": "Slow down and if it is not known how deep the water is, stop. If passable, drive through the water slowly.",
-    "description": "A warning sign. A low-water crossing (drift/ford) lies ahead. The road may be flooded. Stop if depth is unknown."
+    "description": "A warning sign. A low-water crossing (drift/ford) lies ahead. The road may be flooded. Stop if depth is unknown.",
+    "imagePath": "/k53_assets/warning/W350.png"
   },
   {
     "id": "W351",
@@ -1374,7 +1454,8 @@
     "where": "On any road especially near airports.",
     "purpose": "To warn of the possibility of low-flying aircraft and sudden aircraft noise near the road.",
     "action": "Do not be frightened and do not brake suddenly.",
-    "description": "A warning sign. Low-flying aircraft operate near this road, typically near airfields. Do not react suddenly to aircraft noise."
+    "description": "A warning sign. Low-flying aircraft operate near this road, typically near airfields. Do not react suddenly to aircraft noise.",
+    "imagePath": "/k53_assets/warning/W351.png"
   },
   {
     "id": "W356",
@@ -1393,7 +1474,8 @@
       "width": 84,
       "height": 82,
       "sizeKB": 11.7
-    }
+    },
+    "imagePath": "/k53_assets/warning/W356.png"
   },
   {
     "id": "W357",
@@ -1406,7 +1488,8 @@
     "where": "On any road, especially in wildlife sanctuaries.",
     "purpose": "To warn that there is a possibility of elephants being present on the road ahead.",
     "action": "Look out for elephants ahead and be prepared to slow down or stop.",
-    "description": "A warning sign found near game reserves. Elephants may be on or crossing the road. Stop and wait — never hoot or drive close to elephants."
+    "description": "A warning sign found near game reserves. Elephants may be on or crossing the road. Stop and wait — never hoot or drive close to elephants.",
+    "imagePath": "/k53_assets/warning/W357.png"
   },
   {
     "id": "W358",
@@ -1419,7 +1502,8 @@
     "where": "On any road, especially in wildlife sanctuaries.",
     "purpose": "To warn that there is a possibility of warthogs being present on the road ahead.",
     "action": "Look out for warthogs ahead and be prepared to slow down or stop.",
-    "description": "A warning sign. Warthogs may be on or crossing the road in this area."
+    "description": "A warning sign. Warthogs may be on or crossing the road in this area.",
+    "imagePath": "/k53_assets/warning/W358.png"
   },
   {
     "id": "W359",
@@ -1432,7 +1516,8 @@
     "where": "On any road, especially in wildlife sanctuaries and rivers.",
     "purpose": "To warn that there is a possibility of hippos being present on the road ahead.",
     "action": "Look out for hippos ahead and be prepared to slow down or stop.",
-    "description": "A warning sign. Hippos may be on or near the road, particularly near rivers and game reserves."
+    "description": "A warning sign. Hippos may be on or near the road, particularly near rivers and game reserves.",
+    "imagePath": "/k53_assets/warning/W359.png"
   },
   {
     "id": "GLS-1",
@@ -1451,7 +1536,8 @@
       "width": 758,
       "height": 71,
       "sizeKB": 94.5
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GLS-1.png"
   },
   {
     "id": "GLS-4",
@@ -1470,7 +1556,8 @@
       "width": 829,
       "height": 73,
       "sizeKB": 109.1
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GLS-4.png"
   },
   {
     "id": "GLS-5",
@@ -1489,7 +1576,8 @@
       "width": 403,
       "height": 67,
       "sizeKB": 21.0
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GLS-5.png"
   },
   {
     "id": "GDS-1",
@@ -1508,7 +1596,8 @@
       "width": 339,
       "height": 70,
       "sizeKB": 36.0
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GDS-1.png"
   },
   {
     "id": "GDS-3",
@@ -1527,7 +1616,8 @@
       "width": 208,
       "height": 69,
       "sizeKB": 19.9
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GDS-3.png"
   },
   {
     "id": "GDS-20",
@@ -1546,7 +1636,8 @@
       "width": 99,
       "height": 55,
       "sizeKB": 6.1
-    }
+    },
+    "imagePath": "/k53_assets/guidance/GDS-20.png"
   },
   {
     "id": "GE-15",
@@ -1559,7 +1650,8 @@
     "where": "On numbered national routes.",
     "purpose": "To confirm the number and status of the national route on which you are travelling.",
     "action": "Make sure that the route you are travelling on is the route that you want to take to reach your destination.",
-    "description": "A guidance route confirmation marker (N-road). Confirms you are on the correct numbered national route."
+    "description": "A guidance route confirmation marker (N-road). Confirms you are on the correct numbered national route.",
+    "imagePath": "/k53_assets/guidance/GE-15.png"
   },
   {
     "id": "GE-14",
@@ -1572,7 +1664,8 @@
     "where": "On numbered provincial routes.",
     "purpose": "To confirm the number and status of the provincial route on which you are travelling.",
     "action": "Make sure that the route you are travelling on is the route that you want to take.",
-    "description": "A guidance route confirmation marker for provincial roads (R-roads). Confirms you are on the correct numbered provincial route."
+    "description": "A guidance route confirmation marker for provincial roads (R-roads). Confirms you are on the correct numbered provincial route.",
+    "imagePath": "/k53_assets/guidance/GE-14.png"
   },
   {
     "id": "GE-2",
@@ -1585,7 +1678,8 @@
     "where": "On the left-hand side of a road.",
     "purpose": "To point out the direction you must follow to reach the more important route.",
     "action": "Follow the traffic signs if you want to join the more important route and look out for the next trailblazer.",
-    "description": "A guidance sign pointing drivers toward a more significant numbered route at an upcoming junction."
+    "description": "A guidance sign pointing drivers toward a more significant numbered route at an upcoming junction.",
+    "imagePath": "/k53_assets/guidance/GE-2.png"
   },
   {
     "id": "GD-1",
@@ -1598,7 +1692,8 @@
     "where": "On the left-hand side of any road before an intersection.",
     "purpose": "To indicate the numbers of routes leading from an intersection and destinations that can be reached from this intersection.",
     "action": "Make sure which route you want to follow, slow down for the intersection and take the correct route.",
-    "description": "A guidance advance direction sign displayed before an intersection showing route numbers and destinations reachable from the upcoming junction."
+    "description": "A guidance advance direction sign displayed before an intersection showing route numbers and destinations reachable from the upcoming junction.",
+    "imagePath": "/k53_assets/guidance/GD-1.png"
   },
   {
     "id": "GD-3",
@@ -1611,7 +1706,8 @@
     "where": "On the left-hand side of the road a short distance beyond an intersection.",
     "purpose": "To confirm the route to a destination and the distance indicated in kilometres to such destinations.",
     "action": "Note the destination and in particular note the distance to plan your trip to fill up with petrol or rest.",
-    "description": "A guidance confirmation sign placed after an intersection to confirm the destination and show distance in kilometres."
+    "description": "A guidance confirmation sign placed after an intersection to confirm the destination and show distance in kilometres.",
+    "imagePath": "/k53_assets/guidance/GD-3.png"
   },
   {
     "id": "GD-4",
@@ -1624,7 +1720,8 @@
     "where": "On the far left-hand corner of an intersection.",
     "purpose": "To guide you to small locations or to destinations on less travelled routes.",
     "action": "Slow down and look out for traffic that might not yield at the intersection.",
-    "description": "A guidance sign shaped like a pointing finger/board, directing drivers to small towns or destinations on minor roads."
+    "description": "A guidance sign shaped like a pointing finger/board, directing drivers to small towns or destinations on minor roads.",
+    "imagePath": "/k53_assets/guidance/GD-4.png"
   },
   {
     "id": "GA-1",
@@ -1637,7 +1734,8 @@
     "where": "On the left-hand side or in an overhead position on a freeway, about 2 km before an off-ramp exit.",
     "purpose": "To indicate early on that there is an exit from the freeway to certain routes ahead.",
     "action": "If you want to leave the freeway, move to the left hand lane in good time.",
-    "description": "A guidance freeway sign warning of an upcoming off-ramp exit approximately 2 km ahead. Begin moving to the left lane."
+    "description": "A guidance freeway sign warning of an upcoming off-ramp exit approximately 2 km ahead. Begin moving to the left lane.",
+    "imagePath": "/k53_assets/guidance/GA-1.png"
   },
   {
     "id": "GA-3",
@@ -1650,7 +1748,8 @@
     "where": "On the left-hand side of a freeway as close as possible to the off-ramp.",
     "purpose": "To indicate exactly where the exit is.",
     "action": "Only leave the freeway if you are in the left-hand lane.",
-    "description": "A guidance freeway direction sign marking the precise point of an off-ramp exit."
+    "description": "A guidance freeway direction sign marking the precise point of an off-ramp exit.",
+    "imagePath": "/k53_assets/guidance/GA-3.png"
   },
   {
     "id": "GFS-A1",
@@ -1897,7 +1996,8 @@
       "width": 277,
       "height": 130,
       "sizeKB": 29.5
-    }
+    },
+    "imagePath": "/k53_assets/road-markings/RTM1.png"
   },
   {
     "id": "RTM2",
@@ -1916,7 +2016,8 @@
       "width": 117,
       "height": 151,
       "sizeKB": 11.0
-    }
+    },
+    "imagePath": "/k53_assets/road-markings/RTM2.png"
   },
   {
     "id": "RTM3",
@@ -1935,7 +2036,8 @@
       "width": 112,
       "height": 170,
       "sizeKB": 17.1
-    }
+    },
+    "imagePath": "/k53_assets/road-markings/RTM3.png"
   },
   {
     "id": "RM1",
@@ -1948,7 +2050,8 @@
     "where": "On any road that carries two-way traffic.",
     "purpose": "To inform that it is prohibited to drive with any part of your vehicle on the right-hand side of this line.",
     "action": "Do not cross the line, except to gain direct access to an entrance on the other side, to gain access from such an entrance to the road, or to pass a stationary obstruction. In all these cases ensure it is safe to do so.",
-    "description": "A continuous centre line marking prohibiting overtaking. No part of your vehicle may cross this line. Breaking this rule is an offence."
+    "description": "A continuous centre line marking prohibiting overtaking. No part of your vehicle may cross this line. Breaking this rule is an offence.",
+    "imagePath": "/k53_assets/road-markings/RM1.png"
   },
   {
     "id": "RM2",
@@ -1961,7 +2064,8 @@
     "where": "On any road with two-way traffic.",
     "purpose": "To inform you that you may not cross this line.",
     "action": "You may under no circumstances drive on the right-hand side or cross these lines with any part of your vehicle, except to drive around a stationary vehicle or stationary obstruction in the road.",
-    "description": "A double continuous centre line. Under no circumstances may you cross this marking except to avoid a stationary obstruction."
+    "description": "A double continuous centre line. Under no circumstances may you cross this marking except to avoid a stationary obstruction.",
+    "imagePath": "/k53_assets/road-markings/RM2.png"
   },
   {
     "id": "RM5",
@@ -1974,7 +2078,8 @@
     "where": "On any road.",
     "purpose": "To prohibit drivers from driving in this area.",
     "action": "Drive in such a way that you do not stop, park or drive over the island, unless on the orders of a traffic or police officer, to avoid a collision or in an emergency.",
-    "description": "A hatched painted island on the road surface. Driving, stopping or parking in this area is prohibited except in emergencies or on police instruction."
+    "description": "A hatched painted island on the road surface. Driving, stopping or parking in this area is prohibited except in emergencies or on police instruction.",
+    "imagePath": "/k53_assets/road-markings/RM5.png"
   },
   {
     "id": "RM8",
@@ -1987,7 +2092,8 @@
     "where": "On any road before an intersection.",
     "purpose": "To show that you may only proceed in the direction indicated by the arrow in your lane.",
     "action": "Choose the correct lane in time to travel in the direction you want to go. Make sure that other traffic is obeying the mandatory direction arrows in their lanes. Check your blind spot before turning right.",
-    "description": "White directional arrows painted on the road surface within a lane. You must follow the direction indicated by the arrow in your lane."
+    "description": "White directional arrows painted on the road surface within a lane. You must follow the direction indicated by the arrow in your lane.",
+    "imagePath": "/k53_assets/road-markings/RM8.png"
   },
   {
     "id": "RM12",
@@ -2000,7 +2106,8 @@
     "where": "On any road.",
     "purpose": "To prohibit drivers from stopping where stationary vehicles may disrupt the traffic or obstruct the view.",
     "action": "Except in any emergency, do not stop at these lines. In the case of a broken line, you may not stop during the times indicated by a road traffic sign.",
-    "description": "A continuous coloured line painted at the edge of the road. Stopping is absolutely prohibited (broken line = time-restricted prohibition)."
+    "description": "A continuous coloured line painted at the edge of the road. Stopping is absolutely prohibited (broken line = time-restricted prohibition).",
+    "imagePath": "/k53_assets/road-markings/RM12.png"
   },
   {
     "id": "RM13",
@@ -2013,7 +2120,8 @@
     "where": "On any road.",
     "purpose": "To prevent drivers from parking where stationary vehicles may disrupt traffic or obstruct the view.",
     "action": "Except in an emergency, you may stop for short periods to drop off or pick up passengers, but may not park here.",
-    "description": "A continuous line at the road edge prohibiting parking. Brief stops to load/unload passengers are allowed but parking is not."
+    "description": "A continuous line at the road edge prohibiting parking. Brief stops to load/unload passengers are allowed but parking is not.",
+    "imagePath": "/k53_assets/road-markings/RM13.png"
   },
   {
     "id": "RM15",
@@ -2026,7 +2134,8 @@
     "where": "At traffic circles and mini-circles.",
     "purpose": "To indicate the direction you must follow around the circle or mini-circle.",
     "action": "Only drive around the circle in the direction indicated by the arrows. Yield to traffic coming from your right-hand side. At a mini-circle yield to traffic that reaches their yield line first. Drive slowly so that you can stop if someone does not yield.",
-    "description": "Directional arrows painted inside a roundabout. Traffic must circulate clockwise as indicated. Yield to vehicles from the right already in the circle."
+    "description": "Directional arrows painted inside a roundabout. Traffic must circulate clockwise as indicated. Yield to vehicles from the right already in the circle.",
+    "imagePath": "/k53_assets/road-markings/RM15.png"
   },
   {
     "id": "WM1",
@@ -2039,7 +2148,8 @@
     "where": "On any road before a railway crossing, between the warning sign and the crossing.",
     "purpose": "To warn that there is a railway crossing ahead.",
     "action": "Slow down and if necessary, stop before the crossing.",
-    "description": "An X-shape painted on the road surface warning of an upcoming railway level crossing."
+    "description": "An X-shape painted on the road surface warning of an upcoming railway level crossing.",
+    "imagePath": "/k53_assets/road-markings/WM1.png"
   },
   {
     "id": "WM10",
@@ -2052,7 +2162,8 @@
     "where": "On any road especially in urban areas.",
     "purpose": "To warn that there is a speed hump in the road.",
     "action": "Slow down and release your brake before driving over the speed hump.",
-    "description": "Diagonal stripes painted on a speed hump to make it more visible. Release brakes before crossing to prevent vehicle damage."
+    "description": "Diagonal stripes painted on a speed hump to make it more visible. Release brakes before crossing to prevent vehicle damage.",
+    "imagePath": "/k53_assets/road-markings/WM10.png"
   },
   {
     "id": "GM1",
@@ -2065,7 +2176,8 @@
     "where": "On any road.",
     "purpose": "To show that you are using a part of the road with traffic in the same direction.",
     "action": "Drive in the centre of your demarcated lane.",
-    "description": "Broken white lines separating lanes travelling in the same direction. May be crossed to change lanes when safe."
+    "description": "Broken white lines separating lanes travelling in the same direction. May be crossed to change lanes when safe.",
+    "imagePath": "/k53_assets/road-markings/GM1.png"
   },
   {
     "id": "IN3",
