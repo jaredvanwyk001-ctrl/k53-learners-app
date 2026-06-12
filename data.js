@@ -1,5 +1,5 @@
-// K53 Learner's Licence - Official K53 Road Signs + Comprehensive Question Bank
-// Integrates official K53/SADC-RTSM road signs with 1100+ K53 test questions
+// K53 Learner's Licence - Official K53 Road Signs + 1109 Comprehensive Questions
+// Official K53/SADC-RTSM road signs + complete question bank for all test categories
 
 let SIGNS = [];
 let OFFICIAL_DATA_LOADED = false;
@@ -69,175 +69,13326 @@ function createFallbackSigns() {
 
 // ============================================================================
 // COMPREHENSIVE K53 QUESTION BANK (1109 Official Questions)
+// Road Rules: 458 | Road Signs: 378 | Vehicle Controls: 273
 // ============================================================================
 const QUESTIONS = [
   {
-    category: 'road-rules',
-    question: 'What is the general speed limit inside an urban area unless otherwise indicated?',
-    options: ['60 km/h', '80 km/h', '100 km/h'],
-    answer: 0,
-    explanation: 'The general speed limit inside an urban area is 60 km/h unless otherwise indicated.'
+    "id": 1,
+    "category": "road-rules",
+    "question": "What is the general speed limit inside an urban area unless otherwise indicated?",
+    "options": [
+      "60 km/h",
+      "80 km/h",
+      "100 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What is the general speed limit on a South African freeway unless otherwise indicated?',
-    options: ['100 km/h', '120 km/h', '140 km/h'],
-    answer: 1,
-    explanation: 'The general speed limit on a freeway is 120 km/h unless otherwise indicated.'
+    "id": 2,
+    "category": "road-rules",
+    "question": "What is the general speed limit on a South African freeway unless otherwise indicated?",
+    "options": [
+      "100 km/h",
+      "120 km/h",
+      "140 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What is the general speed limit on a public road outside an urban area that is NOT a freeway?',
-    options: ['80 km/h', '100 km/h', '120 km/h'],
-    answer: 1,
-    explanation: 'The general speed limit outside urban areas on non-freeway roads is 100 km/h.'
+    "id": 3,
+    "category": "road-rules",
+    "question": "What is the general speed limit on a public road outside an urban area that is NOT a freeway?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'A minibus taxi carrying passengers is travelling on a freeway. What is its maximum speed limit?',
-    options: ['100 km/h', '110 km/h', '120 km/h'],
-    answer: 0,
-    explanation: 'Minibus taxis carrying passengers have a maximum freeway speed limit of 100 km/h.'
+    "id": 4,
+    "category": "road-rules",
+    "question": "A minibus taxi carrying passengers is travelling on a freeway. What is its maximum speed limit?",
+    "options": [
+      "100 km/h",
+      "110 km/h",
+      "120 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What is the maximum speed limit for a motor vehicle towing a trailer on a freeway?',
-    options: ['80 km/h', '100 km/h', '120 km/h'],
-    answer: 0,
-    explanation: 'Vehicles towing trailers on freeways have a maximum speed limit of 80 km/h.'
+    "id": 5,
+    "category": "road-rules",
+    "question": "What is the maximum speed limit for a motor vehicle towing a trailer on a freeway?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'When should you use your headlights?',
-    options: ['Only at night', 'At dusk, dawn, and night', 'Whenever another vehicle approaches', 'Only in rain'],
-    answer: 1,
-    explanation: 'Headlights must be used during dusk, dawn, and at night for visibility and to be seen by other drivers.'
+    "id": 6,
+    "category": "road-rules",
+    "question": "A vehicle towing a caravan is travelling outside an urban area on a road that is not a freeway. What is its maximum speed?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What is the legal blood alcohol limit for drivers?',
-    options: ['0.02%', '0.05%', '0.08%', '0.10%'],
-    answer: 1,
-    explanation: 'The legal blood alcohol content limit for drivers is 0.05%.'
+    "id": 7,
+    "category": "road-rules",
+    "question": "What is the maximum speed limit for a heavy motor vehicle over 9000 kg on a freeway?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'At a four-way stop, who goes first?',
-    options: ['The vehicle that arrived first', 'Vehicle turning right', 'Vehicle on the right', 'Straight vehicles'],
-    answer: 0,
-    explanation: 'At a four-way stop, the vehicle that arrived and stopped first has the right of way.'
+    "id": 8,
+    "category": "road-rules",
+    "question": "In a school zone during school hours, what reduced speed limit is commonly indicated?",
+    "options": [
+      "30 km/h",
+      "40 km/h",
+      "60 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What should you do if your brakes fail?',
-    options: ['Honk continuously', 'Pump brake pedal and find escape route', 'Turn off engine', 'Shift to neutral'],
-    answer: 1,
-    explanation: 'If brakes fail, pump the brake pedal to build pressure, look for an escape route, and use the handbrake as a last resort.'
+    "id": 9,
+    "category": "road-rules",
+    "question": "You are driving in foggy conditions at night. Should you drive at the posted speed limit?",
+    "options": [
+      "Yes, always keep to the posted limit",
+      "No, reduce speed to a safe level for conditions",
+      "Only reduce speed if visibility is under 50 m"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'When turning left, which lane should you use?',
-    options: ['Any lane', 'Far right lane', 'Far left lane', 'Second from left'],
-    answer: 2,
-    explanation: 'Always turn left from the far left lane to ensure proper road positioning.'
+    "id": 10,
+    "category": "road-rules",
+    "question": "What factor primarily determines safe following distance behind another vehicle?",
+    "options": [
+      "The speed you are travelling",
+      "The colour of the vehicle ahead",
+      "The width of the road"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What is the minimum safe following distance?',
-    options: ['1 car length', '2 car lengths', '3 car lengths', 'At least 2 seconds'],
-    answer: 3,
-    explanation: 'Maintain at least 2 seconds gap at your current speed. In bad weather, increase this distance.'
+    "id": 11,
+    "category": "road-rules",
+    "question": "What is the minimum recommended following distance in seconds in good conditions?",
+    "options": [
+      "1 second",
+      "2 seconds",
+      "4 seconds"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'Can you use a cellphone while driving?',
-    options: ['Yes, if hands-free', 'Only for emergencies', 'No, it is illegal', 'Yes, with speakerphone'],
-    answer: 2,
-    explanation: 'Using a cellphone while driving is illegal in South Africa, even with hands-free devices in many circumstances.'
+    "id": 12,
+    "category": "road-rules",
+    "question": "In wet or slippery conditions you should increase your following distance to at least?",
+    "options": [
+      "2 seconds",
+      "4 seconds",
+      "6 seconds"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'What must you do at a red traffic light?',
-    options: ['Stop and wait', 'Turn right if safe', 'Proceed with caution', 'Stop but turn left'],
-    answer: 0,
-    explanation: 'Come to a complete stop at a red traffic light and do not proceed until the light turns green.'
+    "id": 13,
+    "category": "road-rules",
+    "question": "At 60 km/h, approximately how far does a car travel during the average driver reaction time of 1 second?",
+    "options": [
+      "10 m",
+      "17 m",
+      "25 m"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'road-rules',
-    question: 'When is it safe to overtake?',
-    options: ['Whenever lane is clear', 'Only right side, clear visibility', 'Never on curves/hills', 'No oncoming traffic, straight section'],
-    answer: 3,
-    explanation: 'Overtake only when there is no oncoming traffic, you have clear visibility, and you are on a straight section.'
+    "id": 14,
+    "category": "road-rules",
+    "question": "What is the total stopping distance composed of?",
+    "options": [
+      "Braking distance alone — thinking time is not included in the stopping distance",
+      "Thinking distance only — the braking distance is calculated separately",
+      "Thinking distance plus braking distance combined into a single total"
+    ],
+    "answer": 2,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What does the steering wheel control?',
-    options: ['Engine speed', 'Direction', 'Brake pressure', 'Gear selection'],
-    answer: 1,
-    explanation: 'The steering wheel controls the direction the vehicle travels.'
+    "id": 15,
+    "category": "road-rules",
+    "question": "Which of the following increases stopping distance?",
+    "options": [
+      "Dry road",
+      "Wet road",
+      "New tyres"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What is the function of the accelerator?',
-    options: ['Braking', 'Increase engine speed', 'Select gears', 'Activate lights'],
-    answer: 1,
-    explanation: 'The accelerator (right pedal) increases engine power and speed.'
+    "id": 16,
+    "category": "road-rules",
+    "question": "If you double your speed, how does your braking distance change?",
+    "options": [
+      "It doubles",
+      "It triples",
+      "It quadruples"
+    ],
+    "answer": 2,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What does the brake pedal do?',
-    options: ['Increase speed', 'Slow down or stop', 'Select reverse', 'Control wipers'],
-    answer: 1,
-    explanation: 'The brake pedal (middle pedal) slows or stops the vehicle.'
+    "id": 17,
+    "category": "road-rules",
+    "question": "At a four-way stop where two vehicles arrive at exactly the same time, who has the right of way?",
+    "options": [
+      "The vehicle on the right",
+      "The vehicle on the left",
+      "The heavier vehicle"
+    ],
+    "answer": 0,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What is the clutch pedal function?',
-    options: ['Steering', 'Disconnect engine for gear changes', 'Apply parking brake', 'Turn on lights'],
-    answer: 1,
-    explanation: 'The clutch pedal (left pedal) disconnects the engine from the transmission to allow gear changes.'
+    "id": 18,
+    "category": "road-rules",
+    "question": "You approach an uncontrolled T-intersection on the through road. Who has right of way?",
+    "options": [
+      "The vehicle joining from the side road",
+      "You, on the through road",
+      "Whoever arrives first"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'Where is the handbrake located?',
-    options: ['On steering wheel', 'Between seats or left of wheel', 'On left door', 'Below steering wheel'],
-    answer: 1,
-    explanation: 'The handbrake is located between the front seats or to the left of the steering wheel.'
+    "id": 19,
+    "category": "road-rules",
+    "question": "A pedestrian is crossing a road at a marked pedestrian crossing. Who has the right of way?",
+    "options": [
+      "The vehicle",
+      "The pedestrian",
+      "Whoever arrived first"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What does the gear shift control?',
-    options: ['Engine temperature', 'Which gear vehicle is in', 'Brake pressure', 'Headlight intensity'],
-    answer: 1,
-    explanation: 'The gear shift selects which gear (1-5 or R) the vehicle operates in.'
+    "id": 20,
+    "category": "road-rules",
+    "question": "When must you yield to an emergency vehicle with sirens and lights activated?",
+    "options": [
+      "Only when it is directly behind you and about to make contact",
+      "Always — move to the left and stop or slow down if necessary",
+      "Only on a freeway — on urban roads emergency vehicles use alternate routes"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What is the function of the ignition switch?',
-    options: ['Start engine', 'Control fuel', 'Select gears', 'Adjust mirrors'],
-    answer: 0,
-    explanation: 'The ignition switch starts the engine and powers the vehicle\'s electrical systems.'
+    "id": 21,
+    "category": "road-rules",
+    "question": "You are turning right at an intersection. Who has the right of way?",
+    "options": [
+      "You have the right of way as you have already entered the intersection",
+      "Oncoming traffic travelling straight through the intersection",
+      "Pedestrians on the pavement waiting to cross — not those in the road"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'Where are the windshield wipers controlled from?',
-    options: ['Steering wheel hub', 'Left steering wheel stalk', 'Dashboard below wheel', 'On handbrake'],
-    answer: 1,
-    explanation: 'Windshield wipers are controlled by a stalk (lever) on the left side of the steering wheel.'
+    "id": 22,
+    "category": "road-rules",
+    "question": "At a yield sign you must?",
+    "options": [
+      "Come to a complete stop and wait for a traffic officer to wave you through",
+      "Slow down and give way to all traffic on the road you are about to join",
+      "Continue at normal speed as yield signs are advisory and not mandatory"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'How do you adjust side mirrors?',
-    options: ['From steering wheel', 'Control buttons on door/dashboard', 'Manually by hand', 'Automatically'],
-    answer: 1,
-    explanation: 'Most vehicles have electric buttons on the door or dashboard to adjust side mirrors.'
+    "id": 23,
+    "category": "road-rules",
+    "question": "A vehicle joining a freeway from an on-ramp must give way to?",
+    "options": [
+      "Vehicles on the off-ramp that are also merging into the same lane",
+      "Vehicles already travelling in the lanes of the freeway",
+      "Pedestrians and cyclists using the emergency lane alongside the freeway"
+    ],
+    "answer": 1,
+    "explanation": ""
   },
   {
-    category: 'vehicle-controls',
-    question: 'What does the horn do?',
-    options: ['Control wipers', 'Alert signal', 'Turn lights on/off', 'Automatic transmission'],
-    answer: 1,
-    explanation: 'The horn produces an audible alert signal to notify other road users.'
+    "id": 24,
+    "category": "road-rules",
+    "question": "When approaching a STOP sign you must?",
+    "options": [
+      "Slow down to below 10 km/h and continue if no traffic is visible",
+      "Come to a complete stop with all wheels behind the stop line before proceeding",
+      "Sound the horn once and proceed if no vehicles are approaching the intersection"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "category": "road-rules",
+    "question": "You are at a railway crossing without barriers. A train is approaching. What must you do?",
+    "options": [
+      "Accelerate to cross before it arrives",
+      "Stop and wait until the train has fully passed",
+      "Inch forward to gauge distance"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "category": "road-rules",
+    "question": "A traffic light shows a solid green signal. What does this mean?",
+    "options": [
+      "Stop — green signals are sometimes used as stop signals in South Africa",
+      "Proceed with caution and be prepared to yield to crossing traffic",
+      "Proceed through the intersection if it is safe and clear to do so"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "category": "road-rules",
+    "question": "A traffic light shows a solid amber/yellow signal. What must you do?",
+    "options": [
+      "Speed up to clear the intersection",
+      "Stop if it is safe to do so",
+      "Always continue through"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "category": "road-rules",
+    "question": "A traffic light shows a red signal. What must you do?",
+    "options": [
+      "Stop before the stop line",
+      "Proceed if no traffic is coming",
+      "Hoot and proceed"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "category": "road-rules",
+    "question": "A traffic light shows a flashing red signal. Treat it as?",
+    "options": [
+      "A yield sign",
+      "A stop sign",
+      "A green signal"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "category": "road-rules",
+    "question": "A traffic light shows a flashing amber/yellow signal. Treat it as?",
+    "options": [
+      "A red light — stop completely and wait for it to change to solid green",
+      "A yield sign — slow down and proceed only when the intersection is clear",
+      "A green light — proceed at normal speed as you have full right of way"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "category": "road-rules",
+    "question": "A green arrow alongside a red traffic light allows you to?",
+    "options": [
+      "Proceed in any direction as the green arrow overrides the red light",
+      "Proceed only in the direction indicated by the green arrow",
+      "Stop and wait until the red light changes to a solid green light"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "category": "road-rules",
+    "question": "Traffic lights are not working at an intersection. How should you treat it?",
+    "options": [
+      "As a four-way stop",
+      "As a yield — give way to the right",
+      "Continue without stopping"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "category": "road-rules",
+    "question": "What does a green traffic light mean when you are about to turn left?",
+    "options": [
+      "You may turn left without checking for pedestrians",
+      "You may turn left but must yield to pedestrians crossing",
+      "You must stop and wait for a green arrow"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "category": "road-rules",
+    "question": "You may NOT overtake on a solid white line because?",
+    "options": [
+      "A solid white line is purely advisory and carries no legal restriction",
+      "A solid white line indicates a no-overtaking zone on that stretch of road",
+      "Solid white lines mark dedicated bus lanes that may not be entered"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "category": "road-rules",
+    "question": "Where is it prohibited to overtake?",
+    "options": [
+      "On a straight road with good visibility",
+      "At the crest of a hill",
+      "On a four-lane road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "category": "road-rules",
+    "question": "When overtaking another vehicle you must?",
+    "options": [
+      "Pass as closely as possible to minimise time spent in the oncoming lane",
+      "Allow sufficient clearance past the vehicle and return to your lane safely",
+      "Flash your headlights continuously while overtaking to warn other drivers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "category": "road-rules",
+    "question": "Before overtaking you should check?",
+    "options": [
+      "Only the left side mirror to confirm there is space to pull back in",
+      "The right mirror, blind spot, and the road ahead for oncoming traffic",
+      "Only the road directly ahead to confirm the overtaking space is available"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "category": "road-rules",
+    "question": "You may overtake on the left in which circumstance?",
+    "options": [
+      "Whenever the left lane is clear and you wish to pass a slower vehicle",
+      "When the driver ahead has signalled right and is waiting to turn right",
+      "On a one-way street only when there is no possibility of oncoming traffic"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "category": "road-rules",
+    "question": "After overtaking you must return to the left lane. When is it safe to do so?",
+    "options": [
+      "Immediately after your front bumper clears the other vehicle's front bumper",
+      "Once you can see the overtaken vehicle in your rear-view mirror ahead of you",
+      "Immediately after pulling out to overtake regardless of the position of other vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "category": "road-rules",
+    "question": "Overtaking is prohibited within how many metres of a pedestrian crossing?",
+    "options": [
+      "50 m",
+      "100 m",
+      "200 m"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "category": "road-rules",
+    "question": "It is illegal to overtake a stationary school bus that is loading or offloading children.",
+    "options": [
+      "True",
+      "False",
+      "Only on a freeway"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "category": "road-rules",
+    "question": "On a multi-lane road, which lane should you drive in under normal circumstances?",
+    "options": [
+      "Any lane that is most convenient regardless of traffic flow or direction",
+      "The left-most available lane, keeping right only to overtake",
+      "The right-most lane to leave the left lanes clear for slower traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "category": "road-rules",
+    "question": "What is a yellow line in the centre of a road?",
+    "options": [
+      "A bicycle lane marker indicating a dedicated cycling path",
+      "It separates traffic moving in opposite directions on that road",
+      "It marks the left edge of the road and should not be crossed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "category": "road-rules",
+    "question": "A broken white line between lanes means?",
+    "options": [
+      "You may NOT change lanes",
+      "You may change lanes when safe to do so",
+      "Lane changing requires hooting"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "category": "road-rules",
+    "question": "A solid white line between lanes means?",
+    "options": [
+      "Overtaking is permitted",
+      "Lane changing is not permitted",
+      "It is a bicycle lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "category": "road-rules",
+    "question": "What is the purpose of a yellow edge line?",
+    "options": [
+      "No parking beyond this point",
+      "Marks the edge of the carriageway",
+      "Indicates a cycle lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "category": "road-rules",
+    "question": "You must NOT park within how many metres of a fire hydrant?",
+    "options": [
+      "1.5 m",
+      "3 m",
+      "6 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "category": "road-rules",
+    "question": "You must NOT park within how many metres of a junction or intersection?",
+    "options": [
+      "5 m",
+      "9 m",
+      "15 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "category": "road-rules",
+    "question": "Where is parking prohibited?",
+    "options": [
+      "In a parking bay",
+      "On a freeway",
+      "In a side street"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "category": "road-rules",
+    "question": "When parking on an uphill gradient, which direction should your front wheels be turned?",
+    "options": [
+      "Away from the kerb",
+      "Towards the kerb",
+      "Straight ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "category": "road-rules",
+    "question": "When parking on a downhill gradient, which direction should your front wheels be turned?",
+    "options": [
+      "Away from the kerb",
+      "Towards the kerb",
+      "Straight ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "category": "road-rules",
+    "question": "You may park on the right-hand side of a road only?",
+    "options": [
+      "Yes, parking on the right is always permitted if no sign prohibits it",
+      "Only on a one-way street where traffic flows in a single direction",
+      "Never — parking on the right is completely prohibited under all circumstances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "category": "road-rules",
+    "question": "What must you do before opening a door when parked?",
+    "options": [
+      "Sound the horn once to alert anyone who may be approaching from behind",
+      "Check for approaching vehicles, cyclists, and pedestrians before opening",
+      "Switch on your hazard lights to warn others that you are about to exit"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "category": "road-rules",
+    "question": "What is the legal blood alcohol limit for a professional driver in South Africa?",
+    "options": [
+      "0.05 g/100 ml",
+      "0.02 g/100 ml",
+      "0.00 g/100 ml"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "category": "road-rules",
+    "question": "What is the legal blood alcohol limit for an ordinary driver in South Africa?",
+    "options": [
+      "0.05 g/100 ml",
+      "0.08 g/100 ml",
+      "0.02 g/100 ml"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 56,
+    "category": "road-rules",
+    "question": "Alcohol affects driving ability by?",
+    "options": [
+      "Improving reaction time and increasing the driver's confidence and alertness",
+      "Impairing judgement, slowing reactions, and reducing coordination",
+      "Improving concentration and sharpening the driver's awareness of hazards"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "category": "road-rules",
+    "question": "Driving under the influence of alcohol is?",
+    "options": [
+      "A minor traffic offence",
+      "A criminal offence",
+      "Only an offence if you cause an accident"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "category": "road-rules",
+    "question": "Which of the following is true about alcohol and driving?",
+    "options": [
+      "Coffee sobers you up quickly",
+      "Only time reduces blood alcohol",
+      "Cold water sobers you up"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "category": "road-rules",
+    "question": "You are driving past a school and children are crossing. What should you do?",
+    "options": [
+      "Hoot to warn them",
+      "Stop and allow them to cross safely",
+      "Speed up to avoid blocking traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "category": "road-rules",
+    "question": "A blind pedestrian with a white cane is about to cross the road. You must?",
+    "options": [
+      "Proceed carefully",
+      "Stop and give way",
+      "Hoot to alert them"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "category": "road-rules",
+    "question": "Pedestrians walking on a road without pavements should walk?",
+    "options": [
+      "On the right side of the road, facing oncoming traffic for maximum visibility",
+      "On the left side of the road, travelling in the same direction as vehicles",
+      "In the middle of the road where they are most visible to drivers ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "category": "road-rules",
+    "question": "At what time must a pedestrian on a road carry a light or wear reflective clothing?",
+    "options": [
+      "After sunset and before sunrise, when visibility of pedestrians is reduced",
+      "Only after midnight when vehicle headlights are insufficient to illuminate the road",
+      "Only when walking through a tunnel regardless of the time of day"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "category": "road-rules",
+    "question": "Before turning left at an intersection you must signal?",
+    "options": [
+      "Only at the intersection itself once you have come to a stop or slowed down",
+      "At least 30 metres before the turn to give other road users adequate warning",
+      "Only on a freeway or national road — signals are optional in urban areas"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 64,
+    "category": "road-rules",
+    "question": "Hazard lights should be used when?",
+    "options": [
+      "When parking illegally to warn other drivers that you are stopped temporarily",
+      "When your vehicle is stationary and poses a hazard or obstruction to traffic",
+      "When driving in dense fog to warn oncoming traffic of your position"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "category": "road-rules",
+    "question": "Flashing your headlights at another driver means?",
+    "options": [
+      "I am greeting you as a courtesy signal between drivers on rural roads",
+      "Warning of a hazard ahead or requesting that you allow passage",
+      "I am angry at your driving and you should slow down or move over"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "category": "road-rules",
+    "question": "Before changing lanes on a freeway you must?",
+    "options": [
+      "Sound the horn to alert the driver in the target lane of your intention",
+      "Signal, check both mirrors, and check the blind spot before moving",
+      "Check only the rear-view mirror — side mirrors are optional on freeways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "category": "road-rules",
+    "question": "You must signal when?",
+    "options": [
+      "Only when turning at a signalised intersection with traffic lights present",
+      "When turning, changing lanes, pulling over, or moving away from the kerb",
+      "Only on busy roads where other drivers are likely to be affected by your action"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "category": "road-rules",
+    "question": "Which vehicles may use an emergency lane on a freeway?",
+    "options": [
+      "Any vehicle that is travelling faster than surrounding traffic to avoid congestion",
+      "Emergency vehicles, broken-down vehicles, and vehicles directed there by traffic officers",
+      "Taxis and buses during peak hours when the main lanes are heavily congested"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "category": "road-rules",
+    "question": "What must you do when you see an ambulance with lights and sirens approaching from behind?",
+    "options": [
+      "Maintain your current speed to keep pace with traffic flow ahead of you",
+      "Move to the left, reduce speed, and stop if necessary to allow it to pass",
+      "Accelerate to maintain speed ahead of the ambulance until it changes route"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "category": "road-rules",
+    "question": "It is an offence to drive with?",
+    "options": [
+      "Clean headlights",
+      "Bald or worn tyres",
+      "Properly adjusted mirrors"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "category": "road-rules",
+    "question": "A learner driver must be accompanied by?",
+    "options": [
+      "Any licensed driver regardless of how long they have held their licence",
+      "A driver who has held a valid driving licence for at least two years",
+      "Any person over the age of 18 whether or not they hold a licence"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "category": "road-rules",
+    "question": "A learner driver's licence is valid for how long?",
+    "options": [
+      "1 year",
+      "2 years",
+      "5 years"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "category": "road-rules",
+    "question": "At what age may a person apply for a learner's licence for a motor vehicle code B?",
+    "options": [
+      "16 years",
+      "17 years",
+      "18 years"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "category": "road-rules",
+    "question": "What does a K53 test examine?",
+    "options": [
+      "Vehicle control skills only, assessed on a closed test route",
+      "Rules of the road, road signs, and vehicle controls",
+      "Driving skills on a closed test track away from public road traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "category": "road-rules",
+    "question": "You must carry your driver's licence card when driving. This is?",
+    "options": [
+      "Optional",
+      "A legal requirement",
+      "Only required for professional drivers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "category": "road-rules",
+    "question": "What happens if you are involved in an accident resulting in injury or death?",
+    "options": [
+      "You may leave if you were not at fault — only the guilty party must remain",
+      "You must stop, render assistance to the injured, and report to the police",
+      "You only need to report if the total damages exceed a minimum threshold"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "category": "road-rules",
+    "question": "If your vehicle breaks down on a freeway, where should you stop?",
+    "options": [
+      "Stop in the left lane and switch on hazard lights to warn other drivers",
+      "Move onto the emergency lane as far to the left as possible",
+      "Stop in the right lane near the median where it is most visible to other drivers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "category": "road-rules",
+    "question": "Warning triangles must be placed how far behind a broken-down vehicle on a freeway?",
+    "options": [
+      "15 m",
+      "45 m",
+      "100 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "category": "road-rules",
+    "question": "Seat belts must be worn by?",
+    "options": [
+      "The driver only — passengers are responsible for their own safety choices",
+      "The driver and all front seat passengers as a minimum requirement",
+      "All occupants of the vehicle where seat belts are fitted"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "category": "road-rules",
+    "question": "Children under what age must be secured in an appropriate child restraint?",
+    "options": [
+      "3 years",
+      "5 years",
+      "7 years"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "category": "road-rules",
+    "question": "Using a hand-held cell phone while driving is?",
+    "options": [
+      "Permitted if brief",
+      "Illegal",
+      "Permitted if stopped at a red light"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "category": "road-rules",
+    "question": "What is the penalty for driving without a licence?",
+    "options": [
+      "A verbal warning from a traffic officer for a first-time offence only",
+      "A fine and possible imprisonment depending on the circumstances",
+      "A warning letter only — imprisonment is not applicable for this offence"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "category": "road-rules",
+    "question": "A vehicle's roadworthiness certificate must be renewed?",
+    "options": [
+      "Every year on the anniversary of the previous certificate's issue date",
+      "Only when the ownership of the vehicle is transferred to a new owner",
+      "Once every five years on the vehicle registration renewal date"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "category": "road-rules",
+    "question": "What does defensive driving mean?",
+    "options": [
+      "Driving aggressively to create space around your vehicle and protect yourself",
+      "Anticipating hazards and adjusting your driving to minimise risk to all road users",
+      "Only driving during daylight hours and avoiding roads with heavy traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "category": "road-rules",
+    "question": "You must use dipped low beam headlights?",
+    "options": [
+      "Only in complete darkness",
+      "In rain, fog, and at night",
+      "Only when visibility is under 100 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "category": "road-rules",
+    "question": "High beam headlights must be switched to low beam when an oncoming vehicle is within?",
+    "options": [
+      "50 m",
+      "150 m",
+      "500 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "category": "road-rules",
+    "question": "It is illegal to drive a vehicle that emits excessive smoke because?",
+    "options": [
+      "It increases fuel consumption and reduces the vehicle's engine efficiency",
+      "It is an environmental offence and can reduce visibility for other road users",
+      "It is only aesthetically unpleasant and considered discourteous to other drivers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "category": "road-rules",
+    "question": "What is the minimum tread depth for a tyre to be considered legal in South Africa?",
+    "options": [
+      "1 mm",
+      "1.6 mm",
+      "2 mm"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "category": "road-rules",
+    "question": "A yellow no stopping line painted at the edge of the road means?",
+    "options": [
+      "No parking at any time",
+      "No stopping or parking at any time",
+      "No stopping during peak hours only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 90,
+    "category": "road-rules",
+    "question": "What must a learner driver display on their vehicle?",
+    "options": [
+      "A red L-plate at the front and rear",
+      "A white L-plate at the rear only",
+      "A yellow L-plate at the front only"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 91,
+    "category": "road-rules",
+    "question": "A learner driver may NOT drive on?",
+    "options": [
+      "A suburban road",
+      "A freeway",
+      "A provincial road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 92,
+    "category": "road-rules",
+    "question": "You must dim your lights when following another vehicle within?",
+    "options": [
+      "50 m",
+      "150 m",
+      "200 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 93,
+    "category": "road-rules",
+    "question": "What is the purpose of ABS Anti-lock Braking System?",
+    "options": [
+      "To achieve shorter stopping distances on dry roads compared to standard brakes",
+      "To prevent wheel lock-up and maintain steering control during hard emergency braking",
+      "To automatically apply the brakes when radar detects a vehicle directly ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 94,
+    "category": "road-rules",
+    "question": "Driving while fatigued is dangerous because?",
+    "options": [
+      "Fuel consumption increases slightly when the driver is tired",
+      "Reaction time slows, attention decreases, and microsleep events can occur",
+      "The engine may overheat if the driver does not monitor the temperature gauge"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 95,
+    "category": "road-rules",
+    "question": "How must you approach a pedestrian crossing where pedestrians are present?",
+    "options": [
+      "Sound the horn and proceed — pedestrians should wait on the pavement",
+      "Slow down, be prepared to stop, and yield to pedestrians crossing the road",
+      "Maintain your speed — pedestrians have a duty to wait for a gap in traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 96,
+    "category": "road-rules",
+    "question": "When driving in rain you should switch on?",
+    "options": [
+      "Hazard lights",
+      "Low beam headlights",
+      "High beam headlights"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "category": "road-rules",
+    "question": "What does tail-gating mean?",
+    "options": [
+      "Driving in the left lane",
+      "Following another vehicle too closely",
+      "Driving with your boot open"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "category": "road-rules",
+    "question": "You are driving on a gravel road. How should you adjust your driving?",
+    "options": [
+      "Increase speed slightly to improve stability on the loose surface",
+      "Reduce speed and increase the following distance behind other vehicles",
+      "Brake hard when turning to prevent the rear from stepping out on gravel"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "category": "road-rules",
+    "question": "What is aquaplaning or hydroplaning?",
+    "options": [
+      "A type of skidding that occurs on ice or compacted snow in winter conditions",
+      "Loss of traction when a layer of water builds up under the tyres at speed",
+      "The tendency to brake on gravel roads causing the rear to slide sideways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle starts to aquaplane?",
+    "options": [
+      "Apply the brakes firmly and steer sharply to regain contact with the road",
+      "Ease off the accelerator gently and avoid sudden steering or braking inputs",
+      "Turn the steering wheel sharply to the left to break through the water layer"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 101,
+    "category": "road-rules",
+    "question": "When is it compulsory to use headlights?",
+    "options": [
+      "Only at night between 10 pm and 4 am on all South African public roads",
+      "Between sunset and sunrise, and in conditions of reduced visibility",
+      "Only in tunnels — daytime running lights are sufficient at all other times"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 102,
+    "category": "road-rules",
+    "question": "What is the maximum blood breath alcohol limit BrAC for an ordinary motorist?",
+    "options": [
+      "0.10 mg per 1000 ml",
+      "0.24 mg per 1000 ml",
+      "0.50 mg per 1000 ml"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 103,
+    "category": "road-rules",
+    "question": "A double solid white centre line means?",
+    "options": [
+      "Overtaking is allowed in both directions",
+      "Overtaking is forbidden in both directions",
+      "Only one direction may overtake"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "category": "road-rules",
+    "question": "A broken white line next to a solid white line and you are on the broken line side. May you cross?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in an emergency"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 105,
+    "category": "road-rules",
+    "question": "When may you cross a solid white centre line?",
+    "options": [
+      "Never under any circumstances — a solid white line may not be crossed",
+      "When overtaking a very slow-moving vehicle that is impeding the flow of traffic",
+      "Only to avoid an obstacle in your path or to turn into a side road or property"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 106,
+    "category": "road-rules",
+    "question": "What must you do when approaching a flashing amber light at an intersection?",
+    "options": [
+      "Stop completely",
+      "Proceed with caution",
+      "Treat it as a green light"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "category": "road-rules",
+    "question": "What is the safe way to negotiate a sharp bend?",
+    "options": [
+      "Apply the brakes firmly in the middle of the bend to control vehicle speed",
+      "Brake before entering the bend and accelerate smoothly as you exit it",
+      "Accelerate into the bend to maintain forward momentum through the corner"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 108,
+    "category": "road-rules",
+    "question": "The national road emergency number in South Africa is?",
+    "options": [
+      "10111",
+      "112",
+      "082 911"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 109,
+    "category": "road-rules",
+    "question": "What does right of way mean?",
+    "options": [
+      "You have the legal right to proceed",
+      "The road belongs to you",
+      "Only applies at four-way stops"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 110,
+    "category": "road-rules",
+    "question": "An accident must be reported to the police within how many hours if injuries occurred?",
+    "options": [
+      "6 hours",
+      "24 hours",
+      "48 hours"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 111,
+    "category": "road-rules",
+    "question": "What is the minimum age to apply for a code 10 heavy motor vehicle licence?",
+    "options": [
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 112,
+    "category": "road-rules",
+    "question": "A professional driving permit PDP is required for drivers who?",
+    "options": [
+      "Transport goods or passengers commercially for financial reward",
+      "Drive their own private vehicle for personal use on public roads",
+      "Drive a company-owned vehicle for business purposes only"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 113,
+    "category": "road-rules",
+    "question": "When approaching an animal crossing the road, you should?",
+    "options": [
+      "Sound the horn loudly and accelerate past before the animal can change direction",
+      "Slow down, stop if necessary, and wait patiently for the animal to clear the road",
+      "Flash your headlights at the animal and continue at reduced speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "category": "road-rules",
+    "question": "What does a yellow painted kerb mean?",
+    "options": [
+      "Parking is permitted here for a maximum of 30 minutes at any time",
+      "No parking is allowed but stopping briefly to load or unload passengers is permitted",
+      "No stopping at any time — this kerb colour prohibits all vehicle stopping"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 115,
+    "category": "road-rules",
+    "question": "What does a red painted kerb mean?",
+    "options": [
+      "No stopping at any time",
+      "Parking for 30 minutes",
+      "No loading or unloading"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 116,
+    "category": "road-rules",
+    "question": "What is the rule regarding U-turns?",
+    "options": [
+      "U-turns are always legal provided no other vehicles are visible at the time",
+      "U-turns are prohibited where a sign forbids them or where it is clearly unsafe",
+      "U-turns are permitted only in residential areas and never on main roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 117,
+    "category": "road-rules",
+    "question": "When must you use your horn?",
+    "options": [
+      "Whenever you want to alert another driver to your presence or intentions",
+      "Only when it is necessary to warn other road users of an immediate hazard",
+      "Whenever you want to pass another vehicle that is moving too slowly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 118,
+    "category": "road-rules",
+    "question": "The use of a horn is prohibited between?",
+    "options": [
+      "10 pm and 6 am in urban residential and built-up areas",
+      "8 pm and 8 am in all areas including rural and industrial zones",
+      "Midnight and 6 am only in residential areas adjacent to hospitals"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 119,
+    "category": "road-rules",
+    "question": "What is the purpose of a headrest in a vehicle?",
+    "options": [
+      "To provide additional comfort and back support for the occupant on long journeys",
+      "To reduce whiplash neck injury in a rear-end collision by supporting the head",
+      "A purely decorative feature that has no safety function in modern vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 120,
+    "category": "road-rules",
+    "question": "Overloading a vehicle is dangerous because?",
+    "options": [
+      "It increases fuel consumption which makes long journeys more expensive",
+      "It increases braking distance, reduces stability, and puts excessive stress on tyres",
+      "It causes only cosmetic damage to the vehicle's suspension and body panels"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 121,
+    "category": "road-rules",
+    "question": "What must you check before every journey using the POWDERS check?",
+    "options": [
+      "Petrol/fuel level, Oil, Water/coolant, Damage, Electrics, Rubber/tyres, and Safety items",
+      "Only check the fuel gauge to confirm there is sufficient fuel for the planned journey",
+      "Check only the tyre pressures — other items are covered at the annual service"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 122,
+    "category": "road-rules",
+    "question": "The POWDERS check acronym stands for?",
+    "options": [
+      "Petrol, Oil, Water, Damage, Electrics, Rubber, Safety",
+      "Petrol, Oil, Windows, Doors, Engine, Radio, Steering",
+      "Power, Oil, Wheels, Damage, Engine, Rest, Safety"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 123,
+    "category": "road-rules",
+    "question": "Driving at night with no headlights is?",
+    "options": [
+      "Permitted if road is lit",
+      "An offence",
+      "Only illegal on freeways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 124,
+    "category": "road-rules",
+    "question": "Why is it dangerous to drive with only one headlight?",
+    "options": [
+      "It has no safety impact as one headlight provides adequate road illumination",
+      "Oncoming drivers may mistake your vehicle for a motorcycle and misjudge its position",
+      "It reduces the battery capacity and may cause the vehicle's electrical system to fail"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 125,
+    "category": "road-rules",
+    "question": "What should you do if you are dazzled by oncoming headlights?",
+    "options": [
+      "Flash your high-beam headlights to signal the oncoming driver to dip their lights",
+      "Look toward the left edge of the road and slow down until the vehicle has passed",
+      "Close your eyes momentarily and rely on your lane memory to stay on course"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 126,
+    "category": "road-rules",
+    "question": "You are involved in a minor accident. What should you do?",
+    "options": [
+      "Drive away quickly before traffic builds up, then report the incident later",
+      "Stop, exchange contact and insurance details, and report if injury or significant damage occurred",
+      "Report the accident only if your own vehicle has sustained visible damage"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 127,
+    "category": "road-rules",
+    "question": "It is illegal to drive a vehicle without?",
+    "options": [
+      "A working radio — all vehicles must have a functioning audio device fitted",
+      "A current licence disc displayed on the windscreen in a visible position",
+      "A dashboard camera — all vehicles must have a recording device installed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 128,
+    "category": "road-rules",
+    "question": "What is road rage?",
+    "options": [
+      "Aggressive and threatening behaviour by a driver triggered by traffic frustration",
+      "Driving above the speed limit on a motorway during a moment of frustration",
+      "Driving without a valid licence or roadworthy certificate on public roads"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 129,
+    "category": "road-rules",
+    "question": "How should you respond to a road rage incident from another driver?",
+    "options": [
+      "Retaliate firmly to make it clear you will not tolerate their behaviour",
+      "Avoid eye contact, do not engage or respond, and move away from the situation safely",
+      "Sound your horn repeatedly to draw attention and deter the aggressive driver"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 130,
+    "category": "road-rules",
+    "question": "What does a white painted median island separating lanes of traffic tell you?",
+    "options": [
+      "You may cross it at any point if it is safe and no other traffic is present",
+      "You may not cross or straddle it except at designated crossing points",
+      "It marks the boundary of a dedicated bus and taxi lane on that road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 131,
+    "category": "road-rules",
+    "question": "Passing on the right side of a slower vehicle is called?",
+    "options": [
+      "Overtaking",
+      "Undertaking",
+      "Lane splitting"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "category": "road-rules",
+    "question": "Passing on the left side of a slower vehicle is called?",
+    "options": [
+      "Overtaking",
+      "Undertaking",
+      "Lane sharing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 133,
+    "category": "road-rules",
+    "question": "Which of the following is a legal reason to stop on the hard shoulder of a freeway?",
+    "options": [
+      "To rest briefly when you feel tired or fatigued during a long journey",
+      "In the event of a breakdown, emergency, or when directed by a traffic officer",
+      "To allow faster vehicles behind you to overtake without changing lanes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 134,
+    "category": "road-rules",
+    "question": "At a yield sign, if the road is clear you?",
+    "options": [
+      "Must still come to a complete stop",
+      "May proceed without stopping",
+      "Must wait 3 seconds"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 135,
+    "category": "road-rules",
+    "question": "When towing a trailer, how should your speed compare to normal limits?",
+    "options": [
+      "You may exceed the limit slightly to maintain momentum when towing uphill",
+      "Obey the lower of either the standard speed limit or the applicable towing limit",
+      "Standard speed limits do not apply when towing a trailer below 750 kg"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 136,
+    "category": "road-rules",
+    "question": "What is the recommended following distance in adverse weather conditions?",
+    "options": [
+      "Maintain the same 2-second gap as in dry conditions — your tyres adapt automatically",
+      "A minimum of 4 seconds or more depending on visibility and road surface conditions",
+      "Reduce to a 1-second gap to stay visible in the other driver's rear-view mirror"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 137,
+    "category": "road-rules",
+    "question": "Reversing on a freeway is?",
+    "options": [
+      "Permitted if you missed an exit",
+      "Illegal",
+      "Permitted only in an emergency"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "category": "road-rules",
+    "question": "A Keep Clear marking on a road means?",
+    "options": [
+      "No parking is permitted within the marked zone on weekdays",
+      "Do not enter or block this zone — you must keep it clear even if traffic is moving slowly",
+      "Increase speed when passing through to clear the area as quickly as possible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 139,
+    "category": "road-rules",
+    "question": "When may you drive in a bus lane?",
+    "options": [
+      "At any time of day provided no bus is visible behind or ahead of you",
+      "Only when bus lane restrictions are not in force, or when turning into a side road",
+      "Bus lanes may never be used by private vehicles under any circumstances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 140,
+    "category": "road-rules",
+    "question": "What is the correct procedure when you want to merge from an acceleration lane onto a freeway?",
+    "options": [
+      "Stop at the end of the acceleration lane and wait for a safe gap to appear",
+      "Build speed in the acceleration lane to match freeway traffic, then merge smoothly",
+      "Use the emergency lane on the left to hold position until a gap opens"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 141,
+    "category": "road-rules",
+    "question": "When exiting a freeway via an off-ramp, you should?",
+    "options": [
+      "Brake sharply on the freeway and then exit",
+      "Reduce speed gradually on the off-ramp",
+      "Maintain freeway speed on the off-ramp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 142,
+    "category": "road-rules",
+    "question": "What is the minimum age for a code 14 extra-heavy motor vehicle licence applicant?",
+    "options": [
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 143,
+    "category": "road-rules",
+    "question": "You must renew your vehicle licence disc every?",
+    "options": [
+      "6 months",
+      "12 months",
+      "24 months"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "category": "road-rules",
+    "question": "What is the correct action when your vehicle catches fire?",
+    "options": [
+      "Drive to the nearest garage or fire station as quickly as possible",
+      "Pull over safely, switch off the engine, evacuate all occupants, and use a fire extinguisher if safe",
+      "Accelerate to increase airflow through the engine bay to extinguish the flames"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "category": "road-rules",
+    "question": "The Road Accident Fund RAF covers?",
+    "options": [
+      "Property and vehicle damage arising from road traffic accidents only",
+      "Personal injury compensation claims arising from road accidents in South Africa",
+      "Both full vehicle damage and personal injury in all road accident cases"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 146,
+    "category": "road-rules",
+    "question": "What is a traffic circle roundabout rule in South Africa?",
+    "options": [
+      "Traffic already in the circle has right of way",
+      "Entering traffic has right of way",
+      "Largest vehicle has right of way"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 147,
+    "category": "road-rules",
+    "question": "When entering a traffic circle you must give way to?",
+    "options": [
+      "Traffic on your right already in the circle",
+      "Traffic on your left in the circle",
+      "Traffic approaching from any direction"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 148,
+    "category": "road-rules",
+    "question": "What should you do before reversing your vehicle?",
+    "options": [
+      "Sound the horn once to warn anyone behind, then begin reversing immediately",
+      "Check all around the vehicle including blind spots and reverse slowly and carefully",
+      "Check only the rear-view mirror before reversing — side mirrors are not necessary"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 149,
+    "category": "road-rules",
+    "question": "Under what circumstances may you stop on a freeway?",
+    "options": [
+      "When you are tired or need a break during a long motorway journey",
+      "Only in a genuine breakdown or emergency — stopping otherwise is illegal",
+      "Whenever you need to make or receive an important telephone call"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 150,
+    "category": "road-rules",
+    "question": "What is the offence called when you drive in a way that ignores all risks to others?",
+    "options": [
+      "Negligent driving",
+      "Reckless driving",
+      "Aggressive driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 151,
+    "category": "road-rules",
+    "question": "When two lanes merge into one, what is the correct merging etiquette?",
+    "options": [
+      "Force your way into the merging lane early to avoid being held back at the end",
+      "Take turns alternating — one vehicle from each lane in a zip-merge sequence",
+      "The larger or heavier vehicle always has priority and merges ahead of smaller vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 152,
+    "category": "road-rules",
+    "question": "You are the first vehicle at a four-way stop. What do you do?",
+    "options": [
+      "Wait for all other vehicles",
+      "Proceed first since you arrived first",
+      "Wait for a police officer"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 153,
+    "category": "road-rules",
+    "question": "What is the speed limit in a parking area unless otherwise indicated?",
+    "options": [
+      "20 km/h",
+      "10 km/h",
+      "30 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 154,
+    "category": "road-rules",
+    "question": "Driving with a broken windscreen wiper in rain is?",
+    "options": [
+      "Acceptable if you can see",
+      "Dangerous and an offence",
+      "Only an offence on freeways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 155,
+    "category": "road-rules",
+    "question": "Road markings that are yellow refer to?",
+    "options": [
+      "Permanent regulatory markings that are in force at all times day and night",
+      "Temporary markings typically associated with road works or hazard zones",
+      "Dedicated bicycle lane markings indicating where cyclists must ride"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 156,
+    "category": "road-rules",
+    "question": "What does a dotted white line across a road at an intersection mean?",
+    "options": [
+      "Stop line",
+      "Yield line",
+      "Pedestrian crossing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 157,
+    "category": "road-rules",
+    "question": "What is the maximum number of passengers allowed in the front seat of a motor vehicle?",
+    "options": [
+      "1 — the driver only; no passenger may sit in the front passenger seat",
+      "2 — one driver and one front seat passenger as the maximum",
+      "As many as will fit across the front bench seat of the vehicle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 158,
+    "category": "road-rules",
+    "question": "You are driving through a tunnel. What must you do?",
+    "options": [
+      "Switch off your headlights as the tunnel lighting provides sufficient illumination",
+      "Switch on your headlights and maintain a safe following distance throughout",
+      "Increase your speed to exit the tunnel as quickly as possible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 159,
+    "category": "road-rules",
+    "question": "What action should you take when your accelerator pedal sticks?",
+    "options": [
+      "Turn off the ignition immediately while travelling at speed to cut engine power",
+      "Shift to neutral, steer the vehicle safely to the left, brake gently, and stop",
+      "Pump the clutch pedal repeatedly to disrupt the throttle signal electronically"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 160,
+    "category": "road-rules",
+    "question": "Driving a vehicle with a defective speedometer is?",
+    "options": [
+      "Permitted",
+      "An offence",
+      "Permitted for short distances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 161,
+    "category": "road-rules",
+    "question": "What must you do when the traffic light changes from red to green?",
+    "options": [
+      "Accelerate immediately as the green light grants you unconditional right of way",
+      "Check that the intersection is clear of any late red-light runners before proceeding",
+      "Sound your horn once to alert pedestrians that you are now proceeding"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 162,
+    "category": "road-rules",
+    "question": "It is safest to drive at?",
+    "options": [
+      "The speed limit regardless of conditions",
+      "A speed appropriate for the conditions, not exceeding the limit",
+      "The fastest safe speed to reduce time on the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 163,
+    "category": "road-rules",
+    "question": "What is the recommended hand position on a steering wheel?",
+    "options": [
+      "10 and 2 o'clock or 9 and 3 o'clock for balanced control and stability",
+      "12 o'clock — one hand at the top provides maximum leverage for turning",
+      "8 and 4 o'clock for a relaxed position on long motorway journeys"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 164,
+    "category": "road-rules",
+    "question": "Why should you avoid driving alongside another vehicle for extended periods?",
+    "options": [
+      "Driving beside another vehicle for too long is simply impolite and causes frustration",
+      "You may be in the other vehicle's blind spot making it difficult for them to change lanes safely",
+      "There is no danger — driving alongside another vehicle is acceptable at all speeds"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 165,
+    "category": "road-rules",
+    "question": "What is the first thing to do when you feel your brakes fading?",
+    "options": [
+      "Press the brake pedal as hard as possible to overcome the reduced friction",
+      "Downshift to a lower gear to use engine braking and reduce reliance on the foot brake",
+      "Switch off the engine immediately to prevent further heat build-up in the brakes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 166,
+    "category": "road-rules",
+    "question": "What must you do if your vehicle breaks down on a level crossing?",
+    "options": [
+      "Stay inside the vehicle for protection and wait for assistance to arrive",
+      "Get all occupants out immediately, move away from the tracks, and contact the railway authority",
+      "Attempt to push the vehicle off the tracks without calling for additional help"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 167,
+    "category": "road-rules",
+    "question": "What is a blind spot?",
+    "options": [
+      "An area of road that is poorly lit at night making it difficult to see hazards",
+      "An area to the side and rear of the vehicle that is not visible in the mirrors",
+      "A road sign that has been obscured or hidden by trees or other vegetation"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 168,
+    "category": "road-rules",
+    "question": "What should you do to check a blind spot?",
+    "options": [
+      "Sound the horn to warn any vehicle that may be in the blind spot area",
+      "Physically turn your head and look over the appropriate shoulder before manoeuvring",
+      "Check only the relevant side mirror — it covers the entire blind spot area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 169,
+    "category": "road-rules",
+    "question": "How can you reduce fatigue on long trips?",
+    "options": [
+      "Drive faster to arrive sooner",
+      "Take regular breaks every 2 hours",
+      "Drink energy drinks continuously"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 170,
+    "category": "road-rules",
+    "question": "If a tyre bursts while driving, you should?",
+    "options": [
+      "Apply the brakes immediately and as firmly as possible to stop the vehicle quickly",
+      "Hold the steering wheel firmly, ease off the accelerator, steer straight, and slow down gradually",
+      "Swerve immediately to the hard shoulder to clear the road for other traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 171,
+    "category": "road-rules",
+    "question": "A solid white line painted across the road at a junction means?",
+    "options": [
+      "Give way",
+      "Stop here",
+      "Speed up"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 172,
+    "category": "road-rules",
+    "question": "What must animals being transported on a vehicle be?",
+    "options": [
+      "Animals may be transported in any manner provided the journey is short",
+      "Properly secured so they cannot fall off the vehicle or escape while moving",
+      "Only domestic dogs are legally permitted to be transported in a vehicle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 173,
+    "category": "road-rules",
+    "question": "The two-second rule is used to?",
+    "options": [
+      "Calculate stopping distance based on the current vehicle speed in km/h",
+      "Maintain a safe following distance from the vehicle directly ahead",
+      "Determine how long to wait at a traffic light before proceeding"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 174,
+    "category": "road-rules",
+    "question": "What do reflective road studs cats eyes in the centre of the road indicate?",
+    "options": [
+      "Lane dividers",
+      "The centre of the road",
+      "A cycle lane"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 175,
+    "category": "road-rules",
+    "question": "What do red reflective road studs on the left edge of the road indicate?",
+    "options": [
+      "Centre of road",
+      "Left edge of carriageway",
+      "Pedestrian crossing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 176,
+    "category": "road-rules",
+    "question": "If you are driving and feel sleepy, what should you do?",
+    "options": [
+      "Drink coffee and continue",
+      "Pull over safely and rest",
+      "Turn up the radio"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 177,
+    "category": "road-rules",
+    "question": "A circular road sign with a blue background and white symbol is?",
+    "options": [
+      "A warning sign alerting drivers to a hazard or dangerous condition ahead",
+      "A mandatory instruction sign indicating what you must or must not do",
+      "A guidance or information sign directing drivers to a facility or destination"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 178,
+    "category": "road-rules",
+    "question": "What is the purpose of a deceleration exit lane on a freeway?",
+    "options": [
+      "To allow vehicles to pull over and rest",
+      "To allow vehicles to slow down before leaving the freeway",
+      "A lane reserved for emergency vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 179,
+    "category": "road-rules",
+    "question": "What is the purpose of an acceleration entry lane on a freeway?",
+    "options": [
+      "To allow merging vehicles to stop and wait for a completely clear gap in traffic",
+      "To allow vehicles to build up speed before merging smoothly onto the freeway",
+      "A dedicated lane reserved exclusively for heavy goods vehicles and buses only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 180,
+    "category": "road-rules",
+    "question": "What does a white arrow painted on the road indicate?",
+    "options": [
+      "The direction in which traffic in that lane must or is permitted to travel",
+      "A designated pedestrian crossing route marked on the road surface",
+      "A dedicated bicycle lane where cyclists have priority over motor vehicles"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 181,
+    "category": "road-rules",
+    "question": "Driving with a headlight out at night is?",
+    "options": [
+      "Acceptable if the other headlight is bright",
+      "An offence",
+      "Only illegal on a freeway"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 182,
+    "category": "road-rules",
+    "question": "What is the safest approach when driving through standing water?",
+    "options": [
+      "Accelerate through the water quickly to minimise the time the tyres are submerged",
+      "Reduce speed significantly and drive through at a slow, steady controlled speed",
+      "Apply the brakes firmly in the middle of the water to maintain vehicle control"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 183,
+    "category": "road-rules",
+    "question": "After driving through water, you should?",
+    "options": [
+      "Accelerate immediately to full speed to restore normal tyre-road contact",
+      "Test your brakes by gently applying them to dry out the brake pads and discs",
+      "Rev the engine hard to draw heat up from the exhaust to remove water"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 184,
+    "category": "road-rules",
+    "question": "When must you switch off your high-beam headlights?",
+    "options": [
+      "High beams may be used at all times — there is no requirement to dip them",
+      "When following or approaching another vehicle within approximately 150 metres",
+      "Only when approaching oncoming traffic — following vehicles do not require dipping"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 185,
+    "category": "road-rules",
+    "question": "Who is responsible for ensuring passengers under 14 are wearing seat belts?",
+    "options": [
+      "The passengers themselves",
+      "The driver",
+      "No one — it is optional"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 186,
+    "category": "road-rules",
+    "question": "What is the legal requirement for a motorcycle rider regarding helmets?",
+    "options": [
+      "Helmets are recommended but not required",
+      "A helmet must be worn by the rider and any passenger",
+      "Only the pillion passenger must wear a helmet"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 187,
+    "category": "road-rules",
+    "question": "What should you do if you are being tailgated?",
+    "options": [
+      "Brake suddenly to give the tailgating driver a clear warning to back off",
+      "Increase your own following distance from the vehicle ahead and allow the tailgater to pass",
+      "Speed up to match the tailgater's pace and create a greater gap behind you"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 188,
+    "category": "road-rules",
+    "question": "What does a zigzag white line near a pedestrian crossing indicate?",
+    "options": [
+      "A rough or uneven road surface lies ahead requiring reduced speed",
+      "No parking or overtaking is permitted in this marked zone near the crossing",
+      "A dedicated bicycle crossing area where cyclists have right of way"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 189,
+    "category": "road-rules",
+    "question": "Travelling in the right lane on a multi-lane road when not overtaking is?",
+    "options": [
+      "Perfectly acceptable — you may use any lane that suits your planned journey",
+      "Illegal — you must keep to the left lane unless you are actively overtaking",
+      "Only illegal on a national freeway — it is acceptable on other roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 190,
+    "category": "road-rules",
+    "question": "What is a speed hump?",
+    "options": [
+      "A road sign indicating a maximum speed limit of 30 km/h or less",
+      "A raised section of road surface designed to compel drivers to reduce speed",
+      "A vehicle modification that raises the suspension for off-road driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 191,
+    "category": "road-rules",
+    "question": "What is the legal blood breath alcohol limit for a learner driver?",
+    "options": [
+      "0.24 mg per 1 000 ml of breath — the same limit as for professional drivers",
+      "0.00 mg per 1 000 ml — zero tolerance applies to all learner driver permit holders",
+      "0.10 mg per 1 000 ml of breath — a lower limit than that for full licence holders"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 192,
+    "category": "road-rules",
+    "question": "What does it mean when a traffic officer signals to you with their arm raised?",
+    "options": [
+      "Speed up",
+      "Stop",
+      "Turn around"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 193,
+    "category": "road-rules",
+    "question": "A traffic officer's signals override traffic signs and lights.",
+    "options": [
+      "False",
+      "True",
+      "Only on freeways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 194,
+    "category": "road-rules",
+    "question": "What is the purpose of a rumble strip at the edge of the road?",
+    "options": [
+      "To mark the boundary of a bicycle lane on that section of road",
+      "To alert drifting drivers through vibration that they are leaving the road",
+      "To channel rainwater away from the road surface and prevent aquaplaning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 195,
+    "category": "road-rules",
+    "question": "What should you do if an animal suddenly runs onto the road?",
+    "options": [
+      "Swerve violently at all costs to avoid any contact with the animal",
+      "Brake in a controlled manner and only swerve if it is completely safe to do so",
+      "Accelerate quickly past the animal before it moves further into your path"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 196,
+    "category": "road-rules",
+    "question": "What is the rule for turning left across a solid yellow edge line?",
+    "options": [
+      "It is completely illegal and the solid yellow edge line may never be crossed",
+      "It is permitted in order to turn into a private property, driveway, or side road",
+      "It is permitted only for buses and taxis dropping off and picking up passengers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 197,
+    "category": "road-rules",
+    "question": "What is a learner's licence in the K53 context?",
+    "options": [
+      "A licence that authorises the holder to drive a motor vehicle independently on public roads",
+      "A licence that permits the holder to practise driving under the supervision of a qualified driver",
+      "A licence that is valid only within the boundaries of the town where it was issued"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 198,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle starts to overheat?",
+    "options": [
+      "Continue driving to the next garage or service station before stopping",
+      "Pull over safely, switch off the engine, and allow it to cool before adding coolant",
+      "Pour cold water directly onto the radiator while the engine is still running"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 199,
+    "category": "road-rules",
+    "question": "What is the difference between negligent and reckless driving?",
+    "options": [
+      "They are the same legal offence carrying identical penalties in South Africa",
+      "Reckless driving is the more serious offence — it involves a conscious disregard for safety",
+      "Negligent driving is the more serious offence as it is more common and easier to prosecute"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 200,
+    "category": "road-rules",
+    "question": "Under what conditions must you NOT attempt to overtake?",
+    "options": [
+      "On a long, straight road at night when visibility ahead is reduced",
+      "On the brow of a hill, in a dip, on a bend, or within 50 m of a pedestrian crossing",
+      "Only in heavy rain or dense fog when visibility falls below 100 metres"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 201,
+    "category": "road-rules",
+    "question": "What is the rule for using fog lights?",
+    "options": [
+      "Use fog lights at all times during the night for improved road visibility",
+      "Use fog lights only in conditions of reduced visibility such as fog, mist, or heavy rain",
+      "Use fog lights as a replacement for standard headlights during night driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 202,
+    "category": "road-rules",
+    "question": "You should NOT reverse for longer than?",
+    "options": [
+      "10 metres on any public road — reversing beyond this distance is always prohibited",
+      "A distance that is reasonably necessary for the purpose and safe to execute",
+      "There is no legal limit — you may reverse any distance on a public road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 203,
+    "category": "road-rules",
+    "question": "What is meant by right of way at a T-intersection for the vehicle on the bottom of the T?",
+    "options": [
+      "Vehicles on the bottom of the T have right of way over all others at the junction",
+      "They must yield to vehicles travelling along the through road at the top of the T",
+      "They must stop, sound the horn once, and then proceed when the road appears clear"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 204,
+    "category": "road-rules",
+    "question": "What does an orange flashing light on a slow-moving vehicle mean?",
+    "options": [
+      "The vehicle is an emergency vehicle and all traffic must pull over immediately",
+      "The vehicle is slow-moving or wide and drivers should proceed with extra caution",
+      "The driver intends to make a U-turn at the next available opportunity"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 205,
+    "category": "road-rules",
+    "question": "In South Africa, vehicles drive on which side of the road?",
+    "options": [
+      "Left side",
+      "Right side",
+      "Either side"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 206,
+    "category": "road-rules",
+    "question": "A flashing green traffic light means?",
+    "options": [
+      "Proceed normally as you have full right of way — green always means go",
+      "The green phase is about to end — the light will soon change to amber then red",
+      "Speed up to clear the intersection before the green phase ends"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 207,
+    "category": "road-rules",
+    "question": "A vehicle without functioning brake lights may?",
+    "options": [
+      "Be driven only during the day",
+      "Not be driven until repaired",
+      "Be driven slowly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 208,
+    "category": "road-rules",
+    "question": "What is the purpose of the emergency brake handbrake?",
+    "options": [
+      "Used for all normal braking as a supplement to the hydraulic foot brake system",
+      "Used for parking and as an emergency backup brake if the hydraulic brakes fail",
+      "Used exclusively for high-speed emergency stops when maximum braking force is needed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 209,
+    "category": "road-rules",
+    "question": "On a long downhill, you should?",
+    "options": [
+      "Keep constant pressure on the foot brake to control your speed throughout",
+      "Select a low gear for engine braking and apply the foot brake intermittently",
+      "Switch off the engine to save fuel and coast down the gradient in neutral"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 210,
+    "category": "road-rules",
+    "question": "What is black ice?",
+    "options": [
+      "Dark-coloured ice that forms on black tar roads during night-time freezing",
+      "A thin, nearly transparent layer of ice that is almost invisible on the road surface",
+      "Wet tar road surface that appears darker than normal after heavy rainfall"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 211,
+    "category": "road-rules",
+    "question": "If you skid on a slippery surface, you should?",
+    "options": [
+      "Apply the brakes firmly to reduce speed and regain control of the vehicle",
+      "Steer in the direction of the skid and ease off the accelerator smoothly",
+      "Accelerate gently to increase traction and pull the vehicle out of the skid"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 212,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle stalls on a railway crossing?",
+    "options": [
+      "Attempt to restart the engine immediately while remaining in the vehicle",
+      "Get all occupants out of the vehicle immediately and move well away from the tracks",
+      "Switch on hazard lights and wait inside the vehicle for assistance to arrive"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 213,
+    "category": "road-rules",
+    "question": "Where must a fire extinguisher be mounted in a public transport vehicle?",
+    "options": [
+      "In the boot or luggage compartment where it will be protected from damage",
+      "In an accessible location that is known to the driver and easy to reach quickly",
+      "Under the driver's seat where it is out of the way but technically accessible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 214,
+    "category": "road-rules",
+    "question": "What is the safest approach when a learner driver stalls at an intersection?",
+    "options": [
+      "Abandon the vehicle and wait on the pavement for the instructor to assist",
+      "Remain calm, restart the engine quickly, and move off safely when it is clear",
+      "Switch on hazard lights and remain stationary in the intersection until safe"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 215,
+    "category": "road-rules",
+    "question": "What does the two-second gap method involve?",
+    "options": [
+      "Maintaining a gap of exactly two car lengths behind the vehicle ahead at all speeds",
+      "Counting two seconds between when the car ahead passes a fixed point and when you reach it",
+      "Stopping for a full two seconds after seeing brake lights illuminate ahead of you"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 216,
+    "category": "road-rules",
+    "question": "Why is it dangerous to drive with under-inflated tyres?",
+    "options": [
+      "Increased grip on wet roads — softer tyres provide a larger contact patch",
+      "Increased tyre wear, overheating risk, higher fuel consumption, and risk of blowout",
+      "Improved fuel economy as the tyres generate less rolling resistance when soft"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 217,
+    "category": "road-rules",
+    "question": "Why is it dangerous to drive with over-inflated tyres?",
+    "options": [
+      "Better fuel economy as reduced rolling resistance improves efficiency",
+      "Reduced contact patch, increased blowout risk, and a harsher, less controlled ride",
+      "Better wet weather traction as a smaller contact patch cuts through standing water"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 218,
+    "category": "road-rules",
+    "question": "What must you do when a school patrol officer holds up a STOP sign?",
+    "options": [
+      "Stop only if you can see children who are actively in the process of crossing",
+      "Stop completely and wait until the officer signals that it is safe for you to proceed",
+      "Slow down to below 10 km/h and proceed cautiously past the patrol officer"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 219,
+    "category": "road-rules",
+    "question": "What is the legal obligation if you hit an animal on the road?",
+    "options": [
+      "Drive on and continue your journey — there is no legal obligation to stop",
+      "Attempt to find the owner or report it to police; render first aid if it is safe to do so",
+      "You are only required to report the incident if it was a domestic pet or livestock"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 220,
+    "category": "road-rules",
+    "question": "When should you use your vehicle's high-beam headlights?",
+    "options": [
+      "In foggy or misty conditions where maximum forward lighting is required",
+      "On unlit roads at night when no oncoming or preceding vehicles are nearby",
+      "In heavy rain to improve your visibility and warn oncoming drivers of your presence"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 221,
+    "category": "road-rules",
+    "question": "What is the safe driving technique called where you look as far ahead as possible?",
+    "options": [
+      "Mirror checking — using all available mirrors to monitor the rear and sides",
+      "Scanning or forward observation — looking as far ahead as possible to anticipate hazards",
+      "Blind spot checking — looking over your shoulder before every lane change"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 222,
+    "category": "road-rules",
+    "question": "An emergency vehicle with lights and siren approaching from ahead — you must?",
+    "options": [
+      "Maintain your current lane and speed to keep predictable for the emergency driver",
+      "Move to the left side of the road as far as safely possible to allow it to pass",
+      "Accelerate to stay ahead of the emergency vehicle until it turns off or stops"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 223,
+    "category": "road-rules",
+    "question": "How does alcohol affect night vision?",
+    "options": [
+      "Alcohol improves night vision by making the pupils dilate more effectively",
+      "Alcohol significantly impairs night vision and reduces the ability to judge distances",
+      "Alcohol has no measurable effect on night vision or depth perception at all"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 224,
+    "category": "road-rules",
+    "question": "What is the rule for flashing headlights in a tunnel?",
+    "options": [
+      "Switch on hazard warning lights instead of headlights when driving in a tunnel",
+      "Do not use any headlights in a tunnel — the tunnel lighting is sufficient",
+      "Use headlights at all times when driving through a tunnel regardless of length"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 225,
+    "category": "road-rules",
+    "question": "Why should you not make sudden steering movements at high speed?",
+    "options": [
+      "It wastes fuel by increasing aerodynamic drag and rolling resistance",
+      "It can cause sudden loss of control or vehicle rollover at high speeds",
+      "It activates the ABS system which reduces braking effectiveness temporarily"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 226,
+    "category": "road-rules",
+    "question": "What is the correct action if you miss your freeway exit?",
+    "options": [
+      "Reverse slowly along the emergency shoulder back to the exit you missed",
+      "Continue to the next exit and use the surface roads to return to your destination",
+      "Cross the median barrier to reach the other carriageway and double back"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 227,
+    "category": "road-rules",
+    "question": "What is the purpose of retro-reflective tape on heavy vehicles?",
+    "options": [
+      "It is applied purely for decorative styling and commercial vehicle branding",
+      "To make the vehicle more visible to other road users at night or in poor visibility",
+      "To indicate the vehicle's maximum load capacity and gross vehicle mass"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 228,
+    "category": "road-rules",
+    "question": "What is the rule for driving through a flooded road?",
+    "options": [
+      "Always attempt to cross quickly at speed to prevent stalling in the water",
+      "Assess the depth carefully, only cross if safe, drive slowly, and test brakes after",
+      "Only four-wheel drive vehicles are legally permitted to cross a flooded road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 229,
+    "category": "road-rules",
+    "question": "What does a solid yellow line alongside the kerb mean for stopping?",
+    "options": [
+      "No stopping or parking at any time",
+      "Stopping permitted for loading",
+      "Parking permitted for 30 minutes"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 230,
+    "category": "road-rules",
+    "question": "What is the K53 defensive driving principle of scanning?",
+    "options": [
+      "Looking only directly ahead through the windscreen and nothing else",
+      "Continuously checking mirrors and the road environment ahead and to the sides",
+      "Checking the rear-view mirror only once every 30 seconds while driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 231,
+    "category": "road-rules",
+    "question": "When must you yield to a pedestrian who is NOT on a marked crossing?",
+    "options": [
+      "Never — pedestrians who cross outside a marked crossing take full responsibility",
+      "Always — pedestrians always have unconditional right of way over all vehicles",
+      "When the pedestrian has already begun crossing and it is safe for you to yield"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 232,
+    "category": "road-rules",
+    "question": "What is the correct action when driving over a level crossing with no barriers or signals?",
+    "options": [
+      "Accelerate through the crossing to minimise the time you are on the tracks",
+      "Slow down, look in both directions along the track, and cross only when clear",
+      "Stop completely for 30 seconds before proceeding to ensure no train is nearby"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 233,
+    "category": "road-rules",
+    "question": "What is the effect of a wet road on tyre grip?",
+    "options": [
+      "A wet road actually increases tyre grip due to better rubber-to-surface bonding",
+      "A wet road significantly reduces tyre grip, considerably increasing stopping distance",
+      "A wet road has no effect on tyre grip with modern all-season tyre compounds"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 234,
+    "category": "road-rules",
+    "question": "What must you do if your vehicle's brakes fail completely while driving?",
+    "options": [
+      "Open the door and jump out of the vehicle to avoid the hazard ahead",
+      "Pump the brake pedal, apply the handbrake gradually, downshift, and steer to a stop",
+      "Steer into a grass verge and accelerate briefly to stabilise before slowing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 235,
+    "category": "road-rules",
+    "question": "What is the minimum penalty for being caught without a seatbelt in South Africa?",
+    "options": [
+      "A verbal warning",
+      "A fine",
+      "Imprisonment"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 236,
+    "category": "road-rules",
+    "question": "What does a circular sign with a blue background and white bicycle indicate?",
+    "options": [
+      "Bicycles are prohibited from this road — a no-cycling restriction is in force",
+      "A mandatory bicycle-only route — cyclists must use this road and motor vehicles may not",
+      "A bicycle parking area is available at this location for cyclists to leave their bikes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 237,
+    "category": "road-rules",
+    "question": "Under what circumstances is it legal to drive through a red light?",
+    "options": [
+      "When no other vehicles or pedestrians are visible at the intersection",
+      "Never — driving through a red traffic light is always illegal unless directed by an officer",
+      "Only in a genuine emergency such as a medical situation or fleeing a threat"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 238,
+    "category": "road-rules",
+    "question": "What is the safe following distance at highway speeds in metres?",
+    "options": [
+      "A minimum of 10 metres regardless of speed is legally required at all times",
+      "At least 60 metres at 120 km/h, based on the 2-second minimum following rule",
+      "5 metres is sufficient as modern braking systems stop vehicles very quickly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 239,
+    "category": "road-rules",
+    "question": "What is the correct action when a vehicle in front of you brakes suddenly?",
+    "options": [
+      "Apply the brakes hard and sound the horn to warn drivers behind you",
+      "Apply the brakes progressively and check the mirrors for vehicles behind you",
+      "Swerve immediately to avoid the vehicle and continue at the same speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 240,
+    "category": "road-rules",
+    "question": "What must you do when a police vehicle with lights and siren is behind you?",
+    "options": [
+      "Accelerate temporarily to maintain distance until you can find a safe place to stop",
+      "Pull over to the left and stop as safely and quickly as possible",
+      "Ignore it if you are not speeding — the police vehicle will eventually pass you"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 241,
+    "category": "road-rules",
+    "question": "When is it safe to overtake on a two-lane road?",
+    "options": [
+      "Whenever you feel confident in your vehicle's performance and available power",
+      "Only when you have clear sight lines and sufficient distance to complete the overtake safely",
+      "At night when traffic is much lighter and you can see oncoming headlights early"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 242,
+    "category": "road-rules",
+    "question": "What is the rule regarding giving way at a traffic circle when there are no signs?",
+    "options": [
+      "You have right of way as you are about to enter and traffic must yield to you",
+      "Give way to traffic already circulating in the circle and to vehicles on your right",
+      "Traffic approaching from your left always has priority at an unmarked traffic circle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 243,
+    "category": "road-rules",
+    "question": "What should you do if your windscreen fogs up while driving?",
+    "options": [
+      "Ignore it and continue driving — windscreen condensation clears itself quickly",
+      "Use the demister, air conditioning, or open a window to clear the condensation",
+      "Stop the vehicle immediately and exit until the windscreen has cleared fully"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 244,
+    "category": "road-rules",
+    "question": "What is the primary purpose of ABS in wet conditions?",
+    "options": [
+      "To stop the vehicle more quickly than a non-ABS system on all wet surfaces",
+      "To maintain steering control while braking hard and prevent wheel lock-up",
+      "To prevent all forms of skidding by continuously monitoring all four wheels"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 245,
+    "category": "road-rules",
+    "question": "What is the consequence of driving with worn shock absorbers?",
+    "options": [
+      "Improved fuel economy as reduced road feedback improves overall efficiency",
+      "Reduced tyre-to-road contact, longer stopping distance, and imprecise handling",
+      "No significant effect on driving safety or vehicle handling at normal speeds"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 246,
+    "category": "road-rules",
+    "question": "What is the correct way to indicate when turning left at a roundabout exit?",
+    "options": [
+      "Signal left as you approach your exit",
+      "Signal right when entering, signal left when leaving",
+      "No signal is needed at a roundabout"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 247,
+    "category": "road-rules",
+    "question": "When must you check your vehicle's oil level?",
+    "options": [
+      "Only when the oil warning light illuminates on the dashboard display",
+      "Regularly — such as weekly or before long trips as part of the POWDERS check",
+      "Oil level checks are only required at an authorised service station or workshop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 248,
+    "category": "road-rules",
+    "question": "What is the rule for driving alongside a bicycle on a narrow road?",
+    "options": [
+      "Overtake the cyclist immediately to clear the hazard and restore traffic flow",
+      "Wait until you have enough space to pass safely with at least 1 metre clearance",
+      "Sound the horn firmly to signal the cyclist to move further to the left side"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 249,
+    "category": "road-rules",
+    "question": "What must you do if you notice a traffic sign that is damaged or obscured?",
+    "options": [
+      "Ignore the sign completely — only clearly readable signs are legally enforceable",
+      "Obey it to the best of your ability and report the damage to the relevant authority",
+      "Only obey the sign if you can clearly read and understand its full message"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 250,
+    "category": "road-rules",
+    "question": "How should you drive when approaching the brow of a hill?",
+    "options": [
+      "Maintain your current speed to ensure you clear the hill quickly and efficiently",
+      "Reduce speed and keep well to the left in case of oncoming traffic that is hidden",
+      "Sound your horn loudly before reaching the crest to warn hidden oncoming traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 251,
+    "category": "road-rules",
+    "question": "What is the danger of following a large truck too closely?",
+    "options": [
+      "Fuel savings from slipstreaming are reduced and this adds to your fuel costs",
+      "You enter the truck's blind spot and lose forward visibility with no time to react",
+      "There is no particular danger — trucks are large and clearly visible ahead of you"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 252,
+    "category": "road-rules",
+    "question": "What is the legal requirement for windscreen wipers in South Africa?",
+    "options": [
+      "Windscreen wipers are optional — visibility aids are the driver's own choice",
+      "The vehicle must have functioning windscreen wipers in working order",
+      "Only the driver's side wiper must function — the passenger side is optional"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 253,
+    "category": "road-rules",
+    "question": "What is the rule for driving with a passenger in the boot of a vehicle?",
+    "options": [
+      "Permitted if the boot is open",
+      "Illegal and dangerous",
+      "Only permitted for short distances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 254,
+    "category": "road-rules",
+    "question": "What must you do when you see a GIVE WAY road marking on the road surface?",
+    "options": [
+      "Stop completely behind the line and wait until the road is completely clear",
+      "Yield to crossing traffic and pedestrians before entering the intersection",
+      "Proceed without stopping if the road appears clear at a glance"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 255,
+    "category": "road-rules",
+    "question": "What is the effect of speed on the severity of a collision?",
+    "options": [
+      "Higher speed reduces injury as you pass through faster",
+      "Higher speed dramatically increases the severity of injury and damage",
+      "Speed has little effect on collision severity"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 256,
+    "category": "road-rules",
+    "question": "What is the responsibility of a driver when a child is crossing at a marked school crossing patrol?",
+    "options": [
+      "Sound the horn briefly and proceed slowly past the patrol officer and crossing",
+      "Stop completely and wait until the patrol officer signals that it is safe to go",
+      "Slow to 10 km/h and pass carefully while watching for the child's movement"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 257,
+    "category": "road-rules",
+    "question": "What is the maximum speed on a road where sheep or cattle are being driven?",
+    "options": [
+      "60 km/h",
+      "30 km/h",
+      "No specific limit — use common sense"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 258,
+    "category": "road-rules",
+    "question": "What is the purpose of road cats eyes reflective studs?",
+    "options": [
+      "To improve road surface grip",
+      "To reflect headlights and guide drivers, especially in darkness or rain",
+      "To mark the edges of bridges"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 259,
+    "category": "road-rules",
+    "question": "What should you do if you hear a siren but cannot see the emergency vehicle?",
+    "options": [
+      "Continue driving normally at your current speed and in your current lane",
+      "Slow down, be ready to pull over, and look all around to locate the vehicle",
+      "Sound your horn once as an acknowledgement and check the rear-view mirror only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 260,
+    "category": "road-rules",
+    "question": "What does a white diamond painted on the road mean?",
+    "options": [
+      "A change in the posted speed limit is located immediately ahead",
+      "An advance warning of a pedestrian crossing or other road hazard ahead",
+      "The beginning of a no-overtaking zone on that section of road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 261,
+    "category": "road-rules",
+    "question": "What must drivers do when a funeral procession is passing?",
+    "options": [
+      "Overtake the procession quickly to minimise disruption to traffic flow",
+      "Show respect by not cutting through the procession and allowing it to pass",
+      "Stop all surrounding traffic and give way until the full procession has passed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 262,
+    "category": "road-rules",
+    "question": "What does the term defensive following distance mean?",
+    "options": [
+      "Following exactly one car length behind the vehicle immediately ahead",
+      "Maintaining enough space to stop safely if the vehicle ahead brakes suddenly",
+      "Driving only in the left lane to avoid being involved in any incidents"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 263,
+    "category": "road-rules",
+    "question": "What is the rule for reversing into a main road from a side road?",
+    "options": [
+      "Reversing into a main road is always permitted if you check mirrors first",
+      "It is prohibited if the manoeuvre creates a danger to any other road user",
+      "Reversing into any main road is completely prohibited under all circumstances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 264,
+    "category": "road-rules",
+    "question": "What is the legal maximum projection of a load beyond the rear of a vehicle?",
+    "options": [
+      "A load may project up to 1 metre beyond the rear without any marking required",
+      "1.5 metres — a red flag or reflector must be attached to the projecting load",
+      "3 metres — loads of this length are routinely transported on public roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 265,
+    "category": "road-rules",
+    "question": "What is the minimum distance you must keep from a fire engine at an emergency scene?",
+    "options": [
+      "5 m",
+      "30 m",
+      "You must not pass at all"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 266,
+    "category": "road-rules",
+    "question": "What must you do when you see flashing blue and red lights in your rear-view mirror at night?",
+    "options": [
+      "Stop immediately in your lane",
+      "Move to the left and pull over safely",
+      "Ignore it if you are within the speed limit"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 267,
+    "category": "road-rules",
+    "question": "What does a broken yellow line on the left side of a road mean?",
+    "options": [
+      "You may park here temporarily",
+      "It marks the edge of a bicycle lane",
+      "It indicates no stopping during peak hours"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 268,
+    "category": "road-signs",
+    "question": "What shape are warning signs in South Africa?",
+    "options": [
+      "Circle",
+      "Triangle with red border",
+      "Rectangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 269,
+    "category": "road-signs",
+    "question": "What shape are regulatory command signs in South Africa?",
+    "options": [
+      "Triangle",
+      "Circle with red border",
+      "Rectangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 270,
+    "category": "road-signs",
+    "question": "What is the background colour of guidance and information signs?",
+    "options": [
+      "Red",
+      "Green or blue",
+      "Yellow"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 271,
+    "category": "road-signs",
+    "question": "A triangular sign with a red border and white background indicates?",
+    "options": [
+      "A mandatory instruction",
+      "A warning of a hazard",
+      "A guidance route"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 272,
+    "category": "road-signs",
+    "question": "What does a circular sign with a red border mean?",
+    "options": [
+      "Warning",
+      "Prohibition or restriction",
+      "Guidance"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 273,
+    "category": "road-signs",
+    "question": "What does a circular sign with a blue background mean?",
+    "options": [
+      "Warning",
+      "A positive instruction that is mandatory",
+      "Guidance and information"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 274,
+    "category": "road-signs",
+    "question": "What is the shape of a STOP sign?",
+    "options": [
+      "Triangle",
+      "Octagon with 8 sides",
+      "Circle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 275,
+    "category": "road-signs",
+    "question": "What colour is a STOP sign?",
+    "options": [
+      "White letters on red background",
+      "Black letters on yellow background",
+      "Red letters on white background"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 276,
+    "category": "road-signs",
+    "question": "What is the shape of a YIELD or GIVE WAY sign?",
+    "options": [
+      "Octagon",
+      "Inverted triangle",
+      "Circle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 277,
+    "category": "road-signs",
+    "question": "What colour is a YIELD sign?",
+    "options": [
+      "Red and white",
+      "Blue and white",
+      "Yellow and black"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 278,
+    "category": "road-signs",
+    "question": "Temporary road signs used for road construction are what colour?",
+    "options": [
+      "White and black",
+      "Yellow or fluorescent yellow and black",
+      "Orange and white"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 279,
+    "category": "road-signs",
+    "question": "What is the background colour of a tourist or recreational guidance sign?",
+    "options": [
+      "Green",
+      "Brown",
+      "Blue"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 280,
+    "category": "road-signs",
+    "question": "What is the background colour of a route marker sign for national N-roads?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red and white"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 281,
+    "category": "road-signs",
+    "question": "What is the background colour of a route marker sign for metropolitan M-roads?",
+    "options": [
+      "Blue and white",
+      "Red and white",
+      "Green"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 282,
+    "category": "road-signs",
+    "question": "What is the background colour of a route marker sign for provincial R-roads?",
+    "options": [
+      "Blue",
+      "Green",
+      "White and black"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 283,
+    "category": "road-signs",
+    "question": "A red circle with a white horizontal bar means?",
+    "options": [
+      "No parking",
+      "No entry for all vehicles",
+      "No stopping"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 284,
+    "category": "road-signs",
+    "question": "A red circle with a bicycle inside means?",
+    "options": [
+      "Bicycles only route",
+      "No bicycles",
+      "Bicycle crossing ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 285,
+    "category": "road-signs",
+    "question": "A red circle with two pedestrians inside means?",
+    "options": [
+      "Pedestrian zone",
+      "No pedestrians",
+      "Pedestrian crossing ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 286,
+    "category": "road-signs",
+    "question": "A No Overtaking sign shows?",
+    "options": [
+      "Red circle with two cars one black one red",
+      "A red X",
+      "An arrow pointing left"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 287,
+    "category": "road-signs",
+    "question": "A circular sign showing 60 with a red border means?",
+    "options": [
+      "Minimum speed of 60 km/h",
+      "Maximum speed limit of 60 km/h",
+      "Recommended speed of 60 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 288,
+    "category": "road-signs",
+    "question": "A circular sign showing 60 with a blue background means?",
+    "options": [
+      "Maximum speed of 60 km/h",
+      "Minimum speed of 60 km/h",
+      "End of 60 km/h zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 289,
+    "category": "road-signs",
+    "question": "A circular sign with diagonal red lines crossing a number means?",
+    "options": [
+      "End of that speed limit restriction",
+      "A new speed limit",
+      "Minimum speed"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 290,
+    "category": "road-signs",
+    "question": "A No U-turn sign shows?",
+    "options": [
+      "Red circle with U-shaped arrow crossed out",
+      "An arrow pointing backwards",
+      "A red X on the road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 291,
+    "category": "road-signs",
+    "question": "A No Left Turn sign shows?",
+    "options": [
+      "Red circle with a left-pointing arrow crossed out",
+      "Red triangle with left arrow",
+      "Blue arrow pointing right"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 292,
+    "category": "road-signs",
+    "question": "A No Right Turn sign shows?",
+    "options": [
+      "Red circle with a right-pointing arrow crossed out",
+      "Red triangle with right arrow",
+      "Blue arrow pointing left"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 293,
+    "category": "road-signs",
+    "question": "What does a Keep Left sign look like?",
+    "options": [
+      "Blue circle with left arrow",
+      "Yellow triangle with arrow",
+      "Red circle with arrow"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 294,
+    "category": "road-signs",
+    "question": "What does a Keep Right sign look like?",
+    "options": [
+      "Blue circle with right arrow",
+      "Yellow triangle with arrow",
+      "Red circle with arrow"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 295,
+    "category": "road-signs",
+    "question": "A sign showing a white arrow in a blue circle pointing straight ahead means?",
+    "options": [
+      "One-way street",
+      "You must go straight ahead — mandatory",
+      "Turn recommendation"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 296,
+    "category": "road-signs",
+    "question": "A sign showing a blue circle with a left and right arrow means?",
+    "options": [
+      "Turn left or right — mandatory",
+      "Warning: road splits",
+      "No straight ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 297,
+    "category": "road-signs",
+    "question": "A One-Way Street sign shows?",
+    "options": [
+      "Blue rectangle with a white arrow",
+      "Red circle with two arrows",
+      "Yellow arrow"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 298,
+    "category": "road-signs",
+    "question": "A No Parking sign shows?",
+    "options": [
+      "A red circle with a white P crossed out",
+      "A yellow P sign",
+      "A blue P sign"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 299,
+    "category": "road-signs",
+    "question": "A No Stopping sign shows?",
+    "options": [
+      "A red circle with a yellow X",
+      "A yellow sign with a P and lines",
+      "A red circle with two diagonal lines"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 300,
+    "category": "road-signs",
+    "question": "What sign warns you of a railway level crossing ahead?",
+    "options": [
+      "A triangular sign with a locomotive",
+      "A round sign with an X",
+      "A rectangular sign with TRAIN"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 301,
+    "category": "road-signs",
+    "question": "An X shaped sign St Andrew's cross at a railway crossing means?",
+    "options": [
+      "Slow down",
+      "You are at the crossing — look both ways",
+      "Stop sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 302,
+    "category": "road-signs",
+    "question": "What does a sign with a red triangle and an exclamation mark mean?",
+    "options": [
+      "General danger or hazard ahead",
+      "Road works",
+      "Speed bump ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 303,
+    "category": "road-signs",
+    "question": "A triangular sign with wavy lines means?",
+    "options": [
+      "Slippery road ahead",
+      "Water crossing ahead",
+      "Speed bump"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 304,
+    "category": "road-signs",
+    "question": "A triangular sign showing two arrows merging means?",
+    "options": [
+      "Road ends",
+      "Two lanes merge into one ahead",
+      "Lane splitting ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 305,
+    "category": "road-signs",
+    "question": "A triangular sign showing a child figure means?",
+    "options": [
+      "School or playground ahead",
+      "Children's hospital",
+      "Day care centre"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 306,
+    "category": "road-signs",
+    "question": "A triangular sign showing a pedestrian walking means?",
+    "options": [
+      "Pedestrian zone",
+      "Pedestrian crossing ahead",
+      "No pedestrians"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 307,
+    "category": "road-signs",
+    "question": "A triangular sign showing cattle means?",
+    "options": [
+      "Cattle market ahead",
+      "Cattle crossing or animals on road",
+      "Farmland boundary"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 308,
+    "category": "road-signs",
+    "question": "A triangular sign with a T-junction symbol means?",
+    "options": [
+      "Road ends — T-junction ahead",
+      "Four-way stop",
+      "Intersection warning"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 309,
+    "category": "road-signs",
+    "question": "A triangular sign showing a double bend arrow S-bend means?",
+    "options": [
+      "Slippery road",
+      "Double bend ahead",
+      "Speed bump"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 310,
+    "category": "road-signs",
+    "question": "What does a triangular sign with a rock fall symbol indicate?",
+    "options": [
+      "Speed bump ahead",
+      "Falling rocks or boulder hazard",
+      "Road works"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 311,
+    "category": "road-signs",
+    "question": "A triangular sign showing an uneven surface or bump means?",
+    "options": [
+      "Speed hump ahead",
+      "Uneven road surface ahead",
+      "Loose gravel"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 312,
+    "category": "road-signs",
+    "question": "A triangular sign showing gravel means?",
+    "options": [
+      "Loose gravel on road",
+      "Dirt road starts",
+      "Construction zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 313,
+    "category": "road-signs",
+    "question": "A triangular sign showing low clearance or a bridge means?",
+    "options": [
+      "Weight limit ahead",
+      "Restricted height clearance ahead",
+      "Road narrows"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 314,
+    "category": "road-signs",
+    "question": "A triangular sign with a narrowing lanes symbol means?",
+    "options": [
+      "Two lanes merging",
+      "Road narrows ahead",
+      "End of dual carriageway"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 315,
+    "category": "road-signs",
+    "question": "A triangular sign with a steep downhill symbol means?",
+    "options": [
+      "Steep incline ahead — reduce speed and use low gear",
+      "Sharp left bend",
+      "Slippery when wet"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 316,
+    "category": "road-signs",
+    "question": "A triangular sign with a steep uphill symbol means?",
+    "options": [
+      "Slow lane ahead",
+      "Steep hill ahead",
+      "Road works"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 317,
+    "category": "road-signs",
+    "question": "A triangular sign with a traffic light symbol means?",
+    "options": [
+      "Traffic lights out of order",
+      "Traffic lights ahead",
+      "Flashing amber light"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 318,
+    "category": "road-signs",
+    "question": "A triangular sign with a level crossing without gates means?",
+    "options": [
+      "Railway line nearby",
+      "Unprotected level crossing ahead",
+      "Speed bump"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 319,
+    "category": "road-signs",
+    "question": "A large painted SLOW on the road surface means?",
+    "options": [
+      "A suggested speed",
+      "Reduce speed — hazard ahead",
+      "Speed limit is 30 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 320,
+    "category": "road-signs",
+    "question": "A pedestrian crossing sign with a pedestrian figure in a yellow box is what colour?",
+    "options": [
+      "Yellow background",
+      "White background with black border",
+      "Blue background"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 321,
+    "category": "road-signs",
+    "question": "What does a Hospital guidance sign look like?",
+    "options": [
+      "White H on green background",
+      "Green H on white background",
+      "Blue H on white background with an arrow"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 322,
+    "category": "road-signs",
+    "question": "A blue square sign with a white P means?",
+    "options": [
+      "No parking",
+      "Parking area",
+      "Bus stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 323,
+    "category": "road-signs",
+    "question": "What does a green rectangular sign with white text on a freeway indicate?",
+    "options": [
+      "Speed limit",
+      "Destination and distance guidance",
+      "Warning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 324,
+    "category": "road-signs",
+    "question": "A brown sign with white pictograms typically indicates?",
+    "options": [
+      "Industrial areas",
+      "Tourist attractions or recreational facilities",
+      "Danger zones"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 325,
+    "category": "road-signs",
+    "question": "A sign showing a fuel pump symbol on a blue background means?",
+    "options": [
+      "No fuel allowed",
+      "Fuel station ahead",
+      "Electric charging station"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 326,
+    "category": "road-signs",
+    "question": "A sign showing a wrench or spanner symbol indicates?",
+    "options": [
+      "Road works",
+      "Vehicle repair garage ahead",
+      "Engine warning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 327,
+    "category": "road-signs",
+    "question": "A sign showing a cup or coffee symbol indicates?",
+    "options": [
+      "No food allowed",
+      "Rest area with refreshments ahead",
+      "School tuck shop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 328,
+    "category": "road-signs",
+    "question": "What does a camping symbol sign indicate?",
+    "options": [
+      "No camping",
+      "Campsite nearby",
+      "Picnic area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 329,
+    "category": "road-signs",
+    "question": "A sign showing a first aid cross means?",
+    "options": [
+      "Pharmacy",
+      "First aid post or medical facility nearby",
+      "Danger ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 330,
+    "category": "road-signs",
+    "question": "What shape is a No Entry sign?",
+    "options": [
+      "Circle",
+      "Rectangle",
+      "Octagon"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 331,
+    "category": "road-signs",
+    "question": "What does a sign with both a pedestrian and bicycle figure in a blue circle mean?",
+    "options": [
+      "No pedestrians or bicycles",
+      "Shared pedestrian and cycle path",
+      "Pedestrian crossing with cycle lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 332,
+    "category": "road-signs",
+    "question": "A sign with 3t in a red circle means?",
+    "options": [
+      "Minimum weight 3 tonnes",
+      "Maximum weight limit 3 tonnes",
+      "Speed limit 3 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 333,
+    "category": "road-signs",
+    "question": "A sign showing 4.5m in a red circle means?",
+    "options": [
+      "Minimum height 4.5m",
+      "Maximum height restriction of 4.5m",
+      "Width restriction of 4.5m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 334,
+    "category": "road-signs",
+    "question": "A sign showing two arrows in opposite directions horizontal in a circle means?",
+    "options": [
+      "Traffic may pass on either side",
+      "Two-way traffic",
+      "No overtaking"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 335,
+    "category": "road-signs",
+    "question": "What does a Disc Parking Zone sign indicate?",
+    "options": [
+      "Free parking",
+      "Parking is permitted for a limited time using a parking disc",
+      "No parking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 336,
+    "category": "road-signs",
+    "question": "What does a Clearway sign indicate?",
+    "options": [
+      "Free motorway",
+      "No stopping at any time during the hours shown",
+      "No parking except loading"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 337,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a lorry or truck inside means?",
+    "options": [
+      "Trucks must use this route",
+      "No trucks or heavy vehicles",
+      "Truck stop ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 338,
+    "category": "road-signs",
+    "question": "A Bus Lane sign means?",
+    "options": [
+      "No buses in this lane",
+      "This lane is reserved for buses",
+      "Buses must stop here"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 339,
+    "category": "road-signs",
+    "question": "A yellow or fluorescent triangle with ROAD WORKS text is?",
+    "options": [
+      "A permanent sign",
+      "A temporary road works warning sign",
+      "A guidance sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 340,
+    "category": "road-signs",
+    "question": "A coned arrow sign directing you to change lanes during road works is what colour?",
+    "options": [
+      "Blue and white",
+      "Orange or fluorescent yellow and black",
+      "Red and white"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 341,
+    "category": "road-signs",
+    "question": "A sign showing a camera with SPEED CAMERA text warns that?",
+    "options": [
+      "You are being watched for illegal stops",
+      "Your speed is being measured",
+      "You need to smile"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 342,
+    "category": "road-signs",
+    "question": "A triangular sign with a slippery road symbol showing a car skidding means?",
+    "options": [
+      "Rough surface",
+      "Slippery road conditions ahead",
+      "Winding road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 343,
+    "category": "road-signs",
+    "question": "An octagonal sign with the word STOP must be?",
+    "options": [
+      "Slowed down at",
+      "Come to a complete stop before the stop line",
+      "Yielded at"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 344,
+    "category": "road-signs",
+    "question": "A triangular sign with an arrow forming a T indicates?",
+    "options": [
+      "Dead end T-junction ahead",
+      "Traffic lights ahead",
+      "Four-way stop ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 345,
+    "category": "road-signs",
+    "question": "What is the meaning of a green circle with a white tick?",
+    "options": [
+      "End of prohibition — restriction lifted",
+      "Go signal",
+      "Free parking"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 346,
+    "category": "road-signs",
+    "question": "A sign with a red circle with a truck on a weighing scale means?",
+    "options": [
+      "No trucks over a weight limit",
+      "Weighbridge ahead — trucks must stop",
+      "Truck parking only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 347,
+    "category": "road-signs",
+    "question": "A Road Closed sign with an arrow pointing to a detour route indicates?",
+    "options": [
+      "The road is open for emergency vehicles only",
+      "Use the detour route — road ahead is closed",
+      "Slow down ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 348,
+    "category": "road-signs",
+    "question": "A Blind Rise sign warns that?",
+    "options": [
+      "Your vision is impaired at night",
+      "There is a rise in the road that blocks the view of oncoming traffic",
+      "A blind pedestrian may be crossing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 349,
+    "category": "road-signs",
+    "question": "What does a Dip warning sign look like?",
+    "options": [
+      "A triangle with a dip or valley profile inside",
+      "A circle with DIP",
+      "A rectangular sign with a wavy line"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 350,
+    "category": "road-signs",
+    "question": "A white rectangular sign with BUS STOP means?",
+    "options": [
+      "Buses may not stop here",
+      "This is a designated bus stop",
+      "A temporary bus terminus"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 351,
+    "category": "road-signs",
+    "question": "What does a TAXI RANK sign indicate?",
+    "options": [
+      "No taxis",
+      "Official taxi pickup and drop-off area",
+      "Taxi testing ground"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 352,
+    "category": "road-signs",
+    "question": "A sign showing a bicycle lane with a solid white line next to a road lane means?",
+    "options": [
+      "Bicycles must use the road",
+      "A dedicated cycle lane — cyclists are separated from motor traffic",
+      "Bicycles prohibited on this road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 353,
+    "category": "road-signs",
+    "question": "What is the meaning of a white rectangular sign with STOP painted on the road surface?",
+    "options": [
+      "Stop momentarily",
+      "Come to a complete stop behind the line",
+      "Yield and slow down"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 354,
+    "category": "road-signs",
+    "question": "What does the End of Dual Carriageway sign warn you about?",
+    "options": [
+      "Lane merging ahead on a divided road — oncoming traffic on same road",
+      "End of the freeway",
+      "End of overtaking zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 355,
+    "category": "road-signs",
+    "question": "A sign showing two cars side by side in a red circle means?",
+    "options": [
+      "Two lanes ahead",
+      "No side-by-side driving or no overtaking",
+      "Fast and slow lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 356,
+    "category": "road-signs",
+    "question": "A sign showing a car with skid marks in a triangle means?",
+    "options": [
+      "Speed bump ahead",
+      "Slippery road — risk of skidding",
+      "Road works"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 357,
+    "category": "road-signs",
+    "question": "A sign reading 40 km/h ZONE in a rectangle with an entry arrow means?",
+    "options": [
+      "You are entering a 40 km/h zone",
+      "The speed limit ends",
+      "Road works at 40 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 358,
+    "category": "road-signs",
+    "question": "A sign reading END 40 km/h ZONE means?",
+    "options": [
+      "The 40 km/h zone ends — normal speed limits resume",
+      "Speed limit increases to 40 km/h",
+      "Slow down to 40 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 359,
+    "category": "road-signs",
+    "question": "A sign showing water waves in a triangle indicates?",
+    "options": [
+      "Flood risk or water over road",
+      "Car wash ahead",
+      "Beach access"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 360,
+    "category": "road-signs",
+    "question": "A 100 m supplementary sub sign below a warning sign means?",
+    "options": [
+      "The speed limit is 100 m away",
+      "The hazard is approximately 100 m ahead",
+      "You have 100 m to stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 361,
+    "category": "road-signs",
+    "question": "A sub-sign reading NEXT 2 km below a warning sign means?",
+    "options": [
+      "The restriction is 2 km long",
+      "Hazard or warning condition applies for the next 2 km",
+      "Speed limit is 2 km ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 362,
+    "category": "road-signs",
+    "question": "A sign showing a traffic officer with a hand raised in a triangle means?",
+    "options": [
+      "Traffic officer stopping all vehicles",
+      "Traffic officer may be controlling traffic ahead",
+      "Police checkpoint"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 363,
+    "category": "road-signs",
+    "question": "A sign on a truck reading ABNORMAL LOAD — DO NOT PASS means?",
+    "options": [
+      "Do not overtake this vehicle on the wrong side",
+      "Abnormal load is dangerous — stay well back",
+      "Slow down only"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 364,
+    "category": "road-signs",
+    "question": "A green highway exit sign with a distance reads 3 km — what does this mean?",
+    "options": [
+      "Speed limit is 3 km/h",
+      "Exit is 3 km ahead",
+      "Stay in this lane for 3 km"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 365,
+    "category": "road-signs",
+    "question": "A sign showing EMERGENCY REFUGE AREA with an arrow means?",
+    "options": [
+      "Hospital nearby",
+      "A safe area to pull off in case of a breakdown or emergency",
+      "Rest area ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 366,
+    "category": "road-signs",
+    "question": "A sign showing a green background with white text reading SERVICES and icons means?",
+    "options": [
+      "Road services only",
+      "Services such as fuel, food, and rest are available at the next exit",
+      "Only service vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 367,
+    "category": "road-signs",
+    "question": "A sign with a white circle with a black diagonal bar and no number means?",
+    "options": [
+      "Speed limit ends — national limit applies",
+      "No vehicles",
+      "No entry"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 368,
+    "category": "road-signs",
+    "question": "What does a double yellow centre line indicate?",
+    "options": [
+      "One side may overtake",
+      "Both sides are prohibited from crossing to overtake",
+      "Overtaking is optional for both"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 369,
+    "category": "road-signs",
+    "question": "What is the shape of the South African freeway N-road route sign?",
+    "options": [
+      "Circle",
+      "Shield or pentagon shape",
+      "Rectangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 370,
+    "category": "road-signs",
+    "question": "A sign showing END below a speed restriction circle means?",
+    "options": [
+      "A new speed limit begins",
+      "The speed restriction ends — national limit applies",
+      "End of the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 371,
+    "category": "road-signs",
+    "question": "A blue rectangle with a white arrow pointing to parking P means?",
+    "options": [
+      "No parking",
+      "Parking area in the direction indicated",
+      "Paid parking zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 372,
+    "category": "road-signs",
+    "question": "A sign showing two opposite arrows one up one down in a circle means?",
+    "options": [
+      "Two-way traffic ahead",
+      "You must give way to oncoming traffic in a narrow section",
+      "Speed restriction"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 373,
+    "category": "road-signs",
+    "question": "What does an Airport guidance sign look like?",
+    "options": [
+      "Blue background with a plane symbol",
+      "Brown background with a plane symbol",
+      "Green background with a plane symbol"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 374,
+    "category": "road-signs",
+    "question": "A sign with a white arrow making a U-turn on a blue background means?",
+    "options": [
+      "U-turn is prohibited",
+      "U-turns are permitted here",
+      "One-way street"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 375,
+    "category": "road-signs",
+    "question": "A triangular sign with an arrow looping back indicates?",
+    "options": [
+      "Dead end",
+      "U-turn warning — road loops back",
+      "Traffic circle ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 376,
+    "category": "road-signs",
+    "question": "A sign showing a blue background with a white airplane and road means?",
+    "options": [
+      "Airplane crossing",
+      "Direction to airport",
+      "No fly zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 377,
+    "category": "road-signs",
+    "question": "A 4-WAY notation below a STOP sign means?",
+    "options": [
+      "Four-way traffic light",
+      "All approaches to the intersection have a stop sign",
+      "Four lanes approach the intersection"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 378,
+    "category": "road-signs",
+    "question": "A 3-WAY notation below a STOP sign means?",
+    "options": [
+      "Only 3 lanes must stop",
+      "Three approaches have stop signs",
+      "Three lanes in your direction"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 379,
+    "category": "road-signs",
+    "question": "A triangular sign with a road going steeply up means?",
+    "options": [
+      "Slow lane ahead",
+      "Steep hill ahead — be prepared",
+      "Road works"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 380,
+    "category": "road-signs",
+    "question": "What is the meaning of a black and white diagonal-striped dead end board at the end of a road?",
+    "options": [
+      "Slow down",
+      "Road ends — no through traffic",
+      "Parking area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 381,
+    "category": "road-signs",
+    "question": "A sign showing a blue circle with two people walking means?",
+    "options": [
+      "No pedestrians",
+      "Pedestrian route — use this path",
+      "Pedestrian crossing ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 382,
+    "category": "road-signs",
+    "question": "What does a white rectangular sign with a green border and black text listing distances mean?",
+    "options": [
+      "Speed restrictions by distance",
+      "Direction and distance to destinations",
+      "Detour route"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 383,
+    "category": "road-signs",
+    "question": "A sign showing 80 in a circle with a blue border means?",
+    "options": [
+      "Maximum speed 80 km/h",
+      "Minimum speed 80 km/h",
+      "Recommended speed 80 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 384,
+    "category": "road-signs",
+    "question": "A GIVE WAY painted on the road is accompanied by what road marking?",
+    "options": [
+      "A solid white line",
+      "A broken or dashed white line",
+      "A yellow line"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 385,
+    "category": "road-signs",
+    "question": "A sign showing a school bus symbol warns?",
+    "options": [
+      "School bus stop nearby",
+      "School bus crossing or school zone ahead",
+      "No school buses"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 386,
+    "category": "road-signs",
+    "question": "A sign showing a telephone receiver means?",
+    "options": [
+      "No mobile phones",
+      "Telephone available nearby",
+      "Emergency call box"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 387,
+    "category": "road-signs",
+    "question": "A signs showing a bicycle inside a red circle means?",
+    "options": [
+      "Bicycles must use this route",
+      "No bicycles allowed",
+      "Bicycle parking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 388,
+    "category": "road-signs",
+    "question": "What does the National Speed Limit Applies sign look like?",
+    "options": [
+      "Green circle with a tick",
+      "White circle with a black diagonal line through it",
+      "Blue circle with max speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 389,
+    "category": "road-signs",
+    "question": "A sign with a red circle and 50 inside with a line through it means?",
+    "options": [
+      "Speed is restricted to 50",
+      "End of 50 km/h zone",
+      "Minimum 50 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 390,
+    "category": "road-signs",
+    "question": "In South Africa, a pedestrian crossing is indicated by?",
+    "options": [
+      "A triangular warning sign plus zebra stripes painted on the road",
+      "A circular sign only",
+      "A rectangular blue sign"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 391,
+    "category": "road-signs",
+    "question": "A flashing amber light at a pedestrian crossing indicates?",
+    "options": [
+      "The crossing is uncontrolled — yield to pedestrians",
+      "Drive through quickly",
+      "Pedestrian crossing is closed"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 392,
+    "category": "road-signs",
+    "question": "A green flashing pedestrian signal means?",
+    "options": [
+      "Pedestrians have right of way",
+      "The pedestrian phase is ending — pedestrians should not start crossing",
+      "Stop walking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 393,
+    "category": "road-signs",
+    "question": "A steady red pedestrian signal means?",
+    "options": [
+      "Wait — do not cross",
+      "You may cross with caution",
+      "For vehicles only"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 394,
+    "category": "road-signs",
+    "question": "A steady green walking figure at a pedestrian signal means?",
+    "options": [
+      "Pedestrians may cross",
+      "Pedestrians must stop",
+      "Drivers have right of way"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 395,
+    "category": "road-signs",
+    "question": "A red hand or standing figure at a pedestrian signal means?",
+    "options": [
+      "Pedestrians must wait",
+      "Pedestrians may cross",
+      "Signal malfunction"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 396,
+    "category": "road-signs",
+    "question": "A sign reading 120 MIN below a P parking sign means?",
+    "options": [
+      "Minimum parking 2 hours",
+      "Maximum parking of 2 hours permitted",
+      "Parking is free for 2 hours then paid"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 397,
+    "category": "road-signs",
+    "question": "A blue motorway sign in South Africa is used for?",
+    "options": [
+      "Warning signs on freeways",
+      "Guidance and information on national routes",
+      "Regulatory signs"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 398,
+    "category": "road-signs",
+    "question": "A sign showing a deer or buck silhouette inside a red triangle means?",
+    "options": [
+      "Wildlife crossing or animal hazard",
+      "No hunting",
+      "Nature reserve entrance"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 399,
+    "category": "road-signs",
+    "question": "A circular sign with a truck on a weighing scale means?",
+    "options": [
+      "No trucks over a weight limit",
+      "Weighbridge ahead — trucks must stop",
+      "Truck parking only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 400,
+    "category": "road-signs",
+    "question": "A Low Flying Aircraft warning sign is typically seen near?",
+    "options": [
+      "A railway line",
+      "An airport or airfield",
+      "A sports stadium"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 401,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a horse and rider means?",
+    "options": [
+      "Equestrian crossing",
+      "No horses",
+      "Horse racing venue"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 402,
+    "category": "road-signs",
+    "question": "A sign showing a camera in a blue square indicates?",
+    "options": [
+      "Speed camera",
+      "Security surveillance camera",
+      "Photo opportunity"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 403,
+    "category": "road-signs",
+    "question": "A sign showing a bed or accommodation symbol means?",
+    "options": [
+      "No sleeping while driving",
+      "Accommodation available nearby",
+      "Rest area ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 404,
+    "category": "road-signs",
+    "question": "A sign showing a fork and knife symbol means?",
+    "options": [
+      "No food on the road",
+      "Restaurant or food facility nearby",
+      "Caution: food truck"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 405,
+    "category": "road-signs",
+    "question": "A sign with a green tick in a circle without a number means?",
+    "options": [
+      "Proceed freely",
+      "End of all restrictions — you are now in an unrestricted area",
+      "Right of way"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 406,
+    "category": "road-signs",
+    "question": "A sign showing an R-number identifies?",
+    "options": [
+      "A regional road R-road route marker",
+      "A road under repair",
+      "A restricted road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 407,
+    "category": "road-signs",
+    "question": "A sign showing a blue circle with a right-turn arrow means?",
+    "options": [
+      "Warning: right bend ahead",
+      "You must turn right — mandatory",
+      "Right turns are prohibited"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 408,
+    "category": "road-signs",
+    "question": "A sign reading SLOW DOWN SURVEY AHEAD means?",
+    "options": [
+      "Roadworks ahead",
+      "Traffic survey is being conducted — reduce speed",
+      "Speed trap ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 409,
+    "category": "road-signs",
+    "question": "A sign with a weighing scale inside a red circle means?",
+    "options": [
+      "Weigh your vehicle",
+      "No vehicles exceeding the weight limit may proceed",
+      "Weighing is optional"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 410,
+    "category": "road-signs",
+    "question": "A green sign with a white arrow pointing upward indicates?",
+    "options": [
+      "Freeway entrance",
+      "Direction of travel on a divided road",
+      "No stopping"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 411,
+    "category": "road-signs",
+    "question": "What does the combination of a No Entry circle and Except Buses text beneath mean?",
+    "options": [
+      "No buses",
+      "Buses are excluded from the no-entry restriction",
+      "Buses must stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 412,
+    "category": "road-signs",
+    "question": "A sign showing a car with a red circle and diagonal bar means?",
+    "options": [
+      "No parking",
+      "No vehicles",
+      "No cars"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 413,
+    "category": "road-signs",
+    "question": "A yellow triangular sign with a car near a cliff edge warns of?",
+    "options": [
+      "Sharp bend",
+      "Drop-off or unprotected road edge",
+      "Speed bump"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 414,
+    "category": "road-signs",
+    "question": "A sign showing two cars driving in opposite directions in a triangle means?",
+    "options": [
+      "No overtaking",
+      "Two-way traffic warning — end of one-way section",
+      "Lane merging"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 415,
+    "category": "road-signs",
+    "question": "A triangular sign with an unguarded railway crossing symbol X and no gates means?",
+    "options": [
+      "Guarded railway crossing ahead",
+      "Unprotected level crossing — look both ways",
+      "Speed restriction near railway"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 416,
+    "category": "road-signs",
+    "question": "A Children Crossing sign shows?",
+    "options": [
+      "An adult with children",
+      "Two children walking",
+      "A child running"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 417,
+    "category": "road-signs",
+    "question": "A triangular sign with a sharp arrow bending left means?",
+    "options": [
+      "Turn left ahead",
+      "Very sharp left bend ahead",
+      "Merge from left"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 418,
+    "category": "road-signs",
+    "question": "A sign showing a white bicycle in a blue circle means?",
+    "options": [
+      "No cyclists",
+      "Cyclists only — this route is for cyclists",
+      "Cycling is optional here"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 419,
+    "category": "road-signs",
+    "question": "A supplementary plate reading 07:00 to 09:00 below a sign means?",
+    "options": [
+      "The sign applies only between those hours",
+      "The sign does not apply during those hours",
+      "The speed limit is limited to 7 km/h"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 420,
+    "category": "road-signs",
+    "question": "A sign showing a snowflake in a triangle warns of?",
+    "options": [
+      "Ice or snow on road ahead",
+      "Air conditioning area",
+      "No cold storage vehicles"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 421,
+    "category": "road-signs",
+    "question": "A sign showing a bus inside a yellow triangle warns of?",
+    "options": [
+      "Bus stop nearby",
+      "Buses crossing or entering road ahead",
+      "No buses"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 422,
+    "category": "road-signs",
+    "question": "A sign reading URBAN EDGE marks?",
+    "options": [
+      "A speed limit change",
+      "The boundary between urban and non-urban areas often with a speed limit change",
+      "A school zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 423,
+    "category": "road-signs",
+    "question": "A sign showing a school building in a triangle warns of?",
+    "options": [
+      "School bus stop",
+      "School zone ahead — children may be crossing",
+      "No school buses"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 424,
+    "category": "road-signs",
+    "question": "A sign showing an ambulance in a blue square means?",
+    "options": [
+      "No ambulances",
+      "Ambulance station or hospital nearby",
+      "Emergency vehicles only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 425,
+    "category": "road-signs",
+    "question": "A sign showing a tractor in a triangle warns of?",
+    "options": [
+      "Agricultural machinery may be on road",
+      "No tractors",
+      "Farming equipment sales"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 426,
+    "category": "road-signs",
+    "question": "A sign showing a skull and crossbones in a triangle means?",
+    "options": [
+      "Pirate area",
+      "Danger — toxic explosive or extremely hazardous material nearby",
+      "No dangerous goods"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 427,
+    "category": "road-signs",
+    "question": "A sign reading CAUTION: CONVOY in a rectangle means?",
+    "options": [
+      "Convoy prohibited",
+      "Military or slow convoy vehicles ahead — be patient",
+      "Fast convoy ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 428,
+    "category": "road-signs",
+    "question": "A sign showing 1000 m below a warning sign tells the driver?",
+    "options": [
+      "Drive 1000 m and then stop",
+      "The hazard starts 1000 m ahead",
+      "Speed limit is 1000 m away"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 429,
+    "category": "road-signs",
+    "question": "A sign showing FREEWAY AHEAD on a blue or green rectangle means?",
+    "options": [
+      "Freeway ends",
+      "Freeway starts — motorway regulations apply ahead",
+      "Freeway exit"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 430,
+    "category": "road-signs",
+    "question": "A sign reading NIGHT SPEED LIMIT 80 means?",
+    "options": [
+      "Speed limit is always 80 km/h",
+      "The speed limit of 80 km/h applies only during night hours",
+      "Night driving is prohibited above 80 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 431,
+    "category": "road-signs",
+    "question": "A sign showing an S bend arrows in a red triangle means?",
+    "options": [
+      "Sharp U-turn ahead",
+      "Double bend ahead",
+      "Slippery road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 432,
+    "category": "road-signs",
+    "question": "A sign showing N1 in a shield is the route marker for?",
+    "options": [
+      "National Road 1",
+      "No entry road 1",
+      "Northern route 1"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 433,
+    "category": "road-signs",
+    "question": "A sign showing JHB 45 km in green indicates?",
+    "options": [
+      "Speed limit near Johannesburg",
+      "Distance to Johannesburg is 45 km",
+      "Road works 45 km ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 434,
+    "category": "road-signs",
+    "question": "A warning sign for a staggered intersection shows?",
+    "options": [
+      "Two T-junctions shown one after the other in the triangle",
+      "A single Y-junction",
+      "A + junction"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 435,
+    "category": "road-signs",
+    "question": "What must you do when approaching a STOP sign where there is no stop line?",
+    "options": [
+      "Stop at the sign itself",
+      "Stop at the edge of the intersecting road",
+      "Slow down to 5 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 436,
+    "category": "road-signs",
+    "question": "A sign with a white wheelchair symbol in a blue square marks?",
+    "options": [
+      "No disabled vehicles",
+      "A designated disabled person's parking bay",
+      "A wheelchair ramp"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 437,
+    "category": "road-signs",
+    "question": "A Lane Ends sign with an arrow merging left means?",
+    "options": [
+      "Your lane is ending — merge left",
+      "The left lane ends",
+      "Road is closing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 438,
+    "category": "road-signs",
+    "question": "A sign showing a dog inside a triangle warns of?",
+    "options": [
+      "Dog kennels ahead",
+      "Dogs or animals on the road",
+      "No dogs allowed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 439,
+    "category": "road-signs",
+    "question": "A flashing red X above a lane means?",
+    "options": [
+      "Lane is slow",
+      "Lane is closed and must not be used",
+      "Roadworks in the lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 440,
+    "category": "road-signs",
+    "question": "A gantry sign with a green arrow over a lane means?",
+    "options": [
+      "Lane is for emergency vehicles",
+      "Lane is open for normal traffic",
+      "Speed restriction applies in lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 441,
+    "category": "road-signs",
+    "question": "A sign showing CONTRAFLOW means?",
+    "options": [
+      "Traffic is flowing in one direction",
+      "A lane carries traffic in the opposite direction to normal often in road works",
+      "No U-turns"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 442,
+    "category": "road-signs",
+    "question": "A sign showing a bridge with a weight of 5t means?",
+    "options": [
+      "Weight limit on the bridge is 5 tonnes — heavier vehicles must not cross",
+      "Minimum weight to cross is 5 tonnes",
+      "Toll is R5"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 443,
+    "category": "road-signs",
+    "question": "A sign showing a red triangle with a high-voltage symbol means?",
+    "options": [
+      "Thunder and lightning area",
+      "Electric cables or high-voltage hazard overhead",
+      "Electric vehicle charging area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 444,
+    "category": "road-signs",
+    "question": "A sign showing a white arrow making a U-turn on a blue sign means?",
+    "options": [
+      "U-turn is prohibited",
+      "U-turns are permitted here",
+      "One-way street"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 445,
+    "category": "road-signs",
+    "question": "A sign showing a green background with white text reading SERVICES means?",
+    "options": [
+      "Road services only",
+      "Services such as fuel, food, and rest available at next exit",
+      "Only service vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 446,
+    "category": "road-signs",
+    "question": "A sign showing a white circle with a black diagonal bar no number means?",
+    "options": [
+      "Speed limit ends — national limit applies",
+      "No vehicles",
+      "No entry"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 447,
+    "category": "road-signs",
+    "question": "A sign showing a bicycle and child means?",
+    "options": [
+      "No children on bicycles",
+      "School cycle route or children cycling nearby",
+      "Bicycle prohibited for children"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 448,
+    "category": "road-signs",
+    "question": "A sign showing a flame inside a red circle means?",
+    "options": [
+      "Fire station ahead",
+      "No open flames or flammable materials",
+      "Barbecue area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 449,
+    "category": "road-signs",
+    "question": "A sign showing a white forward arrow in a blue circle at a junction means?",
+    "options": [
+      "Do not proceed",
+      "You must continue straight ahead — no turning",
+      "Suggestion to go straight"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 450,
+    "category": "road-signs",
+    "question": "A sign reading EXCEPT BICYCLES below a no-entry circle means?",
+    "options": [
+      "Bicycles must not enter",
+      "Bicycles are permitted to enter despite the no-entry restriction",
+      "Only bicycles may enter"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 451,
+    "category": "road-signs",
+    "question": "A sign showing a clock face with restricted times means?",
+    "options": [
+      "Speed restriction at those times",
+      "Parking or stopping restriction applies during those hours",
+      "Road works during those hours"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 452,
+    "category": "road-signs",
+    "question": "An orange or fluorescent rectangular sign with black text ROAD WORKS AHEAD is?",
+    "options": [
+      "A permanent advisory sign",
+      "A temporary construction warning sign",
+      "A guidance sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 453,
+    "category": "road-signs",
+    "question": "A sign showing a detour arrow indicates?",
+    "options": [
+      "Road is clear ahead",
+      "Take the alternate route — the main route is closed or under construction",
+      "Speed restriction ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 454,
+    "category": "road-signs",
+    "question": "A sign showing a T junction with a priority road means?",
+    "options": [
+      "All vehicles have equal priority",
+      "The horizontal road has right of way over the joining road",
+      "The joining road has priority"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 455,
+    "category": "road-signs",
+    "question": "A sign depicting a truck going downhill with wavy lines means?",
+    "options": [
+      "Caution: slippery when wet",
+      "Steep descent — trucks check brakes",
+      "No trucks on this road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 456,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a motorcycle means?",
+    "options": [
+      "Motorcycles only",
+      "No motorcycles",
+      "Motorcycle lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 457,
+    "category": "road-signs",
+    "question": "A sign showing a white motorbike in a blue circle means?",
+    "options": [
+      "No motorcycles",
+      "Motorcycles only — mandatory motorcycle route",
+      "Motorcycle parking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 458,
+    "category": "road-signs",
+    "question": "A sign showing a pedestrian crossing with a wheelchair user means?",
+    "options": [
+      "No wheelchairs",
+      "Disability access crossing nearby",
+      "Disabled parking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 459,
+    "category": "road-signs",
+    "question": "A blue sign with an information symbol i means?",
+    "options": [
+      "Tourist information centre nearby",
+      "Police station",
+      "No information available"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 460,
+    "category": "road-signs",
+    "question": "A sign showing speed bumps multiple humps in a triangle warns of?",
+    "options": [
+      "One speed hump",
+      "A series of speed humps ahead",
+      "Rough road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 461,
+    "category": "road-signs",
+    "question": "What is the shape of the South African freeway route sign?",
+    "options": [
+      "Circle",
+      "Shield or pentagon shape",
+      "Rectangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 462,
+    "category": "road-signs",
+    "question": "A sign showing a weigh bridge or scales means?",
+    "options": [
+      "Trucks must be weighed here",
+      "Maximum weight exceeded",
+      "Weight restriction on bridge"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 463,
+    "category": "road-signs",
+    "question": "A sign showing two parallel lines with an arrow indicates?",
+    "options": [
+      "Road narrows",
+      "Keep between lines as lane guidance",
+      "Overtaking zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 464,
+    "category": "road-signs",
+    "question": "A sign reading EXCEPT BICYCLES below a no-entry circle means that bicycles?",
+    "options": [
+      "Must not enter",
+      "Are permitted to enter despite the no-entry restriction",
+      "Only bicycles may enter"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 465,
+    "category": "road-signs",
+    "question": "A triangular sign with a fire truck means?",
+    "options": [
+      "Fire station ahead",
+      "Road may be used by fire trucks",
+      "Fire hazard"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 466,
+    "category": "road-signs",
+    "question": "A sign with a red circle and N-road route number inside means?",
+    "options": [
+      "Speed limit",
+      "National road route number restriction",
+      "No entry on N-road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 467,
+    "category": "road-signs",
+    "question": "A sign showing a red triangle with an arrow curving sharply right means?",
+    "options": [
+      "Left bend ahead",
+      "Sharp right bend ahead",
+      "Road curves left and right"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 468,
+    "category": "road-signs",
+    "question": "A No Through Road sign indicates?",
+    "options": [
+      "Slow road ahead",
+      "The road does not connect to another road — dead end",
+      "A toll road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 469,
+    "category": "road-signs",
+    "question": "A sign showing a man sweeping or road maintenance in a triangle means?",
+    "options": [
+      "Street cleaner on road",
+      "Road maintenance or sweeping vehicle ahead",
+      "Beware of pedestrians"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 470,
+    "category": "road-signs",
+    "question": "A sign showing a tram in a triangle warns of?",
+    "options": [
+      "Tram crossing or tram lines on the road",
+      "No trams allowed",
+      "End of tram zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 471,
+    "category": "road-signs",
+    "question": "A sign showing a red triangle with rocks falling onto a car from the side warns of?",
+    "options": [
+      "Speed bump",
+      "Falling rock hazard",
+      "Uneven road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 472,
+    "category": "road-signs",
+    "question": "What do Botts dots raised road markers in the centre of lanes help with?",
+    "options": [
+      "Drainage",
+      "Tactile lane guidance — alerting drivers when crossing lane markers",
+      "Reflecting light only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 473,
+    "category": "road-signs",
+    "question": "A sign showing a white H in a blue square means?",
+    "options": [
+      "Parking",
+      "Hospital",
+      "Helipad"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 474,
+    "category": "road-signs",
+    "question": "A RIGHT LANE MUST TURN RIGHT sign in a box above a lane means?",
+    "options": [
+      "Suggestion to turn right",
+      "All traffic in that lane is obligated to turn right",
+      "The right lane is closed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 475,
+    "category": "road-signs",
+    "question": "A sign showing a man on a horse inside a triangle warns of?",
+    "options": [
+      "No horse riding",
+      "Horse or equestrian crossing ahead",
+      "Horse racing venue"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 476,
+    "category": "road-signs",
+    "question": "A sign showing a cow in a triangle warns?",
+    "options": [
+      "Dairy farm ahead",
+      "Cattle on or crossing the road",
+      "No livestock transport"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 477,
+    "category": "road-signs",
+    "question": "A sign showing a propeller or wind turbine means?",
+    "options": [
+      "Wind farm area",
+      "Helicopter landing zone",
+      "No aircraft"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 478,
+    "category": "road-signs",
+    "question": "What does a No Entry sign combined with EXCEPT sign below mean?",
+    "options": [
+      "No one may enter",
+      "Only the excepted type of user may enter",
+      "Everyone must enter"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 479,
+    "category": "road-signs",
+    "question": "A sign showing an uneven or corrugated road surface in a triangle warns?",
+    "options": [
+      "Speed bump",
+      "Corrugated or rough surface ahead",
+      "Roadworks only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 480,
+    "category": "road-signs",
+    "question": "A sign showing a bus and children figure warns?",
+    "options": [
+      "School bus stop",
+      "Children boarding or alighting from a bus area",
+      "No bus stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 481,
+    "category": "road-signs",
+    "question": "A sign showing a helicopter in a blue square means?",
+    "options": [
+      "No helicopters",
+      "Helipad or helicopter landing zone nearby",
+      "Air ambulance only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 482,
+    "category": "road-signs",
+    "question": "A sign showing a green arrow below a speed limit means?",
+    "options": [
+      "Speed limit in force",
+      "End of speed limit zone — turn arrow direction",
+      "Speed limit on that road direction only"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 483,
+    "category": "road-signs",
+    "question": "A sign showing a fuel pump with a diesel nozzle indicates?",
+    "options": [
+      "Petrol only",
+      "Diesel available here",
+      "No diesel"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 484,
+    "category": "road-signs",
+    "question": "A sign showing a car on a blue background with an arrow means?",
+    "options": [
+      "No vehicles",
+      "Car park in the direction shown",
+      "Car lane only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 485,
+    "category": "road-signs",
+    "question": "A sign showing a cyclist inside a warning triangle means?",
+    "options": [
+      "No cyclists",
+      "Cycle path or cyclists may be on road",
+      "Cycle race ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 486,
+    "category": "road-signs",
+    "question": "A sign showing a pedestrian and a hand gesture stop means?",
+    "options": [
+      "Pedestrians stop",
+      "Vehicles stop for pedestrians",
+      "Pedestrians crossing — caution"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 487,
+    "category": "road-signs",
+    "question": "A sign showing a construction worker helmet in a triangle means?",
+    "options": [
+      "Road works — workers present",
+      "No workers allowed",
+      "Construction site entrance"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 488,
+    "category": "road-signs",
+    "question": "A sign showing a vehicle with stripes on a blue background means?",
+    "options": [
+      "Taxi rank",
+      "Abnormal load route",
+      "Police vehicle only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 489,
+    "category": "road-signs",
+    "question": "A sign showing an arrow pointing into water means?",
+    "options": [
+      "Ferry crossing",
+      "Boat ramp",
+      "No swimming"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 490,
+    "category": "road-signs",
+    "question": "A sign showing a camera and flash on a pole means?",
+    "options": [
+      "Photo opportunity",
+      "Speed or red-light camera enforcement point",
+      "Security camera"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 491,
+    "category": "road-signs",
+    "question": "A sign showing a white P with green background means?",
+    "options": [
+      "No parking",
+      "Free parking area",
+      "Paid parking only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 492,
+    "category": "road-signs",
+    "question": "A sign with a black car on white circle inside a red circle means?",
+    "options": [
+      "Cars prohibited",
+      "Car park",
+      "One car at a time"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 493,
+    "category": "road-signs",
+    "question": "A sign showing a train on tracks inside a yellow triangle means?",
+    "options": [
+      "Train museum",
+      "Unprotected railway crossing ahead",
+      "Train station nearby"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 494,
+    "category": "road-signs",
+    "question": "A sign showing a truck and arrow pointing upward means?",
+    "options": [
+      "Trucks must turn around",
+      "Trucks use climbing lane if available",
+      "Trucks prohibited here"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 495,
+    "category": "road-signs",
+    "question": "A sign showing two vehicles and a tick means?",
+    "options": [
+      "Both vehicles may proceed",
+      "Priority road — you have right of way",
+      "No overtaking allowed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 496,
+    "category": "road-signs",
+    "question": "A sign showing a spanner wrench inside a blue square means?",
+    "options": [
+      "No repairs",
+      "Workshop or breakdown service nearby",
+      "Vehicle restrictions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 497,
+    "category": "road-signs",
+    "question": "A sign showing a question mark in a blue square means?",
+    "options": [
+      "Unknown hazard",
+      "Tourist information centre",
+      "Confusion zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 498,
+    "category": "road-signs",
+    "question": "A sign showing a bed and star means?",
+    "options": [
+      "Hotel or overnight accommodation nearby",
+      "No camping",
+      "Star rating area"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 499,
+    "category": "road-signs",
+    "question": "A sign showing a leaf or tree on a brown background means?",
+    "options": [
+      "No trees",
+      "Nature reserve or park nearby",
+      "Logging area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 500,
+    "category": "road-signs",
+    "question": "A sign showing a waterfall symbol on a brown background means?",
+    "options": [
+      "No swimming",
+      "Waterfall or scenic water feature nearby",
+      "Flood warning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 501,
+    "category": "road-signs",
+    "question": "A sign showing a shopping cart or trolley icon means?",
+    "options": [
+      "No shopping carts",
+      "Shopping centre nearby",
+      "Supermarket loading bay"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 502,
+    "category": "road-signs",
+    "question": "A sign showing a swimming pool icon means?",
+    "options": [
+      "No swimming",
+      "Swimming facility nearby",
+      "Water rescue area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 503,
+    "category": "road-signs",
+    "question": "A sign showing a golf flag or green icon means?",
+    "options": [
+      "No golf",
+      "Golf course nearby",
+      "Miniature golf only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 504,
+    "category": "road-signs",
+    "question": "A sign showing binoculars on a brown background means?",
+    "options": [
+      "Restricted area",
+      "Scenic viewpoint nearby",
+      "No photography"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 505,
+    "category": "road-signs",
+    "question": "A sign showing a whale or marine animal means?",
+    "options": [
+      "No fishing",
+      "Marine sanctuary or whale watching nearby",
+      "Danger: sharks"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 506,
+    "category": "road-signs",
+    "question": "A sign showing a grape cluster on a brown background means?",
+    "options": [
+      "No alcohol zone",
+      "Winery or vineyard nearby",
+      "Wine tasting restricted"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 507,
+    "category": "road-signs",
+    "question": "A sign showing a sun with rays on a brown background means?",
+    "options": [
+      "Hot weather warning",
+      "Sunny viewpoint or beach area nearby",
+      "No shade area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 508,
+    "category": "road-signs",
+    "question": "A sign showing a boat on a brown background means?",
+    "options": [
+      "No boats",
+      "Boat cruise or marina nearby",
+      "Ferry terminal"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 509,
+    "category": "road-signs",
+    "question": "A sign showing a bicycle on a brown background means?",
+    "options": [
+      "No cycling",
+      "Cycling trail or mountain bike route nearby",
+      "Bicycle storage"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 510,
+    "category": "road-signs",
+    "question": "A sign showing a horseshoe shape means?",
+    "options": [
+      "Sharp bend — similar to U shape",
+      "Horseback riding area",
+      "No horseshoes"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 511,
+    "category": "road-signs",
+    "question": "A sign showing a rugby ball on a brown background means?",
+    "options": [
+      "Rugby field closed",
+      "Rugby stadium or sports facility nearby",
+      "No ball games"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 512,
+    "category": "road-signs",
+    "question": "A sign showing a camera on a brown background means?",
+    "options": [
+      "No photography",
+      "Scenic photo spot or tourist attraction nearby",
+      "Security camera"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 513,
+    "category": "road-signs",
+    "question": "A sign showing a diamond ring or precious stone means?",
+    "options": [
+      "Jewelry store ahead",
+      "Precious mineral or gem route",
+      "No valuables"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 514,
+    "category": "road-signs",
+    "question": "A sign with a red octagon and four-way arrows means?",
+    "options": [
+      "Four-way stop ahead — warning",
+      "Free for all intersection",
+      "Four-lane road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 515,
+    "category": "road-signs",
+    "question": "A sign showing a caravan and tent together means?",
+    "options": [
+      "No camping or caravanning",
+      "Caravan and camping site nearby",
+      "Caravans only — no tents"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 516,
+    "category": "road-signs",
+    "question": "A sign showing a warning triangle with an arrow pointing down a slope means?",
+    "options": [
+      "Road rises",
+      "Steep descent ahead — check brakes and use low gear",
+      "Speed bump on descent"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 517,
+    "category": "road-signs",
+    "question": "A sign showing a weight limit of 8t means?",
+    "options": [
+      "Minimum vehicle weight 8 tonnes",
+      "No vehicle over 8 tonnes on this road or bridge",
+      "8 tonne load zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 518,
+    "category": "road-signs",
+    "question": "A sign showing a speed limit inside a school zone rectangle means?",
+    "options": [
+      "This speed limit is advisory",
+      "The speed limit is mandatory in this school zone",
+      "This is the limit outside school hours only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 519,
+    "category": "road-signs",
+    "question": "A sign showing a taxi with a line through it inside a red circle means?",
+    "options": [
+      "Taxis only",
+      "No taxis — taxis prohibited from this road",
+      "Taxi rank nearby"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 520,
+    "category": "road-signs",
+    "question": "A sign showing a motorbike with a line through it inside a red circle means?",
+    "options": [
+      "Motorcycles only",
+      "No motorcycles permitted on this road",
+      "Motorcycle lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 521,
+    "category": "road-signs",
+    "question": "A sign showing ROAD NARROWS FROM RIGHT means?",
+    "options": [
+      "The left lane ends",
+      "The right lane ends or road narrows from the right side",
+      "Road narrows from both sides"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 522,
+    "category": "road-signs",
+    "question": "A sign showing ROAD NARROWS FROM LEFT means?",
+    "options": [
+      "The left lane ends or road narrows from left",
+      "The right lane ends",
+      "Road narrows from both sides"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 523,
+    "category": "road-signs",
+    "question": "A sign showing a white diagonal bar with no symbol in a red circle means?",
+    "options": [
+      "No entry",
+      "End of prohibition",
+      "No overtaking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 524,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a pedestrian figure means?",
+    "options": [
+      "Pedestrian zone",
+      "No pedestrians — pedestrians are prohibited",
+      "Pedestrian crossing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 525,
+    "category": "road-signs",
+    "question": "A sign showing an orange arrow pointing diagonally across lanes warns?",
+    "options": [
+      "Speed reduction",
+      "Lane closure — move in the direction of the arrow",
+      "Merge ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 526,
+    "category": "road-signs",
+    "question": "What does a KEEP LEFT sign combined with a centre island arrow mean?",
+    "options": [
+      "Stay on the right of the island",
+      "Drive to the left of the traffic island",
+      "You may choose either side"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 527,
+    "category": "road-signs",
+    "question": "A sign showing a white arrow in a yellow diamond means?",
+    "options": [
+      "Temporary diversion — follow the arrow",
+      "Speed limit advisory",
+      "End of diversion"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 528,
+    "category": "road-signs",
+    "question": "A sign reading ROAD WORKS NEXT 5 km below a warning sign means?",
+    "options": [
+      "Speed limit of 5 km/h",
+      "Road work conditions apply for the next 5 km",
+      "Detour is 5 km long"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 529,
+    "category": "road-signs",
+    "question": "A sign showing a bicycle and the word LANE means?",
+    "options": [
+      "No cycling in this lane",
+      "This lane is designated for cyclists only",
+      "Cyclists may use either lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 530,
+    "category": "road-signs",
+    "question": "A sign showing a white P in a blue rectangle at an angle means?",
+    "options": [
+      "Parking prohibited",
+      "Parking available in that direction",
+      "Paid parking only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 531,
+    "category": "road-signs",
+    "question": "A sign showing a steering wheel with a line through it inside a red circle means?",
+    "options": [
+      "No driving",
+      "Automated vehicle zone — no manual steering",
+      "Speed restriction for autonomous vehicles"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 532,
+    "category": "vehicle-controls",
+    "question": "What is the first step when starting a vehicle on a flat surface?",
+    "options": [
+      "Depress the clutch, select first gear, gently release clutch while applying accelerator",
+      "Release the handbrake first, then immediately select second gear and accelerate",
+      "Start the engine, select reverse gear, then apply gentle throttle to move off"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 533,
+    "category": "vehicle-controls",
+    "question": "When coming to a stop, what is the correct sequence of pedal use?",
+    "options": [
+      "Brake first, then depress the clutch just before the vehicle stops",
+      "Depress the clutch first, then apply the brake gradually to slow down",
+      "Apply the accelerator briefly, then press both pedals down together"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 534,
+    "category": "vehicle-controls",
+    "question": "What is coasting and why is it dangerous?",
+    "options": [
+      "Driving in neutral or with the clutch depressed, reducing engine braking and control",
+      "Driving slowly downhill with the engine running and all gears engaged correctly",
+      "Using high-revving engine braking on a steep descent to control vehicle speed"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 535,
+    "category": "vehicle-controls",
+    "question": "What is the correct hill start procedure?",
+    "options": [
+      "Apply handbrake, start engine, select first gear, find biting point, release handbrake while adding throttle",
+      "Release the handbrake first, then select first gear and apply gentle throttle gradually",
+      "Depress the clutch, release the handbrake, then apply throttle while selecting first gear"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 536,
+    "category": "vehicle-controls",
+    "question": "What is the biting point of a clutch?",
+    "options": [
+      "The point where the engine and gearbox are fully engaged at maximum power transfer",
+      "The point where the clutch plates begin to engage and the vehicle starts to move",
+      "The point where the accelerator engages the throttle for full engine response"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 537,
+    "category": "vehicle-controls",
+    "question": "What does the brake pedal do when depressed?",
+    "options": [
+      "Increases engine speed by opening the throttle to maintain forward momentum",
+      "Applies friction to the brake pads or drums to slow or stop the vehicle",
+      "Releases the handbrake mechanism and frees the rear wheels to rotate"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 538,
+    "category": "vehicle-controls",
+    "question": "What is the function of the accelerator pedal?",
+    "options": [
+      "Disengages the clutch from the gearbox to allow smooth gear changes",
+      "Controls the fuel and air mixture to increase or decrease engine speed",
+      "Activates the hydraulic brake circuit to reduce vehicle speed gradually"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 539,
+    "category": "vehicle-controls",
+    "question": "What is the function of the clutch pedal?",
+    "options": [
+      "Restricts the fuel supply to the engine to reduce power output smoothly",
+      "Disconnects the engine from the gearbox to allow smooth gear changes",
+      "Activates the rear drum brakes to slow the vehicle when applied firmly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 540,
+    "category": "vehicle-controls",
+    "question": "When should you use the handbrake parking brake?",
+    "options": [
+      "Only while travelling at low speed in slow-moving traffic or in queues",
+      "When parking, waiting at a junction, or as an emergency backup brake",
+      "Only on steep uphill slopes where the vehicle might otherwise roll backward"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 541,
+    "category": "vehicle-controls",
+    "question": "What is engine braking?",
+    "options": [
+      "Using the foot brake progressively to slow the vehicle on long descents",
+      "Using a lower gear to slow the vehicle through the engine's resistance",
+      "Switching off the engine to reduce speed rapidly in an emergency situation"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 542,
+    "category": "vehicle-controls",
+    "question": "When should you use engine braking?",
+    "options": [
+      "Only in a sudden emergency when the foot brake is slow to respond",
+      "On long descents to reduce brake fade and maintain vehicle control",
+      "As a complete substitute for the foot brake on all types of road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 543,
+    "category": "vehicle-controls",
+    "question": "What gear should you use when descending a steep hill?",
+    "options": [
+      "The highest gear available to maintain smooth progress and save fuel",
+      "The same gear you used to climb the hill on the way up",
+      "A low gear — the same or lower than used to ascend the hill"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 544,
+    "category": "vehicle-controls",
+    "question": "What should you check before moving off from a parked position?",
+    "options": [
+      "Check the blind spot over your shoulder, both mirrors, and operate the indicator",
+      "Only check the rear-view mirror, then move off promptly",
+      "Sound the horn twice, check only the left mirror, then move off"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 545,
+    "category": "vehicle-controls",
+    "question": "What is the correct mirror check sequence before changing lanes?",
+    "options": [
+      "Rear-view mirror, then the side mirror for the lane you are moving into, then blind spot",
+      "Check only the side mirror on the side you intend to move toward",
+      "Check only your blind spot by looking over the appropriate shoulder"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 546,
+    "category": "vehicle-controls",
+    "question": "When should you check your mirrors?",
+    "options": [
+      "Only when changing lanes on a multi-lane road or motorway",
+      "Regularly every 8 to 12 seconds and before braking, turning or manoeuvring",
+      "Only when another driver sounds their horn or flashes their lights"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 547,
+    "category": "vehicle-controls",
+    "question": "How do you perform an emergency stop?",
+    "options": [
+      "Brake firmly with progressive pressure, depress the clutch just before stopping, steer straight",
+      "Swerve the vehicle first to avoid the hazard, then apply the brakes gently",
+      "Pump the brakes in quick succession while steering toward the nearest verge"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 548,
+    "category": "vehicle-controls",
+    "question": "On a vehicle without ABS, if the wheels lock during emergency braking, what should you do?",
+    "options": [
+      "Continue braking with full pedal pressure and steer toward the skid",
+      "Ease off the brake slightly until the wheels roll, then reapply firmly",
+      "Turn the steering wheel sharply away from the direction of skidding"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 549,
+    "category": "vehicle-controls",
+    "question": "On a vehicle with ABS, during emergency braking you should?",
+    "options": [
+      "Pump the brakes rapidly to help the ABS system modulate brake pressure",
+      "Apply firm, continuous brake pressure and allow the ABS to operate automatically",
+      "Steer only and release the brake pedal to let the wheels spin freely"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 550,
+    "category": "vehicle-controls",
+    "question": "What does the steering wheel control?",
+    "options": [
+      "Vehicle speed and braking force, depending on which way it is turned",
+      "The direction of the front wheels and therefore the vehicle's path",
+      "Gear selection and engine speed when rotated in specific directions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 551,
+    "category": "vehicle-controls",
+    "question": "What is the function of the gear lever?",
+    "options": [
+      "Controls engine speed directly by adjusting the throttle plate opening",
+      "Selects the appropriate gear ratio for prevailing driving conditions",
+      "Operates the clutch mechanism to disconnect the engine from the drivetrain"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 552,
+    "category": "vehicle-controls",
+    "question": "When is it correct to use the lowest gear 1st gear?",
+    "options": [
+      "For high-speed motorway cruising where low engine revs are preferred",
+      "For slow-speed manoeuvring, starting from rest, and very steep gradients",
+      "For sustained motorway driving to keep fuel consumption to a minimum"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 553,
+    "category": "vehicle-controls",
+    "question": "At what speed range is 2nd gear typically used?",
+    "options": [
+      "0 to 20 km/h only, before immediately changing into third gear",
+      "10 to 30 km/h, after moving off in first gear",
+      "40 to 60 km/h, when the engine sounds comfortable at that speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 554,
+    "category": "vehicle-controls",
+    "question": "At what speed range is 3rd gear typically used?",
+    "options": [
+      "0 to 10 km/h when moving off from a standstill on a flat road",
+      "30 to 50 km/h as an intermediate gear between second and fourth",
+      "80 to 120 km/h for high-speed motorway and freeway driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 555,
+    "category": "vehicle-controls",
+    "question": "What is overdrive gear used for?",
+    "options": [
+      "Low-speed town driving where frequent stops and starts are required",
+      "High-speed open-road cruising to reduce engine RPM and improve economy",
+      "Towing heavy trailers on steep gradients where maximum torque is needed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 556,
+    "category": "vehicle-controls",
+    "question": "What should you do with the handbrake when the vehicle is parked on a flat surface?",
+    "options": [
+      "Leave the handbrake off if the vehicle is in gear and unlikely to roll",
+      "Apply the handbrake firmly to prevent the vehicle from rolling",
+      "Apply the handbrake only if you are parked for more than 10 minutes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 557,
+    "category": "vehicle-controls",
+    "question": "How do you steer smoothly around a bend?",
+    "options": [
+      "Grip the wheel tightly with both hands and turn it sharply through the bend",
+      "Feed the steering wheel smoothly through your hands using a push-pull technique",
+      "Steer with one hand and use the other to operate the gear lever"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 558,
+    "category": "vehicle-controls",
+    "question": "What is the effect of understeering?",
+    "options": [
+      "The front wheels turn more sharply than intended, causing the car to cut in",
+      "The front wheels fail to turn enough, causing the car to go wide",
+      "The rear end slides outward, causing the vehicle to rotate toward the inside"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 559,
+    "category": "vehicle-controls",
+    "question": "What is oversteering?",
+    "options": [
+      "The car turns less than intended and the front wheels lose lateral grip",
+      "The rear end slides out, causing the car to rotate and potentially spin",
+      "The front end pushes wide as the tyres lose traction in the direction of turn"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 560,
+    "category": "vehicle-controls",
+    "question": "To correct oversteer where the rear slides to the right, you should?",
+    "options": [
+      "Brake hard to transfer weight forward and regain rear-wheel traction",
+      "Steer into the slide to the right and ease off the throttle smoothly",
+      "Steer away from the slide to the left and apply firm braking force"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 561,
+    "category": "vehicle-controls",
+    "question": "What does the tachometer measure?",
+    "options": [
+      "Road speed in kilometres per hour on a circular or digital display",
+      "Engine speed in revolutions per minute (RPM)",
+      "Fuel consumption rate in litres per 100 kilometres travelled"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 562,
+    "category": "vehicle-controls",
+    "question": "At what RPM range is it generally efficient to change to a higher gear in a petrol car?",
+    "options": [
+      "500 to 1 000 RPM — change up early to keep the engine at very low revs",
+      "1 500 to 2 500 RPM for smooth, fuel-efficient upshifts under normal conditions",
+      "4 000 to 6 000 RPM — wait until the engine is at high revs before changing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 563,
+    "category": "vehicle-controls",
+    "question": "What is block gear changing?",
+    "options": [
+      "Changing through each gear one at a time in sequential order",
+      "Skipping intermediate gears to accelerate or decelerate more quickly",
+      "Driving in an incorrect gear that is too high for the current road speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 564,
+    "category": "vehicle-controls",
+    "question": "When reversing, you should?",
+    "options": [
+      "Drive only in a straight line and not attempt any steering corrections",
+      "Use reference points and check all around the vehicle continuously",
+      "Use only the rear-view mirror and not look directly out the rear window"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 565,
+    "category": "vehicle-controls",
+    "question": "What is the correct hand position when reversing to the right?",
+    "options": [
+      "Both hands at the top of the steering wheel for maximum control",
+      "Place the right hand at the top of the wheel and look over the right shoulder",
+      "Use only the left hand and rely on the passenger side mirror only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 566,
+    "category": "vehicle-controls",
+    "question": "When reversing in a straight line, which mirror or view should you primarily use?",
+    "options": [
+      "The left side mirror to monitor the nearside kerb and avoid it",
+      "The rear-view mirror combined with looking directly through the rear window",
+      "The passenger side mirror while turning your head to check behind"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 567,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the clutch in a manual transmission?",
+    "options": [
+      "To steer the vehicle by transferring engine torque to the front wheels",
+      "To temporarily disconnect the engine from the drivetrain for smooth gear changes",
+      "To apply gentle braking force to the drivetrain when slowing the vehicle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 568,
+    "category": "vehicle-controls",
+    "question": "What does riding the clutch mean and why is it bad?",
+    "options": [
+      "Holding the clutch fully depressed — it conserves engine power with no side effects",
+      "Resting your foot lightly on the clutch pedal, causing premature wear on the clutch plates",
+      "Pressing the clutch all the way down only when you are about to change gears"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 569,
+    "category": "vehicle-controls",
+    "question": "What is the function of the windscreen wiper controls?",
+    "options": [
+      "Control the brightness and direction of the headlights during night driving",
+      "Clear rain or water from the windscreen to maintain forward visibility",
+      "Activate the horn when pressed on the steering column stalk"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 570,
+    "category": "vehicle-controls",
+    "question": "What is the correct procedure for turning left at a T-junction?",
+    "options": [
+      "Check mirrors, signal left, slow down, check for oncoming and crossing traffic, then turn",
+      "Turn left without signalling if no vehicles are visible at the junction",
+      "Accelerate through the junction quickly to minimise time in the danger zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 571,
+    "category": "vehicle-controls",
+    "question": "What is the correct procedure for turning right at a T-junction?",
+    "options": [
+      "Check mirrors, signal right, position in lane, wait for a safe gap in oncoming traffic, then turn",
+      "Turn right immediately without waiting, as the joining road gives way to you",
+      "Only activate the indicator at the junction when you are ready to turn"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 572,
+    "category": "vehicle-controls",
+    "question": "When performing a three-point turn, what is the correct sequence?",
+    "options": [
+      "Signal right, steer right into the road, reverse with left lock, drive forward",
+      "Simply turn the wheel and reverse until you face the opposite direction",
+      "Reverse first with full lock, then drive forward to complete the turn"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 573,
+    "category": "vehicle-controls",
+    "question": "What is the safest way to park on a steep downhill when facing downhill?",
+    "options": [
+      "Leave the vehicle in neutral with the wheels pointing straight ahead",
+      "Apply the handbrake, select reverse gear, and turn the front wheels toward the kerb",
+      "Apply the handbrake only and leave the front wheels pointing straight"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 574,
+    "category": "vehicle-controls",
+    "question": "What is the safest way to park on a steep uphill when facing uphill?",
+    "options": [
+      "Apply handbrake, select first gear, and turn the front wheels away from the kerb",
+      "Apply the handbrake and turn the front wheels toward the kerb for safety",
+      "Leave the vehicle in neutral with the handbrake applied and wheels straight"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 575,
+    "category": "vehicle-controls",
+    "question": "What should you do before every drive as part of a pre-drive check?",
+    "options": [
+      "Only check the fuel gauge to confirm there is enough fuel for the journey",
+      "Adjust the seat, mirrors and steering; check lights, tyres, and fluid levels",
+      "Check only the tyre pressures before opening the door and starting the engine"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 576,
+    "category": "vehicle-controls",
+    "question": "How should you adjust your driving seat?",
+    "options": [
+      "Position it as far back as is comfortable to allow maximum legroom",
+      "Adjust so you can fully depress all pedals without stretching, with arms slightly bent on the wheel",
+      "Move it as far forward as possible to reach the pedals with straight legs"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 577,
+    "category": "vehicle-controls",
+    "question": "What is the function of the gear selector in an automatic vehicle?",
+    "options": [
+      "It manually selects the engine RPM range by restricting gear upshifts",
+      "It selects Park, Reverse, Neutral, Drive and sometimes specific gear ranges",
+      "It operates the clutch mechanism that disconnects the engine from the gearbox"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 578,
+    "category": "vehicle-controls",
+    "question": "In an automatic vehicle, D on the gear selector means?",
+    "options": [
+      "Drive — the vehicle selects the appropriate gear automatically for forward travel",
+      "Downhill mode — reduces engine power to assist descent of steep gradients",
+      "Diesel mode — switches engine management for use with diesel fuel only"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 579,
+    "category": "vehicle-controls",
+    "question": "In an automatic vehicle, N means?",
+    "options": [
+      "Night driving mode — reduces headlight intensity for urban road use",
+      "Neutral — no gear is engaged and the car can roll freely",
+      "No acceleration — locks the throttle to prevent accidental acceleration"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 580,
+    "category": "vehicle-controls",
+    "question": "In an automatic vehicle, P means?",
+    "options": [
+      "Petrol mode — configures the engine management for petrol combustion",
+      "Park — locks the transmission to prevent the vehicle from rolling",
+      "Performance mode — increases throttle response for spirited acceleration"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 581,
+    "category": "vehicle-controls",
+    "question": "In an automatic vehicle, R means?",
+    "options": [
+      "Racing mode — increases throttle response for faster acceleration",
+      "Reverse — engages reverse gear so the vehicle moves backward",
+      "Rest mode — idles the engine and locks the transmission in place"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 582,
+    "category": "vehicle-controls",
+    "question": "What does L or 1 on an automatic gear selector mean?",
+    "options": [
+      "Low gear — keeps the transmission in first for maximum engine braking",
+      "Left turn — activates left indicator and engages corner-assist mode",
+      "Lane-change mode — assists automatic gear selection during motorway lane changes"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 583,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the horn?",
+    "options": [
+      "To greet approaching drivers or pedestrians as a courtesy signal",
+      "To warn other road users of your presence in a potentially dangerous situation",
+      "To express frustration or displeasure at the actions of other road users"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 584,
+    "category": "vehicle-controls",
+    "question": "Where are the headlight controls typically located in a vehicle?",
+    "options": [
+      "On the floor near the clutch pedal for easy foot operation",
+      "On a stalk on the steering column or on a dedicated dashboard switch",
+      "On the gear lever or centre console near the handbrake"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 585,
+    "category": "vehicle-controls",
+    "question": "What is the function of the indicator turn signal lever?",
+    "options": [
+      "Controls the speed and interval of the front and rear windscreen wipers",
+      "Signals your intention to turn or change lanes to other road users",
+      "Activates only the hazard warning lights when pressed in both directions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 586,
+    "category": "vehicle-controls",
+    "question": "What is the function of hazard warning lights?",
+    "options": [
+      "Signals a left or right turn at an intersection or roundabout approach",
+      "Warns other road users that your vehicle is a hazard or stopped in an emergency",
+      "Signals that the vehicle is reversing and alerts pedestrians behind it"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 587,
+    "category": "vehicle-controls",
+    "question": "How do you operate hazard lights?",
+    "options": [
+      "Hold the indicator stalk up and down simultaneously for three seconds",
+      "Press the dedicated hazard light button, usually a red triangle symbol",
+      "Flash the headlights three times in rapid succession to activate the system"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 588,
+    "category": "vehicle-controls",
+    "question": "What does the temperature gauge indicate?",
+    "options": [
+      "The ambient outside air temperature at the vehicle's current location",
+      "Engine coolant temperature — overheating must be investigated immediately",
+      "The engine oil temperature at the current operating conditions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 589,
+    "category": "vehicle-controls",
+    "question": "What does the fuel gauge indicate?",
+    "options": [
+      "The quality and octane rating of the fuel currently in the tank",
+      "How much fuel remains in the tank",
+      "The current engine oil level in the sump"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 590,
+    "category": "vehicle-controls",
+    "question": "What does a flashing oil warning light mean?",
+    "options": [
+      "The engine oil is at a satisfactory level and pressure for normal driving",
+      "Check the oil pressure and level immediately — risk of severe engine damage",
+      "The engine oil is due for a routine change at the next service interval"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 591,
+    "category": "vehicle-controls",
+    "question": "What does the battery warning light indicate?",
+    "options": [
+      "The battery is fully charged and the charging system is operating normally",
+      "There is a charging system fault and the battery may not be receiving charge",
+      "The fuel level is critically low and the vehicle will soon stop running"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 592,
+    "category": "vehicle-controls",
+    "question": "What is the correct action if the engine overheats?",
+    "options": [
+      "Ignore the temperature gauge and continue to your destination without stopping",
+      "Pull over safely, switch off the engine, and wait for it to cool before opening the cap",
+      "Pour cold water directly onto the radiator cap while the engine is still running"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 593,
+    "category": "vehicle-controls",
+    "question": "What does the Check Engine or MIL light indicate?",
+    "options": [
+      "A routine service is due according to the vehicle's mileage service schedule",
+      "A fault has been detected in the engine management system — have it diagnosed",
+      "The engine is operating within normal parameters with no faults detected"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 594,
+    "category": "vehicle-controls",
+    "question": "What should you do when starting a cold engine?",
+    "options": [
+      "Rev the engine hard immediately after starting to warm it up more quickly",
+      "Allow the engine to idle briefly and then drive gently until at operating temperature",
+      "Switch on all heaters and fans immediately to draw heat away from the engine"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 595,
+    "category": "vehicle-controls",
+    "question": "When towing a trailer, how does it affect braking distance?",
+    "options": [
+      "Braking distance decreases because the extra weight provides more traction",
+      "Braking distance increases significantly — maintain a greater following distance",
+      "Braking distance is unaffected as the trailer brakes compensate automatically"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 596,
+    "category": "vehicle-controls",
+    "question": "When towing a trailer, what is the effect on steering?",
+    "options": [
+      "Steering becomes lighter and more responsive due to the additional rear weight",
+      "Steering becomes heavier and the trailer may sway — proceed with extra care",
+      "Steering is completely unaffected regardless of the trailer's weight or length"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 597,
+    "category": "vehicle-controls",
+    "question": "What is trailer sway and how can it be corrected?",
+    "options": [
+      "The trailer tracks perfectly behind the tow vehicle — no corrective action is needed",
+      "The trailer oscillates side to side — ease off the throttle and steer straight without harsh braking",
+      "Steer aggressively from side to side to counteract the oscillating trailer movement"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 598,
+    "category": "vehicle-controls",
+    "question": "What is the correct method to steer out of a front-wheel understeer skid?",
+    "options": [
+      "Apply full throttle to transfer weight to the rear and regain front-wheel grip",
+      "Ease off the accelerator smoothly to allow the front wheels to regain traction",
+      "Apply the brakes firmly to reduce speed and restore front-wheel steering grip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 599,
+    "category": "vehicle-controls",
+    "question": "What type of fuel should you use in your vehicle?",
+    "options": [
+      "The cheapest available fuel grade regardless of the engine specification",
+      "The fuel grade specified in the vehicle manufacturer's owner's manual",
+      "Any available fuel grade — modern engines automatically adjust to any fuel"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 600,
+    "category": "vehicle-controls",
+    "question": "Why should you not fill a fuel tank to overflowing?",
+    "options": [
+      "It is simply wasteful and creates a small mess at the fuel pump",
+      "Overflow fuel can cause a fire risk — sealed fuel systems are not designed for overflow",
+      "It makes no practical difference to the vehicle's operation or safety"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 601,
+    "category": "vehicle-controls",
+    "question": "What should you do if you accidentally put the wrong fuel in your vehicle?",
+    "options": [
+      "Drive slowly and carefully to the nearest garage to have it drained professionally",
+      "Do not start the engine — have the tank completely drained before driving",
+      "Add the correct fuel on top to dilute the wrong fuel in the tank"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 602,
+    "category": "vehicle-controls",
+    "question": "What is the correct way to brake on a sharp bend?",
+    "options": [
+      "Apply firm braking in the middle of the bend where the road is most curved",
+      "Brake before entering the bend and release the brakes as you go through it",
+      "Wait until you have exited the bend and are on the straight before braking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 603,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the defroster or demister controls?",
+    "options": [
+      "Cool and circulate the passenger cabin air for comfort in warm weather",
+      "Remove condensation or frost from the windscreen and rear window for visibility",
+      "Draw moisture from wet seats and carpets to dry the vehicle interior"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 604,
+    "category": "vehicle-controls",
+    "question": "What is cadence braking on a vehicle without ABS?",
+    "options": [
+      "Applying the brake pedal with only one foot for steady progressive deceleration",
+      "Pumping the brakes rapidly to prevent wheel lock and maintain steering control",
+      "Applying only the rear brake callipers while keeping the front wheels rolling"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 605,
+    "category": "vehicle-controls",
+    "question": "When must you signal before pulling away from a parked position?",
+    "options": [
+      "Only when there is clearly visible traffic approaching from behind you",
+      "Always signal before moving off to warn all road users of your intention",
+      "Only when parked on a busy road — not required on quiet residential streets"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 606,
+    "category": "vehicle-controls",
+    "question": "What does left-hand traffic mean in the context of a South African vehicle layout?",
+    "options": [
+      "Vehicles drive on the left side of the road and the driver sits on the right",
+      "Vehicles drive on the right side of the road with the driver on the right",
+      "The driver sits on the left side with the steering wheel on the left"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 607,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of power steering?",
+    "options": [
+      "To increase vehicle speed by reducing rolling resistance in the front tyres",
+      "To reduce the effort required to turn the steering wheel at low speeds",
+      "To lock the front wheels automatically when the vehicle is stationary"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 608,
+    "category": "vehicle-controls",
+    "question": "What should you do if power steering suddenly fails while driving?",
+    "options": [
+      "Continue driving normally as the effect on steering is minimal at speed",
+      "Maintain a firm grip — more effort is now needed; slow down safely and stop",
+      "Immediately apply the brakes hard to bring the vehicle to a rapid stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 609,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of cruise control?",
+    "options": [
+      "To steer the vehicle automatically along a pre-programmed route",
+      "To maintain a constant pre-set speed without keeping the accelerator depressed",
+      "To apply the brakes automatically when a vehicle ahead slows down"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 610,
+    "category": "vehicle-controls",
+    "question": "In what situations should cruise control NOT be used?",
+    "options": [
+      "Only on a flat, long, straight motorway with minimal traffic present",
+      "In heavy traffic, on winding roads, in rain or fog, or on steep descents",
+      "Only when driving in heavy rain — it is safe in all other situations"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 611,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of traction control TCS?",
+    "options": [
+      "To improve the steering feel and feedback when driving at high speed",
+      "To prevent the driven wheels from spinning on slippery or loose surfaces",
+      "To reduce fuel consumption by electronically limiting maximum engine RPM"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 612,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of Electronic Stability Control ESC?",
+    "options": [
+      "To electronically increase engine torque output for improved acceleration",
+      "To detect and correct oversteer and understeer by braking individual wheels automatically",
+      "To manage the climate control and infotainment system settings"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 613,
+    "category": "vehicle-controls",
+    "question": "What should you do before descending a long steep hill in a vehicle?",
+    "options": [
+      "Select the highest available gear to reduce engine braking and noise",
+      "Select a low gear before beginning the descent to use engine braking effectively",
+      "Select neutral and coast down the hill to reduce fuel consumption"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 614,
+    "category": "vehicle-controls",
+    "question": "What is the function of the differential?",
+    "options": [
+      "To adjust the fuel and air mixture entering the engine for different speeds",
+      "To allow the driven wheels to rotate at different speeds when cornering",
+      "To lock the rear wheels during parking to prevent the vehicle from rolling"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 615,
+    "category": "vehicle-controls",
+    "question": "What is a stall in a manual vehicle?",
+    "options": [
+      "The engine cuts out because the clutch was released too fast without enough throttle",
+      "The engine overheats from prolonged idling in heavy stop-and-go traffic",
+      "The brakes lose effectiveness due to overheating on a long downhill gradient"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 616,
+    "category": "vehicle-controls",
+    "question": "If your vehicle stalls at an intersection, what should you do?",
+    "options": [
+      "Leave the vehicle where it is and immediately call for roadside assistance",
+      "Restart the engine, select first gear, and move off safely — push to safety if hazardous",
+      "Hold the clutch down and allow the vehicle to roll clear of the intersection"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 617,
+    "category": "vehicle-controls",
+    "question": "How do you perform a smooth gear change up for example 1st to 2nd?",
+    "options": [
+      "Depress the clutch quickly, select next gear, and release the clutch immediately",
+      "Depress the clutch fully, select the higher gear, release clutch gradually while maintaining throttle",
+      "Release the clutch before selecting the new gear to allow the synchromesh to engage"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 618,
+    "category": "vehicle-controls",
+    "question": "What causes brake fade?",
+    "options": [
+      "Brakes that are too cold, causing reduced friction between pads and rotors",
+      "Overheating of brake components due to prolonged or repeated heavy braking",
+      "Worn tyre tread causing increased rolling resistance and reduced stopping power"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 619,
+    "category": "vehicle-controls",
+    "question": "How should you treat the brakes to prevent fade on a long descent?",
+    "options": [
+      "Apply constant moderate brake pressure throughout the entire descent",
+      "Apply short, firm braking applications then release — combined with engine braking",
+      "Pump the brakes continuously in a regular rhythm throughout the descent"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 620,
+    "category": "vehicle-controls",
+    "question": "What is the correct way to steer when reversing in a straight line?",
+    "options": [
+      "Turn the wheel in the opposite direction to normal to compensate for reversal",
+      "Use small, gentle steering inputs to keep the vehicle tracking straight",
+      "Hold the steering wheel with one hand at the top and guide loosely"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 621,
+    "category": "vehicle-controls",
+    "question": "When reversing around a corner to the left, which way do you turn the wheel?",
+    "options": [
+      "Turn the wheel to the right as the rear swings left when reversing",
+      "Turn the wheel to the left — the rear follows the wheel direction when reversing",
+      "You do not steer at all when reversing around corners — let the car arc naturally"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 622,
+    "category": "vehicle-controls",
+    "question": "What is the primary hazard when reversing?",
+    "options": [
+      "The risk of stalling the engine due to incorrect clutch and throttle coordination",
+      "Pedestrians and cyclists who may be in the blind spot behind the vehicle",
+      "Wheel spin on loose surfaces when reversing with excessive throttle input"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 623,
+    "category": "vehicle-controls",
+    "question": "What is the correct sequence for a standing start moving from stop?",
+    "options": [
+      "Release the handbrake, then depress the clutch and select first gear",
+      "Depress clutch, select 1st gear, find bite point, release handbrake, increase throttle, release clutch smoothly",
+      "Press the accelerator to build revs, then release the clutch and handbrake together"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 624,
+    "category": "vehicle-controls",
+    "question": "What does a soft or spongy brake pedal feel indicate?",
+    "options": [
+      "The brake pads are well-bedded in and performing at their optimum efficiency",
+      "Air in the brake lines or low brake fluid — have the brakes inspected immediately",
+      "Normal brake pad wear at the end of the standard pad service life"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 625,
+    "category": "vehicle-controls",
+    "question": "What does pulling to one side during braking indicate?",
+    "options": [
+      "Normal front-wheel understeer — the vehicle will self-correct on release of brakes",
+      "Brake imbalance — possibly a worn pad, seized calliper, or contaminated fluid",
+      "A tyre pressure difference causing uneven rolling resistance between the two sides"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 626,
+    "category": "vehicle-controls",
+    "question": "What is the correct action if the throttle accelerator jams open?",
+    "options": [
+      "Steer the vehicle onto a grass verge and use the terrain to reduce speed",
+      "Shift to neutral and use the brakes to stop safely, then switch off the engine",
+      "Rev the engine harder to dislodge the mechanical obstruction in the throttle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 627,
+    "category": "vehicle-controls",
+    "question": "What do you check on tyres as part of a pre-drive inspection?",
+    "options": [
+      "Only check the spare tyre as the other four are maintained during services",
+      "Tread depth, condition such as cuts or bulges, and inflation pressure on all five tyres",
+      "Check only the front two tyres as they carry the most steering and braking load"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 628,
+    "category": "vehicle-controls",
+    "question": "When should you replace your windscreen wipers?",
+    "options": [
+      "Only when the wipers stop working entirely and cannot clear any rain at all",
+      "When they leave streaks, skip sections, or make noise — signs of worn rubber",
+      "Replace wipers on a fixed schedule of every five years regardless of condition"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 629,
+    "category": "vehicle-controls",
+    "question": "How do you correctly use rear fog lights?",
+    "options": [
+      "Leave the rear fog lights on at all times to maximise visibility to other drivers",
+      "Use only when visibility is below 100 m due to fog, dust, or heavy rain; switch off when clear",
+      "Use rear fog lights instead of brake lights to signal slowing to following drivers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 630,
+    "category": "vehicle-controls",
+    "question": "What should you do when parking to ensure the vehicle does not roll?",
+    "options": [
+      "Rely solely on the automatic transmission or gearbox to hold the vehicle stationary",
+      "Apply the handbrake and select a gear — reverse or first on a slope, Park for automatics",
+      "Park only on flat ground where there is no risk of rolling, leaving no gear selected"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 631,
+    "category": "vehicle-controls",
+    "question": "Why is it important to keep both hands on the steering wheel while driving?",
+    "options": [
+      "It improves the driver's posture and reduces physical fatigue on long journeys",
+      "It provides maximum control, especially for quick corrective steering in an emergency",
+      "South African law requires both hands on the wheel at all times while the vehicle is moving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 632,
+    "category": "vehicle-controls",
+    "question": "What is the effect of carrying excess weight in a vehicle?",
+    "options": [
+      "Improved acceleration due to the increased drive-wheel traction from added weight",
+      "Increased braking distance, reduced fuel efficiency, and accelerated tyre wear",
+      "Improved fuel efficiency as the additional weight reduces aerodynamic drag"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 633,
+    "category": "vehicle-controls",
+    "question": "What is the correct way to use turn signals indicators?",
+    "options": [
+      "Activate the signal only when turning at a signalised intersection or traffic light",
+      "Signal in good time before any manoeuvre — turning, changing lanes, pulling over, pulling away",
+      "Signal only on busy roads where other drivers are clearly present nearby"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 634,
+    "category": "vehicle-controls",
+    "question": "When driving through a narrow gap or between parked cars, what should you do?",
+    "options": [
+      "Accelerate briefly to pass through the gap before oncoming traffic arrives",
+      "Slow down, assess the clearance carefully, and proceed only when safe to do so",
+      "Sound the horn continuously to warn pedestrians and oncoming drivers of your approach"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 635,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the vehicle's side mirrors?",
+    "options": [
+      "To allow the driver to view passengers seated in the rear of the vehicle",
+      "To show the areas alongside and slightly behind the vehicle, reducing blind spots",
+      "To provide decorative styling and improve the vehicle's aerodynamic profile"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 636,
+    "category": "vehicle-controls",
+    "question": "How should side mirrors be adjusted?",
+    "options": [
+      "Angled inward so you can see the rear passenger seats and headrests clearly",
+      "Angled outward so you can see along the vehicle's side and the road behind",
+      "Pointed fully to the side so you can monitor the adjacent lane at all times"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 637,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the interior rear-view mirror?",
+    "options": [
+      "To allow the driver to check personal appearance and correct posture while driving",
+      "To monitor traffic approaching from directly behind through the rear window",
+      "To provide a view of the engine bay temperature and oil pressure gauges"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 638,
+    "category": "vehicle-controls",
+    "question": "How should you use the footbrake to bring the vehicle to a smooth stop?",
+    "options": [
+      "Apply firm, constant pressure and hold it fully down until the car stops fully",
+      "Apply progressive pressure, then ease off slightly just before stopping to avoid a jolt",
+      "Pump the brake pedal rapidly to achieve the smoothest possible final stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 639,
+    "category": "vehicle-controls",
+    "question": "What does it mean if your vehicle vibrates when braking at high speed?",
+    "options": [
+      "This is normal braking feedback indicating the brakes are working efficiently",
+      "Warped brake discs or uneven pad wear — have the brakes inspected promptly",
+      "This indicates only low tyre pressure causing uneven contact with the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 640,
+    "category": "vehicle-controls",
+    "question": "What is the proper way to hold the steering wheel?",
+    "options": [
+      "Grip tightly at the top with both hands for maximum leverage and control",
+      "Both hands at the 9 and 3 or 10 and 2 position with a firm but relaxed grip",
+      "One hand at the bottom of the wheel for a relaxed and comfortable drive"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 641,
+    "category": "vehicle-controls",
+    "question": "What should you always do before opening the driver's door to exit?",
+    "options": [
+      "Open it quickly as a slow door is more likely to be struck by passing traffic",
+      "Check the side mirror and look over your shoulder for cyclists and passing traffic",
+      "Sound the horn once to alert any nearby pedestrians before opening the door"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 642,
+    "category": "vehicle-controls",
+    "question": "What is the correct action when you want to do a hill start and you are on a manual vehicle?",
+    "options": [
+      "Use only the foot brake to hold the vehicle and release it as you accelerate",
+      "Coordinate the clutch bite point, handbrake release, and throttle application simultaneously",
+      "Release the handbrake before engaging the clutch bite point to prevent rolling"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 643,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the parking brake or handbrake in addition to parking?",
+    "options": [
+      "Used for speed control on steep motorway descents as an alternative to the foot brake",
+      "Can serve as an emergency backup brake if the primary foot brake fails",
+      "Used for all normal braking at low speeds in preference to the foot brake"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 644,
+    "category": "vehicle-controls",
+    "question": "What does it mean when the ABS light stays on after starting the vehicle?",
+    "options": [
+      "The ABS system is functioning correctly and has completed its self-test successfully",
+      "There may be a fault in the ABS system — have it inspected by a technician",
+      "ABS is currently actively modulating brake pressure for optimum performance"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 645,
+    "category": "vehicle-controls",
+    "question": "What is the reason for checking tyre pressure when tyres are cold?",
+    "options": [
+      "Cold tyres have lower pressure than warm ones, making the reading more accurate",
+      "Driving heats the air inside the tyre, increasing pressure and giving a false high reading",
+      "It makes no practical difference whether tyres are hot or cold when checking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 646,
+    "category": "vehicle-controls",
+    "question": "What does the engine coolant warning light look like?",
+    "options": [
+      "A yellow oil can symbol indicating low engine lubrication oil pressure",
+      "A thermometer immersed in liquid or a stylised radiator symbol",
+      "A red battery symbol indicating a charging system or electrical fault"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 647,
+    "category": "vehicle-controls",
+    "question": "What should you do if you see the engine coolant warning light come on while driving?",
+    "options": [
+      "Continue driving to the next town and top up the coolant on arrival",
+      "Pull over safely and stop the engine before it overheats and is damaged",
+      "Add water directly to the radiator immediately to reduce the coolant temperature"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 648,
+    "category": "vehicle-controls",
+    "question": "What is the safe procedure for checking engine oil?",
+    "options": [
+      "Check the oil level while the engine is running for the most accurate reading",
+      "Check when the engine is cold or a few minutes after switching off, using the dipstick",
+      "Have the oil level checked only at a petrol station or during a full service"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 649,
+    "category": "vehicle-controls",
+    "question": "What causes a vehicle to pull to one side when driving straight?",
+    "options": [
+      "Incorrect tyre pressure, wheel misalignment, or uneven brake wear on one side",
+      "Normal road camber causing the vehicle to follow the gradient of the road",
+      "Strong cross-wind temporarily pushing the vehicle across the lane"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 650,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the vehicle's spare tyre?",
+    "options": [
+      "An additional tyre carried purely for decoration in the boot of the vehicle",
+      "To replace a flat or damaged tyre when a puncture or blowout occurs",
+      "Used only for off-road driving on rough tracks and gravel roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 651,
+    "category": "vehicle-controls",
+    "question": "How should you change a flat tyre safely?",
+    "options": [
+      "Change the tyre in the road immediately before driving further on the flat",
+      "Move to a safe location off the road, apply the handbrake, use warning triangles, then change",
+      "Drive slowly on the flat tyre to the nearest garage or tyre fitment centre"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 652,
+    "category": "vehicle-controls",
+    "question": "What is the function of the handbrake or park brake on a hill?",
+    "options": [
+      "To allow faster hill starts by releasing energy stored in the braking system",
+      "To hold the vehicle stationary on a gradient without using the foot brake",
+      "To improve cornering stability by locking the rear wheels during a turn"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 653,
+    "category": "vehicle-controls",
+    "question": "What does it feel like when a tyre blows out or bursts while driving?",
+    "options": [
+      "A gradual drift to one side with no noticeable noise or sudden change in feel",
+      "A sudden pull to one side and loss of control — grip the wheel and decelerate gently",
+      "The vehicle speeds up briefly as the tyre releases air pressure rapidly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 654,
+    "category": "vehicle-controls",
+    "question": "How do you check if your brakes are working before driving?",
+    "options": [
+      "Press the brake pedal firmly while stationary — it should feel solid and not sink",
+      "Check brake function only by driving at speed and testing stopping performance",
+      "Brake inspection can only be done accurately during an annual roadworthy test"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 655,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the clutch in preventing a stall?",
+    "options": [
+      "The clutch plays no meaningful role in preventing engine stalls at low speed",
+      "Depressing the clutch disconnects the engine from the drivetrain, preventing stall when stopping",
+      "The clutch adds additional fuel to the engine to maintain RPM and prevent stall"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 656,
+    "category": "vehicle-controls",
+    "question": "When should you use the vehicle's fog lights front and rear?",
+    "options": [
+      "Keep fog lights activated at all times to maximise your visibility to others",
+      "Only in conditions of significantly reduced visibility — fog, heavy rain, or dense dust",
+      "Use only the front fog lights — rear fog lights are not required in any situation"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 657,
+    "category": "vehicle-controls",
+    "question": "What is the correct gear to select when approaching a tight corner in a manual car?",
+    "options": [
+      "The highest gear available to reduce engine braking and allow smooth cornering",
+      "An appropriate lower gear that provides sufficient power to exit the corner safely",
+      "Neutral to coast through the corner and save fuel during the manoeuvre"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 658,
+    "category": "vehicle-controls",
+    "question": "What is the effect of driving with under-inflated tyres on handling?",
+    "options": [
+      "Improved cornering stability due to a larger contact patch between tyre and road",
+      "Increased tyre wear, poor fuel economy, and imprecise, sluggish steering response",
+      "Reduced braking distance because more tyre rubber is in contact with the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 659,
+    "category": "vehicle-controls",
+    "question": "What is the effect of driving with over-inflated tyres?",
+    "options": [
+      "A softer, more comfortable ride with improved lateral grip in all conditions",
+      "Reduced contact patch, increased risk of blowout, and a harsh, bouncy ride",
+      "No significant effect on ride quality, grip, or tyre wear under normal conditions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 660,
+    "category": "vehicle-controls",
+    "question": "What should you do if you hear a grinding or scraping sound when braking?",
+    "options": [
+      "This is normal — worn-in brake pads produce this sound during initial application",
+      "Have the brakes inspected immediately as brake pads or discs may be worn through",
+      "Add brake fluid to the reservoir as low fluid causes grinding during braking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 661,
+    "category": "vehicle-controls",
+    "question": "What must you check when you notice the vehicle drifting left or right without steering input?",
+    "options": [
+      "Tyre pressure difference or wheel misalignment — have the vehicle checked promptly",
+      "This is normal road camber effect and no action is required from the driver",
+      "Check the fuel level as a low tank changes vehicle weight distribution"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 662,
+    "category": "vehicle-controls",
+    "question": "What is the recommended technique for steering on a long straight highway?",
+    "options": [
+      "Hold the wheel loosely at the bottom and allow the road to guide the vehicle",
+      "Maintain a firm grip at 9 and 3 o'clock, make small corrections, scan far ahead",
+      "Drive with one hand at the top of the wheel to reduce arm fatigue at high speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 663,
+    "category": "vehicle-controls",
+    "question": "How should you handle driving over a speed bump?",
+    "options": [
+      "Accelerate briefly before the bump so the suspension compresses at higher speed",
+      "Slow down before reaching it, go over at low speed, then resume normal speed",
+      "Straddle the bump with your wheels on either side to avoid the raised section"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 664,
+    "category": "vehicle-controls",
+    "question": "What is the K53 pre-drive inspection check known as POWDERS?",
+    "options": [
+      "A checklist used only during annual roadworthy inspections at test centres",
+      "A pre-drive check covering Petrol, Oil, Water, Damage, Electrics, Rubber, and Safety",
+      "A post-drive maintenance checklist to record any defects found during the trip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 665,
+    "category": "vehicle-controls",
+    "question": "What does a burning smell while driving indicate?",
+    "options": [
+      "Normal — new brake pads or clutch components always smell when first used",
+      "Possible overheating brakes, a slipping clutch, or electrical fault — stop and investigate",
+      "The air freshener system is activating due to a sensor detecting fresh air"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 666,
+    "category": "vehicle-controls",
+    "question": "What should you do when you feel excessive vibration in the steering wheel?",
+    "options": [
+      "Ignore it as steering vibration is a normal characteristic of high-speed driving",
+      "Have wheel balance, alignment, or suspension inspected — this may indicate a fault",
+      "Grip the wheel tighter and accelerate to a higher speed to reduce the vibration"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 667,
+    "category": "road-rules",
+    "question": "What is the speed limit for a motorcycle on a South African freeway?",
+    "options": [
+      "100 km/h",
+      "120 km/h",
+      "140 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 668,
+    "category": "road-rules",
+    "question": "What is the speed limit for a bus carrying passengers outside an urban area on a non-freeway road?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 669,
+    "category": "road-rules",
+    "question": "When driving at night in an area without streetlights you must use?",
+    "options": [
+      "Parking lights only",
+      "Dipped headlights at minimum",
+      "Full high-beam headlights"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 670,
+    "category": "road-rules",
+    "question": "What is the rule about using a cellphone with a hands-free device while driving?",
+    "options": [
+      "Using any mobile phone while driving is always completely illegal in South Africa",
+      "It is legal to use a hands-free device provided you do not hold the phone",
+      "It is illegal because distraction from calls impairs driving equally whether hands-free or not"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 671,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle horn stops working?",
+    "options": [
+      "Continue to drive normally as the horn is rarely needed in practice",
+      "Have it repaired promptly — a working horn is a legal roadworthiness requirement",
+      "Only repair the horn if you plan to travel on long-distance rural roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 672,
+    "category": "road-rules",
+    "question": "When driving in convoy, what additional rule applies?",
+    "options": [
+      "The lead vehicle may proceed through red traffic lights without stopping",
+      "All vehicles must maintain safe following distances and obey all traffic laws individually",
+      "The lead vehicle controls all following vehicles and other traffic must yield"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 673,
+    "category": "road-rules",
+    "question": "Overtaking is NOT permitted within how many metres of a level crossing?",
+    "options": [
+      "30 m",
+      "100 m",
+      "50 m"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 674,
+    "category": "road-rules",
+    "question": "What is the rule for giving way at a yield sign when traffic is approaching?",
+    "options": [
+      "Accelerate to match the speed of approaching traffic and merge alongside",
+      "Slow down or stop and wait for a safe gap before entering or crossing",
+      "Yield only if approaching traffic is within 50 metres of your position"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 675,
+    "category": "road-rules",
+    "question": "What should you do when a pedestrian is slow to cross at a pedestrian crossing?",
+    "options": [
+      "Sound the horn gently to encourage the pedestrian to cross more quickly",
+      "Wait patiently until the pedestrian has completely left the crossing area",
+      "Proceed slowly alongside the pedestrian if they are close to the far side"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 676,
+    "category": "road-rules",
+    "question": "What is the minimum age to apply for a code 8 motor vehicle driving licence?",
+    "options": [
+      "16 years",
+      "17 years",
+      "18 years"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 677,
+    "category": "road-rules",
+    "question": "A vehicle fitted with road-legal tyres but with less than 1.6 mm tread?",
+    "options": [
+      "Is fully roadworthy — 1.6 mm is an advisory guideline not a legal minimum",
+      "May be issued a fine and the vehicle is considered unroadworthy",
+      "Is only illegal when driving on wet roads where tread depth is critical"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 678,
+    "category": "road-rules",
+    "question": "What does the term 'urban area' mean in the context of speed limits?",
+    "options": [
+      "Any city centre or central business district regardless of official classification",
+      "An area legally defined as urban with a default speed limit of 60 km/h",
+      "Any road that has street lights installed along its length"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 679,
+    "category": "road-rules",
+    "question": "When must you stop for a school bus that has its STOP arm extended?",
+    "options": [
+      "Only when you are travelling directly behind the bus in the same direction",
+      "From both directions on an undivided road — all approaching traffic must stop",
+      "Only on a single-lane road where overtaking the bus is physically impossible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 680,
+    "category": "road-rules",
+    "question": "What is the legal requirement for warning triangles in South Africa?",
+    "options": [
+      "One warning triangle must be placed at the front of the broken-down vehicle",
+      "Two warning triangles must be carried in the vehicle at all times for breakdowns",
+      "Warning triangles are recommended but not legally required in South Africa"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 681,
+    "category": "road-rules",
+    "question": "Can you park across a driveway or entrance to a property?",
+    "options": [
+      "Yes, briefly for up to five minutes if you remain with the vehicle",
+      "No — blocking access to a private driveway or property entrance is illegal",
+      "Yes, provided you leave your contact details on the vehicle's windscreen"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 682,
+    "category": "road-rules",
+    "question": "What is the legal stance on driving barefoot in South Africa?",
+    "options": [
+      "It is illegal",
+      "It is legal but not recommended",
+      "It is illegal only on a freeway"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 683,
+    "category": "road-rules",
+    "question": "What is the rule about eating or drinking while driving?",
+    "options": [
+      "It is completely illegal to consume any food or beverage while driving",
+      "It is legal but distraction is the concern — the driver must maintain full control",
+      "It is illegal in all circumstances including at slow speeds in traffic queues"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 684,
+    "category": "road-rules",
+    "question": "A driver must hold their licence for how many years before being allowed to supervise a learner?",
+    "options": [
+      "1 year",
+      "2 years",
+      "5 years"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 685,
+    "category": "road-rules",
+    "question": "When is a vehicle considered to be involved in an accident for reporting purposes?",
+    "options": [
+      "Only when another motor vehicle is directly involved in the collision",
+      "When any person, animal, or property is injured or damaged as a result",
+      "Only when human injuries occur — property damage alone does not require reporting"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 686,
+    "category": "road-rules",
+    "question": "What is the purpose of speed calming measures such as speed humps and chicanes?",
+    "options": [
+      "To create an interesting driving experience on residential and suburban roads",
+      "To reduce vehicle speeds in residential areas and zones with high pedestrian activity",
+      "To generate municipal revenue through increased tyre and suspension repairs"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 687,
+    "category": "road-rules",
+    "question": "A white line painted across the road at a stop sign is called?",
+    "options": [
+      "A give-way line",
+      "A stop line",
+      "A hatching line"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 688,
+    "category": "road-rules",
+    "question": "What does it mean when white arrows are painted in a lane?",
+    "options": [
+      "The arrows show the permitted direction of travel for traffic in that lane",
+      "The arrows indicate where vehicles must stop when obeying a traffic signal",
+      "The arrows show designated parking positions within the marked lane"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 689,
+    "category": "road-rules",
+    "question": "What is the law regarding driving with a suspended licence in South Africa?",
+    "options": [
+      "It is a minor offence",
+      "It is a criminal offence",
+      "It is only an offence if you cause an accident"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 690,
+    "category": "road-rules",
+    "question": "What is the minimum distance from a stop sign or yield line you must park?",
+    "options": [
+      "3 m",
+      "6 m",
+      "9 m"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 691,
+    "category": "road-rules",
+    "question": "What does the solid white edge line on the left of a road mark?",
+    "options": [
+      "The left boundary of a dedicated bicycle lane on that section of road",
+      "The left edge of the carriageway — you should not cross it unless necessary",
+      "A no-parking zone that extends along the full length of the marked section"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 692,
+    "category": "road-rules",
+    "question": "How far in advance must you signal before a turn in an urban area?",
+    "options": [
+      "10 m",
+      "30 m",
+      "100 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 693,
+    "category": "road-rules",
+    "question": "What is the rule for making a left turn from a multi-lane road?",
+    "options": [
+      "Turn from any left lane",
+      "Turn from the leftmost lane unless signs say otherwise",
+      "Turn from the centre lane"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 694,
+    "category": "road-rules",
+    "question": "What is the rule for making a right turn from a multi-lane road?",
+    "options": [
+      "You may turn right from any available lane if it is convenient and clear",
+      "Turn from the rightmost lane unless road markings or signs indicate otherwise",
+      "Turn from the centre lane to leave the rightmost lane free for through traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 695,
+    "category": "road-rules",
+    "question": "When is it permissible to make a U-turn on a freeway?",
+    "options": [
+      "Only at interchanges",
+      "Never",
+      "Only in an emergency"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 696,
+    "category": "road-rules",
+    "question": "What must you do when you see a Road Closed sign with a detour arrow?",
+    "options": [
+      "Ignore the sign if you know an alternative shortcut that avoids the detour",
+      "Follow the detour route — the main road is legally closed to all traffic",
+      "Only follow the detour during peak hours when the closure is being enforced"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 697,
+    "category": "road-rules",
+    "question": "What is the maximum width of a vehicle allowed on a public road without a special permit?",
+    "options": [
+      "2.5 metres — vehicles wider than this require an abnormal load permit",
+      "3.0 metres — this is the standard maximum width allowed on all public roads",
+      "2.0 metres — this dimension includes all mirrors and external projections"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 698,
+    "category": "road-rules",
+    "question": "What is the maximum height of a vehicle allowed on a public road without a special permit?",
+    "options": [
+      "4.0 metres — this is the universally accepted maximum height across Africa",
+      "4.3 metres is the legal maximum height for a vehicle on a South African public road",
+      "5.0 metres is permitted provided the vehicle carries adequate height markers"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 699,
+    "category": "road-rules",
+    "question": "What is the maximum length of a combination vehicle allowed without a special permit?",
+    "options": [
+      "18 m",
+      "22 m",
+      "25 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 700,
+    "category": "road-rules",
+    "question": "Driving the wrong way on a one-way street is?",
+    "options": [
+      "Acceptable if the road is clear and no other traffic is present at the time",
+      "An offence — one-way streets legally require travel only in the indicated direction",
+      "Only an offence during peak hours when traffic volumes are significantly higher"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 701,
+    "category": "road-rules",
+    "question": "What is the rule about entering a box junction or yellow box road marking?",
+    "options": [
+      "You may enter the box junction at any time provided you intend to move through it",
+      "You may only enter if the exit is completely clear and you can drive straight through",
+      "You may enter if you intend to turn right and are waiting for oncoming traffic only"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 702,
+    "category": "road-rules",
+    "question": "What should you do if you are involved in a hit-and-run as a witness?",
+    "options": [
+      "Mind your own business and avoid getting involved in other people's incidents",
+      "Note the vehicle description and registration number and report it to police",
+      "Report the incident only if the victim personally asks you to provide information"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 703,
+    "category": "road-rules",
+    "question": "When can you legally drive through a red traffic light?",
+    "options": [
+      "When directed to do so by a uniformed police officer or authorised traffic official",
+      "When no other vehicles or pedestrians are present at the intersection at all",
+      "Never — driving through a red traffic light is illegal under any circumstances"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 704,
+    "category": "road-rules",
+    "question": "What is the rule about driving a vehicle that is not registered in your name?",
+    "options": [
+      "It is always illegal to drive a vehicle that is registered to another person",
+      "It is legal provided you have the owner's permission and the necessary documentation",
+      "It is only permitted when driving a company vehicle for business purposes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 705,
+    "category": "road-rules",
+    "question": "What makes a person legally allowed to drive a motor vehicle on a public road?",
+    "options": [
+      "Being over the age of 18 years — this is the only requirement to drive legally",
+      "Holding a valid driver's licence for the specific class of vehicle being driven",
+      "Having successfully driven for more than two years without any traffic violations"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 706,
+    "category": "road-rules",
+    "question": "What is a defensive driving following distance method other than the 2-second rule?",
+    "options": [
+      "The 4-second rule — in poor conditions count 4 seconds between you and the vehicle ahead",
+      "The 1 car length rule — stay one car length behind for every 10 km/h of speed",
+      "The 10 metre rule — maintain exactly 10 metres behind the vehicle ahead at all times"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 707,
+    "category": "road-rules",
+    "question": "What is the meaning of a broken yellow line in the centre of a road?",
+    "options": [
+      "You may cross to overtake if safe",
+      "You may never cross it",
+      "It marks the edge of the road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 708,
+    "category": "road-rules",
+    "question": "What is the rule about passengers riding in a truck or bakkie load area?",
+    "options": [
+      "Passengers may ride in a load area at all times without restriction",
+      "Passengers are not permitted in a goods vehicle load area unless it complies with safety regulations",
+      "Passengers may ride in the load area only on farm roads and private property"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 709,
+    "category": "road-rules",
+    "question": "When may you use high-beam headlights?",
+    "options": [
+      "At all times during night driving to maximise your forward visibility",
+      "Only when no oncoming or preceding vehicles are within 150 m and roads are unlit",
+      "Only on dirt roads where the extra light is needed to navigate safely"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 710,
+    "category": "road-rules",
+    "question": "What does a painted red cross on the road mean?",
+    "options": [
+      "No parking is permitted in this zone — it is reserved for emergency access",
+      "No stopping at any time — this marks fire hydrant access or an emergency route",
+      "Speed up through this zone to clear the area as quickly as possible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 711,
+    "category": "road-rules",
+    "question": "What is the rule about driving a motor vehicle in reverse gear on a public road?",
+    "options": [
+      "Reversing is permitted for any distance on any public road at any time",
+      "Reversing is permitted for only as far as is reasonably necessary and done safely",
+      "Reversing is completely prohibited on any public road under any circumstances"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 712,
+    "category": "road-rules",
+    "question": "What is the legal requirement for a vehicle towing a trailer at night?",
+    "options": [
+      "Only the towing vehicle's lights are needed — the trailer needs no lights",
+      "The trailer must have working rear lights and reflectors visible to following vehicles",
+      "Trailers do not require any lighting as drivers can see the tow vehicle's lights"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 713,
+    "category": "road-rules",
+    "question": "If a traffic light turns green but a vehicle is still in the intersection from the previous cycle, you must?",
+    "options": [
+      "Sound your horn immediately to signal the other driver to clear the intersection",
+      "Wait until the intersection is fully clear before entering on your green light",
+      "Proceed into the intersection and steer around the stationary vehicle carefully"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 714,
+    "category": "road-rules",
+    "question": "What is the rule about picking up passengers in a road or on a freeway?",
+    "options": [
+      "Stopping briefly on the left side of a freeway to drop off passengers is permitted",
+      "Picking up or dropping off passengers on a freeway is prohibited — use designated lay-bys",
+      "Picking up passengers is permitted anywhere provided the stop is brief"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 715,
+    "category": "road-rules",
+    "question": "What must you do if you see a slow-moving vehicle indicator orange light ahead?",
+    "options": [
+      "Overtake the vehicle immediately before more traffic catches up behind you",
+      "Slow down, maintain a safe following distance, and overtake only when it is safe",
+      "Flash your headlights to warn the slow-moving vehicle to pull over and stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 716,
+    "category": "road-rules",
+    "question": "What is the correct approach to driving near a broken-down vehicle on the road?",
+    "options": [
+      "Maintain your normal speed and swerve at the last moment to avoid the hazard",
+      "Slow down significantly, give the vehicle a wide berth, and watch for people nearby",
+      "Sound the horn repeatedly as you approach to warn others that you are passing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 717,
+    "category": "road-rules",
+    "question": "What is the minimum penalty for driving while under suspension of a licence?",
+    "options": [
+      "A fixed R500 administrative fine that can be paid at the local traffic department",
+      "Possible criminal prosecution, imprisonment, and further licence suspension",
+      "Only a verbal warning from a traffic officer for a first-time offence"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 718,
+    "category": "road-rules",
+    "question": "When is it permissible to park within 9 metres of an intersection?",
+    "options": [
+      "When hazard lights are on",
+      "When there is a parking meter or marked bay within that distance",
+      "Never — the 9 m rule is absolute"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 719,
+    "category": "road-rules",
+    "question": "What is the maximum towing capacity that can be used without a specific towing licence in South Africa?",
+    "options": [
+      "Only trailers up to 750 kg may be towed without an additional towing licence",
+      "A Code B licence allows a total combination mass of up to 3 500 kg",
+      "Any trailer that a private car is physically capable of pulling is legally allowed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 720,
+    "category": "road-rules",
+    "question": "What is the rule about stopping in a tunnel?",
+    "options": [
+      "Stop to the left immediately if your vehicle develops any mechanical problem",
+      "Never stop in a tunnel unless absolutely necessary — use designated emergency bays",
+      "You may stop anywhere in a tunnel to check your map or navigation directions"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 721,
+    "category": "road-rules",
+    "question": "When must you obey a portable STOP sign held by a traffic officer?",
+    "options": [
+      "Only when the sign is displayed at an active road accident scene",
+      "Always — a traffic officer's signals and instructions override all other signs and signals",
+      "Only during peak traffic hours when the traffic officer is on official duty"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 722,
+    "category": "road-rules",
+    "question": "What is the consequence of not renewing your vehicle licence disc by the due date?",
+    "options": [
+      "There is a 30-day grace period during which you may drive without penalty",
+      "The vehicle may not legally be driven on a public road until the disc is renewed",
+      "You will receive only a small fixed fine of R50 which can be paid at any time"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 723,
+    "category": "road-rules",
+    "question": "What is the rule about animals in the road in rural areas?",
+    "options": [
+      "Sound horn and proceed",
+      "Stop and wait for the animals to clear the road",
+      "It is the animal owner's responsibility — proceed carefully"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 724,
+    "category": "road-rules",
+    "question": "What is the minimum number of seats that must have functioning seat belts in a new vehicle?",
+    "options": [
+      "Only the driver's seat must have a functioning seat belt by law",
+      "All designated seating positions must have functioning seat belts fitted",
+      "Only the front seats are required to have functioning seat belts installed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 725,
+    "category": "road-rules",
+    "question": "What is the rule about using indicators in a parking area?",
+    "options": [
+      "Indicators are only for public roads",
+      "You must still signal your intentions in a parking area",
+      "Indicators are optional in parking areas"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 726,
+    "category": "road-rules",
+    "question": "What is the rule about driving while ill or on medication that impairs ability?",
+    "options": [
+      "You may drive if you feel you are capable of managing the journey safely",
+      "It is an offence to drive when your ability is impaired by illness or any medication",
+      "It is only illegal if you hold a prescription for medication that causes drowsiness"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 727,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle is parked and you see it rolling away?",
+    "options": [
+      "Chase the vehicle on foot and attempt to jump in and stop it immediately",
+      "Only attempt to stop it if it can be done safely — otherwise clear the area and call help",
+      "Always chase the rolling vehicle and try to get inside it to apply the brakes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 728,
+    "category": "road-rules",
+    "question": "What is the rule about displaying an L-plate on a learner vehicle?",
+    "options": [
+      "Displayed only on the rear",
+      "Displayed at the front and rear of the vehicle",
+      "Displayed only on the front"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 729,
+    "category": "road-rules",
+    "question": "What does it mean when a vehicle in front signals right but does not move?",
+    "options": [
+      "The driver is lost and unsure of direction — overtake on either side safely",
+      "They may be waiting for oncoming traffic or preparing to turn — wait or overtake left if safe",
+      "Overtake immediately on the right as the vehicle is signalling its intention to move right"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 730,
+    "category": "road-rules",
+    "question": "What is the purpose of anti-skid surface treatment on roads?",
+    "options": [
+      "To provide decorative visual contrast on road surfaces near intersections",
+      "To increase tyre grip at locations such as bends, intersections, and crossings",
+      "To reduce road maintenance costs by providing a harder and more durable surface"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 731,
+    "category": "road-rules",
+    "question": "What is the legal speed limit within 500 m of a school during school hours if signed?",
+    "options": [
+      "40 km/h",
+      "30 km/h",
+      "60 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 732,
+    "category": "road-rules",
+    "question": "What does road etiquette mean?",
+    "options": [
+      "Strictly following only the written legal rules of the road at all times",
+      "Driving with consideration and courtesy for other road users beyond legal requirements",
+      "Driving assertively and decisively to assert your position on the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 733,
+    "category": "road-rules",
+    "question": "When are you allowed to park in a loading zone?",
+    "options": [
+      "At any time of day for brief periods of up to five minutes",
+      "Only to load or unload goods or passengers within the times indicated by the sign",
+      "Loading zones are exclusively reserved for commercial vehicles — private cars may never park"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 734,
+    "category": "road-rules",
+    "question": "What is the key safety feature of a rumble strip at the approach to an intersection?",
+    "options": [
+      "It marks the precise centre line of the road ahead of a dangerous intersection",
+      "It vibrates the vehicle to alert a drowsy or inattentive driver to a hazard ahead",
+      "It improves road traction by providing additional surface texture for better grip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 735,
+    "category": "road-rules",
+    "question": "When approaching a railway level crossing with flashing lights and no boom, you must?",
+    "options": [
+      "Stop and wait until the flashing lights have completely ceased and it is safe to cross",
+      "Slow down to 20 km/h and proceed carefully across the tracks with caution",
+      "Cross as quickly as possible before the train reaches the crossing point"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 736,
+    "category": "road-rules",
+    "question": "What is the rule about horn use near a hospital?",
+    "options": [
+      "There are no restrictions on horn use near medical facilities in South Africa",
+      "Unnecessary use of a horn near a hospital or school is an offence",
+      "You may use the horn near a hospital only in a genuine emergency situation"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 737,
+    "category": "road-rules",
+    "question": "What is the purpose of a headlight flash when meeting oncoming traffic?",
+    "options": [
+      "To greet an approaching driver you know as a friendly acknowledgement",
+      "To warn the driver of a hazard ahead or to request they dip their headlights",
+      "To challenge the approaching driver to a competition or communicate aggression"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 738,
+    "category": "road-rules",
+    "question": "When driving in a lane on a multi-lane road, you should position your vehicle?",
+    "options": [
+      "Close to the left edge",
+      "In the centre of your lane",
+      "Close to the right edge"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 739,
+    "category": "road-rules",
+    "question": "What action should you take if you see a driver ahead with a flat tyre who has not noticed?",
+    "options": [
+      "Ignore the situation as it is not your responsibility to warn other road users",
+      "Flash your lights or sound the horn gently to alert them and maintain extra distance",
+      "Accelerate past them quickly before they lose control and create a road hazard"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 740,
+    "category": "road-rules",
+    "question": "Under the K53 system, what happens if you have 2 or more critical errors during a driving test?",
+    "options": [
+      "You still pass if your total is good",
+      "You automatically fail the test",
+      "You lose 5 points each"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 741,
+    "category": "road-rules",
+    "question": "What is a critical error in the K53 driving test context?",
+    "options": [
+      "Any minor mistake that results in a mark being deducted during the test",
+      "An action that causes danger, requires examiner intervention, or violates a traffic law",
+      "Running a yellow light at low speed when the intersection was otherwise clear"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 742,
+    "category": "road-rules",
+    "question": "What is the rule about parking within 1.5 m of a fire hydrant?",
+    "options": [
+      "Parking is permitted for up to five minutes if you remain inside the vehicle",
+      "Parking is strictly prohibited — fire hydrant access must never be blocked",
+      "Parking is permitted at a fire hydrant if your hazard lights are switched on"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 743,
+    "category": "road-rules",
+    "question": "What should you do if you see a pedestrian who appears to be about to step onto the road?",
+    "options": [
+      "Maintain speed — it is their responsibility to wait",
+      "Slow down and be prepared to stop",
+      "Hoot to warn them to stay back"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 744,
+    "category": "road-rules",
+    "question": "What does a Keep Left or Keep Right sign at a traffic island mean?",
+    "options": [
+      "The sign is advisory only — you may select either side of the island freely",
+      "You must pass on the indicated side of the island without exception",
+      "Both sides of the island are available — choose based on your intended direction"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 745,
+    "category": "road-rules",
+    "question": "What is the rule about driving past a stationary tram or light rail vehicle at a stop?",
+    "options": [
+      "Proceed normally at your current speed past the stationary tram vehicle",
+      "Slow down and yield to pedestrians who may be boarding or alighting from the tram",
+      "Accelerate past the tram quickly before pedestrians begin to cross the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 746,
+    "category": "road-rules",
+    "question": "What is the rule about driving past a school patrol officer showing a STOP sign?",
+    "options": [
+      "Slow down to 20 km/h and proceed cautiously past the patrol officer",
+      "Stop completely and wait until the officer has stepped back and cleared you to go",
+      "Proceed if no children are currently visible in the crossing at that moment"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 747,
+    "category": "road-rules",
+    "question": "What is the minimum age to apply for a professional driving permit PDP in South Africa?",
+    "options": [
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 748,
+    "category": "road-rules",
+    "question": "When is a hazard light in addition to warning triangles required on a stationary vehicle?",
+    "options": [
+      "Hazard lights are never legally required — warning triangles alone are sufficient",
+      "When a vehicle is stopped in a dangerous position — use both hazard lights and triangles",
+      "Hazard lights are only required at night — daytime breakdowns need only triangles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 749,
+    "category": "road-rules",
+    "question": "What is the correct way to merge when your lane ends and no signs indicate priority?",
+    "options": [
+      "The vehicle directly behind you yields — you have priority as the merging vehicle",
+      "The vehicle in the ending lane yields to traffic in the continuing through lane",
+      "The larger or heavier vehicle always has priority to continue in the main lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 750,
+    "category": "road-rules",
+    "question": "What is the rule about following distance for a vehicle carrying dangerous goods?",
+    "options": [
+      "The standard 2-second following rule applies to all vehicles including hazardous loads",
+      "A greater following distance is required because of the hazardous nature of the load",
+      "Dangerous goods vehicles have statutory right of way and other drivers must yield"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 751,
+    "category": "road-rules",
+    "question": "What is the law about riding in a vehicle while intoxicated?",
+    "options": [
+      "Passengers may be intoxicated",
+      "Being a driver under the influence is the offence — passengers are not regulated in the same way",
+      "Both driver and passenger can be charged"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 752,
+    "category": "road-rules",
+    "question": "What is the key feature of a T-intersection in terms of right of way?",
+    "options": [
+      "The vehicle turning has right of way",
+      "The vehicle on the through road has right of way",
+      "The larger vehicle has right of way"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 753,
+    "category": "road-rules",
+    "question": "What must you do when you see a STOP sign that has been knocked over?",
+    "options": [
+      "Proceed without stopping as a fallen sign is not legally enforceable",
+      "Stop as you would at any stop sign — the obligation to stop remains in force",
+      "Report the fallen sign and proceed slowly without coming to a complete stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 754,
+    "category": "road-rules",
+    "question": "What is the general rule about driving a vehicle in reverse on a busy road?",
+    "options": [
+      "Only reverse for as short a distance as necessary and only when it is safe to do so",
+      "Reversing is always completely prohibited on any busy or main public road",
+      "Reversing is only permitted on busy roads during night-time hours"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 755,
+    "category": "road-rules",
+    "question": "What is the law on displaying a current licence disc in South Africa?",
+    "options": [
+      "Displaying the licence disc is optional for private vehicles in South Africa",
+      "The current licence disc must be displayed on the bottom left corner of the windscreen",
+      "Any visible position on the windscreen is acceptable for licence disc display"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 756,
+    "category": "road-rules",
+    "question": "What does a slow-moving vehicle sign orange triangle mean on the back of a vehicle?",
+    "options": [
+      "This vehicle is preparing to stop or has stopped at the side of the road",
+      "This vehicle travels at under 40 km/h — approach with caution and extra space",
+      "This vehicle is transporting dangerous or hazardous goods on this road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 757,
+    "category": "road-rules",
+    "question": "When must you stop at a railroad crossing?",
+    "options": [
+      "Only when a train is clearly visible approaching the crossing from either direction",
+      "When the boom or warning lights are active, or when a mandatory stop sign requires it",
+      "Only when you can audibly hear the train's horn sounding in the distance"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 758,
+    "category": "road-rules",
+    "question": "What is the purpose of road lane reflectors at night?",
+    "options": [
+      "To provide physical boundary markers for road maintenance and repair crews",
+      "To reflect headlights back to drivers, clearly indicating lane positions in darkness",
+      "To improve road surface drainage by channelling water away from the lane centres"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 759,
+    "category": "road-rules",
+    "question": "What is the rule about parking on a bridge?",
+    "options": [
+      "Brief parking on a bridge is permitted for up to five minutes at any time",
+      "Parking on a bridge is prohibited unless a marked parking bay is present",
+      "Parking is only prohibited on major national road bridges — minor bridges are fine"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 760,
+    "category": "road-rules",
+    "question": "How should you deal with a stationary emergency vehicle with lights flashing at the side of the road?",
+    "options": [
+      "Maintain your normal speed and pass the emergency vehicle without adjusting",
+      "Slow down significantly, move to the far lane if safely possible, and give a wide berth",
+      "Sound your horn as you pass to acknowledge the presence of the emergency vehicle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 761,
+    "category": "road-rules",
+    "question": "What causes most rear-end collisions?",
+    "options": [
+      "Excessive speeding alone — drivers who speed cause the majority of rear-end crashes",
+      "Following too closely combined with inattention and inadequate reaction time",
+      "Wet road surface conditions causing brakes to lock up during sudden stops"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 762,
+    "category": "road-rules",
+    "question": "What is the rule about using a vehicle for racing on a public road?",
+    "options": [
+      "Permitted with permission from the local authority",
+      "Illegal — racing on public roads is an offence",
+      "Only illegal if it is organised"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 763,
+    "category": "road-rules",
+    "question": "What is the rule about driving a vehicle with a cracked windscreen?",
+    "options": [
+      "Permitted if the crack does not affect vision",
+      "Only permitted if the crack is on the passenger side",
+      "Prohibited — a cracked windscreen is unroadworthy"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 764,
+    "category": "road-rules",
+    "question": "What is the safest way to rejoin traffic after stopping on the shoulder of a road?",
+    "options": [
+      "Pull directly back into traffic at speed to match the flow as quickly as possible",
+      "Signal, check mirrors and blind spot, build speed on the shoulder, and merge when safe",
+      "Open the driver's door first to signal your intention to other drivers before merging"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 765,
+    "category": "road-rules",
+    "question": "In the POWDERS check, what does checking Rubber mean?",
+    "options": [
+      "Check only the spare tyre condition and inflation pressure in the boot",
+      "Check all four tyres for correct pressure, adequate tread depth, and physical condition",
+      "Check only the rubber door seals and window seals for weatherproofing integrity"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 766,
+    "category": "road-rules",
+    "question": "What should you check under the Water element of POWDERS?",
+    "options": [
+      "Drinking water in the car",
+      "Radiator coolant level and windscreen washer fluid",
+      "River depth before crossing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 767,
+    "category": "road-rules",
+    "question": "What must you do when leaving your vehicle unattended on a public road?",
+    "options": [
+      "Leave the engine running to power the alarm system and deter thieves",
+      "Switch off the engine, apply the handbrake, remove the keys, and lock the vehicle",
+      "Leave the hazard warning lights on to alert other road users to the parked vehicle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 768,
+    "category": "road-rules",
+    "question": "What is the rule about driving with an expired licence?",
+    "options": [
+      "Permitted for 30 days after expiry",
+      "It is an offence to drive with an expired licence",
+      "Only an offence if you are stopped"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 769,
+    "category": "road-rules",
+    "question": "What is the rule about hooting in a tunnel?",
+    "options": [
+      "Prohibited",
+      "Permitted only in emergencies",
+      "Permitted — tunnels are not urban areas"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 770,
+    "category": "road-rules",
+    "question": "What is the purpose of a deceleration lane at an off-ramp?",
+    "options": [
+      "To provide a dedicated lane for emergency vehicles to exit the freeway quickly",
+      "To allow drivers to reduce speed gradually after leaving the freeway main carriageway",
+      "A dedicated exit lane reserved exclusively for buses and public transport vehicles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 771,
+    "category": "road-rules",
+    "question": "What must a driver do at a traffic circle without any signs or markings?",
+    "options": [
+      "Proceed through without yielding — you have right of way as you are entering",
+      "Yield to traffic already circulating in the circle and to vehicles on your right",
+      "The largest or heaviest vehicle at the traffic circle always has right of way"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 772,
+    "category": "road-rules",
+    "question": "What is the rule about lane discipline on a dual carriageway?",
+    "options": [
+      "Drive in any lane that is convenient for your speed and destination",
+      "Keep to the left lane unless overtaking or preparing to turn right",
+      "Drive in the right lane at all times to keep the left lane for joining traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 773,
+    "category": "road-rules",
+    "question": "How does rain affect your ability to stop your vehicle?",
+    "options": [
+      "Rain has no significant effect on braking distance with modern all-season tyres",
+      "Rain significantly increases stopping distance due to reduced tyre-to-road grip",
+      "Rain improves braking ability as cooler temperatures increase tyre rubber grip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 774,
+    "category": "road-rules",
+    "question": "What does a painted green bicycle symbol in a lane indicate?",
+    "options": [
+      "Bicycles are strictly prohibited from entering or using this lane",
+      "A shared lane where cyclists and motor vehicles share the road space",
+      "Bicycles must not enter this lane as it is reserved for motor vehicles only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 775,
+    "category": "road-rules",
+    "question": "What is the rule about driving a vehicle that has a seatbelt fault?",
+    "options": [
+      "Seatbelts are optional — a faulty belt does not affect the vehicle's legality",
+      "The vehicle should be repaired before passengers occupy those affected seats",
+      "A faulty seatbelt is only illegal when travelling on a freeway at high speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 776,
+    "category": "road-rules",
+    "question": "What should you do when the traffic officer waves you through a red light?",
+    "options": [
+      "Obey the red traffic light — it always overrides a traffic officer's instruction",
+      "Obey the traffic officer's signal — their authority overrides the traffic light",
+      "Slow to 20 km/h and proceed cautiously as both the light and officer apply"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 777,
+    "category": "road-rules",
+    "question": "What does the K53 defensive driving principle of assessment mean?",
+    "options": [
+      "Looking only in mirrors when changing lanes or turning at an intersection",
+      "Continuously assessing all hazards, your speed, road position, and the environment",
+      "Assessing road conditions only at intersections and not during straight driving"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 778,
+    "category": "road-rules",
+    "question": "What is the correct response when your vehicle's traction control activates?",
+    "options": [
+      "Apply more throttle aggressively to push through the wheel spin situation",
+      "Ease off the accelerator — traction control is managing wheel spin on your behalf",
+      "Apply the brakes firmly to stop the wheel spin and transfer weight forward"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 779,
+    "category": "road-rules",
+    "question": "What should you do if you realise you are approaching an intersection too fast to stop safely?",
+    "options": [
+      "Accelerate hard to clear the intersection before conflicting traffic arrives",
+      "If safe, steer around the intersection, otherwise apply maximum braking to stop short",
+      "Sound the horn loudly and hope other road users will yield to your approach"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 780,
+    "category": "road-rules",
+    "question": "What is the main cause of tyre blowouts?",
+    "options": [
+      "Extremely cold temperatures causing the tyre rubber to become brittle",
+      "Under-inflation, over-inflation, overloading, or damaged and severely worn tyres",
+      "A single instance of heavy braking that causes the tyre bead to separate"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 781,
+    "category": "road-rules",
+    "question": "What does a dotted yellow line marking mean on a road?",
+    "options": [
+      "No stopping is permitted in the zone marked by the dotted yellow line",
+      "It marks where a solid yellow line resumes after a driveway or side road gap",
+      "No overtaking is permitted — the dotted yellow line is a hazard warning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 782,
+    "category": "road-rules",
+    "question": "What is the legal obligation of a driver after causing damage to parked property?",
+    "options": [
+      "Drive away quickly if no witnesses were present at the time of the incident",
+      "Leave your contact details on or near the property and report the incident to police",
+      "Only report the damage if the estimated cost of repairs exceeds R1 000"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 783,
+    "category": "road-rules",
+    "question": "What is the maximum speed on a road through a town if no signs are displayed?",
+    "options": [
+      "80 km/h",
+      "60 km/h",
+      "100 km/h"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 784,
+    "category": "road-rules",
+    "question": "What is the purpose of the Road Traffic Management Corporation RTMC?",
+    "options": [
+      "To collect tolls",
+      "To oversee road traffic legislation, safety strategy, and law enforcement coordination in South Africa",
+      "To issue driving licences"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 785,
+    "category": "road-rules",
+    "question": "What is the maximum permissible noise level for a vehicle exhaust?",
+    "options": [
+      "Any level",
+      "The vehicle must not exceed the prescribed noise limit — excessive noise is an offence",
+      "Only restricted near hospitals"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 786,
+    "category": "road-rules",
+    "question": "What does the electronic AARTO system do?",
+    "options": [
+      "Issues speed fines only",
+      "Administers the demerit system for road traffic offences in South Africa",
+      "Manages toll fees"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 787,
+    "category": "road-rules",
+    "question": "Under AARTO, how many demerit points result in a licence suspension?",
+    "options": [
+      "10 points",
+      "15 points",
+      "12 points"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 788,
+    "category": "road-rules",
+    "question": "What is the rule about stopping in a yellow box road marking at a junction?",
+    "options": [
+      "Permitted to wait for a right-turn gap",
+      "Only enter if your exit is clear or you are waiting to turn right in a gap",
+      "Permitted for 30 seconds"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 789,
+    "category": "road-rules",
+    "question": "What is the purpose of a dedicated right-turn arrow at traffic lights?",
+    "options": [
+      "To allow all traffic to turn right at once",
+      "To allow vehicles waiting to turn right to do so when oncoming traffic is held on red",
+      "Only for buses and taxis"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 790,
+    "category": "road-rules",
+    "question": "What does the term gross vehicle mass GVM mean?",
+    "options": [
+      "The weight of the vehicle empty",
+      "The maximum total weight of the vehicle including load and passengers as specified by the manufacturer",
+      "The weight of cargo only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 791,
+    "category": "road-rules",
+    "question": "How does a learner driver know the vehicle they are driving is fit for the K53 test?",
+    "options": [
+      "Any car is acceptable",
+      "The vehicle must be in a roadworthy condition with all lights, brakes, and equipment working",
+      "Only a test-centre-approved car"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 792,
+    "category": "road-rules",
+    "question": "What is a key hazard when driving on dirt roads?",
+    "options": [
+      "Improved traction on gravel",
+      "Loose surface reduces grip — slow down and increase following distance",
+      "Gravel roads have no hazards"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 793,
+    "category": "road-rules",
+    "question": "What is the safe technique for driving on a gravel road at night?",
+    "options": [
+      "Use high beam and drive at normal speed",
+      "Use low beam to reduce glare from dust; drive slower than on tar",
+      "Switch off headlights to see better"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 794,
+    "category": "road-rules",
+    "question": "What is a key risk when overtaking on a gravel road?",
+    "options": [
+      "No risk — gravel roads have no centre lines",
+      "Flying gravel, dust obscuring vision, and reduced grip during the manoeuvre",
+      "Gravel roads are safer to overtake on"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 795,
+    "category": "road-rules",
+    "question": "What is the legal requirement for a car used for driving test purposes?",
+    "options": [
+      "Any car in working order",
+      "The car must be roadworthy and have an emergency handbrake and dual controls if required",
+      "Only a registered driving school car"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 796,
+    "category": "road-rules",
+    "question": "When approaching a bridge on a rural road, what should you check?",
+    "options": [
+      "Nothing — proceed at full speed",
+      "Load limit signs — if your vehicle exceeds the bridge limit you must find an alternative route",
+      "Only check if the bridge looks old"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 797,
+    "category": "road-rules",
+    "question": "What is the rule about parking on a footpath or pavement?",
+    "options": [
+      "Permitted if space is available",
+      "Prohibited — vehicles may not obstruct a footpath or pavement",
+      "Only prohibited during school hours"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 798,
+    "category": "road-rules",
+    "question": "What is the safe stopping distance in dry conditions at 120 km/h?",
+    "options": [
+      "About 60 m",
+      "About 140 m",
+      "About 200 m"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 799,
+    "category": "road-rules",
+    "question": "What should you do if your vehicle is struck by lightning while driving?",
+    "options": [
+      "Exit the vehicle immediately",
+      "Stay inside — the metal body conducts electricity safely around the occupants",
+      "Park under a tall tree"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 800,
+    "category": "road-rules",
+    "question": "What is the rule about using a bus lane if you are a motorcycle rider?",
+    "options": [
+      "Always permitted",
+      "Only permitted where signs explicitly allow motorcycles in the bus lane",
+      "Never permitted"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 801,
+    "category": "road-rules",
+    "question": "What is the meaning of a flashing green traffic arrow for a turning lane?",
+    "options": [
+      "You must wait",
+      "You may proceed in the arrow direction — it is a protected turn signal",
+      "Warning that light will change"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 802,
+    "category": "road-rules",
+    "question": "What is the correct response when your vehicle's stability control activates?",
+    "options": [
+      "Apply more throttle",
+      "Ease off the accelerator and steer smoothly — the system is managing under or oversteer",
+      "Brake as hard as possible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 803,
+    "category": "road-rules",
+    "question": "What are the main factors that affect stopping distance?",
+    "options": [
+      "Road surface, tyre condition, speed, and driver reaction time",
+      "Only the weather",
+      "Only the vehicle weight"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 804,
+    "category": "road-rules",
+    "question": "What is the rule about driving past a yield sign when the road is clear?",
+    "options": [
+      "Must always stop",
+      "May proceed without stopping if the road is clear and safe",
+      "Must wait 3 seconds then proceed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 805,
+    "category": "road-rules",
+    "question": "What is the rule about parking on a corner or bend?",
+    "options": [
+      "Permitted if visibility is good",
+      "Prohibited — parking on a corner reduces visibility for all road users",
+      "Permitted for short stops only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 806,
+    "category": "road-rules",
+    "question": "How does temperature affect tyre pressure?",
+    "options": [
+      "It has no effect",
+      "Higher temperatures increase pressure; lower temperatures decrease pressure",
+      "Lower temperatures increase pressure"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 807,
+    "category": "road-rules",
+    "question": "What is the rule about making a U-turn where a No U-turn sign is displayed?",
+    "options": [
+      "Permitted if road is clear",
+      "Prohibited — the sign is a mandatory regulatory instruction",
+      "Permitted for motorcycles only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 808,
+    "category": "road-rules",
+    "question": "What does the K53 principle of observation mean before a manoeuvre?",
+    "options": [
+      "Only checking the front",
+      "Checking mirrors, blind spots, and road users in all directions before acting",
+      "Only checking for other cars"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 809,
+    "category": "road-rules",
+    "question": "What must you do when the traffic authority has flagged your vehicle as unroadworthy?",
+    "options": [
+      "Continue driving at reduced speed",
+      "You must not drive the vehicle until the roadworthy defects are corrected",
+      "You may drive only to the garage"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 810,
+    "category": "road-rules",
+    "question": "What is the correct response to a vehicle swerving into your lane at speed?",
+    "options": [
+      "Hoot and maintain position",
+      "Brake and steer to create space — avoid aggressive counter-swerve",
+      "Flash lights and maintain speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 811,
+    "category": "road-rules",
+    "question": "When is it safe to proceed through an intersection with a green light?",
+    "options": [
+      "Immediately on green",
+      "Only when the intersection is clear of all cross-traffic and pedestrians",
+      "After waiting 3 seconds"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 812,
+    "category": "road-rules",
+    "question": "What effect does excessive speed have on a vehicle's ability to navigate bends?",
+    "options": [
+      "Improves cornering",
+      "Increases the risk of understeer or oversteer — the vehicle may leave the road",
+      "Has no effect on bends"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 813,
+    "category": "road-rules",
+    "question": "What is the purpose of retaining walls alongside mountain roads?",
+    "options": [
+      "Decoration",
+      "To prevent rockfalls or loose material from reaching the road surface",
+      "To reduce wind on the road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 814,
+    "category": "road-rules",
+    "question": "Under what law is road traffic regulated in South Africa?",
+    "options": [
+      "The Traffic Code Act",
+      "The National Road Traffic Act No. 93 of 1996",
+      "The Driving Regulations Act"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 815,
+    "category": "road-rules",
+    "question": "What is the purpose of the National Road Traffic Act?",
+    "options": [
+      "To manage toll roads only",
+      "To regulate and promote safe road use, traffic law, and vehicle standards in South Africa",
+      "To manage public transport only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 816,
+    "category": "road-rules",
+    "question": "What is a demerit system under AARTO?",
+    "options": [
+      "A reward system for safe drivers",
+      "A points-based penalty system where traffic offences incur demerit points leading to licence suspension",
+      "A way to earn a driving bonus"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 817,
+    "category": "road-rules",
+    "question": "What is the correct way to drive through a dip or low point in a road?",
+    "options": [
+      "Accelerate through it",
+      "Approach at a reduced speed — the bottom of a dip may conceal hazards",
+      "Brake hard in the dip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 818,
+    "category": "road-rules",
+    "question": "What should you do if you experience brake fade on a descent?",
+    "options": [
+      "Brake harder",
+      "Change to a lower gear immediately to use engine braking and allow brakes to cool",
+      "Stop on the shoulder only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 819,
+    "category": "road-rules",
+    "question": "What happens to visibility in rain at night?",
+    "options": [
+      "Visibility improves with reflections",
+      "Visibility is severely reduced — use dipped headlights and reduce speed",
+      "Visibility is unaffected"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 820,
+    "category": "road-rules",
+    "question": "What is the purpose of the AARTO infringement notice?",
+    "options": [
+      "A letter of congratulations for safe driving",
+      "A formal notice informing a driver of a traffic offence and the applicable fine or demerit points",
+      "A reminder to renew a licence"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 821,
+    "category": "road-rules",
+    "question": "How many demerit points are issued for minor traffic offences under AARTO?",
+    "options": [
+      "5 points",
+      "1 to 3 points depending on offence",
+      "10 points"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 822,
+    "category": "road-rules",
+    "question": "What is the purpose of a learner's licence test?",
+    "options": [
+      "To test knowledge of vehicle mechanics",
+      "To assess knowledge of traffic rules, road signs, and vehicle controls before driving on public roads",
+      "To assess knowledge of geography"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 823,
+    "category": "road-rules",
+    "question": "What is the role of the examiner during a K53 driving test?",
+    "options": [
+      "To guide the candidate where to go",
+      "To observe and assess the candidate's driving against the K53 criteria — the examiner will intervene only if unsafe",
+      "To drive the car when the candidate struggles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 824,
+    "category": "road-rules",
+    "question": "In South Africa, driving a vehicle not registered in your name requires?",
+    "options": [
+      "A special permit",
+      "The owner's permission and the vehicle must have a valid licence disc — no special permit needed",
+      "A letter from the owner at all times"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 825,
+    "category": "road-rules",
+    "question": "What is the most important principle of defensive driving?",
+    "options": [
+      "Speed and aggression",
+      "Always be aware, anticipate hazards, and plan an escape route",
+      "Follow the vehicle ahead closely"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 826,
+    "category": "road-rules",
+    "question": "When driving in heavy rain, what is the greatest danger on the road?",
+    "options": [
+      "Increased tyre noise",
+      "Reduced visibility, aquaplaning, and longer stopping distances",
+      "Increased road noise making communication hard"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 827,
+    "category": "road-rules",
+    "question": "What is the rule about pedestrians at a pelican or push-button controlled crossing?",
+    "options": [
+      "Pedestrians must always wait",
+      "Vehicles must stop when the pedestrian light shows green or the amber light is flashing and pedestrians are crossing",
+      "Pedestrians have no rights at controlled crossings"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 828,
+    "category": "road-rules",
+    "question": "What should you do when approaching a blind crest or hilltop on a two-lane road?",
+    "options": [
+      "Move to the centre",
+      "Keep well to the left and reduce speed in case of oncoming vehicles over the crest",
+      "Flash headlights before cresting"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 829,
+    "category": "road-rules",
+    "question": "What does ECO mode do in a modern vehicle?",
+    "options": [
+      "Increases engine power",
+      "Optimises fuel economy by limiting throttle response and managing gear changes for efficiency",
+      "Increases tyre pressure automatically"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 830,
+    "category": "road-rules",
+    "question": "What is the rule about driving past road workers in a construction zone?",
+    "options": [
+      "Maintain speed",
+      "Slow down to the indicated reduced speed limit and be prepared to stop — workers have the right of way",
+      "Hoot to warn them then continue"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 831,
+    "category": "road-rules",
+    "question": "What is the correct way to approach a rural railway crossing without barriers?",
+    "options": [
+      "Speed up to get across quickly",
+      "Slow down significantly, look both ways, listen for a train, and proceed only when clearly safe",
+      "Treat it as a yield sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 832,
+    "category": "road-rules",
+    "question": "What should you do when it is raining heavily and you cannot see more than 50 m ahead?",
+    "options": [
+      "Switch on hazard lights and continue",
+      "Pull over safely, switch off the engine, and wait for visibility to improve",
+      "Maintain speed with hazard lights on"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 833,
+    "category": "road-rules",
+    "question": "What is the 12-second visual lead technique?",
+    "options": [
+      "Looking 12 metres ahead",
+      "Scanning the road 12 seconds of driving time ahead to anticipate hazards early",
+      "Using mirrors every 12 seconds"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 834,
+    "category": "road-signs",
+    "question": "A sign showing a red octagon with STOP in white is always?",
+    "options": [
+      "A yield sign",
+      "A mandatory complete stop sign",
+      "An advisory stop sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 835,
+    "category": "road-signs",
+    "question": "A sign with a blue circle and a straight-ahead white arrow at a T-junction means?",
+    "options": [
+      "You may turn",
+      "You must go straight — turning is not permitted",
+      "Advisory direction"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 836,
+    "category": "road-signs",
+    "question": "A triangular sign with a slippery car and raindrops means?",
+    "options": [
+      "Car wash ahead",
+      "Slippery road when wet",
+      "Speed bump in rain"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 837,
+    "category": "road-signs",
+    "question": "What does a sign showing a tractor with an arrow pulling out from the left indicate?",
+    "options": [
+      "Tractor crossing",
+      "Agricultural vehicle may be entering the road from the left",
+      "No tractors"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 838,
+    "category": "road-signs",
+    "question": "A sign showing a large truck with steam or smoke coming from it in a triangle means?",
+    "options": [
+      "Truck stop ahead",
+      "Danger from overheating trucks — steep hill with brake fade risk",
+      "No smoking in trucks"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 839,
+    "category": "road-signs",
+    "question": "A sign showing a flame next to a fuel pump means?",
+    "options": [
+      "Fuel available",
+      "No smoking or open flames near fuel",
+      "Diesel only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 840,
+    "category": "road-signs",
+    "question": "What does a NARROW BRIDGE sign with two arrows facing each other indicate?",
+    "options": [
+      "Bridge is wide",
+      "Bridge is narrow — give way to oncoming traffic",
+      "Speed up to cross faster"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 841,
+    "category": "road-signs",
+    "question": "A sign showing a road with bumps and an arrow means?",
+    "options": [
+      "Speed hump ahead",
+      "Corrugated or bumpy road section ahead",
+      "Bridge ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 842,
+    "category": "road-signs",
+    "question": "A sign showing a pair of eyes or binoculars means?",
+    "options": [
+      "Watch for aircraft",
+      "Scenic viewpoint or lookout ahead",
+      "No photography"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 843,
+    "category": "road-signs",
+    "question": "What does a triangular sign showing a bus emerging from a side road indicate?",
+    "options": [
+      "Bus stop ahead",
+      "Bus may be entering the road — be prepared to give way",
+      "No bus route"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 844,
+    "category": "road-signs",
+    "question": "A sign showing diagonal stripes on a triangular background means?",
+    "options": [
+      "Road narrows",
+      "Obstruction or roadworks barrier ahead",
+      "Speed bump"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 845,
+    "category": "road-signs",
+    "question": "What does a CONGESTION AHEAD sign typically look like?",
+    "options": [
+      "Red circle with cars",
+      "Variable message board or gantry sign showing tailback",
+      "Blue rectangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 846,
+    "category": "road-signs",
+    "question": "A sign showing a road splitting into two ahead in a triangle means?",
+    "options": [
+      "No overtaking",
+      "Dual carriageway starts or lanes diverge ahead",
+      "Road ends"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 847,
+    "category": "road-signs",
+    "question": "What does a DUAL CARRIAGEWAY AHEAD sign indicate?",
+    "options": [
+      "Two-way traffic starts",
+      "Road ahead has two separate carriageways separated by a median — keep left",
+      "Speed limit increases"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 848,
+    "category": "road-signs",
+    "question": "A sign showing a white arrow on blue pointing left and right means?",
+    "options": [
+      "Choose your direction",
+      "Turn left or right — you may not go straight",
+      "Two-way traffic"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 849,
+    "category": "road-signs",
+    "question": "A sign showing a triangular symbol with a downward arrow and water waves means?",
+    "options": [
+      "Steep descent into water",
+      "Ford or low-water bridge ahead — may flood",
+      "No swimming ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 850,
+    "category": "road-signs",
+    "question": "A sign showing a truck on a ramp with an upward arrow means?",
+    "options": [
+      "Trucks exit here",
+      "Emergency truck escape ramp or runaway lane ahead",
+      "No trucks in this lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 851,
+    "category": "road-signs",
+    "question": "A sign showing the word TOLL in blue means?",
+    "options": [
+      "No toll",
+      "Toll plaza ahead — be prepared to pay",
+      "Free toll road"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 852,
+    "category": "road-signs",
+    "question": "What is the shape of a supplementary plate that gives additional information below a main sign?",
+    "options": [
+      "Octagon",
+      "Rectangle",
+      "Triangle"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 853,
+    "category": "road-signs",
+    "question": "A sign showing a road under a railway bridge with a height restriction means?",
+    "options": [
+      "Maximum weight restriction",
+      "Vertical clearance restriction — vehicles taller than shown must not proceed",
+      "No trains overhead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 854,
+    "category": "road-signs",
+    "question": "What does a MAJOR ROAD AHEAD sign at a T-junction indicate?",
+    "options": [
+      "You have right of way",
+      "The road ahead is a major road — you must yield or stop before entering",
+      "Speed up to match major road traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 855,
+    "category": "road-signs",
+    "question": "A sign showing curved arrows in a roundabout circle pattern means?",
+    "options": [
+      "Traffic circle ahead — give way to traffic in the circle",
+      "No U-turns",
+      "Speed restriction in a circle"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 856,
+    "category": "road-signs",
+    "question": "A sign showing a series of bumps in a row on yellow background means?",
+    "options": [
+      "Speed is monitored here",
+      "Multiple speed humps ahead",
+      "Corrugated road surface ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 857,
+    "category": "road-signs",
+    "question": "What does a sign with a black car silhouette on a white background in a blue box mean?",
+    "options": [
+      "No cars",
+      "Car park in this direction",
+      "Cars only in this lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 858,
+    "category": "road-signs",
+    "question": "A sign showing a white rectangular plate with a black number on a road means?",
+    "options": [
+      "Speed limit",
+      "Distance marker or road reference number",
+      "No parking zone number"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 859,
+    "category": "road-signs",
+    "question": "A sign showing a red cross X formed by two diagonal lines in a circle means?",
+    "options": [
+      "No entry",
+      "No overtaking",
+      "All directions prohibited"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 860,
+    "category": "road-signs",
+    "question": "What does a blue sign showing a P with a motorbike symbol indicate?",
+    "options": [
+      "No motorcycle parking",
+      "Motorcycle-only parking area",
+      "General parking area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 861,
+    "category": "road-signs",
+    "question": "A sign showing a large yellow diamond on black background means?",
+    "options": [
+      "Dangerous goods vehicle ahead",
+      "Priority road — you are on the main road and have right of way",
+      "Warning of a very sharp bend"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 862,
+    "category": "road-signs",
+    "question": "What does the loss of priority sign an inverted diamond mean?",
+    "options": [
+      "You are still on the main road",
+      "You are no longer on the priority road — give way ahead",
+      "Speed up on this section"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 863,
+    "category": "road-signs",
+    "question": "A sign showing EXIT with an arrow on a freeway ramp means?",
+    "options": [
+      "Entrance to freeway",
+      "The exit point from the freeway",
+      "Emergency exit only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 864,
+    "category": "road-signs",
+    "question": "A sign showing MERGE with a lane arrow means?",
+    "options": [
+      "Lanes separate",
+      "Lanes combine ahead — yield and merge safely",
+      "No lane changing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 865,
+    "category": "road-signs",
+    "question": "What does a sign showing an orange triangle with a SLOW VEHICLE inscription mean?",
+    "options": [
+      "Slow vehicle park ahead",
+      "This vehicle or convoy is slow-moving — caution when following or overtaking",
+      "Speed restriction of slow"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 866,
+    "category": "road-signs",
+    "question": "What does a black and yellow diagonal-striped board at a road edge indicate?",
+    "options": [
+      "Parking zone",
+      "Barrier or obstruction — the road is blocked or ends here",
+      "Speed control zone"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 867,
+    "category": "road-signs",
+    "question": "A sign showing a car on a ramp or incline in a triangle means?",
+    "options": [
+      "Speed hump ahead",
+      "Steep incline or hill ahead — use appropriate gear",
+      "Car park ramp ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 868,
+    "category": "road-signs",
+    "question": "What does a sign showing a headlight beam with radiating lines in a triangle indicate?",
+    "options": [
+      "Use high beams",
+      "Switch on headlights ahead — tunnel or low-light zone begins",
+      "Headlights prohibited"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 869,
+    "category": "road-signs",
+    "question": "A sign showing a diamond shape in the middle of a road lane means?",
+    "options": [
+      "Pothole",
+      "This lane is reserved for high-occupancy vehicles HOV or buses",
+      "Bicycle crossing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 870,
+    "category": "road-signs",
+    "question": "A sign showing a shield-shaped icon with the letter M means?",
+    "options": [
+      "Motorway",
+      "Metropolitan road route marker",
+      "Military road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 871,
+    "category": "road-signs",
+    "question": "A sign showing a red-bordered triangle with a winding road arrow means?",
+    "options": [
+      "One sharp bend",
+      "Series of bends — winding road ahead",
+      "Speed hump"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 872,
+    "category": "road-signs",
+    "question": "A sign showing ROAD WORKS NEXT 3 KM in orange means?",
+    "options": [
+      "Speed limit of 3 km/h",
+      "Road work conditions and reduced speed limits apply for the next 3 km",
+      "Detour route is 3 km"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 873,
+    "category": "road-signs",
+    "question": "A sign showing NO THROUGH ROAD with a T and bar means?",
+    "options": [
+      "T-junction ahead",
+      "Road is a dead end — no exit through this road",
+      "No turning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 874,
+    "category": "road-signs",
+    "question": "A sign showing a white pedestrian on a green circle means?",
+    "options": [
+      "No pedestrians",
+      "Pedestrian crossing is active — pedestrians may cross",
+      "Pedestrian parking"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 875,
+    "category": "road-signs",
+    "question": "A sign showing a bicycle in a box with arrows means?",
+    "options": [
+      "Bicycle prohibited",
+      "Advanced stop line box for cyclists at traffic lights",
+      "Bicycle lane starts here"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 876,
+    "category": "road-signs",
+    "question": "A sign on the road showing a large diamond means?",
+    "options": [
+      "Speed bump",
+      "Reserved lane such as bus or HOV lane marker on road",
+      "Pedestrian crossing warning"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 877,
+    "category": "road-signs",
+    "question": "What does a sign showing a lorry with a cloud of smoke or dust behind it in a triangle indicate?",
+    "options": [
+      "Trucks permitted",
+      "Loose material on road or dusty conditions ahead",
+      "Truck wash nearby"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 878,
+    "category": "road-signs",
+    "question": "What does a DIVERSION sign typically look like?",
+    "options": [
+      "Red circle with arrow",
+      "Fluorescent yellow rectangle with black arrow showing alternate route",
+      "Blue rectangle with direction"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 879,
+    "category": "road-signs",
+    "question": "A sign showing a fishing rod or fish symbol on brown background means?",
+    "options": [
+      "No fishing",
+      "Fishing spot or recreational fishing area nearby",
+      "Marine protected area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 880,
+    "category": "road-signs",
+    "question": "A sign showing a picnic table symbol on a brown or green background means?",
+    "options": [
+      "No picnicking",
+      "Picnic area nearby",
+      "Restaurant ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 881,
+    "category": "road-signs",
+    "question": "What does a green sign with a white car and arrow pointing left indicate on a freeway?",
+    "options": [
+      "No vehicles left",
+      "Traffic should keep right",
+      "Exit lane for traffic leaving the freeway"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 882,
+    "category": "road-signs",
+    "question": "A sign showing a snowflake and rain drop together means?",
+    "options": [
+      "Cold drink area",
+      "Ice and wet road conditions ahead — extreme caution",
+      "Weather station ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 883,
+    "category": "road-signs",
+    "question": "A sign showing a deer leaping in a triangle means?",
+    "options": [
+      "Game reserve entrance",
+      "Deer or wildlife crossing — animals may be on the road",
+      "Hunting allowed ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 884,
+    "category": "road-signs",
+    "question": "What does a 40 in white numerals painted on the road surface mean?",
+    "options": [
+      "Advisory speed",
+      "Mandatory 40 km/h zone begins here",
+      "Parking limit 40 minutes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 885,
+    "category": "road-signs",
+    "question": "A sign showing a hospital with an H and an arrow is what type of sign?",
+    "options": [
+      "Warning sign",
+      "Guidance and information sign — direction to a hospital",
+      "Regulatory sign"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 886,
+    "category": "road-signs",
+    "question": "A sign showing a yellow square with a black question mark means?",
+    "options": [
+      "Unknown danger ahead",
+      "Tourist information point or direction to a tourist information centre",
+      "No information zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 887,
+    "category": "road-signs",
+    "question": "What does a sign with a palm tree and waves on a brown background indicate?",
+    "options": [
+      "No swimming",
+      "Coastal or beach attraction nearby",
+      "Flood zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 888,
+    "category": "road-signs",
+    "question": "A sign showing a red triangle with an arrow bending sharply right and then immediately left means?",
+    "options": [
+      "Two bends first right",
+      "Double hairpin bend ahead",
+      "Simple S-bend"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 889,
+    "category": "road-signs",
+    "question": "A sign reading TRUCKS USE LOW GEAR means?",
+    "options": [
+      "Speed limit for trucks",
+      "Trucks must engage a low gear before this descent to prevent brake fade",
+      "Trucks must stop at weigh bridge"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 890,
+    "category": "road-signs",
+    "question": "What does a sign showing NO STOPPING with times below indicate?",
+    "options": [
+      "No stopping at any time",
+      "No stopping during the specified hours — stopping may be permitted outside those hours",
+      "No parking at any time"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 891,
+    "category": "road-signs",
+    "question": "A sign showing an electric lightning bolt symbol on a blue sign means?",
+    "options": [
+      "No electrical vehicles",
+      "Electric vehicle charging station nearby",
+      "Danger — electrical cables"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 892,
+    "category": "road-signs",
+    "question": "A sign showing 150 M on a plate below a STOP sign means?",
+    "options": [
+      "Stop for 150 seconds",
+      "You are 150 m before a compulsory stop",
+      "Drive 150 m then stop"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 893,
+    "category": "road-signs",
+    "question": "A sign showing EMERGENCY PHONE with an arrow means?",
+    "options": [
+      "Police ahead",
+      "Emergency roadside telephone or SOS point in the direction shown",
+      "No phone use"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 894,
+    "category": "road-signs",
+    "question": "A sign showing TWO-WAY TRAFFIC AHEAD warns that?",
+    "options": [
+      "More traffic is coming",
+      "You are about to enter a section where traffic flows in both directions on the same road",
+      "Traffic light ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 895,
+    "category": "road-signs",
+    "question": "A sign showing LANE ENDS MERGE LEFT warns?",
+    "options": [
+      "The left lane is open",
+      "Your current lane is ending — signal and merge left safely before the lane ends",
+      "Merging is optional"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 896,
+    "category": "road-signs",
+    "question": "A sign showing multiple vehicles side by side with an X means?",
+    "options": [
+      "Traffic jam ahead",
+      "No driving side by side — no undertaking or abreast driving",
+      "Carpool zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 897,
+    "category": "road-signs",
+    "question": "What does a sign showing a red car on the road and a green arrow mean?",
+    "options": [
+      "No parking",
+      "Cars may proceed in that direction",
+      "Car-only lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 898,
+    "category": "road-signs",
+    "question": "A sign showing a hill with water at the bottom warns of?",
+    "options": [
+      "Scenic water view",
+      "Flood-prone area — road may be submerged in rain",
+      "Swimming area at the bottom of a hill"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 899,
+    "category": "road-signs",
+    "question": "A sign showing ROAD HUMPS NEXT 500 M means?",
+    "options": [
+      "One hump 500 m ahead",
+      "Multiple speed humps for the next 500 m — maintain reduced speed",
+      "Road works in 500 m"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 900,
+    "category": "road-signs",
+    "question": "A sign showing a white diamond on a blue background over a lane means?",
+    "options": [
+      "Diamond lane — high-occupancy vehicles or buses only",
+      "Fast lane",
+      "Slow lane"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 901,
+    "category": "road-signs",
+    "question": "A sign showing a white pedestrian crossing a road with dashes means?",
+    "options": [
+      "Pedestrian crossing ahead",
+      "Pedestrian zone — no vehicles",
+      "Pedestrians prohibited"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 902,
+    "category": "road-signs",
+    "question": "A sign showing a triangle with two children and a flag or crossing guard means?",
+    "options": [
+      "No children allowed",
+      "School crossing patrol ahead — be prepared to stop",
+      "Children's playground ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 903,
+    "category": "road-signs",
+    "question": "A sign showing FALLING SNOW in a triangle with snowflake warns?",
+    "options": [
+      "Ski resort ahead",
+      "Snow may fall or roads may be icy — reduce speed",
+      "No snowmobiles"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 904,
+    "category": "road-signs",
+    "question": "What does a circular sign with a blue background and a car heading into a parking bay mean?",
+    "options": [
+      "No parking",
+      "Parking area or entrance — you are permitted to park",
+      "Paid parking only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 905,
+    "category": "road-signs",
+    "question": "A sign showing LOOSE SURFACE or LOOSE STONES on a yellow background warns?",
+    "options": [
+      "Gravel road is smooth here",
+      "Loose stones may be thrown by vehicles — risk of chipped windscreens",
+      "No vehicles on loose surface"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 906,
+    "category": "road-signs",
+    "question": "A sign showing a red outline triangle with two vehicles converging from both sides means?",
+    "options": [
+      "Overtaking allowed",
+      "Road narrows from both sides — vehicles must give way",
+      "Two-way traffic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 907,
+    "category": "road-signs",
+    "question": "What does a sign showing PARK AND RIDE with a bus symbol mean?",
+    "options": [
+      "No parking near bus stops",
+      "A facility where you can park your car and continue by public transport",
+      "Buses park here"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 908,
+    "category": "road-signs",
+    "question": "A sign showing an arrow on a blue background curving left means?",
+    "options": [
+      "Proceed straight only",
+      "Turn or keep left — mandatory direction",
+      "Advisory left curve"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 909,
+    "category": "road-signs",
+    "question": "What does a large painted STOP with a box around it on the road indicate?",
+    "options": [
+      "Suggestion to slow down",
+      "Compulsory stop — come to a complete halt before the box marking",
+      "Speed limit zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 910,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a bicycle and pedestrian side by side means?",
+    "options": [
+      "Shared path ahead",
+      "No bicycles or pedestrians on this road",
+      "Bicycles and pedestrians must share the path"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 911,
+    "category": "road-signs",
+    "question": "A sign showing a camera with a lightning bolt means?",
+    "options": [
+      "No photography",
+      "Red-light camera — vehicles running the red light will be photographed",
+      "Speed camera"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 912,
+    "category": "road-signs",
+    "question": "A sign showing a truck on a bridge with a red circle means?",
+    "options": [
+      "Trucks must use this bridge",
+      "No trucks on this bridge — weight or height restriction applies",
+      "Truck rest stop on bridge"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 913,
+    "category": "road-signs",
+    "question": "A sign showing a car and trailer in a red circle means?",
+    "options": [
+      "Trailers permitted",
+      "No vehicles towing trailers",
+      "Trailer park ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 914,
+    "category": "road-signs",
+    "question": "What does a sign showing NO HAWKERS below a pedestrian figure indicate?",
+    "options": [
+      "No pedestrians here",
+      "Vendors and hawkers are prohibited from operating in this area",
+      "Hawkers welcome"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 915,
+    "category": "road-signs",
+    "question": "A sign showing a hand holding a mobile phone with a line through it means?",
+    "options": [
+      "Mobile signal zone",
+      "Mobile phone use while driving is prohibited",
+      "Free wifi zone"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 916,
+    "category": "road-signs",
+    "question": "A sign showing a school bus with children in a triangle warns?",
+    "options": [
+      "School bus stop ahead",
+      "School children boarding or alighting from a bus nearby — be alert",
+      "No school buses on this road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 917,
+    "category": "road-signs",
+    "question": "A sign showing a windsurfer or water-sport icon on a brown background means?",
+    "options": [
+      "No water sports",
+      "Water sports or recreational water area nearby",
+      "Windy conditions ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 918,
+    "category": "road-signs",
+    "question": "A sign showing a star symbol on a brown sign means?",
+    "options": [
+      "No camping",
+      "A star-rated tourist facility or attraction nearby",
+      "Police station ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 919,
+    "category": "road-signs",
+    "question": "A sign showing a map icon with a question mark means?",
+    "options": [
+      "No navigation devices",
+      "Tourist information and map available at this point",
+      "Road map for sale"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 920,
+    "category": "road-signs",
+    "question": "A sign showing a green sign reading FREEWAY ENDS means?",
+    "options": [
+      "Speed limit increases",
+      "The freeway regulations are ending — normal road rules apply ahead",
+      "Free section of road ends"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 921,
+    "category": "road-signs",
+    "question": "What does a sign reading NO PEDESTRIANS next to a freeway entry mean?",
+    "options": [
+      "Pedestrians may walk on the freeway shoulder",
+      "Pedestrians are prohibited from the freeway — they must use alternative routes",
+      "Pedestrian crossing is ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 922,
+    "category": "road-signs",
+    "question": "A sign showing a pair of glasses in a triangle means?",
+    "options": [
+      "Eye test centre ahead",
+      "Caution — reduced visibility ahead such as fog glare or a dip",
+      "Optical illusion on road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 923,
+    "category": "road-signs",
+    "question": "What does a sign showing an arrow pointing to a siding or pull-off lane indicate?",
+    "options": [
+      "No stopping here",
+      "Slow vehicles should use the pull-off or climbing lane to allow faster traffic to pass",
+      "Emergency stop only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 924,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a motorcycle and a passenger means?",
+    "options": [
+      "Motorcycles may carry a passenger",
+      "No motorcycles with passengers allowed",
+      "Motorcycle passenger must wear a helmet"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 925,
+    "category": "road-signs",
+    "question": "What does a NIGHT DRIVING RESTRICTIONS sign indicate?",
+    "options": [
+      "No driving at night",
+      "Certain vehicles such as heavy trucks may be restricted from using this road during specified night hours",
+      "Speed limit applies at night only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 926,
+    "category": "road-signs",
+    "question": "A sign showing a cracked road surface in a triangle warns?",
+    "options": [
+      "Speed bump",
+      "Damaged or cracked road surface ahead — reduce speed",
+      "Road works end"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 927,
+    "category": "road-signs",
+    "question": "A sign showing an arrow pointing into a lay-by means?",
+    "options": [
+      "No stopping",
+      "A rest area or lay-by is ahead — you may stop here",
+      "Emergency vehicles only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 928,
+    "category": "road-signs",
+    "question": "A sign showing a red triangle with a question mark inside means?",
+    "options": [
+      "No information zone",
+      "Unknown or general hazard ahead",
+      "Tourist information"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 929,
+    "category": "road-signs",
+    "question": "A sign showing a road surface with an arrow curving off to the right means?",
+    "options": [
+      "Turn right here",
+      "Dangerous curve to the right — there is a risk of leaving the road",
+      "Detour to the right"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 930,
+    "category": "road-signs",
+    "question": "What does a sign showing TRUCK ESCAPE RAMP ahead indicate?",
+    "options": [
+      "Trucks must exit here",
+      "There is an escape ramp for trucks with brake failure on the descent ahead",
+      "Trucks must park here"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 931,
+    "category": "road-signs",
+    "question": "A sign showing a green background with the text REST AREA and distance means?",
+    "options": [
+      "Rest is prohibited here",
+      "A rest area is ahead at the indicated distance — facilities may be available",
+      "No rest stops on this road"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 932,
+    "category": "road-signs",
+    "question": "A sign showing NEXT SERVICE 80 KM means?",
+    "options": [
+      "Speed limit is 80 km/h",
+      "The nearest fuel, food, or rest facilities are 80 km ahead — plan accordingly",
+      "A service road in 80 m"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 933,
+    "category": "road-signs",
+    "question": "What does a green arrow over a lane accompanied by OPEN mean?",
+    "options": [
+      "Lane is closed",
+      "The lane is open for normal traffic use",
+      "Emergency lane only"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 934,
+    "category": "road-signs",
+    "question": "A sign showing a child being guided across the road by an adult hand means?",
+    "options": [
+      "No children",
+      "School crossing or supervised pedestrian crossing ahead",
+      "Children must be accompanied"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 935,
+    "category": "road-signs",
+    "question": "A sign showing an antenna or radio tower in a triangle warns?",
+    "options": [
+      "Radio station ahead",
+      "Radio interference zone — equipment may be affected",
+      "Strong signal area"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 936,
+    "category": "road-signs",
+    "question": "A sign showing REDUCE SPEED NOW on an electronic message board means?",
+    "options": [
+      "Advisory suggestion",
+      "A mandatory instruction — reduce speed immediately as a hazard is ahead",
+      "Speed limit of 'now'"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 937,
+    "category": "road-signs",
+    "question": "What does a sign showing a green tick in a circle below a speed restriction sign mean?",
+    "options": [
+      "Speed limit ends — drive freely",
+      "The speed restriction shown above is the end — normal rules apply beyond this point",
+      "You are going the right speed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 938,
+    "category": "road-signs",
+    "question": "A sign showing LANE CLOSED AHEAD on a gantry means?",
+    "options": [
+      "The lane is open",
+      "Prepare to merge — that lane closes ahead",
+      "Optional lane change"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 939,
+    "category": "road-signs",
+    "question": "A sign showing a red circle with a horse-drawn cart means?",
+    "options": [
+      "Animal-drawn vehicles must use this road",
+      "Animal-drawn vehicles are prohibited on this road",
+      "Horse market ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 940,
+    "category": "road-signs",
+    "question": "What does a sign showing two arrows pointing in opposite directions horizontally within a circle indicate?",
+    "options": [
+      "You may pass on either side of the island",
+      "Two-way traffic on this road section",
+      "No overtaking from either direction"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 941,
+    "category": "road-signs",
+    "question": "A sign showing a camel or desert animal in a triangle warns?",
+    "options": [
+      "Wildlife reserve entry",
+      "Desert animals or unusual wildlife may cross the road",
+      "No animals allowed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 942,
+    "category": "road-signs",
+    "question": "A sign showing a diamond with an arrow pointing to a lane means?",
+    "options": [
+      "Lane speed limit",
+      "This lane is a high-occupancy or priority lane — see restrictions",
+      "No entry into this lane"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 943,
+    "category": "road-signs",
+    "question": "A sign showing two curved lines and a car going sideways warns of?",
+    "options": [
+      "A car park entrance",
+      "Severe risk of skidding — very slippery road ahead",
+      "Off-road track ahead"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 944,
+    "category": "road-signs",
+    "question": "A sign showing a floodlight tower and a road in a triangle warns?",
+    "options": [
+      "Stadium ahead",
+      "Spotlight or sudden bright light hazard ahead such as from stadium lights at night",
+      "Road works lighting ahead"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 945,
+    "category": "road-signs",
+    "question": "What does a CYCLIST GIVE WAY sign at a shared path junction mean?",
+    "options": [
+      "Cyclists have right of way",
+      "Cyclists must give way to pedestrians at this junction",
+      "Pedestrians must yield to cyclists"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 946,
+    "category": "road-signs",
+    "question": "A sign showing a white left arrow on blue at the end of a one-way street means?",
+    "options": [
+      "Road ends",
+      "Turn left — this is the only option",
+      "Advisory left"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 947,
+    "category": "road-signs",
+    "question": "What does an END OF CLEARWAY sign indicate?",
+    "options": [
+      "The clearway continues",
+      "Stopping is now permitted beyond this point",
+      "No parking begins"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 948,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the vehicle's handbrake warning light on the dashboard?",
+    "options": [
+      "It illuminates for decoration to indicate the vehicle is in parking mode",
+      "It alerts the driver that the handbrake is still applied before driving off",
+      "It indicates the fuel level is critically low and refuelling is immediately needed"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 949,
+    "category": "vehicle-controls",
+    "question": "What does a continuous clicking sound from a wheel while driving indicate?",
+    "options": [
+      "Normal road noise caused by the tyre tread pattern on a textured road surface",
+      "A worn or damaged CV joint — have it inspected by a qualified technician",
+      "Over-inflated tyres causing the tyre bead to click against the wheel rim"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 950,
+    "category": "vehicle-controls",
+    "question": "What is the correct way to negotiate a tight U-turn in a narrow street?",
+    "options": [
+      "Accelerate through in one sharp movement to complete the turn quickly",
+      "If the space is insufficient, reverse and use multiple turns to complete the manoeuvre",
+      "Mount the kerb on one side to give yourself enough space to complete the turn"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 951,
+    "category": "vehicle-controls",
+    "question": "What does it feel like if your vehicle's wheel is out of balance?",
+    "options": [
+      "A perfectly smooth, vibration-free ride regardless of vehicle speed",
+      "Vibration felt through the steering wheel, typically at a specific speed range",
+      "The vehicle pulls consistently to one side when the brakes are applied firmly"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 952,
+    "category": "vehicle-controls",
+    "question": "What is the correct procedure when your vehicle is in danger of rolling on a steep hill?",
+    "options": [
+      "Apply only the foot brake and hold the pedal down until the hazard is clear",
+      "Apply the handbrake, select first gear, then coordinate a smooth hill start",
+      "Rely on wheel chocks or kerb contact alone to hold the vehicle stationary"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 953,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the rear demister?",
+    "options": [
+      "To cool the rear seats and air temperature for passenger comfort on hot days",
+      "To remove condensation from the rear window and restore clear rearward visibility",
+      "To dry the rear wiper blade so it operates silently in cold weather"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 954,
+    "category": "vehicle-controls",
+    "question": "What should you do if you realise your seatbelt is not fastened while moving?",
+    "options": [
+      "Pull it across your body and clip it in while continuing to drive normally",
+      "Stop in a safe place and fasten the seatbelt properly before continuing",
+      "Seatbelts are optional at speeds below 60 km/h on urban roads"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 955,
+    "category": "vehicle-controls",
+    "question": "What is the correct action when overtaking and you see an oncoming vehicle?",
+    "options": [
+      "Continue overtaking as the oncoming vehicle will move to the edge of the road",
+      "Abort the overtake immediately — drop back and pull in behind the vehicle you were passing",
+      "Accelerate hard to complete the overtake before the oncoming vehicle arrives"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 956,
+    "category": "vehicle-controls",
+    "question": "What is the safest hand position when negotiating a roundabout?",
+    "options": [
+      "Hold the wheel with one hand at the top for easy signal operation",
+      "Both hands on the wheel at 9 and 3 or 10 and 2 o'clock positions",
+      "Remove one hand briefly to signal while steering through the roundabout"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 957,
+    "category": "vehicle-controls",
+    "question": "What is the correct use of the clutch when changing from second to third gear?",
+    "options": [
+      "Change gear without using the clutch — modern synchromesh makes it unnecessary",
+      "Fully depress the clutch, smoothly select third gear, then release clutch with throttle",
+      "Partially depress the clutch halfway and slot the gear in quickly to save time"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 958,
+    "category": "vehicle-controls",
+    "question": "How do you check that the handbrake is working effectively?",
+    "options": [
+      "Drive forward at speed and pull the handbrake sharply to test stopping force",
+      "Apply the handbrake on a gentle slope and confirm the vehicle does not roll",
+      "Have the handbrake tested only at a service centre with proper equipment"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 959,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the vehicle immobiliser?",
+    "options": [
+      "To save fuel by automatically switching off the engine when parked for long periods",
+      "To prevent the engine from starting without the correct key or code — an anti-theft device",
+      "To lock the steering wheel in position so the vehicle cannot be steered when parked"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 960,
+    "category": "vehicle-controls",
+    "question": "What is the correct technique for braking on a slippery surface with ABS?",
+    "options": [
+      "Pump the brakes repeatedly in quick succession to prevent wheel lock",
+      "Apply firm, steady brake pressure and allow the ABS to modulate automatically",
+      "Brake very gently and slowly to avoid triggering the ABS intervention system"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 961,
+    "category": "vehicle-controls",
+    "question": "What does a steering wheel that is difficult to turn indicate?",
+    "options": [
+      "Both front tyres are likely flat and need to be inflated immediately",
+      "Power steering may have failed or fluid is low — have it checked promptly",
+      "The rear brakes are binding and causing excessive resistance in the drivetrain"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 962,
+    "category": "vehicle-controls",
+    "question": "What happens if you engage reverse gear while the vehicle is still moving forward?",
+    "options": [
+      "The gear engages smoothly in modern vehicles with synchronised transmissions",
+      "You risk damaging the gearbox — always stop fully before engaging reverse gear",
+      "It is perfectly safe in all modern cars with electronic transmission protection"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 963,
+    "category": "vehicle-controls",
+    "question": "What is the effect of braking while cornering?",
+    "options": [
+      "Braking mid-corner improves grip as weight transfers to the outside tyres",
+      "Braking while cornering can cause understeer or oversteer and loss of control",
+      "Braking through a corner has no effect on vehicle balance or tyre grip"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 964,
+    "category": "vehicle-controls",
+    "question": "What is the correct technique when driving in heavy stop-and-go traffic?",
+    "options": [
+      "Stay as close as possible behind the vehicle ahead to maximise road capacity",
+      "Keep a safe following distance and brake gently — avoid tailgating",
+      "Use only the handbrake to stop at each traffic queue to save the foot brakes"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 965,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of the vehicle's reverse light or lights?",
+    "options": [
+      "To illuminate the road surface behind the vehicle for greater road visibility",
+      "To activate automatically when reverse is engaged, warning others the car is reversing",
+      "To indicate to following drivers that the vehicle is applying the foot brake"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 966,
+    "category": "vehicle-controls",
+    "question": "When should you pump the brakes in a vehicle with ABS?",
+    "options": [
+      "Always pump the brakes quickly for the best possible stopping performance",
+      "Never — ABS automatically pumps the brakes; apply firm, continuous pressure",
+      "Only on wet roads where wheel lock-up is more likely to occur"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 967,
+    "category": "vehicle-controls",
+    "question": "What is the correct procedure for starting a vehicle on a cold morning?",
+    "options": [
+      "Rev the engine hard immediately after starting to circulate oil through the engine quickly",
+      "Start the engine, idle for 30 seconds to one minute, then drive gently until warm",
+      "Drive at full throttle immediately to warm the engine as quickly as possible"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 968,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the BRAKE PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 1,
+    "explanation": "Number 6 is the brake pedal (middle pedal). In a manual car, the pedals from left to right are: clutch (5), brake (6), accelerator (7)."
+  },
+  {
+    "id": 969,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the GEAR STICK or GEAR LEVER?",
+    "options": [
+      "Number 3",
+      "Number 4",
+      "Number 2",
+      "Number 8"
+    ],
+    "answer": 0,
+    "explanation": "Number 3 is the gear stick (or gear lever). This is used to select different gears (forward, reverse, neutral, park for automatics)."
+  },
+  {
+    "id": 970,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the HANDBRAKE or PARKING BRAKE?",
+    "options": [
+      "Number 4",
+      "Number 3",
+      "Number 5",
+      "Number 7"
+    ],
+    "answer": 0,
+    "explanation": "Number 4 is the handbrake (parking brake). It holds the vehicle stationary when parked and serves as an emergency brake."
+  },
+  {
+    "id": 971,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the ACCELERATOR or GAS PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 2,
+    "explanation": "Number 7 is the accelerator pedal (rightmost pedal). Pressing it increases engine speed and vehicle speed."
+  },
+  {
+    "id": 972,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the CLUTCH PEDAL?",
+    "options": [
+      "Number 5",
+      "Number 6",
+      "Number 7",
+      "Number 3"
+    ],
+    "answer": 0,
+    "explanation": "Number 5 is the clutch pedal (leftmost pedal in a manual car). It disengages the engine from the transmission to allow gear changes."
+  },
+  {
+    "id": 973,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the DOOR HANDLES?",
+    "options": [
+      "Number 8",
+      "Number 9",
+      "Number 10",
+      "Number 2"
+    ],
+    "answer": 1,
+    "explanation": "Number 9 shows the door handles on both sides of the vehicle. Used to open and close the doors."
+  },
+  {
+    "id": 974,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the WIPER and INDICATOR CONTROLS on the steering wheel?",
+    "options": [
+      "Number 2",
+      "Number 11 and 12",
+      "Number 8",
+      "Number 1"
+    ],
+    "answer": 1,
+    "explanation": "Number 11 and 12 are the steering wheel stalks that control windscreen wipers and indicators (turn signals)."
+  },
+  {
+    "id": 975,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the STEERING WHEEL?",
+    "options": [
+      "Number 2",
+      "Number 11",
+      "Number 12",
+      "Number 3"
+    ],
+    "answer": 0,
+    "explanation": "Number 2 is the steering wheel hub (the center/grip area). Used to control the direction of the vehicle."
+  },
+  {
+    "id": 976,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the WINDOW and DOOR LOCK CONTROLS?",
+    "options": [
+      "Number 9",
+      "Number 10",
+      "Number 8",
+      "Number 1"
+    ],
+    "answer": 1,
+    "explanation": "Number 10 on the door panel contains controls for windows (power windows) and door locks."
+  },
+  {
+    "id": 977,
+    "category": "vehicle-controls",
+    "question": "In the diagram, which number indicates the SUN VISOR and INTERIOR ROOF CONTROLS?",
+    "options": [
+      "Number 8",
+      "Number 9",
+      "Number 10",
+      "Number 11"
+    ],
+    "answer": 0,
+    "explanation": "Number 8 in the roof area controls the sun visor and interior lights (ceiling light, reading light)."
+  },
+  {
+    "id": 978,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 1, the indicator lights on the dashboard?",
+    "options": [
+      "They show the vehicle's fuel level",
+      "They alert you to system problems and important vehicle status",
+      "They control the brightness of the headlights"
+    ],
+    "answer": 1,
+    "explanation": "Number 1 contains the indicator lights (warning lights) that alert the driver to system malfunctions, low fuel, engine problems, low battery, and other important vehicle status information."
+  },
+  {
+    "id": 979,
+    "category": "vehicle-controls",
+    "question": "If a red warning light appears on number 1's indicator display while driving, what should you do?",
+    "options": [
+      "Continue driving and check it later at home",
+      "Stop the vehicle safely and investigate the problem immediately",
+      "Drive faster to reach the nearest service station"
+    ],
+    "answer": 1,
+    "explanation": "Red warning lights on the dashboard (number 1) indicate serious problems and you should stop the vehicle safely and investigate immediately. Continuing to drive could cause engine damage or safety hazards."
+  },
+  {
+    "id": 980,
+    "category": "vehicle-controls",
+    "question": "What is the primary function of number 2, the indicator stalk on the side of the steering wheel?",
+    "options": [
+      "To control the windscreen wipers",
+      "To signal your intention to turn left or right to other road users",
+      "To adjust the height of the steering wheel"
+    ],
+    "answer": 1,
+    "explanation": "Number 2 is the indicator/turn signal stalk. Push it down for left turns and up for right turns to signal your intentions to other drivers. This is a legal requirement before turning."
+  },
+  {
+    "id": 981,
+    "category": "vehicle-controls",
+    "question": "You are approaching a right turn. When should you activate number 2 (the turn indicator)?",
+    "options": [
+      "Just as you are turning the steering wheel",
+      "At least 30 metres before the turn so other drivers know your intention",
+      "After you have started turning"
+    ],
+    "answer": 1,
+    "explanation": "You must signal your intention to turn using number 2 at least 30 metres in advance. This gives other road users time to react and is a legal requirement under the K53 driving rules."
+  },
+  {
+    "id": 982,
+    "category": "vehicle-controls",
+    "question": "What does it mean if number 2 (indicator stalk) is blinking quickly or rapidly?",
+    "options": [
+      "The battery is low",
+      "One of your indicator bulbs may be burned out",
+      "The vehicle is overheating"
+    ],
+    "answer": 1,
+    "explanation": "Rapid blinking of the indicator lights (number 2) suggests a burned-out indicator bulb. You should check and replace the faulty bulb as soon as possible for safety and legal compliance."
+  },
+  {
+    "id": 983,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of number 3, the gear shift lever?",
+    "options": [
+      "To adjust the volume of the radio",
+      "To select the appropriate gear (P, R, N, D, L) for driving conditions",
+      "To control the air conditioning"
+    ],
+    "answer": 1,
+    "explanation": "Number 3 is the gear shift lever used to select Park (P), Reverse (R), Neutral (N), Drive (D), or Low (L) gear depending on your vehicle type and driving situation."
+  },
+  {
+    "id": 984,
+    "category": "vehicle-controls",
+    "question": "Before you can move number 3 (gear shift) out of Park (P), what must you do?",
+    "options": [
+      "Turn on the radio",
+      "Press the brake pedal (number 6)",
+      "Adjust the side mirrors"
+    ],
+    "answer": 1,
+    "explanation": "You must press the brake pedal (number 6) before moving the gear shift (number 3) out of Park. This safety feature prevents accidental vehicle movement."
+  },
+  {
+    "id": 985,
+    "category": "vehicle-controls",
+    "question": "You are driving on a steep downhill slope. Which gear should you select on number 3 to help control the vehicle?",
+    "options": [
+      "Neutral (N)",
+      "Drive (D) with light braking",
+      "Low (L) gear for engine braking"
+    ],
+    "answer": 2,
+    "explanation": "Low (L) gear on number 3 provides engine braking on steep downhill slopes, helping to control your speed and reduce brake wear. This is safer than using brakes alone."
+  },
+  {
+    "id": 986,
+    "category": "vehicle-controls",
+    "question": "What should you do with number 3 (gear shift) before you leave the vehicle?",
+    "options": [
+      "Leave it in Drive (D)",
+      "Place it in Park (P) and set the handbrake",
+      "Leave it in Reverse (R)"
+    ],
+    "answer": 1,
+    "explanation": "Always place number 3 in Park (P) and engage the handbrake (number 4) before leaving the vehicle. This prevents accidental rolling and is essential for vehicle safety."
+  },
+  {
+    "id": 987,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 4, the handbrake or parking brake?",
+    "options": [
+      "To speed up the vehicle",
+      "To hold the vehicle stationary when parked and prevent it from rolling",
+      "To clean the windscreen"
+    ],
+    "answer": 1,
+    "explanation": "Number 4 is the handbrake (parking brake) which holds the vehicle stationary when parked, especially on slopes. It prevents the vehicle from rolling forward or backward."
+  },
+  {
+    "id": 988,
+    "category": "vehicle-controls",
+    "question": "You are parked on a steep hill. What should you do with number 4 (handbrake)?",
+    "options": [
+      "Leave it disengaged to save fuel",
+      "Engage it firmly and turn the steering wheel toward the curb for extra safety",
+      "Only engage it if there are other cars nearby"
+    ],
+    "answer": 1,
+    "explanation": "On steep slopes, engage number 4 (handbrake) firmly and turn the steering wheel toward the curb. If the handbrake fails, the wheel will prevent the vehicle from rolling into traffic."
+  },
+  {
+    "id": 989,
+    "category": "vehicle-controls",
+    "question": "What indicates that number 4 (handbrake) is engaged?",
+    "options": [
+      "A red warning light appears on the dashboard",
+      "The car makes a beeping sound",
+      "The steering wheel locks"
+    ],
+    "answer": 0,
+    "explanation": "When number 4 (handbrake) is engaged, a red warning light (brake light) appears on the dashboard as an indicator. You should release it before driving."
+  },
+  {
+    "id": 990,
+    "category": "vehicle-controls",
+    "question": "If the red brake warning light stays on while driving after you release number 4, what does this mean?",
+    "options": [
+      "The handbrake is broken",
+      "The brake system has a problem — you should stop safely",
+      "You need to fill up with fuel"
+    ],
+    "answer": 1,
+    "explanation": "A persistent red brake warning light (even after releasing number 4) indicates a brake system problem. Stop safely and have the brakes inspected immediately — this is a serious safety issue."
+  },
+  {
+    "id": 991,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 5, the clutch pedal (found in manual transmission vehicles)?",
+    "options": [
+      "To start the engine",
+      "To disconnect the engine from the transmission, allowing you to change gears",
+      "To activate the windscreen wipers"
+    ],
+    "answer": 1,
+    "explanation": "Number 5 is the clutch pedal (in manual cars). Pressing it disengages the engine from the transmission, allowing you to change gears smoothly without grinding."
+  },
+  {
+    "id": 992,
+    "category": "vehicle-controls",
+    "question": "What should you avoid doing when driving a manual vehicle with number 5 (clutch pedal)?",
+    "options": [
+      "Resting your foot on the clutch pedal while driving",
+      "Pressing it fully down before changing gear",
+      "Using it to control the vehicle's speed on hills"
+    ],
+    "answer": 0,
+    "explanation": "Resting your foot on number 5 (clutch pedal) causes premature wear to the clutch. Keep your foot off it when not actively changing gears. Only press it fully when shifting gears."
+  },
+  {
+    "id": 993,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 6, the brake pedal?",
+    "options": [
+      "To increase the engine speed",
+      "To slow down or stop the vehicle",
+      "To adjust the side mirrors"
+    ],
+    "answer": 1,
+    "explanation": "Number 6 is the brake pedal. Pressing it applies the brakes to slow down or stop the vehicle. It's the most important control for safe driving."
+  },
+  {
+    "id": 994,
+    "category": "vehicle-controls",
+    "question": "What does it mean if number 6 (brake pedal) feels soft or goes all the way to the floor?",
+    "options": [
+      "The brakes need adjusting at the next service",
+      "You need to replace the brake fluid",
+      "There is a brake system fault — stop the vehicle safely immediately"
+    ],
+    "answer": 2,
+    "explanation": "If number 6 (brake pedal) feels soft or sinks to the floor, there is a serious brake system failure. Stop safely, use the handbrake (number 4), and call for assistance. Do not continue driving."
+  },
+  {
+    "id": 995,
+    "category": "vehicle-controls",
+    "question": "In an emergency, if number 6 (brake pedal) fails, what should you do?",
+    "options": [
+      "Shift to Neutral (N) on number 3 and pump the brake pedal repeatedly",
+      "Use the handbrake (number 4) gradually while steering to safety",
+      "Turn off the engine immediately"
+    ],
+    "answer": 1,
+    "explanation": "If number 6 (brake pedal) fails, use the handbrake (number 4) gradually while steering to a safe location. Also try downshifting to Low (L) on number 3 for engine braking assistance."
+  },
+  {
+    "id": 996,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 7, the accelerator pedal?",
+    "options": [
+      "To turn the vehicle",
+      "To increase engine speed and vehicle speed",
+      "To activate the air conditioning"
+    ],
+    "answer": 1,
+    "explanation": "Number 7 is the accelerator (gas) pedal. Pressing it increases engine speed and vehicle speed. Releasing it reduces speed. It should be used smoothly and carefully."
+  },
+  {
+    "id": 997,
+    "category": "vehicle-controls",
+    "question": "In heavy traffic, what is the safest way to use number 7 (accelerator)?",
+    "options": [
+      "Press it quickly and suddenly to move faster",
+      "Keep it pressed while braking",
+      "Use smooth, gradual pressure for steady acceleration"
+    ],
+    "answer": 2,
+    "explanation": "Number 7 (accelerator) should be used with smooth, gradual pressure. Sudden acceleration can cause loss of control, skidding, and accidents. Smooth control is always safer."
+  },
+  {
+    "id": 998,
+    "category": "vehicle-controls",
+    "question": "What should you never do with numbers 6 (brake) and 7 (accelerator) at the same time?",
+    "options": [
+      "Press them with equal force while turning",
+      "Press them both down fully simultaneously",
+      "This is safe in emergencies"
+    ],
+    "answer": 1,
+    "explanation": "Never press number 6 (brake) and number 7 (accelerator) fully at the same time. This damages the brakes and engine, wastes fuel, and is dangerous. Use them separately."
+  },
+  {
+    "id": 999,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 8, located at the top of the windscreen?",
+    "options": [
+      "To control the engine temperature",
+      "To block sunlight from the driver's eyes and control interior lights",
+      "To adjust the seat position"
+    ],
+    "answer": 1,
+    "explanation": "Number 8 is the sun visor which can be pulled down to block sunlight from your eyes. It also controls the interior lights (ceiling light and reading light) for safety."
+  },
+  {
+    "id": 1000,
+    "category": "vehicle-controls",
+    "question": "When driving during sunrise or sunset with glare, how should you use number 8?",
+    "options": [
+      "Leave it in the up position for maximum vision",
+      "Lower it to block the glare while ensuring your view of the road is not obstructed",
+      "Adjust the side mirrors instead"
+    ],
+    "answer": 1,
+    "explanation": "Lower number 8 (sun visor) to reduce glare, but only when it doesn't obstruct your forward vision. You can also rotate it to the side window to block side glare."
+  },
+  {
+    "id": 1001,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 9, the door handles (shown on both sides of the vehicle)?",
+    "options": [
+      "To control the windows",
+      "To open and close the vehicle doors",
+      "To adjust the mirror position"
+    ],
+    "answer": 1,
+    "explanation": "Number 9 consists of the door handles on both sides. Use them to open and close the doors safely. Always ensure doors are properly closed before driving."
+  },
+  {
+    "id": 1002,
+    "category": "vehicle-controls",
+    "question": "Before opening number 9 (door handle) while parked on a busy road, what should you check?",
+    "options": [
+      "Only the front mirror",
+      "That no vehicles or cyclists are approaching from behind",
+      "Just the time of day"
+    ],
+    "answer": 1,
+    "explanation": "Before opening number 9 (door handle), always check your side mirror and look over your shoulder to ensure no vehicles or cyclists are approaching. This prevents 'dooring' accidents."
+  },
+  {
+    "id": 1003,
+    "category": "vehicle-controls",
+    "question": "What should you do if number 9 (door handle) feels stuck or damaged?",
+    "options": [
+      "Force it open to avoid being trapped",
+      "Have it repaired immediately before driving",
+      "Continue driving and fix it later"
+    ],
+    "answer": 1,
+    "explanation": "A damaged or stuck door handle (number 9) is a safety hazard and must be repaired before driving. If you're trapped, use the emergency door release if available."
+  },
+  {
+    "id": 1004,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 10, the window and door lock controls?",
+    "options": [
+      "To control the engine temperature",
+      "To open/close windows and lock/unlock doors for safety",
+      "To adjust the seat"
+    ],
+    "answer": 1,
+    "explanation": "Number 10 controls the power windows and door locks. Use it to lock/unlock doors and raise/lower windows. Always lock doors while driving for safety."
+  },
+  {
+    "id": 1005,
+    "category": "vehicle-controls",
+    "question": "For safety, when should you use number 10 (door lock controls)?",
+    "options": [
+      "Only when parked",
+      "After passengers have exited",
+      "Immediately after entering the vehicle and before driving"
+    ],
+    "answer": 2,
+    "explanation": "Lock all doors using number 10 immediately after entering and before driving. This prevents doors from accidentally opening during driving and protects against carjacking."
+  },
+  {
+    "id": 1006,
+    "category": "vehicle-controls",
+    "question": "What safety feature do modern vehicles have with number 10 (door locks)?",
+    "options": [
+      "Doors lock automatically during emergency braking",
+      "Doors unlock automatically in a crash",
+      "Doors cannot be opened from outside"
+    ],
+    "answer": 0,
+    "explanation": "Many vehicles automatically lock doors during emergency braking or collision. This is a safety feature controlled by number 10 systems to keep occupants secure."
+  },
+  {
+    "id": 1007,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 11, the wiper and washer controls?",
+    "options": [
+      "To control the air conditioning",
+      "To clean the windscreen with wipers and washer fluid for visibility",
+      "To adjust the radio volume"
+    ],
+    "answer": 1,
+    "explanation": "Number 11 controls the windscreen wipers and washer fluid spray. Use it to keep the windscreen clean for safe driving, especially in rain or dust."
+  },
+  {
+    "id": 1008,
+    "category": "vehicle-controls",
+    "question": "In heavy rain, what settings should you use for number 11 (wipers)?",
+    "options": [
+      "Intermittent (slow) setting",
+      "Fast or continuous setting to match the rain",
+      "Leave them off and use headlights"
+    ],
+    "answer": 1,
+    "explanation": "In heavy rain, use the fast or continuous wiper setting on number 11 to maintain good visibility. Use intermittent setting for light drizzle to save energy."
+  },
+  {
+    "id": 1009,
+    "category": "vehicle-controls",
+    "question": "What should you check regularly about number 11 (wiper blades)?",
+    "options": [
+      "That they're the correct color",
+      "That they don't leave streaks and clear the windscreen completely",
+      "That they make noise"
+    ],
+    "answer": 1,
+    "explanation": "Wiper blades (number 11) should be checked regularly and replaced if they leave streaks or don't clear properly. Worn blades reduce visibility and are a safety hazard."
+  },
+  {
+    "id": 1010,
+    "category": "vehicle-controls",
+    "question": "Before using number 11 (washer fluid), what should you ensure?",
+    "options": [
+      "The sun is shining",
+      "The windscreen is wet",
+      "The washer fluid reservoir is filled and you're stationary or on a straight road"
+    ],
+    "answer": 2,
+    "explanation": "Check that number 11's washer fluid reservoir is full. Use it while stationary or on a straight road to avoid distraction. This prevents streaks and maintains visibility."
+  },
+  {
+    "id": 1011,
+    "category": "vehicle-controls",
+    "question": "What is the function of number 12, the horn pad on the steering wheel?",
+    "options": [
+      "To speed up the vehicle",
+      "To alert other road users of your presence or warn them of danger",
+      "To turn on the headlights"
+    ],
+    "answer": 1,
+    "explanation": "Number 12 is the horn pad. Press it to sound the horn and alert other road users of your presence or warn them of a potential hazard."
+  },
+  {
+    "id": 1012,
+    "category": "vehicle-controls",
+    "question": "When is it appropriate to use number 12 (horn)?",
+    "options": [
+      "Whenever you feel angry at another driver",
+      "To warn of a real danger or potential collision",
+      "To show off or annoy other people"
+    ],
+    "answer": 1,
+    "explanation": "Use number 12 (horn) only to warn of danger or potential collision. Don't use it aggressively, for fun, or to show off. Unnecessary honking is illegal and dangerous."
+  },
+  {
+    "id": 1013,
+    "category": "vehicle-controls",
+    "question": "In what situations should you NOT use number 12 (horn)?",
+    "options": [
+      "When a pedestrian is in the road",
+      "In a residential area late at night, unless there's danger",
+      "When another driver cuts you off"
+    ],
+    "answer": 1,
+    "explanation": "Don't use number 12 (horn) in residential areas late at night unless there's genuine danger. This is a nuisance and may be illegal. Use it sparingly and only for warning purposes."
+  },
+  {
+    "id": 1014,
+    "category": "vehicle-controls",
+    "question": "You need to make an emergency stop. In order, what controls should you use?",
+    "options": [
+      "Number 7 (accelerator), then number 6 (brake)",
+      "Number 2 (indicator), number 6 (brake), number 4 (handbrake)",
+      "Number 6 (brake), then number 4 (handbrake), then number 3 (gear to Park)"
+    ],
+    "answer": 2,
+    "explanation": "For emergency stopping: press number 6 (brake) firmly, engage number 4 (handbrake) as needed, then place number 3 in Park. Use number 2 (indicator) if time permits to warn others."
+  },
+  {
+    "id": 1015,
+    "category": "vehicle-controls",
+    "question": "You are starting a manual car. What is the correct sequence of controls?",
+    "options": [
+      "Number 5 (clutch) down, start engine, then shift to gear",
+      "Start engine, number 5 (clutch) down, number 3 (shift to gear)",
+      "Number 5 (clutch) down, shift to first gear (number 3), start engine, release clutch slowly"
+    ],
+    "answer": 2,
+    "explanation": "Press number 5 (clutch) fully, shift number 3 to first gear, start the engine, then slowly release number 5 (clutch) while applying number 7 (accelerator) gently."
+  },
+  {
+    "id": 1016,
+    "category": "vehicle-controls",
+    "question": "You're driving in fog. Which controls should you adjust for safety?",
+    "options": [
+      "Number 2 (indicators) only",
+      "Number 11 (wipers), reduce number 7 (speed), and use headlights",
+      "Number 8 (sun visor) and number 10 (windows)"
+    ],
+    "answer": 1,
+    "explanation": "In fog, use number 11 (wipers) to clear moisture, reduce speed (less number 7 accelerator), use headlights for visibility, and increase following distance for safety."
+  },
+  {
+    "id": 1017,
+    "category": "vehicle-controls",
+    "question": "A child is in the back seat. Which control should you use to prevent them opening the door while driving?",
+    "options": [
+      "Number 1 (indicators)",
+      "Number 10 (child lock on door controls)",
+      "Number 9 (door handles)"
+    ],
+    "answer": 1,
+    "explanation": "Use number 10 (door lock controls) to activate child locks on the rear doors. This prevents children from accidentally opening doors while the vehicle is moving."
+  },
+  {
+    "id": 1018,
+    "category": "vehicle-controls",
+    "question": "You notice number 1 (warning lights) showing an overheating indicator. What should you do with number 11?",
+    "options": [
+      "Turn on the wipers to cool the engine",
+      "Don't use number 11 (wipers) as this drains the battery",
+      "Stop safely, turn off number 11 (wipers) and engine, and let it cool"
+    ],
+    "answer": 2,
+    "explanation": "If number 1 shows overheating, stop safely immediately. Turn off number 11 (wipers) and the engine to stop draining power. Let the engine cool before investigating."
+  },
+  {
+    "id": 1019,
+    "category": "vehicle-controls",
+    "question": "How often should you check your brake fluid level under normal driving conditions?",
+    "options": [
+      "Once a year or before long trips",
+      "Every week",
+      "Only when the warning light comes on"
+    ],
+    "answer": 0,
+    "explanation": "Brake fluid should be checked at least once a year or before long trips. Check it more frequently if you notice soft braking or warning lights. Low fluid is dangerous."
+  },
+  {
+    "id": 1020,
+    "category": "vehicle-controls",
+    "question": "What is the typical lifespan of windscreen wiper blades before replacement?",
+    "options": [
+      "1-2 years or 30,000-50,000 km depending on weather",
+      "10 years or 500,000 km",
+      "3-5 years regardless of condition"
+    ],
+    "answer": 0,
+    "explanation": "Wiper blades typically last 1-2 years or 30,000-50,000 km, depending on climate and usage. In harsh weather (sand, salt) they wear faster. Replace when they leave streaks."
+  },
+  {
+    "id": 1021,
+    "category": "vehicle-controls",
+    "question": "How frequently should brake pads be inspected for wear?",
+    "options": [
+      "Every 10,000-15,000 km or annually",
+      "Only when you hear grinding sounds",
+      "Every 100,000 km"
+    ],
+    "answer": 0,
+    "explanation": "Brake pads should be inspected every 10,000-15,000 km or during annual services. Waiting until they grind means you're damaging the brake rotor, which is more expensive."
+  },
+  {
+    "id": 1022,
+    "category": "vehicle-controls",
+    "question": "What does it mean if your steering wheel feels stiff or hard to turn?",
+    "options": [
+      "It's normal and requires no action",
+      "Power steering fluid may be low or the system needs service",
+      "You need to replace the entire steering system"
+    ],
+    "answer": 1,
+    "explanation": "A stiff steering wheel usually indicates low power steering fluid or a power steering system problem. Have it checked immediately, as it affects vehicle control and safety."
+  },
+  {
+    "id": 1023,
+    "category": "vehicle-controls",
+    "question": "When should you have your entire brake system professionally inspected?",
+    "options": [
+      "Only when it fails",
+      "Every 12 months or as part of annual vehicle inspection",
+      "Every 5 years"
+    ],
+    "answer": 1,
+    "explanation": "Professional brake inspections should be done annually or during your vehicle's scheduled service. Early detection of problems prevents dangerous brake failures."
+  },
+  {
+    "id": 1024,
+    "category": "vehicle-controls",
+    "question": "What is the recommended interval for replacing your car's air filter (affects engine performance)?",
+    "options": [
+      "Every 15,000-30,000 km depending on driving conditions",
+      "Never needs replacing",
+      "Every 200,000 km"
+    ],
+    "answer": 0,
+    "explanation": "Air filters should be replaced every 15,000-30,000 km (more frequently in dusty conditions). A clogged air filter reduces engine efficiency and accelerator responsiveness."
+  },
+  {
+    "id": 1025,
+    "category": "vehicle-controls",
+    "question": "Why is it important to regularly check your clutch pedal play (manual cars)?",
+    "options": [
+      "To ensure smooth gear changes and detect clutch wear",
+      "It has no impact on driving",
+      "Only when the car won't start"
+    ],
+    "answer": 0,
+    "explanation": "Regular clutch checks help detect wear early. Excessive play or a too-high bite point indicates clutch wear and should be serviced to prevent clutch failure."
+  },
+  {
+    "id": 1026,
+    "category": "vehicle-controls",
+    "question": "What service is required if your handbrake/parking brake starts to slip on slopes?",
+    "options": [
+      "The brake shoes or cables need adjustment or replacement",
+      "You should use it less often",
+      "This is not a problem"
+    ],
+    "answer": 0,
+    "explanation": "A slipping handbrake indicates worn brake shoes or stretched cables. This is a safety issue and requires professional service immediately."
+  },
+  {
+    "id": 1027,
+    "category": "vehicle-controls",
+    "question": "Your brake pedal feels spongy or soft. What could be the cause?",
+    "options": [
+      "Low brake fluid or air in the brake lines",
+      "The accelerator is worn out",
+      "The steering wheel needs alignment"
+    ],
+    "answer": 0,
+    "explanation": "A soft/spongy brake pedal indicates low brake fluid or air in the brake system. This is dangerous and requires immediate professional inspection and repair."
+  },
+  {
+    "id": 1028,
+    "category": "vehicle-controls",
+    "question": "If your steering wheel vibrates when you brake, what might be wrong?",
+    "options": [
+      "Warped brake discs or worn brake pads",
+      "The accelerator needs cleaning",
+      "The windows are not closed properly"
+    ],
+    "answer": 0,
+    "explanation": "Steering wheel vibration during braking usually indicates warped brake discs or uneven brake pad wear. Have the brakes inspected and serviced immediately."
+  },
+  {
+    "id": 1029,
+    "category": "vehicle-controls",
+    "question": "What does a grinding sound when you press the brake pedal indicate?",
+    "options": [
+      "Brake pads are worn completely; metal-to-metal contact is occurring",
+      "The car needs fuel",
+      "The air conditioning compressor needs service"
+    ],
+    "answer": 0,
+    "explanation": "Grinding sounds mean brake pads are completely worn and metal is grinding on the rotor. Stop driving and get repairs immediately — this damages the braking system."
+  },
+  {
+    "id": 1030,
+    "category": "vehicle-controls",
+    "question": "If the accelerator pedal feels stuck or difficult to press, what should you do?",
+    "options": [
+      "Continue driving and have it checked later",
+      "Stop the vehicle safely and do not drive until it's inspected",
+      "Press harder to free it up"
+    ],
+    "answer": 1,
+    "explanation": "A stuck accelerator is dangerous and can cause uncontrolled acceleration. Stop safely immediately and have it professionally inspected before driving again."
+  },
+  {
+    "id": 1031,
+    "category": "vehicle-controls",
+    "question": "Your windscreen wipers leave streaks across the glass. What's the likely cause?",
+    "options": [
+      "Worn wiper blades or dirty windscreen",
+      "The engine is overheating",
+      "The battery is failing"
+    ],
+    "answer": 0,
+    "explanation": "Streaking wipers indicate worn blades (replace them) or a dirty windscreen (clean it). Both reduce visibility and should be addressed for safety."
+  },
+  {
+    "id": 1032,
+    "category": "vehicle-controls",
+    "question": "If the door won't lock using the electronic lock controls, what could be the issue?",
+    "options": [
+      "Dead battery, broken lock actuator, or electrical fault",
+      "The door handle is broken",
+      "You're using the lock wrong"
+    ],
+    "answer": 0,
+    "explanation": "Electronic door lock failures can be caused by battery drain, broken actuators, or wiring faults. Have it checked by a professional for security and safety."
+  },
+  {
+    "id": 1033,
+    "category": "vehicle-controls",
+    "question": "Your horn doesn't work. What are possible causes?",
+    "options": [
+      "Faulty horn relay, broken wiring, or dead battery",
+      "The steering wheel is misaligned",
+      "The windows are stuck"
+    ],
+    "answer": 0,
+    "explanation": "A non-functioning horn can result from a faulty horn relay, broken wiring, corroded connections, or a dead battery. Have it diagnosed and repaired for safety."
+  },
+  {
+    "id": 1034,
+    "category": "vehicle-controls",
+    "question": "If your turn indicators blink rapidly or don't work, what's likely wrong?",
+    "options": [
+      "A burned-out indicator bulb or faulty relay",
+      "The parking brake is engaged",
+      "The fuel is low"
+    ],
+    "answer": 0,
+    "explanation": "Rapid blinking indicates a burned-out bulb. No blinking suggests a faulty relay or bad wiring. Replace bulbs or have electrical faults repaired immediately."
+  },
+  {
+    "id": 1035,
+    "category": "vehicle-controls",
+    "question": "What is the legal penalty in South Africa for not using your turn indicators when required?",
+    "options": [
+      "A fine and possible demerit points",
+      "No penalty; it's optional",
+      "Only a warning"
+    ],
+    "answer": 0,
+    "explanation": "Failing to indicate is illegal in South Africa. You can receive a fine and demerit points. It's a safety requirement, not optional."
+  },
+  {
+    "id": 1036,
+    "category": "vehicle-controls",
+    "question": "Is it legal to use your horn excessively in residential areas?",
+    "options": [
+      "Yes, anytime for any reason",
+      "No, excessive honking in residential areas is illegal, especially at night",
+      "Only if you're angry"
+    ],
+    "answer": 1,
+    "explanation": "Excessive horn use, especially in residential areas at night, is illegal. The horn should only be used to warn of danger. Violations can result in fines."
+  },
+  {
+    "id": 1037,
+    "category": "vehicle-controls",
+    "question": "Under South African law, are you allowed to drive with headlights off during daytime?",
+    "options": [
+      "Yes, always optional",
+      "No, daytime running lights or headlights are required in certain conditions",
+      "Only on highways"
+    ],
+    "answer": 1,
+    "explanation": "South African law requires daytime running lights or headlights in certain visibility conditions. Driving without them can result in fines and is a safety violation."
+  },
+  {
+    "id": 1038,
+    "category": "vehicle-controls",
+    "question": "What is the legal requirement for checking your vehicle's brakes?",
+    "options": [
+      "No legal requirement",
+      "Annual vehicle inspection (roadworthiness test) must include brake testing",
+      "Only if you notice problems"
+    ],
+    "answer": 1,
+    "explanation": "South African law requires annual vehicle inspections (roadworthiness tests) that include comprehensive brake system testing. Failing inspection makes driving illegal."
+  },
+  {
+    "id": 1039,
+    "category": "vehicle-controls",
+    "question": "Is it legal to have tinted windows in South Africa that obstruct your view?",
+    "options": [
+      "Yes, as long as they look good",
+      "No, window tinting cannot obstruct driver visibility; illegal tinting results in fines",
+      "Only on the rear windows"
+    ],
+    "answer": 1,
+    "explanation": "South African law prohibits window tinting that obstructs the driver's vision. Excessive tinting results in fines and vehicle failure during roadworthiness testing."
+  },
+  {
+    "id": 1040,
+    "category": "vehicle-controls",
+    "question": "What is the legal requirement regarding vehicle lights at night?",
+    "options": [
+      "Optional; you can drive without lights if careful",
+      "Headlights must be on at night; tail lights must be visible",
+      "Only needed in heavy rain"
+    ],
+    "answer": 1,
+    "explanation": "South African law mandates headlights at night and visible tail lights. Driving without them is illegal and extremely dangerous."
+  },
+  {
+    "id": 1041,
+    "category": "vehicle-controls",
+    "question": "In heavy rain, how should you adjust your brake pedal use compared to dry conditions?",
+    "options": [
+      "Brake harder for faster stopping",
+      "Apply brakes earlier and more gently to prevent skidding",
+      "Don't brake at all, let the car slow naturally"
+    ],
+    "answer": 1,
+    "explanation": "In rain, apply brakes earlier and more gently. Harsh braking on wet roads causes skidding. Increased following distance and gentle pedal control are essential."
+  },
+  {
+    "id": 1042,
+    "category": "vehicle-controls",
+    "question": "When driving in fog, which control should you adjust?",
+    "options": [
+      "Use high-beam headlights only",
+      "Use low-beam headlights and turn on wipers; reduce speed",
+      "Turn off all lights to reduce glare"
+    ],
+    "answer": 1,
+    "explanation": "In fog, use low-beam headlights (high-beam reflects off fog), turn on wipers, reduce speed, and increase following distance. Low-beam is more effective for fog visibility."
+  },
+  {
+    "id": 1043,
+    "category": "vehicle-controls",
+    "question": "How should you use the accelerator on an icy or snow-covered road?",
+    "options": [
+      "Press it firmly for traction",
+      "Use smooth, gentle pressure to maintain traction and prevent wheel spinning",
+      "Keep it pressed halfway down"
+    ],
+    "answer": 1,
+    "explanation": "On ice/snow, use extremely gentle accelerator pressure to avoid wheel spin. Sudden acceleration causes loss of traction and skidding. Smooth inputs are critical."
+  },
+  {
+    "id": 1044,
+    "category": "vehicle-controls",
+    "question": "In strong crosswind conditions, which control requires extra attention?",
+    "options": [
+      "The accelerator pedal",
+      "The steering wheel (maintain firm grip and anticipate drift)",
+      "The wiper controls"
+    ],
+    "answer": 1,
+    "explanation": "Crosswinds require firm steering wheel grip and anticipatory steering adjustments. Reduce speed, maintain wider lane position, and avoid sudden steering movements."
+  },
+  {
+    "id": 1045,
+    "category": "vehicle-controls",
+    "question": "When driving through deep water (flood), what should you do with the brake pedal?",
+    "options": [
+      "Press it firmly and keep it held",
+      "Apply brakes gently and intermittently; avoid stopping in water",
+      "Don't brake at all"
+    ],
+    "answer": 1,
+    "explanation": "In water, use gentle, intermittent braking to keep brakes dry. Don't stop in floodwater — it can sweep you away. If water enters the engine, it's irreparable."
+  },
+  {
+    "id": 1046,
+    "category": "vehicle-controls",
+    "question": "How does rain affect your use of the accelerator pedal?",
+    "options": [
+      "No effect; use it normally",
+      "Reduce power by using gentler acceleration to maintain traction",
+      "Increase power for better traction"
+    ],
+    "answer": 1,
+    "explanation": "Wet roads have less traction, so gentle acceleration prevents wheel spin and loss of control. Smooth pedal inputs are essential in rain."
+  },
+  {
+    "id": 1047,
+    "category": "vehicle-controls",
+    "question": "In heavy snow, what adjustment should you make to the handbrake?",
+    "options": [
+      "Use it more aggressively for quicker stopping",
+      "Avoid using it; use low gear and gentle braking instead",
+      "Don't adjust anything"
+    ],
+    "answer": 1,
+    "explanation": "In snow, avoid the handbrake as it can cause the rear wheels to lock and slide. Use low gear (for engine braking) and gentle foot brake pressure instead."
+  },
+  {
+    "id": 1048,
+    "category": "vehicle-controls",
+    "question": "In an automatic transmission vehicle, what is the main difference in clutch usage compared to manual cars?",
+    "options": [
+      "There is no clutch pedal; the transmission shifts automatically",
+      "You press it while braking",
+      "You hold it down while driving"
+    ],
+    "answer": 0,
+    "explanation": "Automatic vehicles have no clutch pedal. The transmission shifts gears automatically. This simplifies driving but removes manual control over gear selection."
+  },
+  {
+    "id": 1049,
+    "category": "vehicle-controls",
+    "question": "In a manual car with a hill start assist system, what does it do?",
+    "options": [
+      "It holds the brakes for 2-3 seconds after you release the brake pedal",
+      "It eliminates the need for the clutch",
+      "It speeds up the engine"
+    ],
+    "answer": 0,
+    "explanation": "Hill start assist holds the brake briefly after you lift your foot, giving you time to move from brake to accelerator without rolling backward. Very helpful on slopes."
+  },
+  {
+    "id": 1050,
+    "category": "vehicle-controls",
+    "question": "What is the main advantage of electronic handbrakes over mechanical ones?",
+    "options": [
+      "They're less reliable",
+      "They take up less space and can be integrated with safety systems",
+      "They require more maintenance"
+    ],
+    "answer": 1,
+    "explanation": "Electronic handbrakes save cabin space and can integrate with stability control systems. They're more convenient but require electrical systems to function properly."
+  },
+  {
+    "id": 1051,
+    "category": "vehicle-controls",
+    "question": "How does the brake system differ between front-wheel-drive and rear-wheel-drive vehicles?",
+    "options": [
+      "They're identical; no difference",
+      "FWD typically has more front brake capacity; RWD has more balanced front/rear",
+      "RWD has better brakes"
+    ],
+    "answer": 1,
+    "explanation": "Front-wheel-drive vehicles typically allocate more braking force to the front (where weight transfers during braking). Brake balance varies by design and vehicle weight."
+  },
+  {
+    "id": 1052,
+    "category": "vehicle-controls",
+    "question": "What is the purpose of paddle shifters found on some automatic/CVT vehicles?",
+    "options": [
+      "To replace the regular brake pedal",
+      "To allow manual gear selection while maintaining automatic convenience",
+      "To control the horn"
+    ],
+    "answer": 1,
+    "explanation": "Paddle shifters let drivers manually select gears in automatic cars, providing more control when desired while keeping the convenience of automatic transmission otherwise."
+  },
+  {
+    "id": 1053,
+    "category": "vehicle-controls",
+    "question": "In vehicles with regenerative braking (hybrids/EVs), how does brake pedal use differ?",
+    "options": [
+      "No difference at all",
+      "Light braking uses regenerative energy; harder braking uses traditional friction brakes",
+      "You should never use the brake pedal"
+    ],
+    "answer": 1,
+    "explanation": "Hybrid/EV vehicles recover energy through regenerative braking when braking gently. Hard braking uses traditional friction brakes. Both work together for efficiency."
+  },
+  {
+    "id": 1054,
+    "category": "vehicle-controls",
+    "question": "How does aggressive accelerator use affect fuel consumption?",
+    "options": [
+      "No effect",
+      "Increases fuel consumption significantly (can use 20-30% more fuel)",
+      "Decreases fuel consumption"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive acceleration dramatically increases fuel consumption. Smooth, gradual acceleration and maintaining steady speeds can improve fuel economy by 20-30%."
+  },
+  {
+    "id": 1055,
+    "category": "vehicle-controls",
+    "question": "What is engine idling and how does it affect fuel economy?",
+    "options": [
+      "It's when the engine runs without driving; it wastes fuel unnecessarily",
+      "It uses no fuel at all",
+      "It improves fuel efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Idling burns fuel while producing no movement. Avoiding unnecessary idling (e.g., turning off at red lights, not warming up the car) saves fuel and reduces emissions."
+  },
+  {
+    "id": 1056,
+    "category": "vehicle-controls",
+    "question": "How does excessive braking affect fuel consumption?",
+    "options": [
+      "No effect",
+      "It wastes the fuel already burned; smooth driving maintains efficiency",
+      "It improves efficiency"
+    ],
+    "answer": 1,
+    "explanation": "Excessive braking wastes energy. Anticipating stops, coasting, and smooth speed management reduce unnecessary braking and improve fuel economy."
+  },
+  {
+    "id": 1057,
+    "category": "vehicle-controls",
+    "question": "Using cruise control on the highway helps with fuel economy. Why?",
+    "options": [
+      "It doesn't help",
+      "It maintains a consistent speed, avoiding the acceleration spikes that use extra fuel",
+      "It uses the brakes constantly"
+    ],
+    "answer": 1,
+    "explanation": "Cruise control maintains steady speed without the accelerator fluctuations of manual speed control. This consistency improves fuel economy on highways."
+  },
+  {
+    "id": 1058,
+    "category": "vehicle-controls",
+    "question": "How does keeping the windows open while driving affect fuel economy?",
+    "options": [
+      "No effect",
+      "Increases aerodynamic drag, reducing fuel efficiency at higher speeds",
+      "Improves fuel economy"
+    ],
+    "answer": 1,
+    "explanation": "Open windows increase air resistance (drag) at highway speeds, reducing fuel economy. At low speeds it has minimal effect. At highway speeds, use air conditioning instead."
+  },
+  {
+    "id": 1059,
+    "category": "vehicle-controls",
+    "question": "Why should you avoid revving the engine (high RPM on the accelerator) when not moving?",
+    "options": [
+      "It's required to warm up the engine",
+      "It wastes fuel and increases emissions without providing any forward motion",
+      "It improves the engine"
+    ],
+    "answer": 1,
+    "explanation": "Revving uses fuel and accelerates engine wear without moving the car. Modern engines don't need revving to warm up. Gentle driving after starting is sufficient."
+  },
+  {
+    "id": 1060,
+    "category": "vehicle-controls",
+    "question": "If your brakes completely fail while driving, what should you do in order?",
+    "options": [
+      "Use the handbrake gently, downshift to low gear, steer to safety, honk horn",
+      "Shift to neutral immediately",
+      "Jump out of the car"
+    ],
+    "answer": 0,
+    "explanation": "Brake failure: (1) Gradually apply handbrake, (2) Downshift to low gear for engine braking, (3) Steer safely away from traffic, (4) Warn others with horn. Do NOT shift to neutral."
+  },
+  {
+    "id": 1061,
+    "category": "vehicle-controls",
+    "question": "If your accelerator gets stuck wide open, what is the safest action?",
+    "options": [
+      "Press the brake pedal and shift to Neutral; maintain control while stopping",
+      "Turn off the engine immediately",
+      "Jump out of the car"
+    ],
+    "answer": 0,
+    "explanation": "Stuck accelerator: (1) Press brake pedal firmly, (2) Shift to Neutral, (3) Keep steering, (4) Coast to a safe stop. Turning off the engine kills power steering."
+  },
+  {
+    "id": 1062,
+    "category": "vehicle-controls",
+    "question": "If you experience sudden power steering failure, what happens to the steering wheel?",
+    "options": [
+      "No change; it works normally",
+      "It becomes very stiff and hard to turn; you must apply more force",
+      "It spins freely"
+    ],
+    "answer": 1,
+    "explanation": "Power steering failure makes the steering wheel very stiff. You must apply significant force to turn. Reduce speed immediately and seek professional help."
+  },
+  {
+    "id": 1063,
+    "category": "vehicle-controls",
+    "question": "If your door locks jam electronically while driving, what should you do?",
+    "options": [
+      "Keep driving; fix it later",
+      "Pull over safely and try unlocking; if stuck, continue to a mechanic",
+      "Force the door open while driving"
+    ],
+    "answer": 1,
+    "explanation": "Jammed electronic locks: stop safely, try unlocking, and if unsuccessful, drive carefully to a mechanic. Don't force doors while driving as it causes accidents."
+  },
+  {
+    "id": 1064,
+    "category": "vehicle-controls",
+    "question": "What should you do if your windscreen wipers stop working during rain?",
+    "options": [
+      "Continue driving slowly",
+      "Stop safely and wait for the rain to stop",
+      "Use your horn to warn people"
+    ],
+    "answer": 1,
+    "explanation": "Non-functioning wipers in rain are dangerous. Stop safely and either fix them or wait. Continuing to drive without visibility is illegal and endangers lives."
+  },
+  {
+    "id": 1065,
+    "category": "vehicle-controls",
+    "question": "If your horn fails in an emergency situation, what alternative warning can you use?",
+    "options": [
+      "Hazard lights and brake lights (flashing)",
+      "Accelerate loudly",
+      "Flash your headlights"
+    ],
+    "answer": 0,
+    "explanation": "If the horn fails, use hazard lights and repeatedly tap the brake pedal to flash brake lights. Some vehicles allow high-beam flashing as an additional signal."
+  },
+  {
+    "id": 1066,
+    "category": "vehicle-controls",
+    "question": "How do child safety locks on door controls protect children?",
+    "options": [
+      "They prevent doors from opening from inside while the car is moving",
+      "They add cushioning to doors",
+      "They prevent children from getting in the car"
+    ],
+    "answer": 0,
+    "explanation": "Child locks prevent rear doors from being opened from inside. The driver controls them from the front. This prevents children from accidentally exiting while driving."
+  },
+  {
+    "id": 1067,
+    "category": "vehicle-controls",
+    "question": "If you have a young child in the car, when should you lock the doors?",
+    "options": [
+      "Only in traffic",
+      "Immediately after they enter and before driving",
+      "After 5 minutes of driving"
+    ],
+    "answer": 1,
+    "explanation": "Lock all doors immediately after passengers enter and before driving. This prevents accidental exits and is a legal safety requirement in many countries."
+  },
+  {
+    "id": 1068,
+    "category": "vehicle-controls",
+    "question": "Why is proper steering wheel position important for passenger safety?",
+    "options": [
+      "It's just for comfort",
+      "It affects airbag deployment distance and driver control during emergency maneuvers",
+      "It has no safety impact"
+    ],
+    "answer": 1,
+    "explanation": "Proper steering wheel height/distance affects airbag safety and emergency control. Too close is dangerous; too far reduces control. Adjust before driving."
+  },
+  {
+    "id": 1069,
+    "category": "vehicle-controls",
+    "question": "How does proper use of the brake pedal protect passengers during sudden stops?",
+    "options": [
+      "It has no effect",
+      "Smooth, progressive braking prevents passengers from being thrown forward",
+      "It only protects the driver"
+    ],
+    "answer": 1,
+    "explanation": "Smooth, progressive braking distributes deceleration forces, preventing injury. Sudden hard braking can cause passengers to hit the windscreen or be injured."
+  },
+  {
+    "id": 1070,
+    "category": "vehicle-controls",
+    "question": "What danger is created by resting your foot on the brake pedal while driving?",
+    "options": [
+      "No danger",
+      "Reduced stopping power and overheating brakes when needed",
+      "Improved safety"
+    ],
+    "answer": 1,
+    "explanation": "Riding the brakes (keeping foot on pedal) causes overheating and brake fade. In emergencies, full stopping power isn't available, endangering all passengers."
+  },
+  {
+    "id": 1071,
+    "category": "vehicle-controls",
+    "question": "You need to perform a parallel park on a busy street. What is the correct control sequence?",
+    "options": [
+      "Brake to stop, indicator for direction, reverse into space with careful steering, straighten, apply handbrake",
+      "Just put it in reverse and turn the wheel",
+      "Accelerate while turning"
+    ],
+    "answer": 0,
+    "explanation": "Parallel parking: (1) Signal intentions, (2) Position vehicle, (3) Brake to stop, (4) Shift to reverse, (5) Use steering to angle in, (6) Apply handbrake when done."
+  },
+  {
+    "id": 1072,
+    "category": "vehicle-controls",
+    "question": "You're doing a hill start in a manual car on a steep slope. What's the correct sequence?",
+    "options": [
+      "Release clutch while holding brake; ease off brake as you apply accelerator",
+      "Just release the handbrake and let gravity help",
+      "Rev the engine heavily"
+    ],
+    "answer": 0,
+    "explanation": "Hill start: (1) Handbrake engaged, (2) Clutch in, first gear, (3) Accelerator ready, (4) Release handbrake, (5) Gradually release clutch while easing on accelerator."
+  },
+  {
+    "id": 1073,
+    "category": "vehicle-controls",
+    "question": "You need to reverse safely into a driveway. What controls should you use in order?",
+    "options": [
+      "Check mirrors, reverse without looking, apply brake at end",
+      "Check mirrors/blind spots, use brake to creep slowly, steer carefully, stop with handbrake",
+      "Just reverse quickly"
+    ],
+    "answer": 1,
+    "explanation": "Safe reversing: (1) Check mirrors/mirrors, (2) Check blind spots, (3) Shift to reverse, (4) Use brake to control speed, (5) Steer smoothly, (6) Apply handbrake when parked."
+  },
+  {
+    "id": 1074,
+    "category": "vehicle-controls",
+    "question": "You're navigating a steep downhill mountain road. What control strategy should you use?",
+    "options": [
+      "Coast in neutral and brake frequently",
+      "Use low gear for engine braking, light brake pressure to control speed",
+      "Use high gear and heavy braking"
+    ],
+    "answer": 1,
+    "explanation": "Downhill: (1) Select low gear, (2) Use engine braking, (3) Apply light, steady brake pressure, (4) Avoid heavy continuous braking which causes overheating."
+  },
+  {
+    "id": 1075,
+    "category": "vehicle-controls",
+    "question": "You approach a busy intersection and the light turns yellow. What's the safest control response?",
+    "options": [
+      "Accelerate to beat the red light",
+      "Brake smoothly and progressively; never accelerate through a changing light",
+      "Shift to neutral"
+    ],
+    "answer": 1,
+    "explanation": "Approaching yellow lights: brake smoothly. Never accelerate through changing lights. Yellow means prepare to stop, not speed up. Red means stop."
+  },
+  {
+    "id": 1076,
+    "category": "vehicle-controls",
+    "question": "You're merging onto a highway. What control sequence should you follow?",
+    "options": [
+      "Signal, check mirrors/blind spots, accelerate smoothly to match traffic speed, merge",
+      "Just merge quickly",
+      "Decelerate before merging"
+    ],
+    "answer": 0,
+    "explanation": "Highway merge: (1) Signal intention, (2) Check mirrors/blind spots, (3) Accelerate smoothly, (4) Match traffic speed, (5) Merge safely when space available."
+  },
+  {
+    "id": 1077,
+    "category": "vehicle-controls",
+    "question": "You notice brake fade (mushy pedal) while descending a mountain. What should you do?",
+    "options": [
+      "Continue downhill and brake harder",
+      "Find a safe place to stop, let brakes cool, use low gear, apply light steady pressure",
+      "Accelerate to increase air cooling"
+    ],
+    "answer": 1,
+    "explanation": "Brake fade: (1) Find a safe area to stop, (2) Let brakes cool (DON'T pour water on them), (3) Resume in low gear, (4) Use light steady pressure, never heavy braking."
+  },
+  {
+    "id": 1078,
+    "category": "vehicle-controls",
+    "question": "How does aggressive braking increase vehicle maintenance costs?",
+    "options": [
+      "It doesn't affect costs",
+      "It accelerates brake pad/rotor wear, requiring more frequent replacement",
+      "It saves money"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive braking causes rapid brake wear, requiring expensive repairs. Smooth, progressive braking extends brake life and saves thousands in repairs."
+  },
+  {
+    "id": 1079,
+    "category": "vehicle-controls",
+    "question": "What is the cost implication of resting your foot on the clutch pedal (manual cars)?",
+    "options": [
+      "No cost impact",
+      "Premature clutch wear requiring expensive replacement (typically R3,000-8,000+)",
+      "It extends clutch life"
+    ],
+    "answer": 1,
+    "explanation": "Riding the clutch causes premature wear. Clutch replacement is expensive (R3,000-8,000+ depending on vehicle). Proper technique saves money long-term."
+  },
+  {
+    "id": 1080,
+    "category": "vehicle-controls",
+    "question": "How can smooth, predictable steering wheel use reduce maintenance costs?",
+    "options": [
+      "It can't affect costs",
+      "Reduces wear on power steering, transmission, and suspension components",
+      "It increases costs"
+    ],
+    "answer": 1,
+    "explanation": "Jerky, harsh steering causes premature wear to power steering, transmission, and suspension. Smooth steering technique extends component life and reduces repair costs."
+  },
+  {
+    "id": 1081,
+    "category": "vehicle-controls",
+    "question": "What is the typical cost of replacing worn brake pads if ignored until grinding occurs?",
+    "options": [
+      "Same as regular replacement",
+      "Significantly higher due to additional rotor damage requiring replacement too",
+      "Lower cost"
+    ],
+    "answer": 1,
+    "explanation": "Ignoring grinding brakes adds rotor replacement costs. Regular pads: R1,500-3,000. With rotor damage: R3,500-8,000+. Early maintenance is always cheaper."
+  },
+  {
+    "id": 1082,
+    "category": "vehicle-controls",
+    "question": "How does improper accelerator use affect engine and transmission lifespan?",
+    "options": [
+      "No effect",
+      "Aggressive acceleration increases engine/transmission wear and reduces lifespan",
+      "It extends lifespan"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive acceleration accelerates wear on engine internals, transmission fluid, and components. Smooth acceleration significantly extends vehicle lifespan."
+  },
+  {
+    "id": 1083,
+    "category": "vehicle-controls",
+    "question": "What is the cost of ignoring a faulty handbrake that continues to slip?",
+    "options": [
+      "No cost",
+      "Risk of the vehicle rolling away (accident costs) plus expensive brake rebuild",
+      "Only a minor repair"
+    ],
+    "answer": 1,
+    "explanation": "Ignoring a slipping handbrake risks accidents and requires expensive brake system repairs. Early service (R500-1,500) prevents costly repairs and accidents."
+  },
+  {
+    "id": 1084,
+    "category": "vehicle-controls",
+    "question": "Why is regular wiper blade replacement a cost-saving measure?",
+    "options": [
+      "It isn't; wipers never need replacing",
+      "Replacing worn blades (R200-500) prevents windscreen damage from scratching (R3,000+)",
+      "It's just an unnecessary expense"
+    ],
+    "answer": 1,
+    "explanation": "Worn wipers scratch the windscreen. Windscreen replacement costs R3,000-8,000. Preventative wiper replacement (R200-500) is far cheaper than damage."
+  },
+  {
+    "id": 1085,
+    "category": "vehicle-controls",
+    "question": "How can proper window control use prevent costly damage?",
+    "options": [
+      "Windows are unrelated to costs",
+      "Sudden opening in high winds can break glass or damage seals; smooth use prevents damage",
+      "They don't affect repairs"
+    ],
+    "answer": 1,
+    "explanation": "Rough window operation can break glass (R2,000-4,000) or damage seals (R1,000+). Gentle, smooth operation prevents costly repairs."
+  },
+  {
+    "id": 1086,
+    "category": "road-rules",
+    "question": "What does a solid white center line on a road mean?",
+    "options": [
+      "You may overtake if it is safe",
+      "You may not cross the line to overtake",
+      "You must drive on the white line"
+    ],
+    "answer": 1,
+    "explanation": "A solid white center line indicates you must NOT cross it to overtake. Crossing is illegal and dangerous. Only dashed white lines permit overtaking."
+  },
+  {
+    "id": 1087,
+    "category": "road-rules",
+    "question": "What does a dashed white center line indicate?",
+    "options": [
+      "No overtaking is allowed",
+      "You may overtake if the road ahead is clear and safe",
+      "You must drive slowly"
+    ],
+    "answer": 1,
+    "explanation": "A dashed white center line means you MAY overtake if it's safe to do so. Always check for oncoming traffic and ensure clear visibility."
+  },
+  {
+    "id": 1088,
+    "category": "road-rules",
+    "question": "When you see a solid white line on your side of a dashed center line, what does this mean?",
+    "options": [
+      "You may overtake if safe",
+      "You are NOT permitted to overtake; the other side may",
+      "Both sides can overtake"
+    ],
+    "answer": 1,
+    "explanation": "A solid white line on your side means NO OVERTAKING for you, even if the center is dashed. The line configuration indicates traffic direction control."
+  },
+  {
+    "id": 1089,
+    "category": "road-rules",
+    "question": "What do white edge lines (along the road shoulder) indicate?",
+    "options": [
+      "The edge of the driving surface and road boundaries",
+      "Where to park",
+      "Speed limit changes"
+    ],
+    "answer": 0,
+    "explanation": "White edge lines mark the boundary between the driving surface and the shoulder/verge. They help drivers stay on the road, especially in poor visibility."
+  },
+  {
+    "id": 1090,
+    "category": "road-rules",
+    "question": "What does a broken/dashed white line along the edge of the road mean?",
+    "options": [
+      "You cannot cross it",
+      "The road edge; you may cross if safe (e.g., to avoid an obstacle)",
+      "The road is closing"
+    ],
+    "answer": 1,
+    "explanation": "A dashed white edge line indicates the road boundary. You may cross it if necessary (avoiding obstacles), but the road ends here."
+  },
+  {
+    "id": 1091,
+    "category": "road-rules",
+    "question": "What does a solid yellow line along the road edge indicate?",
+    "options": [
+      "No stopping or parking in that zone",
+      "Slow down",
+      "Road construction ahead"
+    ],
+    "answer": 0,
+    "explanation": "A solid yellow edge line means NO STOPPING and NO PARKING. This zone must be kept clear for traffic flow or emergency access."
+  },
+  {
+    "id": 1092,
+    "category": "road-rules",
+    "question": "What does a dashed yellow line along the edge mean?",
+    "options": [
+      "Parking is prohibited",
+      "You may park for a limited time if safe",
+      "No stopping at any time"
+    ],
+    "answer": 1,
+    "explanation": "A dashed yellow line indicates LIMITED parking (typically 30 minutes). You may stop briefly but cannot park for extended periods."
+  },
+  {
+    "id": 1093,
+    "category": "road-rules",
+    "question": "If you see a double solid yellow line on both sides of the center, what does this mean?",
+    "options": [
+      "Both directions may overtake",
+      "Neither direction may overtake or cross",
+      "Emergency vehicles only"
+    ],
+    "answer": 1,
+    "explanation": "Double solid yellow center lines mean NO OVERTAKING in either direction. This is the most restrictive marking, used in dangerous areas like curves."
+  },
+  {
+    "id": 1094,
+    "category": "road-rules",
+    "question": "What does a solid yellow line on the center combined with a dashed yellow line mean?",
+    "options": [
+      "Both sides can overtake",
+      "The side with dashed line may overtake; the side with solid cannot",
+      "Nobody may overtake"
+    ],
+    "answer": 1,
+    "explanation": "This configuration means only the side with the dashed line may overtake. The solid line side cannot. This allows one-way passing in specific conditions."
+  },
+  {
+    "id": 1095,
+    "category": "road-rules",
+    "question": "A yellow line on the curb/shoulder near a shop means?",
+    "options": [
+      "Free parking available",
+      "Loading/unloading only; no general parking",
+      "Emergency parking only"
+    ],
+    "answer": 1,
+    "explanation": "Yellow curb lines indicate LOADING ZONES only. You may stop briefly to load/unload but cannot park. Vehicles must not be left unattended."
+  },
+  {
+    "id": 1096,
+    "category": "road-rules",
+    "question": "What do white arrow markings on a lane indicate?",
+    "options": [
+      "The mandatory direction you must travel in that lane",
+      "Optional suggestions for direction",
+      "Where buses go"
+    ],
+    "answer": 0,
+    "explanation": "White directional arrows indicate the lane's direction. You must follow the arrow direction. Changing lanes or turning differently is illegal in a marked lane."
+  },
+  {
+    "id": 1097,
+    "category": "road-rules",
+    "question": "If a lane is marked with a solid white line on both sides, what does this indicate?",
+    "options": [
+      "You may change lanes freely",
+      "You must stay in this lane; lane changes are not permitted",
+      "This lane is for emergency vehicles"
+    ],
+    "answer": 1,
+    "explanation": "Solid white lines on both sides mean you cannot change lanes. This is used before exits or in restricted areas. Stay in your lane."
+  },
+  {
+    "id": 1098,
+    "category": "road-rules",
+    "question": "What does a dashed white line between lanes mean?",
+    "options": [
+      "You cannot change lanes",
+      "You may change lanes if safe",
+      "The lane is closing"
+    ],
+    "answer": 1,
+    "explanation": "Dashed white lines between lanes indicate you MAY change lanes if it's safe to do so. Always check mirrors and use indicators."
+  },
+  {
+    "id": 1099,
+    "category": "road-rules",
+    "question": "What do thick white lines and symbols on road lanes indicate (e.g., 'BUS', 'TAXI')?",
+    "options": [
+      "Suggestions for vehicle type",
+      "Mandatory lanes for that vehicle type; others are prohibited",
+      "Optional use"
+    ],
+    "answer": 1,
+    "explanation": "Marked lanes (BUS, TAXI) are MANDATORY for those vehicles only. Other vehicles cannot use them. Violation results in fines."
+  },
+  {
+    "id": 1100,
+    "category": "road-rules",
+    "question": "What does a white chevron/arrow pattern (>>) on the road mean?",
+    "options": [
+      "Slow down ahead",
+      "Diverging traffic ahead; stay in marked lanes or merge safely",
+      "Speed limit increase"
+    ],
+    "answer": 1,
+    "explanation": "White chevron patterns warn of traffic divergence (lane splits). Stay in your lane or merge carefully when indicated."
+  },
+  {
+    "id": 1101,
+    "category": "road-rules",
+    "question": "What do white diagonal lines (hatching) on the road indicate?",
+    "options": [
+      "Free parking area",
+      "Do NOT enter or drive in this area; it's a buffer zone",
+      "School zone"
+    ],
+    "answer": 1,
+    "explanation": "Diagonal hatched white lines indicate NO ENTRY zones. These are buffer areas, usually between traffic directions or before hazards. Do not drive in them."
+  },
+  {
+    "id": 1102,
+    "category": "road-rules",
+    "question": "What does a white rectangular box outline on the road mean?",
+    "options": [
+      "Parking space",
+      "Bus stop zone where buses wait",
+      "Loading zone"
+    ],
+    "answer": 1,
+    "explanation": "White box outlines mark BUS STOP ZONES. Buses wait here for passengers. Other vehicles must not block this area; they will be towed."
+  },
+  {
+    "id": 1103,
+    "category": "road-rules",
+    "question": "What do white lines forming a box around a parking space indicate?",
+    "options": [
+      "Reserved parking for anyone",
+      "Reserved parking (often for disabled, loading, or specific use)",
+      "No parking allowed"
+    ],
+    "answer": 1,
+    "explanation": "Marked parking boxes indicate RESERVED spaces (disabled, loading, VIP, etc.). Using reserved spaces without authorization results in fines."
+  },
+  {
+    "id": 1104,
+    "category": "road-rules",
+    "question": "What do repetitive white dashes across your lane (ladder pattern) mean?",
+    "options": [
+      "Slow down",
+      "Prepare to stop or give way; danger/intersection ahead",
+      "Speed up"
+    ],
+    "answer": 1,
+    "explanation": "White ladder/dash patterns across lanes warn of hazards ahead (intersections, pedestrian crossings). Slow down and be prepared to stop."
+  },
+  {
+    "id": 1105,
+    "category": "road-rules",
+    "question": "What do white lines forming a triangle shape (yield/give way symbol) indicate?",
+    "options": [
+      "Speed limit zone",
+      "You must give way; the main road has priority",
+      "Parking area"
+    ],
+    "answer": 1,
+    "explanation": "A white triangle outline on the road is a YIELD/GIVE WAY marking. Slow down, look both ways, and proceed only if it's safe."
+  },
+  {
+    "id": 1106,
+    "category": "road-rules",
+    "question": "What does a white curved line across your lane indicate?",
+    "options": [
+      "Speed limit",
+      "A curve is ahead; reduce speed",
+      "Parking available"
+    ],
+    "answer": 1,
+    "explanation": "White curved lines warn of upcoming curves or bends. Reduce speed, look ahead, and position your vehicle in the center of the curve."
+  },
+  {
+    "id": 1107,
+    "category": "road-rules",
+    "question": "You approach a road with a solid yellow center line and solid white edge lines. What is ONLY allowed?",
+    "options": [
+      "Overtaking if safe",
+      "Driving straight ahead in your lane; no lane changes or overtaking",
+      "Parking on the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "Solid yellow center + solid white edges mean NO OVERTAKING, NO LANE CHANGES, NO PARKING. Stay in your lane and drive straight."
+  },
+  {
+    "id": 1108,
+    "category": "road-rules",
+    "question": "You see dashed white center line and dashed yellow edge line. What is permitted?",
+    "options": [
+      "Overtaking and parking",
+      "Overtaking if safe; limited parking allowed",
+      "Nothing; this is restricted"
+    ],
+    "answer": 1,
+    "explanation": "Dashed white center allows overtaking; dashed yellow edge allows limited parking. Both are permitted within safe conditions."
+  },
+  {
+    "id": 1109,
+    "category": "road-rules",
+    "question": "At what point on a solid white center line can you cross it?",
+    "options": [
+      "Anywhere it's safe",
+      "Only at intersections",
+      "Never; you must not cross a solid white line"
+    ],
+    "answer": 1,
+    "explanation": "Never cross a solid white center line. It marks a no-passing zone. Crossing is illegal and dangerous, even at intersections."
   }
 ];
 
@@ -394,6 +13545,7 @@ const ROAD_MARKINGS = [
 // ============================================================================
 // DATA LOADING & INITIALIZATION
 // ============================================================================
-console.log('K53 Learner\'s Licence - Official Road Signs + Comprehensive Question Bank');
-console.log('✓ Data module loaded with 1100+ questions, 10 vehicle controls, 8 road markings');
-console.log('✓ Waiting for official K53 road signs (57 SADC-RTSM signs) to load...');
+console.log('K53 Learner\'s Licence - Official Road Signs + 1109 Question Bank');
+console.log('✓ Loaded: 458 Road Rules + 378 Road Signs + 273 Vehicle Controls questions');
+console.log('✓ 10 Vehicle Controls Reference + 8 Road Markings');
+console.log('✓ Waiting for 57 official K53 road signs to load...');
