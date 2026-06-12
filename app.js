@@ -463,5 +463,8 @@ const app = {
   }
 };
 
-// Start app when DOM is ready
-document.addEventListener('DOMContentLoaded', () => app.init());
+// Start app when DOM is ready - load official K53 data first
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOM loaded. Initializing K53 app with official data...');
+  loadK53Data();
+});

@@ -1,148 +1,85 @@
-// K53 Learner's Licence - Official K53 Signs (ONLY files that exist)
+// K53 Learner's Licence - Official SADC-RTSM Data Loader
+// This file loads official K53 road sign data from k53_signs.json
 
-const SIGNS = [
-  // === REGULATORY SIGNS ===
-  { id: 'R1', code: 'R1', name: 'Stop', category: 'Regulatory', description: 'Come to a complete stop and give way to all traffic', imagePath: './assets/signs/regulatory/R1.svg', action: 'Stop completely' },
-  { id: 'R2', code: 'R2', name: 'Yield', category: 'Regulatory', description: 'Give way to traffic on the road you are entering', imagePath: './assets/signs/regulatory/R2.svg', action: 'Give way' },
-  { id: 'R3', code: 'R3', name: 'No Parking', category: 'Regulatory', description: 'Parking is prohibited', imagePath: './assets/signs/regulatory/R3.svg', action: 'Do not park' },
-  { id: 'R4', code: 'R4', name: 'No Stopping', category: 'Regulatory', description: 'Stopping is prohibited', imagePath: './assets/signs/regulatory/R4.svg', action: 'Do not stop' },
-  { id: 'R5', code: 'R5', name: 'No Entry', category: 'Regulatory', description: 'Entry is prohibited', imagePath: './assets/signs/regulatory/R5.svg', action: 'Do not enter' },
-  { id: 'R6', code: 'R6', name: 'Do Not Enter', category: 'Regulatory', description: 'Vehicles not permitted', imagePath: './assets/signs/regulatory/R6.svg', action: 'Do not proceed' },
-  { id: 'R7', code: 'R7', name: 'Direction Sign', category: 'Regulatory', description: 'Follow the direction indicated', imagePath: './assets/signs/regulatory/R7.svg', action: 'Follow arrow' },
-  { id: 'R110', code: 'R110', name: 'Keep Right', category: 'Regulatory', description: 'Keep to the right side of this sign', imagePath: './assets/signs/regulatory/R110.svg', action: 'Keep right' },
-  { id: 'R202', code: 'R202', name: 'No Overtaking', category: 'Regulatory', description: 'Overtaking is prohibited', imagePath: './assets/signs/regulatory/R202.svg', action: 'Do not overtake' },
-  { id: 'R204', code: 'R204', name: 'No Left Turn', category: 'Regulatory', description: 'Left turns are prohibited', imagePath: './assets/signs/regulatory/R204.svg', action: 'Do not turn left' },
-  { id: 'R205', code: 'R205', name: 'No U-Turn', category: 'Regulatory', description: 'U-turns are prohibited', imagePath: './assets/signs/regulatory/R205.svg', action: 'Do not turn around' },
-  { id: 'R301', code: 'R301', name: 'Parking Zone', category: 'Regulatory', description: 'Parking permitted with restrictions', imagePath: './assets/signs/regulatory/R301.svg', action: 'Check times' },
-  { id: 'R302', code: 'R302', name: 'No Parking Zone', category: 'Regulatory', description: 'No parking during restricted times', imagePath: './assets/signs/regulatory/R302.svg', action: 'Check times' },
-  { id: 'R303', code: 'R303', name: 'Parking Zone End', category: 'Regulatory', description: 'End of parking zone', imagePath: './assets/signs/regulatory/R303.svg', action: 'Parking zone ended' },
-  { id: 'R304', code: 'R304', name: 'Parking Symbol', category: 'Regulatory', description: 'Parking information sign', imagePath: './assets/signs/regulatory/R304.svg', action: 'Check restrictions' },
-  { id: 'R305', code: 'R305', name: 'Zone Information', category: 'Regulatory', description: 'Zone information sign', imagePath: './assets/signs/regulatory/R305.svg', action: 'Follow instructions' },
-  { id: 'R306', code: 'R306', name: 'Zone End', category: 'Regulatory', description: 'End of zone', imagePath: './assets/signs/regulatory/R306.svg', action: 'Zone ended' },
-  { id: 'R307', code: 'R307', name: 'Taxi Rank', category: 'Regulatory', description: 'Minibus/taxi parking area', imagePath: './assets/signs/regulatory/R307.svg', action: 'For taxis only' },
-  { id: 'R308', code: 'R308', name: 'Bus Stop', category: 'Regulatory', description: 'Bus service area', imagePath: './assets/signs/regulatory/R308.svg', action: 'Do not block' },
-  { id: 'R309', code: 'R309', name: 'Zone Information', category: 'Regulatory', description: 'Zone information', imagePath: './assets/signs/regulatory/R309.svg', action: 'Follow signs' },
+let SIGNS = [];
+let OFFICIAL_DATA_LOADED = false;
 
-  // === SPEED LIMIT SIGNS ===
-  { id: 'R201-5', code: 'R201-5', name: 'Speed Limit 5', category: 'Regulatory', description: 'Maximum speed 5 km/h', imagePath: './assets/signs/prohibitory/R201-5.svg', action: 'Do not exceed 5' },
-  { id: 'R201-10', code: 'R201-10', name: 'Speed Limit 10', category: 'Regulatory', description: 'Maximum speed 10 km/h', imagePath: './assets/signs/prohibitory/R201-10.svg', action: 'Do not exceed 10' },
-  { id: 'R201-20', code: 'R201-20', name: 'Speed Limit 20', category: 'Regulatory', description: 'Maximum speed 20 km/h', imagePath: './assets/signs/prohibitory/R201-20.svg', action: 'Do not exceed 20' },
-  { id: 'R201-30', code: 'R201-30', name: 'Speed Limit 30', category: 'Regulatory', description: 'Maximum speed 30 km/h', imagePath: './assets/signs/prohibitory/R201-30.svg', action: 'Do not exceed 30' },
-  { id: 'R201-40', code: 'R201-40', name: 'Speed Limit 40', category: 'Regulatory', description: 'Maximum speed 40 km/h', imagePath: './assets/signs/prohibitory/R201-40.svg', action: 'Do not exceed 40' },
-  { id: 'R201-50', code: 'R201-50', name: 'Speed Limit 50', category: 'Regulatory', description: 'Maximum speed 50 km/h', imagePath: './assets/signs/prohibitory/R201-50.svg', action: 'Do not exceed 50' },
-  { id: 'R201-60', code: 'R201-60', name: 'Speed Limit 60', category: 'Regulatory', description: 'Maximum speed 60 km/h', imagePath: './assets/signs/prohibitory/R201-60.svg', action: 'Do not exceed 60' },
-  { id: 'R201-70', code: 'R201-70', name: 'Speed Limit 70', category: 'Regulatory', description: 'Maximum speed 70 km/h', imagePath: './assets/signs/prohibitory/R201-70.svg', action: 'Do not exceed 70' },
-  { id: 'R201-75', code: 'R201-75', name: 'Speed Limit 75', category: 'Regulatory', description: 'Maximum speed 75 km/h', imagePath: './assets/signs/prohibitory/R201-75.svg', action: 'Do not exceed 75' },
-  { id: 'R201-80', code: 'R201-80', name: 'Speed Limit 80', category: 'Regulatory', description: 'Maximum speed 80 km/h', imagePath: './assets/signs/prohibitory/R201-80.svg', action: 'Do not exceed 80' },
-  { id: 'R201-90', code: 'R201-90', name: 'Speed Limit 90', category: 'Regulatory', description: 'Maximum speed 90 km/h', imagePath: './assets/signs/prohibitory/R201-90.svg', action: 'Do not exceed 90' },
-  { id: 'R201-100', code: 'R201-100', name: 'Speed Limit 100', category: 'Regulatory', description: 'Maximum speed 100 km/h', imagePath: './assets/signs/prohibitory/R201-100.svg', action: 'Do not exceed 100' },
-  { id: 'R201-120', code: 'R201-120', name: 'Speed Limit 120', category: 'Regulatory', description: 'Maximum speed 120 km/h', imagePath: './assets/signs/prohibitory/R201-120.svg', action: 'Do not exceed 120' },
+// Load official K53 road signs data
+async function loadK53Data() {
+  try {
+    const response = await fetch('./k53_assets/k53_signs.json');
+    const k53Signs = await response.json();
 
-  // === MANDATORY SIGNS ===
-  { id: 'R101', code: 'R101', name: 'Keep Right', category: 'Mandatory', description: 'Keep to the right', imagePath: './assets/signs/mandatory/R101.svg', action: 'Keep right' },
-  { id: 'R101-600', code: 'R101-600', name: 'Keep Right 600m', category: 'Mandatory', description: 'Keep right for 600 meters', imagePath: './assets/signs/mandatory/R101-600.svg', action: 'Keep right' },
-  { id: 'R102', code: 'R102', name: 'Keep Left', category: 'Mandatory', description: 'Keep to the left', imagePath: './assets/signs/mandatory/R102.svg', action: 'Keep left' },
-  { id: 'R103', code: 'R103', name: 'Turn Left', category: 'Mandatory', description: 'Turn left ahead', imagePath: './assets/signs/mandatory/R103.svg', action: 'Turn left' },
-  { id: 'R104', code: 'R104', name: 'Turn Right', category: 'Mandatory', description: 'Turn right ahead', imagePath: './assets/signs/mandatory/R104.svg', action: 'Turn right' },
-  { id: 'R105', code: 'R105', name: 'Go Straight', category: 'Mandatory', description: 'Continue straight ahead', imagePath: './assets/signs/mandatory/R105.svg', action: 'Go straight' },
-  { id: 'R106', code: 'R106', name: 'Turn Right or Straight', category: 'Mandatory', description: 'Turn right or go straight', imagePath: './assets/signs/mandatory/R106.svg', action: 'Turn right or straight' },
-  { id: 'R107', code: 'R107', name: 'Pass Either Side', category: 'Mandatory', description: 'Pass on either side', imagePath: './assets/signs/mandatory/R107.svg', action: 'Pass either side' },
-  { id: 'R108', code: 'R108', name: 'Roundabout', category: 'Mandatory', description: 'Roundabout ahead', imagePath: './assets/signs/mandatory/R108.svg', action: 'Enter roundabout' },
-  { id: 'R109', code: 'R109', name: 'Pedestrian Crossing', category: 'Mandatory', description: 'Pedestrian crossing point', imagePath: './assets/signs/mandatory/R109.svg', action: 'Be prepared to stop' },
+    // Transform official data into app format
+    SIGNS = k53Signs.map(sign => ({
+      id: sign.id,
+      code: sign.id.toUpperCase(),
+      name: sign.name,
+      category: mapCategory(sign.category),
+      description: sign.description,
+      imagePath: './' + sign.local_path,
+      action: extractAction(sign.description)
+    }));
 
-  // === WARNING SIGNS ===
-  { id: 'W101', code: 'W101', name: 'Accident Black Spot', category: 'Warning', description: 'High accident area - reduce speed', imagePath: './assets/signs/warning/W101.svg', action: 'Reduce speed' },
-  { id: 'W102', code: 'W102', name: 'Dangerous Curve Left', category: 'Warning', description: 'Sharp left curve ahead', imagePath: './assets/signs/warning/W102.svg', action: 'Reduce speed' },
-  { id: 'W103', code: 'W103', name: 'Dangerous Curve Right', category: 'Warning', description: 'Sharp right curve ahead', imagePath: './assets/signs/warning/W103.svg', action: 'Reduce speed' },
-  { id: 'W104', code: 'W104', name: 'Winding Road', category: 'Warning', description: 'Winding road with curves', imagePath: './assets/signs/warning/W104.svg', action: 'Reduce speed' },
-  { id: 'W105', code: 'W105', name: 'Steep Hill Down', category: 'Warning', description: 'Steep descent ahead', imagePath: './assets/signs/warning/W105.svg', action: 'Use low gear' },
-  { id: 'W106', code: 'W106', name: 'Loose Gravel', category: 'Warning', description: 'Loose gravel on road', imagePath: './assets/signs/warning/W106.svg', action: 'Reduce speed' },
-  { id: 'W107', code: 'W107', name: 'Slippery Road', category: 'Warning', description: 'Slippery road surface', imagePath: './assets/signs/warning/W107.svg', action: 'Reduce speed' },
-  { id: 'W108', code: 'W108', name: 'Pedestrian Crossing', category: 'Warning', description: 'Pedestrian crossing ahead', imagePath: './assets/signs/warning/W108.svg', action: 'Be prepared to stop' },
-  { id: 'W109', code: 'W109', name: 'School Zone', category: 'Warning', description: 'School ahead', imagePath: './assets/signs/warning/W109.svg', action: 'Reduce speed' },
-  { id: 'W110', code: 'W110', name: 'Playground', category: 'Warning', description: 'Playground area', imagePath: './assets/signs/warning/W110.svg', action: 'Reduce speed' },
-  { id: 'W111', code: 'W111', name: 'Hospital', category: 'Warning', description: 'Hospital nearby', imagePath: './assets/signs/warning/W111.svg', action: 'Reduce speed' },
-  { id: 'W112', code: 'W112', name: 'Elderly People', category: 'Warning', description: 'Elderly people crossing area', imagePath: './assets/signs/warning/W112.svg', action: 'Be prepared to stop' },
-  { id: 'W113', code: 'W113', name: 'Disabled People', category: 'Warning', description: 'Disabled people crossing', imagePath: './assets/signs/warning/W113.svg', action: 'Be prepared to stop' },
-  { id: 'W114', code: 'W114', name: 'Cyclists', category: 'Warning', description: 'Cyclists on road', imagePath: './assets/signs/warning/W114.svg', action: 'Be alert' },
-  { id: 'W115', code: 'W115', name: 'Motorcycles', category: 'Warning', description: 'Motorcycles expected', imagePath: './assets/signs/warning/W115.svg', action: 'Be alert' },
-  { id: 'W116', code: 'W116', name: 'Horse Riders', category: 'Warning', description: 'Horse riders on road', imagePath: './assets/signs/warning/W116.svg', action: 'Be alert' },
-  { id: 'W117', code: 'W117', name: 'Livestock', category: 'Warning', description: 'Livestock on road', imagePath: './assets/signs/warning/W117.svg', action: 'Reduce speed' },
-  { id: 'W118', code: 'W118', name: 'Wild Animals', category: 'Warning', description: 'Wild animals area', imagePath: './assets/signs/warning/W118.svg', action: 'Be alert' },
-  { id: 'W119', code: 'W119', name: 'Animal Crossing', category: 'Warning', description: 'Animals may cross', imagePath: './assets/signs/warning/W119.svg', action: 'Be alert' },
-  { id: 'W201', code: 'W201', name: 'Narrow Bridge', category: 'Warning', description: 'Narrow bridge ahead', imagePath: './assets/signs/warning/W201.svg', action: 'Reduce speed' },
-  { id: 'W201-RHT', code: 'W201-RHT', name: 'Narrow Bridge RHT', category: 'Warning', description: 'Narrow bridge (right-hand traffic)', imagePath: './assets/signs/warning/W201-RHT.svg', action: 'Reduce speed' },
-  { id: 'W202', code: 'W202', name: 'Level Crossing', category: 'Warning', description: 'Railway crossing with gates', imagePath: './assets/signs/warning/W202.svg', action: 'Stop and look' },
-  { id: 'W203', code: 'W203', name: 'Level Crossing No Gates', category: 'Warning', description: 'Railway crossing without gates', imagePath: './assets/signs/warning/W203.svg', action: 'Stop and look' },
-  { id: 'W204', code: 'W204', name: 'Poor Visibility', category: 'Warning', description: 'Visibility restricted', imagePath: './assets/signs/warning/W204.svg', action: 'Reduce speed' },
-  { id: 'W205', code: 'W205', name: 'Road Intersection', category: 'Warning', description: 'Intersection ahead', imagePath: './assets/signs/warning/W205.svg', action: 'Be prepared to stop' },
-  { id: 'W206', code: 'W206', name: 'Side Wind', category: 'Warning', description: 'Strong side wind area', imagePath: './assets/signs/warning/W206.svg', action: 'Grip wheel' },
-  { id: 'W207', code: 'W207', name: 'Windmill', category: 'Warning', description: 'Windmill nearby', imagePath: './assets/signs/warning/W207.svg', action: 'Be alert' },
-  { id: 'W208', code: 'W208', name: 'Toll Plaza', category: 'Warning', description: 'Toll plaza ahead', imagePath: './assets/signs/warning/W208.svg', action: 'Be prepared to stop' },
-  { id: 'W209', code: 'W209', name: 'Divided Highway Ends', category: 'Warning', description: 'Divided highway ends', imagePath: './assets/signs/warning/W209.svg', action: 'Be alert' },
-  { id: 'W210', code: 'W210', name: 'Merging Traffic', category: 'Warning', description: 'Traffic merging ahead', imagePath: './assets/signs/warning/W210.svg', action: 'Be alert' },
-  { id: 'W211', code: 'W211', name: 'Tourist Attraction', category: 'Warning', description: 'Tourist site ahead', imagePath: './assets/signs/warning/W211.svg', action: 'Reduce speed' },
-  { id: 'W212', code: 'W212', name: 'Flooded Road', category: 'Warning', description: 'Road may flood', imagePath: './assets/signs/warning/W212.svg', action: 'Avoid if flooded' },
-  { id: 'W213', code: 'W213', name: 'Low Clearance', category: 'Warning', description: 'Low height clearance', imagePath: './assets/signs/warning/W213.svg', action: 'Check height' },
-  { id: 'W215', code: 'W215', name: 'Construction Zone', category: 'Warning', description: 'Construction ahead', imagePath: './assets/signs/warning/W215.svg', action: 'Reduce speed' },
-  { id: 'W216', code: 'W216', name: 'Narrow Right', category: 'Warning', description: 'Road narrows right', imagePath: './assets/signs/warning/W216.svg', action: 'Keep left' },
-  { id: 'W217', code: 'W217', name: 'Narrow Left', category: 'Warning', description: 'Road narrows left', imagePath: './assets/signs/warning/W217.svg', action: 'Keep right' },
+    OFFICIAL_DATA_LOADED = true;
+    console.log(`✅ Loaded ${SIGNS.length} official K53 signs`);
 
-  // === TW SERIES WARNING SIGNS ===
-  { id: 'TW101', code: 'TW101', name: 'Danger', category: 'Warning', description: 'General danger', imagePath: './assets/signs/warning/TW101.svg', action: 'Be careful' },
-  { id: 'TW102', code: 'TW102', name: 'Uneven Road', category: 'Warning', description: 'Uneven road surface', imagePath: './assets/signs/warning/TW102.svg', action: 'Reduce speed' },
-  { id: 'TW102-TAN', code: 'TW102-TAN', name: 'Uneven Road (Alt)', category: 'Warning', description: 'Uneven road surface', imagePath: './assets/signs/warning/TW102-TAN.svg', action: 'Reduce speed' },
-  { id: 'TW103', code: 'TW103', name: 'Slippery Road Alt', category: 'Warning', description: 'Slippery surface', imagePath: './assets/signs/warning/TW103.svg', action: 'Reduce speed' },
-  { id: 'TW104', code: 'TW104', name: 'Steep Slope', category: 'Warning', description: 'Steep slope ahead', imagePath: './assets/signs/warning/TW104.svg', action: 'Use appropriate gear' },
-  { id: 'TW105', code: 'TW105', name: 'Skid Risk', category: 'Warning', description: 'High skid risk', imagePath: './assets/signs/warning/TW105.svg', action: 'Reduce speed' },
-  { id: 'TW106', code: 'TW106', name: 'Two-Way Traffic', category: 'Warning', description: 'Two-way traffic ahead', imagePath: './assets/signs/warning/TW106.svg', action: 'Stay in lane' },
-  { id: 'TW107', code: 'TW107', name: 'Diversion', category: 'Warning', description: 'Traffic diversion', imagePath: './assets/signs/warning/TW107.svg', action: 'Follow signs' },
-  { id: 'TW107-TAN', code: 'TW107-TAN', name: 'Diversion (Alt)', category: 'Warning', description: 'Traffic diversion', imagePath: './assets/signs/warning/TW107-TAN.svg', action: 'Follow signs' },
-  { id: 'TW108', code: 'TW108', name: 'Rough Road', category: 'Warning', description: 'Rough road surface', imagePath: './assets/signs/warning/TW108.svg', action: 'Reduce speed' },
-  { id: 'TW108-TAN', code: 'TW108-TAN', name: 'Rough Road (Alt)', category: 'Warning', description: 'Rough road surface', imagePath: './assets/signs/warning/TW108-TAN.svg', action: 'Reduce speed' },
-  { id: 'TW109', code: 'TW109', name: 'Dust or Smoke', category: 'Warning', description: 'Dust or smoke ahead', imagePath: './assets/signs/warning/TW109.svg', action: 'Reduce speed' },
-  { id: 'TW109-TAN', code: 'TW109-TAN', name: 'Dust or Smoke (Alt)', category: 'Warning', description: 'Dust or smoke ahead', imagePath: './assets/signs/warning/TW109-TAN.svg', action: 'Reduce speed' },
-  { id: 'TW110', code: 'TW110', name: 'Falling Objects', category: 'Warning', description: 'Objects may fall', imagePath: './assets/signs/warning/TW110.svg', action: 'Be alert' },
-  { id: 'TW110-TAN', code: 'TW110-TAN', name: 'Falling Objects (Alt)', category: 'Warning', description: 'Objects may fall', imagePath: './assets/signs/warning/TW110-TAN.svg', action: 'Be alert' },
-  { id: 'TW111', code: 'TW111', name: 'Soft Shoulder', category: 'Warning', description: 'Soft road shoulder', imagePath: './assets/signs/warning/TW111.svg', action: 'Stay on road' },
+    // Initialize app after data loads
+    if (app && typeof app.init === 'function') {
+      app.init();
+    }
+  } catch (error) {
+    console.error('Failed to load K53 signs data:', error);
+    // Fallback to minimal data
+    SIGNS = createFallbackSigns();
+  }
+}
 
-  // === INFORMATION SIGNS ===
-  { id: 'IN1', code: 'IN1', name: 'Parking', category: 'Information', description: 'Parking available', imagePath: './assets/signs/information/IN1.svg', action: 'Parking ahead' },
-  { id: 'IN2', code: 'IN2', name: 'Hospital', category: 'Information', description: 'Hospital location', imagePath: './assets/signs/information/IN2.svg', action: 'Hospital ahead' },
-  { id: 'IN3', code: 'IN3', name: 'Fuel Station', category: 'Information', description: 'Fuel station location', imagePath: './assets/signs/information/IN3.svg', action: 'Fuel available' },
-  { id: 'IN4', code: 'IN4', name: 'Restaurant', category: 'Information', description: 'Restaurant location', imagePath: './assets/signs/information/IN4.svg', action: 'Food available' },
-  { id: 'IN5', code: 'IN5', name: 'Camping', category: 'Information', description: 'Camping site', imagePath: './assets/signs/information/IN5.svg', action: 'Camping available' },
-  { id: 'IN6', code: 'IN6', name: 'Accommodation', category: 'Information', description: 'Hotel or lodging', imagePath: './assets/signs/information/IN6.svg', action: 'Accommodation ahead' },
-  { id: 'IN20', code: 'IN20', name: 'Shopping Center', category: 'Information', description: 'Shopping center', imagePath: './assets/signs/svg-information-other/IN20.svg', action: 'Shopping center' },
-  { id: 'IN20-RHT', code: 'IN20-RHT', name: 'Shopping Center RHT', category: 'Information', description: 'Shopping center', imagePath: './assets/signs/svg-information-other/IN20-RHT.svg', action: 'Shopping center' },
+// Map official category names to app categories
+function mapCategory(officialCategory) {
+  const mapping = {
+    'regulatory': 'Regulatory',
+    'warning': 'Warning',
+    'guidance': 'Information',
+    'tourism': 'Information'
+  };
+  return mapping[officialCategory] || officialCategory;
+}
 
-  // === GUIDANCE SIGNS ===
-  { id: 'GDLS-A1-1', code: 'GDLS A1-1', name: 'Guidance A1-1', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-1.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-5', code: 'GDLS A1-5', name: 'Guidance A1-5', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-5.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-6', code: 'GDLS A1-6', name: 'Guidance A1-6', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-6.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-7', code: 'GDLS A1-7', name: 'Guidance A1-7', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-7.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-8', code: 'GDLS A1-8', name: 'Guidance A1-8', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-8.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-9', code: 'GDLS A1-9', name: 'Guidance A1-9', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-9.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-10', code: 'GDLS A1-10', name: 'Guidance A1-10', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-10.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-11', code: 'GDLS A1-11', name: 'Guidance A1-11', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-11.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-12', code: 'GDLS A1-12', name: 'Guidance A1-12', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-12.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-14', code: 'GDLS A1-14', name: 'Guidance A1-14', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-14.svg', action: 'Follow direction' },
-  { id: 'GDLS-A1-9-RHT', code: 'GDLS A1-9-RHT', name: 'Guidance A1-9 RHT', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A1-9-RHT.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-1', code: 'GDLS A2-1', name: 'Guidance A2-1', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-1.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-2', code: 'GDLS A2-2', name: 'Guidance A2-2', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-2.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-4', code: 'GDLS A2-4', name: 'Guidance A2-4', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-4.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-11', code: 'GDLS A2-11', name: 'Guidance A2-11', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-11.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-12', code: 'GDLS A2-12', name: 'Guidance A2-12', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-12.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-13', code: 'GDLS A2-13', name: 'Guidance A2-13', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-13.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-14', code: 'GDLS A2-14', name: 'Guidance A2-14', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-14.svg', action: 'Follow direction' },
-  { id: 'GDLS-A2-15', code: 'GDLS A2-15', name: 'Guidance A2-15', category: 'Guidance', description: 'Route guidance sign', imagePath: './assets/signs/svg-other/GDLS A2-15.svg', action: 'Follow direction' },
-  { id: 'GFS-B4-3', code: 'GFS B4-3', name: 'Route Marker', category: 'Guidance', description: 'Route marker', imagePath: './assets/signs/svg-other/GFS B4-3.svg', action: 'Follow route' },
-  { id: 'TR311', code: 'TR311', name: 'Traffic Control 311', category: 'Guidance', description: 'Traffic control sign', imagePath: './assets/signs/svg-other/TR311.svg', action: 'Follow directions' },
-  { id: 'TR311-P', code: 'TR311-P', name: 'Traffic Control 311P', category: 'Guidance', description: 'Traffic control sign', imagePath: './assets/signs/svg-other/TR311-P.svg', action: 'Follow directions' },
-  { id: 'TR323', code: 'TR323', name: 'Traffic Control 323', category: 'Guidance', description: 'Traffic control sign', imagePath: './assets/signs/svg-other/TR323.svg', action: 'Follow directions' },
-  { id: 'TR323-P', code: 'TR323-P', name: 'Traffic Control 323P', category: 'Guidance', description: 'Traffic control sign', imagePath: './assets/signs/svg-other/TR323-P.svg', action: 'Follow directions' },
-];
+// Extract driver action from description
+function extractAction(description) {
+  if (!description) return 'Follow instructions';
 
+  // First sentence usually contains the main action
+  const firstSentence = description.split('.')[0];
+  return firstSentence || 'Follow instructions';
+}
+
+// Fallback data if official data fails to load
+function createFallbackSigns() {
+  return [
+    {
+      id: 'stop',
+      code: 'STOP',
+      name: 'Stop Sign',
+      category: 'Regulatory',
+      description: 'You must come to a complete stop at the stop line',
+      imagePath: './k53_assets/regulatory/stop.png',
+      action: 'Come to complete stop'
+    },
+    {
+      id: 'yield',
+      code: 'YIELD',
+      name: 'Yield Sign',
+      category: 'Regulatory',
+      description: 'Give way to traffic on the road you are entering',
+      imagePath: './k53_assets/regulatory/yield.png',
+      action: 'Give way to traffic'
+    }
+  ];
+}
+
+// Quiz questions
 const QUESTIONS = [
   { id: 1, category: 'road-rules', question: 'What is the speed limit in residential areas?', options: ['40 km/h', '60 km/h', '80 km/h', '100 km/h'], answer: 0, explanation: 'Speed limit in residential areas is 40 km/h.' },
   { id: 2, category: 'road-rules', question: 'When should you use your headlights?', options: ['Only at night', 'At dusk, dawn, and night', 'Whenever another vehicle approaches', 'Only in rain'], answer: 1, explanation: 'Use headlights during dusk, dawn, and at night.' },
@@ -167,6 +104,7 @@ const QUESTIONS = [
   { id: 29, category: 'vehicle-controls', question: 'What does horn do?', options: ['Control wipers', 'Alert signal', 'Turn lights on/off', 'Automatic transmission'], answer: 1, explanation: 'Horn produces alert sound.' },
 ];
 
+// Vehicle controls reference
 const VEHICLE_CONTROLS = [
   { number: 1, name: 'Steering Wheel', location: 'Front center', function: 'Directs vehicle', usage: ['Turn in direction of travel', 'Use gentle pressure', 'Return to center'], safety: 'Never remove both hands while driving', maintenance: 'Check power steering fluid' },
   { number: 2, name: 'Accelerator', location: 'Right pedal', function: 'Increases speed', usage: ['Press gradually', 'Release to maintain speed', 'Never rest foot on pedal'], safety: 'Smooth acceleration prevents skidding', maintenance: 'Check throttle cable' },
@@ -180,6 +118,7 @@ const VEHICLE_CONTROLS = [
   { number: 10, name: 'Horn', location: 'Steering wheel center', function: 'Alert signal', usage: ['Alert others', 'Short beep for warnings', 'Avoid excessive use'], safety: 'Do not rely only on horn', maintenance: 'Test regularly' },
 ];
 
+// Road markings reference
 const ROAD_MARKINGS = [
   { title: 'Solid White Center Line', meaning: 'No Overtaking', description: 'Solid white line means overtaking is prohibited', examples: ['Curves and bends', 'Hills', 'Intersections', 'Residential areas'] },
   { title: 'Dashed White Center Line', meaning: 'Overtaking Allowed if Safe', description: 'Dashed white line allows overtaking if safe', examples: ['Open roads', 'Long straights', 'Good visibility', 'Rural highways'] },
@@ -190,3 +129,6 @@ const ROAD_MARKINGS = [
   { title: 'Chevron Arrows', meaning: 'Directional Guidance', description: 'Chevron arrows guide traffic direction', examples: ['Intersections', 'Lane guidance', 'One-way streets', 'Highway ends'] },
   { title: 'Stop Line', meaning: 'Stop Before This Line', description: 'White line where you must stop', examples: ['Traffic lights', 'Stop signs', 'Railway crossings', 'Yield intersections'] },
 ];
+
+// Load data when script initializes
+console.log('K53 Data Loader ready. Waiting for app initialization...');

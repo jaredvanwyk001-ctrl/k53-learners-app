@@ -1,0 +1,458 @@
+[
+  {
+    "id": "freeway-begin",
+    "name": "Freeway Begins Sign",
+    "category": "guidance",
+    "description": "The freeway (national road) begins at this point. Freeway rules apply: no pedestrians, cyclists, or animal-drawn vehicles.",
+    "local_path": "k53_assets/guidance/freeway-begin.png",
+    "source_url": ""
+  },
+  {
+    "id": "freeway-end",
+    "name": "Freeway Ends Sign",
+    "category": "guidance",
+    "description": "The freeway ends at this point. Urban road rules and reduced speed limits now apply.",
+    "local_path": "k53_assets/guidance/freeway-end.png",
+    "source_url": ""
+  },
+  {
+    "id": "fuel-station",
+    "name": "Fuel Station Information Sign",
+    "category": "guidance",
+    "description": "A fuel station is located in the direction indicated. Typically shown with distance on rural roads.",
+    "local_path": "k53_assets/guidance/fuel-station.png",
+    "source_url": ""
+  },
+  {
+    "id": "hospital",
+    "name": "Hospital Information Sign",
+    "category": "guidance",
+    "description": "A hospital is located in the direction indicated. Blue and white; aids navigation to medical services.",
+    "local_path": "k53_assets/guidance/hospital.png",
+    "source_url": ""
+  },
+  {
+    "id": "route-marker-n",
+    "name": "National Route Marker",
+    "category": "guidance",
+    "description": "Identifies a national route (N-road). Displayed in green and white; the number indicates the specific route.",
+    "local_path": "k53_assets/guidance/route-marker-n.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-through-road",
+    "name": "No Through Road Sign",
+    "category": "guidance",
+    "description": "This road is a dead end — there is no exit at the far end. Used to prevent unnecessary entry.",
+    "local_path": "k53_assets/guidance/no-through-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "one-way-road",
+    "name": "One-Way Road Sign",
+    "category": "guidance",
+    "description": "Traffic flows in one direction only on this road. The arrow indicates the permitted direction of travel.",
+    "local_path": "k53_assets/guidance/one-way-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "parking-area",
+    "name": "Parking Area Sign",
+    "category": "guidance",
+    "description": "A designated parking area is available in the direction indicated. Parking rules applicable at that site apply.",
+    "local_path": "k53_assets/guidance/parking-area.png",
+    "source_url": ""
+  },
+  {
+    "id": "route-marker-r",
+    "name": "Regional Route Marker",
+    "category": "guidance",
+    "description": "Identifies a regional route (R-road). Displayed in blue and white; connects towns and cities within a province.",
+    "local_path": "k53_assets/guidance/route-marker-r.png",
+    "source_url": ""
+  },
+  {
+    "id": "rest-area",
+    "name": "Rest Area Sign",
+    "category": "guidance",
+    "description": "A rest area or lay-by is ahead where drivers may stop safely to rest, use facilities, or take a break from driving.",
+    "local_path": "k53_assets/guidance/rest-area.png",
+    "source_url": ""
+  },
+  {
+    "id": "bicycle-lane",
+    "name": "Bicycle Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved exclusively for pedal cyclists. Motor vehicles may not use a bicycle lane.",
+    "local_path": "k53_assets/regulatory/bicycle-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "bus-lane",
+    "name": "Bus Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved for buses during the times indicated. Other vehicles must vacate or not enter the bus lane.",
+    "local_path": "k53_assets/regulatory/bus-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "down-arrow-icon",
+    "name": "Down arrow icon",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/down-arrow-icon.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/quick_links_tab_top2.png"
+  },
+  {
+    "id": "end-speed-limit",
+    "name": "End Speed Restriction Sign",
+    "category": "regulatory",
+    "description": "The speed restriction indicated earlier no longer applies. The applicable general limit for the road class is now in force.",
+    "local_path": "k53_assets/regulatory/end-speed-limit.png",
+    "source_url": ""
+  },
+  {
+    "id": "keep-left",
+    "name": "Keep Left Sign",
+    "category": "regulatory",
+    "description": "You must keep to the left side of the road or traffic island. Used to direct traffic around an obstruction or island.",
+    "local_path": "k53_assets/regulatory/keep-left.png",
+    "source_url": ""
+  },
+  {
+    "id": "keep-right",
+    "name": "Keep Right Sign",
+    "category": "regulatory",
+    "description": "You must keep to the right side of the road or traffic island. Directs traffic to pass an obstruction on the right.",
+    "local_path": "k53_assets/regulatory/keep-right.png",
+    "source_url": ""
+  },
+  {
+    "id": "minibus-taxi-lane",
+    "name": "Mini-bus Taxi Lane Sign",
+    "category": "regulatory",
+    "description": "This lane is reserved for mini-bus taxis. Other vehicles may not use this lane except to access properties or make turns where permitted.",
+    "local_path": "k53_assets/regulatory/minibus-taxi-lane.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-entry",
+    "name": "No Entry Sign",
+    "category": "regulatory",
+    "description": "Entry by vehicles is prohibited. You may not drive into the road or area beyond this sign.",
+    "local_path": "k53_assets/regulatory/no-entry.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-left-turn",
+    "name": "No Left Turn Sign",
+    "category": "regulatory",
+    "description": "Left turns are prohibited at this intersection or road. You must proceed straight or turn right if permitted.",
+    "local_path": "k53_assets/regulatory/no-left-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-overtaking",
+    "name": "No Overtaking Sign",
+    "category": "regulatory",
+    "description": "Overtaking of motor vehicles is prohibited on this section of road. You may not pass another moving vehicle.",
+    "local_path": "k53_assets/regulatory/no-overtaking.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-parking",
+    "name": "No Parking Sign",
+    "category": "regulatory",
+    "description": "Parking is prohibited on the side of the road where this sign is displayed. You may stop briefly to pick up or drop off passengers.",
+    "local_path": "k53_assets/regulatory/no-parking.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-right-turn",
+    "name": "No Right Turn Sign",
+    "category": "regulatory",
+    "description": "Right turns are prohibited at this intersection or road. You must proceed straight or turn left if permitted.",
+    "local_path": "k53_assets/regulatory/no-right-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-stopping",
+    "name": "No Stopping Sign",
+    "category": "regulatory",
+    "description": "Stopping or parking is completely prohibited where this sign is displayed. You may not stop for any reason.",
+    "local_path": "k53_assets/regulatory/no-stopping.png",
+    "source_url": ""
+  },
+  {
+    "id": "no-u-turn",
+    "name": "No U-Turn Sign",
+    "category": "regulatory",
+    "description": "U-turns are prohibited at this point. You may not turn your vehicle to travel in the opposite direction.",
+    "local_path": "k53_assets/regulatory/no-u-turn.png",
+    "source_url": ""
+  },
+  {
+    "id": "partner",
+    "name": "Partner",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/partner.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/arrive_alivpartner_program.png"
+  },
+  {
+    "id": "proceed-straight",
+    "name": "Proceed Straight Sign",
+    "category": "regulatory",
+    "description": "You must proceed straight ahead. You may not turn left or right at this point.",
+    "local_path": "k53_assets/regulatory/proceed-straight.png",
+    "source_url": ""
+  },
+  {
+    "id": "report-bad-driving",
+    "name": "Report Bad Driving",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/report-bad-driving.jpg",
+    "source_url": "https://www.arrivealive.co.za/images/homepage/report_bad_driving.jpg"
+  },
+  {
+    "id": "speed-limit-100",
+    "name": "Speed Limit 100 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 100 km/h. Typical limit on rural two-lane national roads.",
+    "local_path": "k53_assets/regulatory/speed-limit-100.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-120",
+    "name": "Speed Limit 120 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 120 km/h. The national maximum permitted speed for light motor vehicles on freeways.",
+    "local_path": "k53_assets/regulatory/speed-limit-120.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-30",
+    "name": "Speed Limit 30 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 30 km/h. You must not exceed this speed.",
+    "local_path": "k53_assets/regulatory/speed-limit-30.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-60",
+    "name": "Speed Limit 60 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 60 km/h. Typical urban arterial limit.",
+    "local_path": "k53_assets/regulatory/speed-limit-60.png",
+    "source_url": ""
+  },
+  {
+    "id": "speed-limit-80",
+    "name": "Speed Limit 80 km/h",
+    "category": "regulatory",
+    "description": "The maximum permitted speed on this road section is 80 km/h. Common on peri-urban roads and certain national roads through towns.",
+    "local_path": "k53_assets/regulatory/speed-limit-80.png",
+    "source_url": ""
+  },
+  {
+    "id": "stop",
+    "name": "Stop Sign",
+    "category": "regulatory",
+    "description": "You must come to a complete stop at the stop line or, if there is no line, before entering the intersection. You may proceed only when it is safe to do so.",
+    "local_path": "k53_assets/regulatory/stop.png",
+    "source_url": ""
+  },
+  {
+    "id": "traffic-light-ahead",
+    "name": "Traffic Signal Ahead",
+    "category": "regulatory",
+    "description": "Warns drivers that a traffic signal is ahead. Reduce speed and be prepared to stop.",
+    "local_path": "k53_assets/regulatory/traffic-light-ahead.png",
+    "source_url": ""
+  },
+  {
+    "id": "turn-left",
+    "name": "Turn Left Sign",
+    "category": "regulatory",
+    "description": "You are compelled to turn left at this point. You may not proceed straight or turn right.",
+    "local_path": "k53_assets/regulatory/turn-left.png",
+    "source_url": ""
+  },
+  {
+    "id": "turn-right",
+    "name": "Turn Right Sign",
+    "category": "regulatory",
+    "description": "You are compelled to turn right at this point. You may not proceed straight or turn left.",
+    "local_path": "k53_assets/regulatory/turn-right.png",
+    "source_url": ""
+  },
+  {
+    "id": "up-arrow-icon",
+    "name": "Up arrow icon",
+    "category": "regulatory",
+    "description": "",
+    "local_path": "k53_assets/regulatory/up-arrow-icon.png",
+    "source_url": "https://www.arrivealive.co.za/Images/sidebar/quick_links_tab_top.png"
+  },
+  {
+    "id": "yield",
+    "name": "Yield / Give Way Sign",
+    "category": "regulatory",
+    "description": "You must give way to traffic on the road you are entering. Slow down and stop if necessary; proceed only when it is safe.",
+    "local_path": "k53_assets/regulatory/yield.png",
+    "source_url": ""
+  },
+  {
+    "id": "tourism-brown-sign",
+    "name": "Tourism Destination Sign",
+    "category": "tourism",
+    "description": "Brown tourism signs direct travellers to places of tourist interest such as nature reserves, heritage sites, museums, and scenic attractions.",
+    "local_path": "k53_assets/tourism/tourism-brown-sign.png",
+    "source_url": ""
+  },
+  {
+    "id": "tourism-directions",
+    "name": "Tourism Direction Sign",
+    "category": "tourism",
+    "description": "Directional sign for tourist destinations. Brown background with white text and icons; standard across South Africa.",
+    "local_path": "k53_assets/tourism/tourism-directions.png",
+    "source_url": ""
+  },
+  {
+    "id": "animals-crossing",
+    "name": "Animals Crossing Warning Sign",
+    "category": "warning",
+    "description": "Domestic or wild animals may cross the road ahead. Reduce speed and be prepared to stop.",
+    "local_path": "k53_assets/warning/animals-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "bridge-ahead",
+    "name": "Bridge Ahead Warning Sign",
+    "category": "warning",
+    "description": "A bridge is ahead. The bridge may be narrow — reduce speed and give way to oncoming vehicles.",
+    "local_path": "k53_assets/warning/bridge-ahead.png",
+    "source_url": ""
+  },
+  {
+    "id": "children-crossing",
+    "name": "Children Warning Sign",
+    "category": "warning",
+    "description": "Children may be present or crossing ahead. Proceed with caution at reduced speed.",
+    "local_path": "k53_assets/warning/children-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "loose-gravel",
+    "name": "Loose Gravel Warning Sign",
+    "category": "warning",
+    "description": "The road surface has loose gravel or stones. Reduce speed to prevent loss of control or windscreen damage.",
+    "local_path": "k53_assets/warning/loose-gravel.png",
+    "source_url": ""
+  },
+  {
+    "id": "low-flying-aircraft",
+    "name": "Low Flying Aircraft Warning Sign",
+    "category": "warning",
+    "description": "Low-flying aircraft may cross or operate near this road, typically near airfields. Be alert for aircraft and instructions.",
+    "local_path": "k53_assets/warning/low-flying-aircraft.png",
+    "source_url": ""
+  },
+  {
+    "id": "pedestrian-crossing",
+    "name": "Pedestrian Crossing Warning Sign",
+    "category": "warning",
+    "description": "A pedestrian crossing is ahead. Reduce speed and be prepared to stop for pedestrians.",
+    "local_path": "k53_assets/warning/pedestrian-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "railway-crossing",
+    "name": "Railway Crossing Warning Sign",
+    "category": "warning",
+    "description": "A level crossing with a railway line is ahead. Reduce speed, look both ways, and stop if a train is approaching.",
+    "local_path": "k53_assets/warning/railway-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "road-narrows",
+    "name": "Road Narrows Warning Sign",
+    "category": "warning",
+    "description": "The road ahead narrows. Reduce speed and be prepared to give way to oncoming traffic.",
+    "local_path": "k53_assets/warning/road-narrows.png",
+    "source_url": ""
+  },
+  {
+    "id": "roadworks",
+    "name": "Road Works Warning Sign",
+    "category": "warning",
+    "description": "Road construction or maintenance is taking place ahead. Reduce speed and obey flagmen or temporary signals.",
+    "local_path": "k53_assets/warning/roadworks.png",
+    "source_url": ""
+  },
+  {
+    "id": "school-crossing",
+    "name": "School Crossing Warning Sign",
+    "category": "warning",
+    "description": "A school crossing or school zone is ahead. Reduce speed significantly and watch for children crossing.",
+    "local_path": "k53_assets/warning/school-crossing.png",
+    "source_url": ""
+  },
+  {
+    "id": "sharp-curve-left",
+    "name": "Sharp Curve Left Warning Sign",
+    "category": "warning",
+    "description": "There is a sharp curve to the left ahead. Reduce speed before entering the curve.",
+    "local_path": "k53_assets/warning/sharp-curve-left.png",
+    "source_url": ""
+  },
+  {
+    "id": "sharp-curve-right",
+    "name": "Sharp Curve Right Warning Sign",
+    "category": "warning",
+    "description": "There is a sharp curve to the right ahead. Reduce speed before entering the curve.",
+    "local_path": "k53_assets/warning/sharp-curve-right.png",
+    "source_url": ""
+  },
+  {
+    "id": "slippery-road",
+    "name": "Slippery Road Warning Sign",
+    "category": "warning",
+    "description": "The road surface ahead may be slippery, especially when wet. Reduce speed and avoid harsh braking or steering.",
+    "local_path": "k53_assets/warning/slippery-road.png",
+    "source_url": ""
+  },
+  {
+    "id": "steep-ascent",
+    "name": "Steep Ascent Warning Sign",
+    "category": "warning",
+    "description": "A steep uphill gradient lies ahead. Engage a lower gear to maintain safe progress.",
+    "local_path": "k53_assets/warning/steep-ascent.png",
+    "source_url": ""
+  },
+  {
+    "id": "steep-descent",
+    "name": "Steep Descent Warning Sign",
+    "category": "warning",
+    "description": "A steep downhill gradient lies ahead. Engage a lower gear and use engine braking to control speed.",
+    "local_path": "k53_assets/warning/steep-descent.png",
+    "source_url": ""
+  },
+  {
+    "id": "traffic-signals-ahead",
+    "name": "Traffic Signals Ahead Warning Sign",
+    "category": "warning",
+    "description": "Traffic signals are situated ahead. Reduce speed and be prepared to stop at a red signal.",
+    "local_path": "k53_assets/warning/traffic-signals-ahead.png",
+    "source_url": ""
+  },
+  {
+    "id": "wild-animals",
+    "name": "Wild Animals Warning Sign",
+    "category": "warning",
+    "description": "Wild animals may stray onto the road in this area. Reduce speed, especially at dawn and dusk.",
+    "local_path": "k53_assets/warning/wild-animals.png",
+    "source_url": ""
+  }
+]
